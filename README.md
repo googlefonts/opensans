@@ -1,5 +1,4 @@
-# opensans
-Open Sans
+# Open Sans
 variable font
 
 ![Open Sans sample](/docs/sample.png)
