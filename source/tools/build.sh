@@ -1,22 +1,16 @@
-# flag technique from Jon Almeida: https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
+cp "Open Sans V.glyphs" OpenSansBuild.glyphs
 
-while [ ! $# -eq 0 ]
-do
-	case "$1" in
-		--static | -s)
-			source $(dirname ${BASH_SOURCE[0]})/build-static/build-static.sh
-			;;
-		--linked | -l)
-			source $(dirname ${BASH_SOURCE[0]})/build-linked/build-linked.sh
-			;;
-		--final | -f)
-			source $(dirname ${BASH_SOURCE[0]})/build-final/build-final.sh
-			;;
-		--all | -a)
-			source $(dirname ${BASH_SOURCE[0]})/build-static/build-static.sh
-			source $(dirname ${BASH_SOURCE[0]})/build-linked/build-linked.sh
-			source $(dirname ${BASH_SOURCE[0]})/build-final/build-final.sh
-			;;
-	esac
-	shift
-done
+# Add bracket layers to build version
+python2 $(dirname ${BASH_SOURCE[0]})/fixBrackets.py OpenSansBuild.glyphs
+
+# rm -rf addFeatureVars.py
+
+# fontmake -o variable -g OpenSansBuild.glyphs
+
+# mv variable_ttf/OpenSansV-VF.ttf OpenSansV-VF.ttf
+
+# rm -rf OpenSansBuild.glyphs
+# rm -rf master_ufo
+# rm -rf variable_ttf
+
+# python2 $(dirname ${BASH_SOURCE[0]})/corrected-addFeatureVars.py OpenSansV-VF.ttf

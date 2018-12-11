@@ -3,7 +3,6 @@
 ## It uses the parsed bracket values to then generate a script to run on the final ttf using fonttools to enable the GSUB feature
 
 # TODO
-## Use unicode values as per fonttools
 ## Number the suffixes when a glyph has more than one substitution
 
 import sys
@@ -14,6 +13,7 @@ import time
 from glyphsLib import GSFont
 from glyphsLib import GSGlyph
 from glyphsLib import GSLayer
+from glyphsLib import GSComponent
 from glyphsLib.glyphdata import get_glyph
 
 start = time.time()
@@ -34,6 +34,22 @@ weightMapDict = {}
 doNotSave = False
 
 weightAxis = None
+
+featurePrefixes = []
+classes = []
+features = []
+
+for thisClass in font.classes:
+    classList =  thisClass.code.split(" ")
+    classes.append(classList)
+for feature in font.features:
+    featureList = feature.code.split("\n")
+    features.append(featureList)
+
+def checkComp(glyphName):
+    for layer in font.glyphs[glyphName].layers:
+        for component in layer.components:
+            print layer.parent.name, component.name
 
 weightDict = {
             "Thin" : 100,
@@ -220,30 +236,44 @@ def normalizeValues(location):
             location[value] = None
         if location[value] != None:
             axisValue = location[value]
+            rMax = fontAxes['axis' + str(value + 1)]['max']
+            rMin = fontAxes['axis' + str(value + 1)]['min']
             sMax = fontAxes['axis' + str(value + 1)]['sMax']
             sMin = fontAxes['axis' + str(value + 1)]['sMin']
             mDef = fontAxes['axis' + str(value + 1)]['mDef']
             sDef = fontAxes['axis' + str(value + 1)]['sDef']
+            scaledValue = ((axisValue - rMin) / (rMax - rMin)) * (sMax - sMin) + sMin
 
-            if fontAxes['axis' + str(value + 1)]['tag'] == 'wght':
-                if weightMapDict.get(axisValue) != None:
-                    mappedValue = weightMapDict[axisValue]
-                else:
-                    for mapIndex in range(len(weightMap)):
-                        if axisValue > weightMap[mapIndex][0]:
-                            pass
-                        else:
-                            thisMap = weightMap[mapIndex]
-                            prevMap = weightMap[mapIndex - 1]
-                            mappedValue = ((axisValue - prevMap[0]) / (thisMap[0] - prevMap[0])) * (thisMap[1] - prevMap[1]) + prevMap[1]
-                            break
-            else:
-                mappedValue = axisValue
+            # if fontAxes['axis' + str(value + 1)]['tag'] == 'wght':
+            #     if weightMapDict.get(axisValue) != None:
+            #         mappedValue = weightMapDict[axisValue]
+            #     else:
+            #         for mapIndex in range(len(weightMap)):
+            #             if axisValue > weightMap[mapIndex][0]:
+            #                 pass
+            #             else:
+            #                 thisMap = weightMap[mapIndex]
+            #                 prevMap = weightMap[mapIndex - 1]
+            #                 mappedValue = ((axisValue - prevMap[0]) / (thisMap[0] - prevMap[0])) * (thisMap[1] - prevMap[1]) + prevMap[1]
+            #                 break
+            # else:
+            #     mappedValue = axisValue
 
-            if mappedValue <= mDef and sMin != sDef:
-                normValue = ((mappedValue - sMin) / (mDef - sMin)) - 1
-            elif mappedValue >= mDef:
-                normValue = (mappedValue - mDef) / (sMax - mDef)
+            # mappedValue = mappedValue * 1.0
+
+            # Calc normalized "from" value
+            # if mappedValue <= mDef and sMin != sDef:
+            #     normValue = ((mappedValue - sMin) / (mDef - sMin)) - 1
+            # elif mappedValue >= mDef:
+            #     normValue = (mappedValue - mDef) / (sMax - mDef)
+            # else:
+            #     print "ERROR Normalizing value %s on %s axis" % (axisValue, fontAxes['axis' + str(value + 1)]['tag'])
+
+            # Calc normalized "to" value
+            if scaledValue <= sDef and sMin != sDef:
+                normValue = ((scaledValue - sMin) / (sDef - sMin)) - 1
+            elif scaledValue >= sDef:
+                normValue = (scaledValue - sDef) / (sMax - sDef)
             else:
                 print "ERROR Normalizing value %s on %s axis" % (axisValue, fontAxes['axis' + str(value + 1)]['tag'])
 
@@ -261,7 +291,24 @@ def duplicateGlyph(glyphName):
 
     # Add layers to duplicate glyph (now a true duplicate)
     for layer in font.glyphs[glyphName].layers:
-        dupGlyph.layers.append(copy.copy(layer))
+        newLayer = GSLayer()
+        newLayer.layerId = layer.layerId
+        newLayer.associatedMasterId = layer.associatedMasterId
+        newLayer.name = layer.name
+        newLayer.paths = layer.paths
+        newLayer.components
+        newLayer.anchors = layer.anchors
+        newLayer.width = layer.width
+        componentIndex = 0
+        for component in layer.components:
+            addComponent = GSComponent(layer.components[componentIndex].name)
+            addComponent.alignment = layer.components[componentIndex].alignment
+            addComponent.transform = layer.components[componentIndex].transform
+            addComponent.anchor = layer.components[componentIndex].anchor
+            addComponent.locked = layer.components[componentIndex].locked
+            newLayer.components.append(addComponent)
+            componentIndex += 1
+        dupGlyph.layers.append(newLayer)
 
     # Remove any unicode value since these are suffixed glyphs
     dupGlyph.unicode = None
@@ -284,15 +331,32 @@ getMasterRanges()
 # Recursively goes through all glyphs and determines if they will need a duplicate glyph
 getBracketGlyphs()
   
-
+# A dictionary of glyph names to GSUB locations per bracket layer
+# { "a" : [[24.0, 40.0, 5B6G-F3GHJ7J-FG68, True], [], []]}
+# { glyph.name : [axis1Value, axis2Value, layer.associatedMasterId, bracketDefault], [], []}
 locations = {}  
 
 substitution = "import os\nimport sys\nimport fontTools\nfrom fontTools.ttLib import TTFont\nfrom fontTools.varLib.featureVars import addFeatureVariations\n\nfontPath = sys.argv[-1]\n\nf = TTFont(fontPath)\n\ncondSubst = [\n"
+
 firstGlyph = True
 # Iterate through glyphs marked for duplication
 for i in range(len(needsDup)):
     # Duplicated glyph
     dupGlyph = duplicateGlyph(needsDup[i])
+
+    for thisClass in classes:
+        for glyphName in thisClass:
+            if re.match( "^" + needsDup[i] + "$", glyphName) != None and re.match(".*\.rvrn", glyphName) == None:
+                thisClass.append(dupGlyph.name)
+    for feature in features:
+        for line in feature:
+            if re.match("^sub " + needsDup[i] + " by", line) != None:
+                newLine = re.sub(" by", ".rvrn by", line)
+                for dup in needsDup:
+                    if re.match(".*by " + dup + ";", line) != None:
+                        newLine = re.sub(";", ".rvrn;", newLine)
+                        break
+                feature.append(newLine)
 
 
     delLayer = []
@@ -318,15 +382,26 @@ for i in range(len(needsDup)):
             if bracketDefault == False:
                 location.append(False)
                 dupGlyph.layers[layer.associatedMasterId].paths = layer.paths
-                dupGlyph.layers[layer.associatedMasterId].components = layer.components
+                dupGlyph.layers[layer.associatedMasterId].components = copy.copy(layer.components)
                 dupGlyph.layers[layer.associatedMasterId].anchors = layer.anchors
                 dupGlyph.layers[layer.associatedMasterId].width = layer.width
+                componentIndex = 0
+                for component in layer.components:
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].alignment = layer.components[componentIndex].alignment
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].transform = layer.components[componentIndex].transform
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].anchor = layer.components[componentIndex].anchor
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].locked = layer.components[componentIndex].locked
+                    if logged.get(component.name) == None:
+                        pass
+                    else:
+                        dupGlyph.layers[layer.associatedMasterId].components[componentIndex].name = (component.name + suffix)
+                    componentIndex += 1
             else:
                 location.append(True)
                 font.glyphs[needsDup[i]].layers[layer.associatedMasterId].paths = layer.paths
-                font.glyphs[needsDup[i]].layers[layer.associatedMasterId].components = layer.components
                 font.glyphs[needsDup[i]].layers[layer.associatedMasterId].anchors = layer.anchors
                 font.glyphs[needsDup[i]].layers[layer.associatedMasterId].width = layer.width
+                font.glyphs[needsDup[i]].layers[layer.associatedMasterId].components = copy.copy(layer.components)
 
             normalizeValues(location)
             glyphLocations.append(location)
@@ -340,15 +415,25 @@ for i in range(len(needsDup)):
             if bracketDefault == False:
                 location.append(False)
                 font.glyphs[needsDup[i]].layers[layer.associatedMasterId].paths = layer.paths
-                font.glyphs[needsDup[i]].layers[layer.associatedMasterId].components = layer.components
                 font.glyphs[needsDup[i]].layers[layer.associatedMasterId].anchors = layer.anchors
                 font.glyphs[needsDup[i]].layers[layer.associatedMasterId].width = layer.width
+                font.glyphs[needsDup[i]].layers[layer.associatedMasterId].components = copy.copy(layer.components)
             else:
                 location.append(True)
                 dupGlyph.layers[layer.associatedMasterId].paths = layer.paths
-                dupGlyph.layers[layer.associatedMasterId].components = layer.components
                 dupGlyph.layers[layer.associatedMasterId].anchors = layer.anchors
                 dupGlyph.layers[layer.associatedMasterId].width = layer.width
+                componentIndex = 0
+                for component in layer.components:
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].alignment = layer.components[componentIndex].alignment
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].transform = layer.components[componentIndex].transform
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].anchor = layer.components[componentIndex].anchor
+                    dupGlyph.layers[layer.associatedMasterId].components[componentIndex].locked = layer.components[componentIndex].locked
+                    if logged.get(component.name) == None:
+                        pass
+                    else:
+                        dupGlyph.layers[layer.associatedMasterId].components[componentIndex].name = (component.name + suffix)
+                    componentIndex += 1
 
             normalizeValues(location)
             glyphLocations.append(location)
@@ -366,6 +451,7 @@ for i in range(len(needsDup)):
                     for location in locations[component.name]:
                         if layer.layerId == location[-2]:
                             bracketDefault = location[-1]
+                    component.name = (component.name + suffix)
 
 # Move this to function?
 
@@ -389,26 +475,22 @@ for i in range(len(needsDup)):
         else:
             axis = fontAxes["axis" + str(value.values()[0])]['tag']
 
-            # if value.keys()[0] != None and bracketDefault == False:
-            #     print axis, value.keys()[0], fontAxes["axis" + str(value.values()[0])]['nMax'], glyphSub
-            # elif value.keys()[0] != None and bracketDefault == True:
-            #     print axis, fontAxes["axis" + str(value.values()[0])]['nMin'], value.keys()[0], glyphSub
             if value.keys()[0] != None and bracketDefault == False:
                 if firstRegion == False:
                     glyphString = glyphString + ", "
-                glyphString = glyphString + "{\"" + axis + "\" : (" + str(value.keys()[0]) + ", " +  str(1.0) + ")}"
+                glyphString = glyphString + ("\"%s\" : (%s, %s)" % (axis, str(value.keys()[0]), str(1.0)))
                 firstRegion = False
             elif value.keys()[0] != None and bracketDefault == True:
                 if firstRegion == False:
                     glyphString = glyphString + ", "
-                glyphString = glyphString + "{\"" + axis + "\" : (" + str(-1.0) + ", " + str(value.keys()[0]) + ")}"
+                glyphString = glyphString + ("\"%s\" : (%s, %s)" % (axis, str(-1.0), str(value.keys()[0])))
                 firstRegion = False
-    glyphSub = "{\"" + get_glyph(needsDup[i])[1] + "\"" + " : " + "\"" + get_glyph(needsDup[i])[1] + suffix + "\"}"
-    print "([" + glyphString + "], " + glyphSub + ")"
+    glyphSub = "{\"%s\" : \"%s\"}" % (get_glyph(needsDup[i])[1], get_glyph(needsDup[i])[1] + suffix)
+    print "([{%s}], %s)" % (glyphString, glyphSub)
     if firstGlyph == True:
-        glyphString = "\t([" + glyphString + "], " + glyphSub + "),"
+        glyphString = "\t([{%s}], %s)," % (glyphString, glyphSub)
     else:
-        glyphString = " \n\t([" + glyphString + "], " + glyphSub + "),"
+        glyphString = " \n\t([{%s}], %s)," % (glyphString, glyphSub)
     substitution = substitution + glyphString
     firstGlyph = False
 
@@ -424,7 +506,17 @@ for i in range(len(needsDup)):
     if copiedLocations == False:
         locations.update({needsDup[i] : glyphLocations})
 
+classIndex = 0
+for thisClass in font.classes:
+    thisClass.code = " ".join(classes[classIndex])
+    classIndex += 1
+
+featureIndex = 0
+for feature in font.features:
+    feature.code = "\n".join(features[featureIndex])
+    featureIndex += 1
     
+
 if doNotSave == True:
     pass
 else: 
@@ -442,4 +534,8 @@ else:
 
     print "\n\n\n"
     print "Total Time: %s seconds + %s seconds to save" % (str(mid - start), str(end - mid))
+
+
+# if __name__ == "__main__":
+#     main()
 
