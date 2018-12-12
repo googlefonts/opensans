@@ -6,7 +6,7 @@ python2 $(dirname ${BASH_SOURCE[0]})/fixBrackets.py OpenSansBuild.glyphs
 
 rm -rf addFeatureVars.py
 
-fontmake -o variable -g OpenSansBuild.glyphs
+fontmake -o variable -g OpenSansBuild.glyphs --keep-direction
 
 mv variable_ttf/OpenSans-VF.ttf OpenSans-VF.ttf
 
@@ -34,7 +34,7 @@ rm -rf OpenSans-VF-STAT.ttx
 mv OpenSans-VF-STAT.ttf OpenSans-VF.ttf
 
 
-————————————————————————————————————————————— Build Italic —————————————————————————————————————————————
+# ————————————————————————————————————————————— Build Italic —————————————————————————————————————————————
 cp "Open Sans Italic V.glyphs" OpenSansItalicBuild.glyphs
 
 # Add bracket layers to build version
