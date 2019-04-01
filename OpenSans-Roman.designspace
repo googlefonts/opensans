@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <!-- define axes here -->
+        <axis name="weight" tag="wght" minimum="300" maximum="400" default="170">
+            <map input="300" output="100" />
+            <map input="400" output="170" />
+            <map input="600" output="239" />
+            <map input="700" output="310" />
+            <map input="800" output="400" />
+        <axis name="width" tag="wdth" minimum="60" maximum="100" default="100"> 
+            <map input="3" output="60" />
+            <map input="5" output="100" />
+    </axes>
+    <source familyname="Open Sans" filename="source/OpenSans.ufo" name="OpenSans.ufo">
+        <!-- define masters here -->
+        <lib copy="1" />
+        <features copy="1" />
+        <info copy="1" />
+        <glyph mute="1" name="A" />
+        <glyph mute="1" name="Z" />
+        <location>
+            <dimension name="width" xvalue="0.000000" />
+            <dimension name="weight" xvalue="0.000000" />
+        </location>
+    </sources>
+    <instances familyname="Open Sans" filename="instances/instanceTest2.ufo" name="instance.ufo2">
+        <!-- define instances here -->
+        <location>
+            <dimension name="weight" xvalue="400" yvalue="300" />
+            <dimension name="weight" xvalue="66" />
+        </location>
+        <kerning />
+        <info />
+        <lib>
+            <dict>
+                <key>com.coolDesignspaceApp.specimenText</key>
+                <string>Hamburgerwhatever</string>
+            </dict>
+        </lib>
+    </instances>
+    <rules>
+        <!-- define rules here -->
+        <rule../>
+    </rules>
+    <lib>
+        <dict>
+            <!-- store custom data here -->
+        </dict>
+    </lib>
+</designspace>
