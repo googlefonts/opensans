@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
+      <map input="300" output="100"/>
+      <map input="400" output="170"/>
+      <map input="600" output="237"/>
+      <map input="700" output="310"/>
+      <map input="800" output="396"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="OpenSans-LightItalic.ufo" name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-ExtraBold.ufo" name="Open Sans ExtraBold" familyname="Open Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="396"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic" filename="../instance_ufo/OpenSans-LightItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Italic" familyname="Open Sans" stylename="Italic" filename="../instance_ufo/OpenSans-Italic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Semi-Bold Italic" familyname="Open Sans" stylename="Semi-Bold Italic" filename="../instance_ufo/OpenSans-Semi-BoldItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="237"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic" filename="../instance_ufo/OpenSans-BoldItalic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Extra-Bold Italic" familyname="Open Sans" stylename="Extra-Bold Italic" filename="../instance_ufo/OpenSans-Extra-BoldItalic.ufo" stylemapfamilyname="Open Sans ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="396"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>
