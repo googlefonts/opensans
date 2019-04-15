@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+    <axes>
+        <axis default="300" maximum="800" minimum="300" name="Weight" tag="wght">
+            <map input="300" output="100" />
+            <map input="400" output="170" />
+            <map input="600" output="239" />
+            <map input="700" output="310" />
+            <map input="800" output="400" />
+        </axis>
+        <axis default="5" maximum="5" minimum="3" name="Width" tag="wdth" />
+    </axes>
+    <sources>
+        <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-Light.ufo" name="Open Sans V Light" stylename="Light">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="Weight" xvalue="100" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+        </source>
+        <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-ExtraBold.ufo" name="Open Sans V ExtraBold" stylename="ExtraBold">
+            <location>
+                <dimension name="Weight" xvalue="400" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+        </source>
+        <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-Light Condensed.ufo" name="Open Sans V Condensed Light" stylename="Condensed Light">
+            <location>
+                <dimension name="Weight" xvalue="100" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+        </source>
+        <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-ExtraBold Condensed.ufo" name="Open Sans V ExtraBold Condensed" stylename="ExtraBold Condensed">
+            <location>
+                <dimension name="Weight" xvalue="400" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Light.ufo" name="Open Sans Light" stylemapfamilyname="Open Sans Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="Weight" xvalue="100" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Regular.ufo" name="Open Sans Regular" stylemapfamilyname="Open Sans" stylemapstylename="regular" stylename="Regular">
+            <location>
+                <dimension name="Weight" xvalue="170" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+<!--         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Semi-Bold.ufo" name="Open Sans Semi-Bold" stylemapfamilyname="Open Sans Light" stylemapstylename="bold" stylename="Semi-Bold">
+            <location>
+                <dimension name="Weight" xvalue="239" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+ -->        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Bold.ufo" name="Open Sans Bold" stylemapfamilyname="Open Sans" stylemapstylename="bold" stylename="Bold">
+            <location>
+                <dimension name="Weight" xvalue="310" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-ExtraBold.ufo" name="Open Sans Extra-Bold" stylemapfamilyname="Open Sans Extra-Bold" stylemapstylename="regular" stylename="Extra-Bold">
+            <location>
+                <dimension name="Weight" xvalue="400" />
+                <dimension name="Width" xvalue="5" />
+            </location>
+            <kerning />
+            <info />
+            <lib>
+                <dict>
+                    <key>com.schriftgestaltung.customParameters</key>
+                    <array>
+                        <array>
+                            <string>Instance Preview</string>
+                            <array>
+                                <string>$</string>
+                                <string>תּ</string>
+                            </array>
+                        </array>
+                    </array>
+                </dict>
+            </lib>
+        </instance>
+        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Light Condensed.ufo" name="Open Sans Light Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="regular" stylename="Light Condensed">
+            <location>
+                <dimension name="Weight" xvalue="100" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+<!--         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Condensed.ufo" name="Open Sans Condensed" stylemapfamilyname="Open Sans Condensed" stylemapstylename="regular" stylename="Condensed">
+            <location>
+                <dimension name="Weight" xvalue="170" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Semi-BoldCondensed.ufo" name="Open Sans Semi-Bold Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="bold" stylename="Semi-Bold Condensed">
+            <location>
+                <dimension name="Weight" xvalue="239" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+ -->        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Bold Condensed.ufo" name="Open Sans Bold Condensed" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold" stylename="Bold Condensed">
+            <location>
+                <dimension name="Weight" xvalue="310" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-ExtraBold Condensed.ufo" name="Open Sans Extra-Bold Condensed" stylemapfamilyname="Open Sans Extra-Bold Condensed" stylemapstylename="regular" stylename="Extra-Bold Condensed">
+            <location>
+                <dimension name="Weight" xvalue="400" />
+                <dimension name="Width" xvalue="3" />
+            </location>
+            <kerning />
+            <info />
+            <lib>
+                <dict>
+                    <key>com.schriftgestaltung.customParameters</key>
+                    <array>
+                        <array>
+                            <string>Instance Preview</string>
+                            <array>
+                                <string>$</string>
+                            </array>
+                        </array>
+                    </array>
+                </dict>
+            </lib>
+        </instance>
+    </instances>
+    <rules>
+    <rule name="bracket_redo">
+        <condition minimum="390" maximum="800" name="weight" />
+        <sub name="Aringacute" with="Aringacute.rvrn"/>
+        <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
+        <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
+        <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
+        <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
+        <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
+        <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
+        <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
+        <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
+        <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
+        <sub name="dollar" with="dollar.rvrn"/>
+        <sub name="uni047C" with="uni047C.rvrn"/>
+    </rule>
+</rules>
+</designspace>
