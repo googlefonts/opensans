@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightThenCurvingUpArrow" format="1">
+  <advance width="1315"/>
+  <unicode hex="2934"/>
+  <note>
+    rightThenCurvingUpArrow
+  </note>
+  <outline>
+    <contour>
+      <point x="104" y="96" type="line"/>
+      <point x="104" y="207" type="line"/>
+      <point x="705" y="207" type="line" smooth="yes"/>
+      <point x="770.5" y="207"/>
+      <point x="833.08333" y="263.91667"/>
+      <point x="852" y="364.5"/>
+      <point x="852" y="430" type="qcurve" smooth="yes"/>
+      <point x="852" y="1110" type="line"/>
+      <point x="963" y="1110" type="line"/>
+      <point x="963" y="412" type="line" smooth="yes"/>
+      <point x="963" y="326"/>
+      <point x="919" y="182.33333"/>
+      <point x="807" y="96"/>
+      <point x="705" y="96" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="604" y="885" type="qcurve"/>
+      <point x="604" y="975" type="line"/>
+      <point x="794.05131" y="1136.61844"/>
+      <point x="885" y="1317" type="qcurve"/>
+      <point x="930" y="1317" type="line"/>
+      <point x="1019.05686" y="1137.37684"/>
+      <point x="1210" y="975" type="qcurve"/>
+      <point x="1210" y="885" type="line"/>
+      <point x="1121.5" y="926.25"/>
+      <point x="987.75" y="1008.5"/>
+      <point x="948" y="1049" type="qcurve"/>
+      <point x="866" y="1049" type="line"/>
+      <point x="826.25" y="1008.5"/>
+      <point x="693.25" y="926.25"/>
+    </contour>
+  </outline>
+</glyph>

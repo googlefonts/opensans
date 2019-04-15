@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="downThenCurvingLeftArrow" format="1">
+  <advance width="1430"/>
+  <unicode hex="2936"/>
+  <note>
+    downThenCurvingLeftArrow
+  </note>
+  <outline>
+    <contour>
+      <point x="311" y="401" type="line"/>
+      <point x="311" y="512" type="line"/>
+      <point x="991" y="512" type="line" smooth="yes"/>
+      <point x="1056.5" y="512"/>
+      <point x="1157.08333" y="530.91667"/>
+      <point x="1214" y="593.5"/>
+      <point x="1214" y="659" type="qcurve" smooth="yes"/>
+      <point x="1214" y="1260" type="line"/>
+      <point x="1325" y="1260" type="line"/>
+      <point x="1325" y="659" type="line" smooth="yes"/>
+      <point x="1325" y="557"/>
+      <point x="1239.16667" y="445"/>
+      <point x="1096" y="401"/>
+      <point x="1010" y="401" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="446" y="154" type="line"/>
+      <point x="283.62316" y="344.94314"/>
+      <point x="104" y="434" type="qcurve"/>
+      <point x="104" y="479" type="line"/>
+      <point x="284.38156" y="569.94869"/>
+      <point x="446" y="760" type="qcurve"/>
+      <point x="537" y="760" type="line"/>
+      <point x="495" y="670.75"/>
+      <point x="412.75" y="537.75"/>
+      <point x="373" y="498" type="qcurve"/>
+      <point x="373" y="416" type="line"/>
+      <point x="412.75" y="375.5"/>
+      <point x="495" y="242.5"/>
+      <point x="537" y="154" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

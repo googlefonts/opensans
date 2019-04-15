@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhorn" format="1">
+  <advance width="1497"/>
+  <unicode hex="01AF"/>
+  <note>
+    Uhorn
+  </note>
+  <outline>
+    <contour>
+      <point x="729" y="-20" type="qcurve" smooth="yes"/>
+      <point x="474.75" y="-20"/>
+      <point x="190" y="265"/>
+      <point x="190" y="520" type="qcurve" smooth="yes"/>
+      <point x="190" y="1462" type="line"/>
+      <point x="293" y="1462" type="line"/>
+      <point x="293" y="516" type="line" smooth="yes"/>
+      <point x="293" y="305.25"/>
+      <point x="527.25" y="70"/>
+      <point x="741" y="70" type="qcurve" smooth="yes"/>
+      <point x="950.25" y="70"/>
+      <point x="1180" y="301.25"/>
+      <point x="1180" y="506" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1462" type="line"/>
+      <point x="1282" y="1462" type="line"/>
+      <point x="1282" y="1255" type="line"/>
+      <point x="1371.25" y="1273.75"/>
+      <point x="1454" y="1414.25"/>
+      <point x="1454" y="1556" type="qcurve"/>
+      <point x="1559" y="1556" type="line"/>
+      <point x="1571" y="1538" type="line"/>
+      <point x="1557.74535" y="1359.79859"/>
+      <point x="1473" y="1269" type="qcurve" smooth="yes"/>
+      <point x="1402.25476" y="1193.83318"/>
+      <point x="1282" y="1171" type="qcurve"/>
+      <point x="1282" y="516" type="line" smooth="yes"/>
+      <point x="1282" y="264"/>
+      <point x="990" y="-20"/>
+    </contour>
+    <contour>
+      <point x="749" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="749" y="1462" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

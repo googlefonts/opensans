@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ushort-cy" format="1">
+  <advance width="1165"/>
+  <unicode hex="045E"/>
+  <note>
+    afii10110
+  </note>
+  <outline>
+    <component base="u-cy"/>
+    <component base="brevecomb-cy" xOffset="24.300" yOffset="-13.800"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>brevecomb-cy</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

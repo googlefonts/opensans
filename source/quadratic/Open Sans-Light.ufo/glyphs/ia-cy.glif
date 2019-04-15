@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ia-cy" format="1">
+  <advance width="1083"/>
+  <unicode hex="044F"/>
+  <note>
+    afii10097
+  </note>
+  <outline>
+    <contour>
+      <point x="41" y="0" type="line"/>
+      <point x="369" y="469" type="line"/>
+      <point x="219" y="496.75"/>
+      <point x="86" y="648.75"/>
+      <point x="86" y="768" type="qcurve" smooth="yes"/>
+      <point x="86" y="915.75"/>
+      <point x="285" y="1087"/>
+      <point x="453" y="1087" type="qcurve" smooth="yes"/>
+      <point x="901" y="1087" type="line"/>
+      <point x="901" y="0" type="line"/>
+      <point x="803" y="0" type="line"/>
+      <point x="803" y="457" type="line"/>
+      <point x="471" y="457" type="line"/>
+      <point x="166" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="481" y="551" type="qcurve" smooth="yes"/>
+      <point x="803" y="551" type="line"/>
+      <point x="803" y="993" type="line"/>
+      <point x="451" y="993" type="line" smooth="yes"/>
+      <point x="327.25" y="993"/>
+      <point x="190" y="880"/>
+      <point x="190" y="772" type="qcurve" smooth="yes"/>
+      <point x="190" y="551"/>
+    </contour>
+    <contour>
+      <point x="542" y="1087" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

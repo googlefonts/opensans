@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb" format="1">
+  <advance width="1243"/>
+  <unicode hex="030C"/>
+  <note>
+caron
+</note>
+  <outline>
+    <contour>
+      <point x="439" y="1241" type="line"/>
+      <point x="425.5" y="1262.75"/>
+      <point x="390.25" y="1310.75"/>
+      <point x="370.0" y="1337.0" type="qcurve" smooth="yes"/>
+      <point x="290.47457627118644" y="1436.406779661017"/>
+      <point x="186" y="1544" type="qcurve"/>
+      <point x="186" y="1569" type="line"/>
+      <point x="387.0" y="1569.0" type="line"/>
+      <point x="469.23809523809524" y="1510.6857142857143"/>
+      <point x="590.0" y="1402.0" type="qcurve"/>
+      <point x="704.6585788561525" y="1507.6065857885615"/>
+      <point x="796" y="1569" type="qcurve"/>
+      <point x="995" y="1569" type="line"/>
+      <point x="995.0" y="1544.0" type="line"/>
+      <point x="892.283950617284" y="1436.5432098765432"/>
+      <point x="807.0" y="1328.0" type="qcurve" smooth="yes"/>
+      <point x="788.25" y="1304.75"/>
+      <point x="755.75" y="1261.25"/>
+      <point x="743" y="1241" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="591" y="1119" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="591" y="1569" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflexgrave" format="1">
+  <advance width="788"/>
+  <unicode hex="1EC0"/>
+  <note>
+uni1EC0
+</note>
+  <outline>
+    <component base="E"/>
+    <component base="g888" xOffset="1026" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>g888</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefpatah-hb" format="1">
+  <advance width="1024"/>
+  <unicode hex="FB2E"/>
+  <note>
+uniFB2E
+</note>
+  <outline>
+    <component base="alef-hb"/>
+    <component base="patah-hb" xOffset="512.3" yOffset="-110"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>alef-hb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>patah-hb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P" format="1">
+  <advance width="981"/>
+  <unicode hex="0050"/>
+  <outline>
+    <contour>
+      <point x="128.5" y="0" type="line"/>
+      <point x="128.5" y="1462" type="line"/>
+      <point x="500.0" y="1462.0" type="line" smooth="yes"/>
+      <point x="926.0" y="1462.0"/>
+      <point x="926.0" y="1011.9" type="qcurve" smooth="yes"/>
+      <point x="926.0" y="778.275"/>
+      <point x="691.25" y="529.8"/>
+      <point x="469.1" y="529.8" type="qcurve" smooth="yes"/>
+      <point x="400.8" y="529.8" type="line"/>
+      <point x="400.8" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="400.8" y="765.4" type="line"/>
+      <point x="453.3" y="765.4" type="line" smooth="yes"/>
+      <point x="553.125" y="765.4"/>
+      <point x="651.0" y="876.1250000000001"/>
+      <point x="651.0" y="1000.7" type="qcurve" smooth="yes"/>
+      <point x="651.0" y="1227.1"/>
+      <point x="467.1" y="1227.1" type="qcurve" smooth="yes"/>
+      <point x="400.8" y="1227.1" type="line"/>
+    </contour>
+    <contour>
+      <point x="490.7" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="490.7" y="1462" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

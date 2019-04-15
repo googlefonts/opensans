@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iogonek" format="1">
+  <advance width="496"/>
+  <unicode hex="012F"/>
+  <note>
+    iogonek
+  </note>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotaccentcomb" xOffset="-37"/>
+    <component base="ogonekcomb" xOffset="26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iishort-cy" format="1">
+  <advance width="1282"/>
+  <unicode hex="0419"/>
+  <note>
+    afii10027
+  </note>
+  <outline>
+    <component base="Ii-cy"/>
+    <component base="brevecomb-cy" xOffset="137.100" yOffset="347.600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Ii-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>brevecomb-cy</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

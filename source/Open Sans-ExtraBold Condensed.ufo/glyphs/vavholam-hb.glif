@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vavholam-hb" format="1">
+  <advance width="531"/>
+  <unicode hex="FB4B"/>
+  <note>
+    afii57700
+  </note>
+  <outline>
+    <component base="vav-hb" xOffset="9"/>
+    <component base="holam-hb" xOffset="197"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>vav-hb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>holam-hb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

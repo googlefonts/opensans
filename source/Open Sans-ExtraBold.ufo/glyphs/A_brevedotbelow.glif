@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abrevedotbelow" format="1">
+  <advance width="1487"/>
+  <unicode hex="1EB6"/>
+  <note>
+    uni1EB6
+  </note>
+  <outline>
+    <component base="A"/>
+    <component base="breve" xOffset="145" yOffset="356"/>
+    <component base="dotbelowcomb" xOffset="1491"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>breve</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotbelowcomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

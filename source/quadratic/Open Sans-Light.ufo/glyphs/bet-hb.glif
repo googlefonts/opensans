@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bet-hb" format="1">
+  <advance width="1016"/>
+  <unicode hex="05D1"/>
+  <note>
+    afii57665
+  </note>
+  <outline>
+    <contour>
+      <point x="73" y="0" type="line"/>
+      <point x="73" y="88" type="line"/>
+      <point x="723" y="88" type="line"/>
+      <point x="723" y="946" type="line" smooth="yes"/>
+      <point x="723" y="1080.25"/>
+      <point x="595.25" y="1201.25"/>
+      <point x="470" y="1214" type="qcurve" smooth="yes"/>
+      <point x="420.5" y="1220"/>
+      <point x="336" y="1220" type="qcurve" smooth="yes"/>
+      <point x="294" y="1220"/>
+      <point x="162" y="1214.25"/>
+      <point x="72" y="1209" type="qcurve"/>
+      <point x="72" y="1300" type="line"/>
+      <point x="150" y="1305.25"/>
+      <point x="279.25" y="1310"/>
+      <point x="331" y="1310" type="qcurve" smooth="yes"/>
+      <point x="433.75" y="1310"/>
+      <point x="565" y="1293"/>
+      <point x="628" y="1269" type="qcurve" smooth="yes"/>
+      <point x="691" y="1244.25"/>
+      <point x="774.5" y="1165.25"/>
+      <point x="800" y="1100" type="qcurve" smooth="yes"/>
+      <point x="825" y="1035.29412"/>
+      <point x="825" y="946" type="qcurve" smooth="yes"/>
+      <point x="825" y="88" type="line"/>
+      <point x="976" y="88" type="line"/>
+      <point x="976" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="508" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="20" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="374" y="665" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="508" y="1087" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="20" y="1087" type="move" name="topleft"/>
+    </contour>
+  </outline>
+</glyph>

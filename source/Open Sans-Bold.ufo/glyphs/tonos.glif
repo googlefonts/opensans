@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonos" format="1">
+  <advance width="1182"/>
+  <unicode hex="0384"/>
+  <note>
+    tonos
+  </note>
+  <outline>
+    <contour>
+      <point x="471" y="1241" type="line"/>
+      <point x="646" y="1241" type="line"/>
+      <point x="720" y="1361"/>
+      <point x="784" y="1497"/>
+      <point x="830" y="1612" type="curve"/>
+      <point x="830" y="1635" type="line"/>
+      <point x="554" y="1635" type="line"/>
+      <point x="540" y="1536"/>
+      <point x="502" y="1363"/>
+      <point x="471" y="1269" type="curve"/>
+    </contour>
+    <contour>
+      <point x="651" y="1112" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="831" y="1556" type="move" name="_topleft"/>
+    </contour>
+  </outline>
+</glyph>

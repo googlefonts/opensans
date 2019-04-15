@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Acircumflextilde" format="1">
+  <advance width="813"/>
+  <unicode hex="1EAA"/>
+  <note>
+uni1EAA
+</note>
+  <outline>
+    <component base="A"/>
+    <component base="g890" xOffset="1006" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>g890</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

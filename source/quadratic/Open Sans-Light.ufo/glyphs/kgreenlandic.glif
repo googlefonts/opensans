@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="1">
+  <advance width="991"/>
+  <unicode hex="0138"/>
+  <note>
+    kgreenlandic
+  </note>
+  <outline>
+    <contour>
+      <point x="182" y="0" type="line"/>
+      <point x="182" y="1087" type="line"/>
+      <point x="281" y="1087" type="line"/>
+      <point x="281" y="776" type="line" smooth="yes"/>
+      <point x="281" y="701"/>
+      <point x="277" y="552"/>
+      <point x="274" y="477" type="qcurve"/>
+      <point x="279" y="477" type="line"/>
+      <point x="314.25" y="516"/>
+      <point x="385" y="594"/>
+      <point x="421" y="633" type="qcurve" smooth="yes"/>
+      <point x="834" y="1087" type="line"/>
+      <point x="954" y="1087" type="line"/>
+      <point x="526" y="623" type="line"/>
+      <point x="991" y="0" type="line"/>
+      <point x="872" y="0" type="line"/>
+      <point x="459" y="549" type="line"/>
+      <point x="281" y="387" type="line"/>
+      <point x="281" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="496" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="496" y="1087" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

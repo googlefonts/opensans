@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexacute" format="1">
+  <advance width="956"/>
+  <unicode hex="1EA5"/>
+  <note>
+    uni1EA5
+  </note>
+  <outline>
+    <component base="a"/>
+    <component base="g887" xOffset="1193.600"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>g887</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

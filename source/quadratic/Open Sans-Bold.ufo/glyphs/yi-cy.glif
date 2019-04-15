@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yi-cy" format="1">
+  <advance width="625"/>
+  <unicode hex="0457"/>
+  <note>
+afii10104
+</note>
+  <outline>
+    <component base="idotless" xOffset="31"/>
+    <component base="dieresiscomb" xOffset="62" yOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>idotless</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresiscomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

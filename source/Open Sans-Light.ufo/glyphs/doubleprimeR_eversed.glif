@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doubleprimeReversed" format="1">
+  <advance width="901"/>
+  <unicode hex="2036"/>
+  <outline>
+    <component base="primeReversed" xOffset="334"/>
+    <component base="primeReversed"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>primeReversed</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>primeReversed</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

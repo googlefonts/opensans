@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="APLquaddivide" format="1">
+  <advance width="1491"/>
+  <unicode hex="2339"/>
+  <note>
+    APLquaddivide
+  </note>
+  <outline>
+    <contour>
+      <point x="342" y="659" type="line"/>
+      <point x="342" y="805" type="line"/>
+      <point x="1149" y="805" type="line"/>
+      <point x="1149" y="659" type="line"/>
+    </contour>
+    <contour>
+      <point x="745" y="285" type="qcurve" smooth="yes"/>
+      <point x="691.75" y="285"/>
+      <point x="631" y="353"/>
+      <point x="631" y="410" type="qcurve" smooth="yes"/>
+      <point x="631" y="532"/>
+      <point x="745" y="532" type="qcurve" smooth="yes"/>
+      <point x="858" y="532"/>
+      <point x="858" y="410" type="qcurve" smooth="yes"/>
+      <point x="858" y="353"/>
+      <point x="799" y="285"/>
+    </contour>
+    <contour>
+      <point x="745" y="932" type="qcurve" smooth="yes"/>
+      <point x="691.75" y="932"/>
+      <point x="631" y="1000"/>
+      <point x="631" y="1057" type="qcurve" smooth="yes"/>
+      <point x="631" y="1180"/>
+      <point x="745" y="1180" type="qcurve" smooth="yes"/>
+      <point x="858" y="1180"/>
+      <point x="858" y="1057" type="qcurve" smooth="yes"/>
+      <point x="858" y="1000"/>
+      <point x="799" y="932"/>
+    </contour>
+    <component base="APLquad"/>
+  </outline>
+</glyph>

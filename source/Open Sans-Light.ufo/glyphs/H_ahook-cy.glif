@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hahook-cy" format="1">
+  <advance width="1160"/>
+  <unicode hex="04FC"/>
+  <note>
+    uni04FC
+  </note>
+  <outline>
+    <component base="X"/>
+    <component base="cyrillicbighookUC" xOffset="858"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>cyrillicbighookUC</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>X</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>X</string>
+    </dict>
+  </lib>
+</glyph>

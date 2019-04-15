@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O" format="1">
+  <advance width="1632"/>
+  <unicode hex="004F"/>
+  <outline>
+    <contour>
+      <point x="1526.0" y="733.0" type="qcurve" smooth="yes"/>
+      <point x="1526.0" y="364.0"/>
+      <point x="1163.75" y="-20.0"/>
+      <point x="815.0" y="-20.0" type="qcurve" smooth="yes"/>
+      <point x="470.75" y="-20.0"/>
+      <point x="104.0" y="366.0"/>
+      <point x="104.0" y="735.0" type="qcurve" smooth="yes"/>
+      <point x="104.0" y="1100.25"/>
+      <point x="469.0" y="1485.0"/>
+      <point x="817.0" y="1485.0" type="qcurve" smooth="yes"/>
+      <point x="1165.75" y="1485.0"/>
+      <point x="1526.0" y="1102.75"/>
+    </contour>
+    <contour>
+      <point x="520.0" y="733.0" type="qcurve" smooth="yes"/>
+      <point x="520.0" y="309.0"/>
+      <point x="815.0" y="309.0" type="qcurve" smooth="yes"/>
+      <point x="965.0" y="309.0"/>
+      <point x="1110.0" y="514.75"/>
+      <point x="1110.0" y="733.0" type="qcurve" smooth="yes"/>
+      <point x="1110.0" y="952.0"/>
+      <point x="963.25" y="1161.0"/>
+      <point x="817.0" y="1161.0" type="qcurve" smooth="yes"/>
+      <point x="520.0" y="1161.0"/>
+    </contour>
+    <contour>
+      <point x="816" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="816" y="731" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="1469" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="816" y="1462" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="240" y="1462" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="1612" y="1462" type="move" name="topright"/>
+    </contour>
+  </outline>
+</glyph>

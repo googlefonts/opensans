@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring" format="1">
+  <advance width="1214"/>
+  <unicode hex="00C5"/>
+  <note>
+    Aring
+  </note>
+  <outline>
+    <component base="A"/>
+    <component base="ring" xOffset="67" yOffset="74"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>A</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ring</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

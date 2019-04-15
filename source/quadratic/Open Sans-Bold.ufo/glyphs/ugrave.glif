@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ugrave" format="1">
+  <advance width="1346"/>
+  <unicode hex="00F9"/>
+  <note>
+ugrave
+</note>
+  <outline>
+    <component base="u"/>
+    <component base="gravecomb" xOffset="1272.2" yOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>gravecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

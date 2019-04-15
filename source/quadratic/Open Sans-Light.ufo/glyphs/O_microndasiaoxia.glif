@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicrondasiaoxia" format="1">
+  <advance width="1565"/>
+  <unicode hex="1F4D"/>
+  <note>
+    uni1F4D
+  </note>
+  <outline>
+    <component base="O"/>
+    <component base="dasiaoxia" xOffset="-574"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dasiaoxia</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>quoteleft</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>O</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

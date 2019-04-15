@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexdotbelow" format="1">
+  <advance width="956"/>
+  <unicode hex="1EAD"/>
+  <note>
+    uni1EAD
+  </note>
+  <outline>
+    <component base="a"/>
+    <component base="circumflex" xOffset="-93.700" yOffset="0.600"/>
+    <component base="dotbelowcomb" xOffset="1192.800"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>circumflex</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotbelowcomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

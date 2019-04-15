@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vav-hb" format="1">
+  <advance width="625"/>
+  <unicode hex="05D5"/>
+  <note>
+    afii57669
+  </note>
+  <outline>
+    <contour>
+      <point x="160" y="0" type="line"/>
+      <point x="462" y="0" type="line"/>
+      <point x="462" y="1293" type="line"/>
+      <point x="160" y="1293" type="line"/>
+    </contour>
+    <contour>
+      <point x="311" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="31" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="12" y="671" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="311" y="1319" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="31" y="1119" type="move" name="topleft"/>
+    </contour>
+  </outline>
+</glyph>

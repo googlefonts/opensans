@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="betdagesh-hb" format="1">
+  <advance width="962"/>
+  <unicode hex="FB31"/>
+  <note>
+uniFB31
+</note>
+  <outline>
+    <component base="bet-hb"/>
+    <component base="dagesh-hb" xOffset="259" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>bet-hb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dagesh-hb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron" format="1">
+  <advance width="1282"/>
+  <unicode hex="0147"/>
+  <note>
+    Ncaron
+  </note>
+  <outline>
+    <component base="N"/>
+    <component base="caron" xOffset="74.300" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>N</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caron</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

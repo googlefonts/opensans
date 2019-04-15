@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookabovecomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0309"/>
+  <note>
+    hookabovecomb
+  </note>
+  <outline>
+    <contour>
+      <point x="-90" y="1208" type="line"/>
+      <point x="-100" y="1386" type="line"/>
+      <point x="-11" y="1401"/>
+      <point x="70" y="1457"/>
+      <point x="70" y="1501" type="qcurve" smooth="yes"/>
+      <point x="70" y="1549"/>
+      <point x="3" y="1597"/>
+      <point x="-75" y="1597" type="qcurve" smooth="yes"/>
+      <point x="-120" y="1597"/>
+      <point x="-168" y="1589" type="qcurve"/>
+      <point x="-168" y="1667" type="line"/>
+      <point x="-116" y="1679"/>
+      <point x="-61" y="1679" type="qcurve" smooth="yes"/>
+      <point x="47" y="1679"/>
+      <point x="168" y="1588"/>
+      <point x="168" y="1505" type="qcurve" smooth="yes"/>
+      <point x="168" y="1365"/>
+      <point x="0" y="1329" type="qcurve"/>
+      <point x="-10" y="1208" type="line"/>
+    </contour>
+    <contour>
+      <point x="-56" y="1087" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="0" y="1679" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

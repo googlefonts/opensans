@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhungarumlaut" format="1">
+  <advance width="1473"/>
+  <unicode hex="0170"/>
+  <note>
+    Uhungarumlaut
+  </note>
+  <outline>
+    <component base="U"/>
+    <component base="hungarumlaut" xOffset="258" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>U</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

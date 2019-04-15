@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edotaccent" format="1">
+  <advance width="1130"/>
+  <unicode hex="0116"/>
+  <note>
+    Edotaccent
+  </note>
+  <outline>
+    <component base="E"/>
+    <component base="dotaccent" xOffset="365" yOffset="309"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotaccent</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

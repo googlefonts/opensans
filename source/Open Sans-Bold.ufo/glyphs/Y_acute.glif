@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yacute" format="1">
+  <advance width="1278"/>
+  <unicode hex="00DD"/>
+  <note>
+    Yacute
+  </note>
+  <outline>
+    <component base="Y"/>
+    <component base="acute" xOffset="157.200" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Y</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acute</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

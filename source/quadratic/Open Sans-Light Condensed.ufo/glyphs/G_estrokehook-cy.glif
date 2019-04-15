@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gestrokehook-cy" format="1">
+  <advance width="707"/>
+  <unicode hex="04FA"/>
+  <note>
+uni04FA
+</note>
+  <outline>
+    <component base="Ghestroke-cy"/>
+    <component base="cyrillicbighookUC" xOffset="37"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Ghestroke-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>cyrillicbighookUC</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>F</string>
+    </dict>
+  </lib>
+</glyph>

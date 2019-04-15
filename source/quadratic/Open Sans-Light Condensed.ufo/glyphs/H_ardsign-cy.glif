@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hardsign-cy" format="1">
+  <advance width="1030"/>
+  <unicode hex="042A"/>
+  <note>
+afii10044
+</note>
+  <outline>
+    <contour>
+      <point x="315" y="0" type="line"/>
+      <point x="315" y="1366" type="line"/>
+      <point x="25" y="1366" type="line"/>
+      <point x="25" y="1462" type="line"/>
+      <point x="414" y="1462" type="line"/>
+      <point x="414" y="813" type="line"/>
+      <point x="569.0" y="813.0" type="line" smooth="yes"/>
+      <point x="763.25" y="813.0"/>
+      <point x="952.0" y="620.75"/>
+      <point x="952.0" y="410.0" type="qcurve" smooth="yes"/>
+      <point x="952.0" y="218.75"/>
+      <point x="751.0" y="0.0"/>
+      <point x="571" y="0" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="414" y="90" type="line"/>
+      <point x="575.0" y="90.0" type="line" smooth="yes"/>
+      <point x="710.0" y="90.0"/>
+      <point x="852.0" y="254.75"/>
+      <point x="852.0" y="410.0" type="qcurve" smooth="yes"/>
+      <point x="852.0" y="571.25"/>
+      <point x="716.25" y="723.0"/>
+      <point x="573" y="723" type="qcurve" smooth="yes"/>
+      <point x="414" y="723" type="line"/>
+    </contour>
+    <contour>
+      <point x="515" y="1462" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

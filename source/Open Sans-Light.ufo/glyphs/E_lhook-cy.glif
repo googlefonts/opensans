@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Elhook-cy" format="1">
+  <advance width="1357"/>
+  <unicode hex="0512"/>
+  <note>
+    uni0512
+  </note>
+  <outline>
+    <component base="El-cy"/>
+    <component base="cyrillicbighookUC" xOffset="1005"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>cyrillicbighookUC</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

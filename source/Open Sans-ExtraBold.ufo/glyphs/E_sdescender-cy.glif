@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Esdescender-cy" format="1">
+  <advance width="1329"/>
+  <unicode hex="04AA"/>
+  <note>
+    uni04AA
+  </note>
+  <outline>
+    <component base="C"/>
+    <component base="cyrillichookleft" xOffset="553"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>C</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>cyrillichookleft</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorngrave" format="1">
+  <advance width="1812"/>
+  <unicode hex="1EEA"/>
+  <note>
+uni1EEA
+</note>
+  <outline>
+    <component base="Uhorn"/>
+    <component base="grave" xOffset="24.9" yOffset="337.1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Uhorn</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>grave</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

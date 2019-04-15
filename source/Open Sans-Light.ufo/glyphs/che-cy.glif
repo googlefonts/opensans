@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="che-cy" format="1">
+  <advance width="1188"/>
+  <unicode hex="0447"/>
+  <note>
+    afii10089
+  </note>
+  <outline>
+    <contour>
+      <point x="907" y="0" type="line"/>
+      <point x="1006" y="0" type="line"/>
+      <point x="1006" y="1087" type="line"/>
+      <point x="907" y="1087" type="line"/>
+      <point x="907" y="610" type="line"/>
+      <point x="779" y="507"/>
+      <point x="666" y="463"/>
+      <point x="535" y="463" type="curve" smooth="yes"/>
+      <point x="350" y="463"/>
+      <point x="262" y="539"/>
+      <point x="262" y="723" type="curve" smooth="yes"/>
+      <point x="262" y="1087" type="line"/>
+      <point x="164" y="1087" type="line"/>
+      <point x="164" y="711" type="line" smooth="yes"/>
+      <point x="164" y="492"/>
+      <point x="279" y="373"/>
+      <point x="502" y="373" type="curve" smooth="yes"/>
+      <point x="651" y="373"/>
+      <point x="774" y="413"/>
+      <point x="907" y="516" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1168" y="0" type="move" name="bottomright"/>
+    </contour>
+    <contour>
+      <point x="594" y="1087" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

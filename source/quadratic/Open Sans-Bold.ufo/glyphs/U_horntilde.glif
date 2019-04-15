@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorntilde" format="1">
+  <advance width="1812"/>
+  <unicode hex="1EEE"/>
+  <note>
+uni1EEE
+</note>
+  <outline>
+    <component base="Uhorn"/>
+    <component base="tilde" xOffset="163.1" yOffset="337.1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Uhorn</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tilde</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

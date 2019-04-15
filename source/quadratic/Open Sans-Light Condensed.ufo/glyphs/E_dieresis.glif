@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edieresis" format="1">
+  <advance width="788"/>
+  <unicode hex="00CB"/>
+  <note>
+Edieresis
+</note>
+  <outline>
+    <component base="E"/>
+    <component base="dieresis" xOffset="-146" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresis</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

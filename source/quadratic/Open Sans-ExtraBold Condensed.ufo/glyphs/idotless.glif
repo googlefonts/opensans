@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="1">
+  <advance width="544"/>
+  <unicode hex="0131"/>
+  <note>
+dotlessi
+</note>
+  <outline>
+    <contour>
+      <point x="442" y="1127" type="line"/>
+      <point x="442" y="0" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="102" y="1127" type="line"/>
+    </contour>
+    <contour>
+      <point x="272" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="486" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="272" y="1127" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

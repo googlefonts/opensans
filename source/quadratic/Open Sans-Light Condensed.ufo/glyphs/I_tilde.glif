@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Itilde" format="1">
+  <advance width="418"/>
+  <unicode hex="0128"/>
+  <note>
+Itilde
+</note>
+  <outline>
+    <component base="I"/>
+    <component base="tilde" xOffset="-368" yOffset="338"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>I</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tilde</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb" format="1">
+  <advance width="625"/>
+  <unicode hex="0307"/>
+  <note>
+dotaccent
+</note>
+  <outline>
+    <contour>
+      <point x="311.0" y="1258.0" type="qcurve" smooth="yes"/>
+      <point x="147.0" y="1258.0"/>
+      <point x="147.0" y="1407.0" type="qcurve" smooth="yes"/>
+      <point x="147.0" y="1482.75"/>
+      <point x="225.5" y="1558.0"/>
+      <point x="311.0" y="1558.0" type="qcurve" smooth="yes"/>
+      <point x="477.0" y="1558.0"/>
+      <point x="477.0" y="1407.0" type="qcurve" smooth="yes"/>
+      <point x="477.0" y="1258.0"/>
+    </contour>
+    <contour>
+      <point x="312" y="1119" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="312" y="1558" type="move" name="top"/>
+    </contour>
+  </outline>
+</glyph>

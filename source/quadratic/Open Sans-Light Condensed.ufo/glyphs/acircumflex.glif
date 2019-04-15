@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acircumflex" format="1">
+  <advance width="784"/>
+  <unicode hex="00E2"/>
+  <note>
+acircumflex
+</note>
+  <outline>
+    <component base="a"/>
+    <component base="circumflexcomb" xOffset="150" yOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>circumflexcomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

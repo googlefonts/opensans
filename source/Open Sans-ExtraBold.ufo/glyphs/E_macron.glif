@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emacron" format="1">
+  <advance width="1124"/>
+  <unicode hex="0112"/>
+  <note>
+    Emacron
+  </note>
+  <outline>
+    <component base="E"/>
+    <component base="macroncomb" xOffset="225" yOffset="329"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

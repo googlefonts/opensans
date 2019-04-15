@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="stretchedjeemArabic-math" format="1">
+  <advance width="2105"/>
+  <unicode hex="1EE62"/>
+  <outline>
+    <contour>
+      <point x="1628" y="-2" type="qcurve"/>
+      <point x="1589.75" y="27.25"/>
+      <point x="1513.25" y="95.75"/>
+      <point x="1481" y="131" type="qcurve"/>
+      <point x="1519.25" y="167.75"/>
+      <point x="1596.25" y="250.75"/>
+      <point x="1624" y="283" type="qcurve"/>
+      <point x="1662.25" y="241"/>
+      <point x="1725.25" y="177.75"/>
+      <point x="1759" y="147" type="qcurve"/>
+      <point x="1746" y="128"/>
+      <point x="1697.25" y="70.41667"/>
+      <point x="1645.5" y="14.5"/>
+    </contour>
+    <component base="stretchedhahArabic-math"/>
+    <contour>
+      <point x="1212" y="1137" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1409" y="57" type="move" name="mark1"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>stretcheddotlessbehArabic-math</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>stretchedhahArabic-math</string>
+    </dict>
+  </lib>
+</glyph>

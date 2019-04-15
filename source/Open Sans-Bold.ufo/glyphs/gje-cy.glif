@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gje-cy" format="1">
+  <advance width="979"/>
+  <unicode hex="0453"/>
+  <note>
+    afii10100
+  </note>
+  <outline>
+    <component base="ge-cy"/>
+    <component base="acutecomb" xOffset="1238.400" yOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ge-cy</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
