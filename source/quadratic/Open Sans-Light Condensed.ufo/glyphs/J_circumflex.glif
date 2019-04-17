@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Jcircumflex" format="1">
   <advance width="401"/>
   <unicode hex="0134"/>
   <note>
-Jcircumflex
-</note>
+    Jcircumflex
+  </note>
   <outline>
     <component base="J"/>
-    <component base="circumflex" xOffset="-380" yOffset="338"/>
+    <component base="circumflex" xOffset="-35" yOffset="377"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>J</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflex</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

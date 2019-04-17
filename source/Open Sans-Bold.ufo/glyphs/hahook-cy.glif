@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahook-cy" format="1">
-  <advance width="1302"/>
+  <advance width="1782"/>
   <unicode hex="04FD"/>
   <note>
     uni04FD
   </note>
   <outline>
     <component base="x"/>
-    <component base="cyrillicbighookLC" xOffset="755.800"/>
+    <component base="cyrillicbighookLC" xOffset="1184"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>x</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>cyrillicbighookLC</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>x</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

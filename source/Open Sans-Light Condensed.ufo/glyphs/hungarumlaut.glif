@@ -6,9 +6,24 @@
     hungarumlaut
   </note>
   <outline>
-    <component base="hungarumlautcomb" xOffset="14"/>
+    <component base="hungarumlautcomb"/>
     <contour>
-      <point x="520" y="1124" type="move" name="_top"/>
+      <point x="506" y="1124" type="move" name="_top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>hungarumlautcomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="yod-hb"/>
-    <component base="dagesh-hb" xOffset="7" yOffset="117"/>
+    <component base="dagesh-hb" xOffset="187" yOffset="-127"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>yod-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dagesh-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

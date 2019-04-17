@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yoddagesh-hb" format="1">
-  <advance width="717"/>
+  <advance width="492"/>
   <unicode hex="FB39"/>
   <note>
     uniFB39
   </note>
   <outline>
-    <component base="yod-hb" xOffset="162"/>
-    <component base="dagesh-hb" xOffset="143" yOffset="186"/>
+    <component base="yod-hb"/>
+    <component base="dagesh-hb" xOffset="150" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>yod-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dagesh-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

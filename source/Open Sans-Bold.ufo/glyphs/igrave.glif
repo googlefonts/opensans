@@ -6,30 +6,7 @@
     igrave
   </note>
   <outline>
-    <component base="idotless" xOffset="2"/>
-    <component base="gravecomb" xOffset="949" yOffset="-12"/>
+    <component base="idotless"/>
+    <component base="gravecomb" xOffset="196" yOffset="-5"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>idotless</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>gravecomb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

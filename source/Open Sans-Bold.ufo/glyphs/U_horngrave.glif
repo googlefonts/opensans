@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="Uhorn"/>
-    <component base="grave" xOffset="24.900" yOffset="337.100"/>
+    <component base="grave" xOffset="662" yOffset="338"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Uhorn</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>grave</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

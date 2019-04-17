@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="omega"/>
-    <component base="tonos" xOffset="162"/>
+    <component base="tonos" xOffset="129" yOffset="-25"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>omega</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

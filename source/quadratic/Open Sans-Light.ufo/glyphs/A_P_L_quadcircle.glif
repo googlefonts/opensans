@@ -1,51 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="APLquadcircle" format="1">
   <advance width="1491"/>
   <unicode hex="233C"/>
   <note>
-    APLquadcircle
-  </note>
+APLquadcircle
+</note>
   <outline>
     <contour>
-      <point x="745" y="147" type="qcurve" smooth="yes"/>
-      <point x="624.625" y="147"/>
-      <point x="413.40104" y="238.15104"/>
-      <point x="252.84896" y="399.09896"/>
-      <point x="162" y="610.625"/>
-      <point x="162" y="731" type="qcurve" smooth="yes"/>
-      <point x="162" y="851.75"/>
-      <point x="252.84896" y="1063.38542"/>
-      <point x="413.40104" y="1224.11458"/>
-      <point x="624.625" y="1315"/>
-      <point x="745" y="1315" type="qcurve" smooth="yes"/>
-      <point x="865.75" y="1315"/>
-      <point x="1077.38542" y="1224.11458"/>
-      <point x="1238.11458" y="1063.38542"/>
-      <point x="1329" y="851.75"/>
-      <point x="1329" y="731" type="qcurve" smooth="yes"/>
-      <point x="1329" y="610.625"/>
-      <point x="1238.11458" y="399.09896"/>
-      <point x="1077.38542" y="238.15104"/>
-      <point x="865.75" y="147"/>
+      <point x="745.0" y="147.0" type="qcurve" smooth="yes"/>
+      <point x="624.625" y="147.0"/>
+      <point x="413.4010416666667" y="238.15104166666666"/>
+      <point x="252.84895833333334" y="399.0989583333333"/>
+      <point x="162.0" y="610.625"/>
+      <point x="162.0" y="731.0" type="qcurve" smooth="yes"/>
+      <point x="162.0" y="851.75"/>
+      <point x="252.84895833333334" y="1063.3854166666667"/>
+      <point x="413.4010416666667" y="1224.1145833333333"/>
+      <point x="624.625" y="1315.0"/>
+      <point x="745.0" y="1315.0" type="qcurve" smooth="yes"/>
+      <point x="865.75" y="1315.0"/>
+      <point x="1077.3854166666667" y="1224.1145833333333"/>
+      <point x="1238.1145833333333" y="1063.3854166666667"/>
+      <point x="1329.0" y="851.75"/>
+      <point x="1329.0" y="731.0" type="qcurve" smooth="yes"/>
+      <point x="1329.0" y="610.625"/>
+      <point x="1238.1145833333333" y="399.0989583333333"/>
+      <point x="1077.3854166666667" y="238.15104166666666"/>
+      <point x="865.75" y="147.0"/>
     </contour>
     <contour>
-      <point x="745" y="293" type="qcurve" smooth="yes"/>
-      <point x="866" y="293"/>
-      <point x="1065.33333" y="412.41667"/>
-      <point x="1184" y="611.5"/>
-      <point x="1184" y="731" type="qcurve" smooth="yes"/>
-      <point x="1184" y="852"/>
-      <point x="1065.33333" y="1050.83333"/>
-      <point x="866" y="1169"/>
-      <point x="745" y="1169" type="qcurve" smooth="yes"/>
-      <point x="624.5" y="1169"/>
-      <point x="425.58333" y="1050.83333"/>
-      <point x="307" y="852"/>
-      <point x="307" y="731" type="qcurve" smooth="yes"/>
-      <point x="307" y="610"/>
-      <point x="425.58333" y="411.16667"/>
-      <point x="624.5" y="293"/>
+      <point x="745.0" y="293.0" type="qcurve" smooth="yes"/>
+      <point x="866.0" y="293.0"/>
+      <point x="1065.3333333333335" y="412.4166666666666"/>
+      <point x="1184.0" y="611.5"/>
+      <point x="1184.0" y="731.0" type="qcurve" smooth="yes"/>
+      <point x="1184.0" y="852.0"/>
+      <point x="1065.3333333333335" y="1050.8333333333333"/>
+      <point x="866.0" y="1169.0"/>
+      <point x="745.0" y="1169.0" type="qcurve" smooth="yes"/>
+      <point x="624.5" y="1169.0"/>
+      <point x="425.58333333333326" y="1050.8333333333333"/>
+      <point x="307.0" y="852.0"/>
+      <point x="307.0" y="731.0" type="qcurve" smooth="yes"/>
+      <point x="307.0" y="610.0"/>
+      <point x="425.58333333333326" y="411.16666666666663"/>
+      <point x="624.5" y="293.0"/>
     </contour>
     <component base="APLquad"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>APLquad</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

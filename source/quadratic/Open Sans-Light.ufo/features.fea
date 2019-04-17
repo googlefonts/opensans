@@ -1,4 +1,5 @@
 # Prefix: Languagesystems
+# automatic
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem hebr dflt;
@@ -23,13 +24,14 @@ feature salt;
 feature ss01;
 feature ss02;
 feature ss03;
+feature fwid;
 } aalt;
 
 feature ccmp {
 # automatic
 lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb];
+	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb tildebelowcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
@@ -283,4 +285,11 @@ sub palochka-cy by palochka-cy.ss01;
 sub Ihookabove by Ihookabove.ss01;
 sub Idotbelow by Idotbelow.ss01;
 } ss03;
+
+feature fwid {
+# automatic
+sub space by emspace;
+sub braceleft by braceleft.full;
+sub braceright by braceright.full;
+} fwid;
 

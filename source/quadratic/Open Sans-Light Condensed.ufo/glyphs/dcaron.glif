@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron" format="1">
   <advance width="893"/>
   <unicode hex="010F"/>
   <note>
-dcaron
-</note>
+    dcaron
+  </note>
   <outline>
     <component base="d"/>
-    <component base="caron.alt" xOffset="823"/>
+    <component base="caron.alt" xOffset="711" yOffset="-471"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>d</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>caron.alt</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

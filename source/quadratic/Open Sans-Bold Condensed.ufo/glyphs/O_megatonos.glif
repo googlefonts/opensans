@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omegatonos" format="1">
-  <advance width="1407"/>
+  <advance width="1229"/>
   <unicode hex="038F"/>
   <note>
-Omegatonos
-</note>
+    Omegatonos
+  </note>
   <outline>
-    <component base="Omega" xOffset="167"/>
-    <component base="tonos" xOffset="-448" yOffset="-52"/>
+    <component base="Omega"/>
+    <component base="tonos" xOffset="-567" yOffset="-52"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Omega</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

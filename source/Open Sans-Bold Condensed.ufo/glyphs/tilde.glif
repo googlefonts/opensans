@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tilde" format="1">
-  <advance width="1135"/>
+  <advance width="694"/>
   <unicode hex="02DC"/>
   <note>
     tilde
   </note>
   <outline>
-    <component base="tildecomb" xOffset="221"/>
+    <component base="tildecomb"/>
   </outline>
   <lib>
     <dict>
@@ -14,7 +14,7 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>

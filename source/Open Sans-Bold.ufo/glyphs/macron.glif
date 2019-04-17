@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="1">
-  <advance width="1024"/>
+  <advance width="600"/>
   <unicode hex="00AF"/>
   <note>
     macron
   </note>
   <outline>
-    <component base="macroncomb" xOffset="196"/>
+    <component base="macroncomb"/>
   </outline>
   <lib>
     <dict>
@@ -14,7 +14,7 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>

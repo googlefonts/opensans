@@ -6,30 +6,7 @@
     afii57700
   </note>
   <outline>
-    <component base="vav-hb" xOffset="386"/>
-    <component base="holam-hb" xOffset="244" yOffset="-60"/>
+    <component base="vav-hb"/>
+    <component base="holam-hb" xOffset="313" yOffset="-69"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>vav-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>holam-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

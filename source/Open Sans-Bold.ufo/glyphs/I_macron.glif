@@ -6,24 +6,13 @@
     Imacron
   </note>
   <outline>
-    <component base="I" xOffset="10"/>
-    <component base="macroncomb" xOffset="34" yOffset="331"/>
+    <component base="I"/>
+    <component base="macroncomb" xOffset="39" yOffset="331"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>I</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

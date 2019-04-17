@@ -6,21 +6,20 @@ dotbelowcomb
 </note>
   <outline>
     <contour>
-      <point x="-592.0" y="-319.0" type="qcurve" smooth="yes"/>
-      <point x="-621.25" y="-319.0"/>
-      <point x="-657.0" y="-269.25"/>
-      <point x="-657.0" y="-225.0" type="qcurve" smooth="yes"/>
-      <point x="-657.0" y="-131.0"/>
-      <point x="-592.0" y="-131.0" type="qcurve" smooth="yes"/>
-      <point x="-532.0" y="-131.0"/>
-      <point x="-532.0" y="-225.0" type="qcurve" smooth="yes"/>
-      <point x="-532.0" y="-319.0"/>
+      <point x="3.0" y="-319.0" type="qcurve" smooth="yes"/>
+      <point x="-63.0" y="-319.0"/>
+      <point x="-63.0" y="-225.0" type="qcurve" smooth="yes"/>
+      <point x="-63.0" y="-131.0"/>
+      <point x="3.0" y="-131.0" type="qcurve" smooth="yes"/>
+      <point x="63.0" y="-131.0"/>
+      <point x="63.0" y="-225.0" type="qcurve" smooth="yes"/>
+      <point x="63.0" y="-319.0"/>
     </contour>
     <contour>
-      <point x="-595" y="0" type="move" name="_bottom"/>
+      <point x="-1" y="0" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-595" y="-319" type="move" name="bottom"/>
+      <point x="-1" y="-319" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

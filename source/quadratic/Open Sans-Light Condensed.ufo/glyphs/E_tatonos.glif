@@ -1,27 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etatonos" format="1">
-  <advance width="1163"/>
+  <advance width="1026"/>
   <unicode hex="0389"/>
   <note>
-Etatonos
-</note>
+    Etatonos
+  </note>
   <outline>
-    <component base="Eta" xOffset="137"/>
-    <component base="tonos" xOffset="-529" yOffset="-95"/>
+    <component base="Eta"/>
+    <component base="tonos" xOffset="-617" yOffset="-95"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Eta</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

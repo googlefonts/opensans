@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wgrave" format="1">
   <advance width="2128"/>
   <unicode hex="1E80"/>
   <note>
-Wgrave
-</note>
+    Wgrave
+  </note>
   <outline>
     <component base="W"/>
-    <component base="grave" xOffset="340" yOffset="338"/>
+    <component base="grave" xOffset="934" yOffset="339"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>W</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>grave</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

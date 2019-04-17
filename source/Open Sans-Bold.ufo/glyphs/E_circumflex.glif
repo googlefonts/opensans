@@ -6,30 +6,7 @@
     Ecircumflex
   </note>
   <outline>
-    <component base="E" xOffset="-8"/>
-    <component base="circumflex" xOffset="-12" yOffset="338"/>
+    <component base="E"/>
+    <component base="circumflex" xOffset="139" yOffset="331"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>E</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflex</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

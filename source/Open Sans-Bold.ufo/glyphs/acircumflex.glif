@@ -6,30 +6,7 @@
     acircumflex
   </note>
   <outline>
-    <component base="a" xOffset="-95"/>
-    <component base="circumflexcomb" xOffset="4" yOffset="-14"/>
+    <component base="a"/>
+    <component base="circumflexcomb" xOffset="180" yOffset="-12"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>a</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>circumflexcomb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

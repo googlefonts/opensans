@@ -7,31 +7,12 @@
   </note>
   <outline>
     <component base="C"/>
-    <component base="cyrillichookleft" xOffset="551.200"/>
+    <component base="cyrillichookleft" xOffset="473" yOffset="-3"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>C</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>cyrillichookleft</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

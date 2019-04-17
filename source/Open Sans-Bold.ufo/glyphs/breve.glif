@@ -6,7 +6,7 @@
     breve
   </note>
   <outline>
-    <component base="brevecomb" xOffset="1"/>
+    <component base="brevecomb"/>
   </outline>
   <lib>
     <dict>
@@ -14,7 +14,7 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>

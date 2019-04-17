@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="vav-hb"/>
-    <component base="holam-hb" xOffset="164"/>
+    <component base="holam-hb" xOffset="194" yOffset="-298"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>vav-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>holam-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

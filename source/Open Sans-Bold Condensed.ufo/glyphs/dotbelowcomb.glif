@@ -7,24 +7,24 @@
   </note>
   <outline>
     <contour>
-      <point x="-713.1" y="-416.3" type="curve" smooth="yes"/>
-      <point x="-613.8" y="-416.3"/>
-      <point x="-558.6" y="-365.9"/>
-      <point x="-558.6" y="-274.7" type="curve" smooth="yes"/>
-      <point x="-558.6" y="-185.3"/>
-      <point x="-610.3" y="-131"/>
-      <point x="-713.1" y="-131" type="curve" smooth="yes"/>
-      <point x="-815.8" y="-131"/>
-      <point x="-868.4" y="-179"/>
-      <point x="-868.4" y="-274.7" type="curve" smooth="yes"/>
-      <point x="-868.4" y="-369.4"/>
-      <point x="-812.3" y="-416.3"/>
+      <point x="0" y="-416" type="curve" smooth="yes"/>
+      <point x="100" y="-416"/>
+      <point x="155" y="-366"/>
+      <point x="155" y="-275" type="curve" smooth="yes"/>
+      <point x="155" y="-185"/>
+      <point x="103" y="-131"/>
+      <point x="0" y="-131" type="curve" smooth="yes"/>
+      <point x="-102" y="-131"/>
+      <point x="-155" y="-179"/>
+      <point x="-155" y="-275" type="curve" smooth="yes"/>
+      <point x="-155" y="-369"/>
+      <point x="-99" y="-416"/>
     </contour>
     <contour>
-      <point x="-714.7" y="0" type="move" name="_bottom"/>
+      <point x="-1" y="0" type="move" name="_bottom"/>
     </contour>
     <contour>
-      <point x="-714.7" y="-416.3" type="move" name="bottom"/>
+      <point x="-1" y="-416" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

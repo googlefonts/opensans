@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotaccent" format="1">
   <advance width="678"/>
   <unicode hex="0130"/>
   <note>
-Idotaccent
-</note>
+    Idotaccent
+  </note>
   <outline>
-    <component base="I" xOffset="25"/>
-    <component base="dotaccent" xOffset="44" yOffset="338"/>
+    <component base="I"/>
+    <component base="dotaccent" xOffset="25" yOffset="343"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>I</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dotaccent</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

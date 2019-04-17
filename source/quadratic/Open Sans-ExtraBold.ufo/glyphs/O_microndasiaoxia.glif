@@ -1,27 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omicrondasiaoxia" format="1">
-  <advance width="2173"/>
+  <advance width="1632"/>
   <unicode hex="1F4D"/>
   <note>
-uni1F4D
-</note>
+    uni1F4D
+  </note>
   <outline>
-    <component base="O" xOffset="541"/>
-    <component base="dasiaoxia" xOffset="-72"/>
+    <component base="O"/>
+    <component base="dasiaoxia" xOffset="-610"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>O</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>quoteleft</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

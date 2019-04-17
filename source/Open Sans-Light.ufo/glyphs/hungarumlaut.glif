@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="1">
-  <advance width="1167"/>
+  <advance width="1162"/>
   <unicode hex="02DD"/>
   <note>
     hungarumlaut
   </note>
   <outline>
-    <component base="hungarumlautcomb" xOffset="-33"/>
+    <component base="hungarumlautcomb"/>
     <contour>
       <point x="479" y="1124" type="move" name="_top"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>hungarumlautcomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

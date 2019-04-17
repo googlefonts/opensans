@@ -1,37 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Acircumflexhookabove" format="1">
   <advance width="1214"/>
   <unicode hex="1EA8"/>
   <note>
-uni1EA8
-</note>
+    uni1EA8
+  </note>
   <outline>
     <component base="A"/>
-    <component base="g889" xOffset="1353" yOffset="338"/>
+    <component base="g889" xOffset="1350" yOffset="338"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>A</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>g889</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

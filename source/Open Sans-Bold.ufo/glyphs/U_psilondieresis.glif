@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="Upsilon"/>
-    <component base="dieresis" xOffset="34.600" yOffset="338"/>
+    <component base="dieresis" xOffset="16" yOffset="331"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Upsilon</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dieresis</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="alef-hb"/>
-    <component base="patah-hb" xOffset="572" yOffset="-110"/>
+    <component base="patah-hb" xOffset="550" yOffset="102"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>alef-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>patah-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

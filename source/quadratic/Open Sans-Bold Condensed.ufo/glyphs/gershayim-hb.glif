@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gershayim-hb" format="1">
-  <advance width="682"/>
+  <advance width="704"/>
   <unicode hex="05F4"/>
   <note>
-gershayimhb
-</note>
+    gershayimhb
+  </note>
   <outline>
-    <component base="geresh-hb" xOffset="329"/>
+    <component base="geresh-hb" xOffset="352"/>
     <component base="geresh-hb"/>
   </outline>
   <lib>
@@ -15,7 +15,7 @@ gershayimhb
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
@@ -23,7 +23,7 @@ gershayimhb
         </dict>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>

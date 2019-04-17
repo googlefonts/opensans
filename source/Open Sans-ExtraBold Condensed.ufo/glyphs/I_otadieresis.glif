@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="Iota"/>
-    <component base="dieresis" xOffset="-216" yOffset="338"/>
+    <component base="dieresis" xOffset="-416" yOffset="310"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Iota</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dieresis</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

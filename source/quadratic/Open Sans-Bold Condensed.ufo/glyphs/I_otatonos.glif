@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotatonos" format="1">
-  <advance width="827"/>
+  <advance width="614"/>
   <unicode hex="038A"/>
   <note>
-Iotatonos
-</note>
+    Iotatonos
+  </note>
   <outline>
-    <component base="Iota" xOffset="229"/>
-    <component base="tonos" xOffset="-468" yOffset="-52"/>
+    <component base="Iota"/>
+    <component base="tonos" xOffset="-649" yOffset="-52"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Iota</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

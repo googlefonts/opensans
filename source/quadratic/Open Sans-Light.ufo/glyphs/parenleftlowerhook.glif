@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="parenleftlowerhook" format="1">
   <advance width="627"/>
   <unicode hex="239D"/>
   <note>
-    parenleftlowerhook
-  </note>
+parenleftlowerhook
+</note>
   <outline>
     <contour>
       <point x="432" y="-600" type="line"/>
-      <point x="104" y="-324.42009"/>
+      <point x="104.0" y="-324.42009132420094"/>
       <point x="104" y="305" type="qcurve" smooth="yes"/>
       <point x="104" y="2189" type="line"/>
       <point x="279" y="2189" type="line"/>
-      <point x="279" y="305" type="line" smooth="yes"/>
-      <point x="279" y="65.5"/>
-      <point x="342.91667" y="-260"/>
-      <point x="486.5" y="-495.5"/>
+      <point x="279.0" y="305.0" type="line" smooth="yes"/>
+      <point x="279.0" y="65.5"/>
+      <point x="342.91666666666663" y="-260.0"/>
+      <point x="486.50000000000006" y="-495.50000000000006"/>
       <point x="606" y="-600" type="qcurve"/>
     </contour>
   </outline>

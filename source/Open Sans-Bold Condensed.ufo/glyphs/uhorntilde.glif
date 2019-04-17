@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="uhorn"/>
-    <component base="tilde" xOffset="-54"/>
+    <component base="tilde" xOffset="167"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>uhorn</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tilde</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

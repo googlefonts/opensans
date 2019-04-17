@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb" format="1">
-  <advance width="0"/>
   <unicode hex="0308"/>
   <note>
-    dieresis
-  </note>
+dieresis
+</note>
   <outline>
     <contour>
-      <point x="190" y="1303" type="qcurve" smooth="yes"/>
-      <point x="127" y="1303"/>
-      <point x="127" y="1389" type="qcurve" smooth="yes"/>
-      <point x="127" y="1475"/>
-      <point x="190" y="1475" type="qcurve" smooth="yes"/>
-      <point x="254" y="1475"/>
-      <point x="254" y="1389" type="qcurve" smooth="yes"/>
-      <point x="254" y="1303"/>
+      <point x="-373.0" y="1303.0" type="qcurve" smooth="yes"/>
+      <point x="-436.0" y="1303.0"/>
+      <point x="-436.0" y="1389.0" type="qcurve" smooth="yes"/>
+      <point x="-436.0" y="1475.0"/>
+      <point x="-373.0" y="1475.0" type="qcurve" smooth="yes"/>
+      <point x="-309.0" y="1475.0"/>
+      <point x="-309.0" y="1389.0" type="qcurve" smooth="yes"/>
+      <point x="-309.0" y="1303.0"/>
     </contour>
     <contour>
-      <point x="-191" y="1303" type="qcurve" smooth="yes"/>
-      <point x="-254" y="1303"/>
-      <point x="-254" y="1389" type="qcurve" smooth="yes"/>
-      <point x="-254" y="1475"/>
-      <point x="-191" y="1475" type="qcurve" smooth="yes"/>
-      <point x="-127" y="1475"/>
-      <point x="-127" y="1389" type="qcurve" smooth="yes"/>
-      <point x="-127" y="1303"/>
+      <point x="-754.0" y="1303.0" type="qcurve" smooth="yes"/>
+      <point x="-817.0" y="1303.0"/>
+      <point x="-817.0" y="1389.0" type="qcurve" smooth="yes"/>
+      <point x="-817.0" y="1475.0"/>
+      <point x="-754.0" y="1475.0" type="qcurve" smooth="yes"/>
+      <point x="-690.0" y="1475.0"/>
+      <point x="-690.0" y="1389.0" type="qcurve" smooth="yes"/>
+      <point x="-690.0" y="1303.0"/>
     </contour>
     <contour>
-      <point x="0" y="1127" type="move" name="_top"/>
+      <point x="-563" y="1127" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="0" y="1475" type="move" name="top"/>
+      <point x="-563" y="1475" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -1,27 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohungarumlaut" format="1">
   <advance width="1305"/>
   <unicode hex="0151"/>
   <note>
-ohungarumlaut
-</note>
+    ohungarumlaut
+  </note>
   <outline>
     <component base="o"/>
-    <component base="hungarumlautcomb" xOffset="162"/>
+    <component base="hungarumlautcomb" xOffset="54"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>hungarumlautcomb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="w"/>
-    <component base="dieresiscomb" xOffset="35.400" yOffset="-30.100"/>
+    <component base="dieresiscomb" xOffset="175" yOffset="-30"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>w</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dieresiscomb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

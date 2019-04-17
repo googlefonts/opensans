@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="t"/>
-    <component base="cedillacomb" xOffset="205"/>
+    <component base="cedillacomb" xOffset="184"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>t</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>cedillacomb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

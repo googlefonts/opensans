@@ -1,11 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="1">
-  <advance width="1112"/>
+  <advance width="1530"/>
   <unicode hex="02D8"/>
   <note>
-breve
-</note>
+    breve
+  </note>
   <outline>
-    <component base="brevecomb" xOffset="-207"/>
+    <component base="brevecomb"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>brevecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

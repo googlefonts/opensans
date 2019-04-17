@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="1">
-  <advance width="1350"/>
+  <advance width="1124"/>
   <unicode hex="0388"/>
   <note>
     Epsilontonos
   </note>
   <outline>
-    <component base="Epsilon" xOffset="225"/>
-    <component base="tonos" xOffset="-486" yOffset="-105"/>
+    <component base="Epsilon"/>
+    <component base="tonos" xOffset="-700" yOffset="-94"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Epsilon</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonos" format="1">
   <advance width="1123"/>
   <unicode hex="0384"/>
   <note>
-    tonos
-  </note>
+tonos
+</note>
   <outline>
     <contour>
-      <point x="453" y="1241" type="line"/>
-      <point x="453" y="1257" type="line"/>
-      <point x="482" y="1332"/>
-      <point x="537" y="1550"/>
-      <point x="552" y="1651" type="qcurve"/>
-      <point x="671" y="1651" type="line"/>
-      <point x="671" y="1634" type="line"/>
-      <point x="659" y="1583"/>
-      <point x="609" y="1443"/>
-      <point x="545" y="1300"/>
-      <point x="511" y="1241" type="qcurve"/>
+      <point x="501" y="1241" type="line"/>
+      <point x="501.0" y="1257.0" type="line"/>
+      <point x="530.25" y="1332.0"/>
+      <point x="585.75" y="1549.75"/>
+      <point x="600" y="1651" type="qcurve"/>
+      <point x="719" y="1651" type="line"/>
+      <point x="719.0" y="1634.0" type="line"/>
+      <point x="707.0" y="1582.5"/>
+      <point x="657.75" y="1443.3333333333335"/>
+      <point x="593.5" y="1299.5"/>
+      <point x="559" y="1241" type="qcurve"/>
     </contour>
     <contour>
-      <point x="575" y="1112" type="move" name="_top"/>
+      <point x="623" y="1112" type="move" name="_top"/>
     </contour>
     <contour>
-      <point x="762" y="1556" type="move" name="_topleft"/>
+      <point x="810" y="1556" type="move" name="_topleft"/>
     </contour>
   </outline>
 </glyph>

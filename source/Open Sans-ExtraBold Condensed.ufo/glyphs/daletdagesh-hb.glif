@@ -7,29 +7,6 @@
   </note>
   <outline>
     <component base="dalet-hb"/>
-    <component base="dagesh-hb" xOffset="209" yOffset="-30"/>
+    <component base="dagesh-hb" xOffset="343" yOffset="-88"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>dalet-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dagesh-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

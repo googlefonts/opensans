@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="finalpedagesh-hb" format="1">
   <advance width="1005"/>
   <unicode hex="FB43"/>
   <note>
-uniFB43
-</note>
+    uniFB43
+  </note>
   <outline>
     <component base="finalpe-hb"/>
-    <component base="dagesh-hb" xOffset="383.2" yOffset="209.9"/>
+    <component base="dagesh-hb" xOffset="390" yOffset="118"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>finalpe-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dagesh-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

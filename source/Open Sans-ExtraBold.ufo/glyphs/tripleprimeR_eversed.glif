@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tripleprimeReversed" format="1">
-  <advance width="1233"/>
+  <advance width="1425"/>
   <unicode hex="2037"/>
   <outline>
-    <component base="primeReversed" xOffset="666"/>
-    <component base="primeReversed" xOffset="334"/>
     <component base="primeReversed"/>
+    <component base="primeReversed" xOffset="475"/>
+    <component base="primeReversed" xOffset="950"/>
   </outline>
   <lib>
     <dict>
@@ -13,7 +13,7 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
@@ -21,7 +21,7 @@
         </dict>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
@@ -29,7 +29,7 @@
         </dict>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>2</integer>
           <key>name</key>

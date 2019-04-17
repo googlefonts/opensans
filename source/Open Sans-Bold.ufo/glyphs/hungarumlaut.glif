@@ -6,9 +6,9 @@
     hungarumlaut
   </note>
   <outline>
-    <component base="hungarumlautcomb" xOffset="-1"/>
+    <component base="hungarumlautcomb"/>
     <contour>
-      <point x="497" y="1126" type="move" name="_top"/>
+      <point x="498" y="1126" type="move" name="_top"/>
     </contour>
   </outline>
   <lib>
@@ -17,7 +17,7 @@
       <array>
         <dict>
           <key>alignment</key>
-          <integer>-1</integer>
+          <integer>1</integer>
           <key>index</key>
           <integer>0</integer>
           <key>name</key>

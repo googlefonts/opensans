@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iotatonos.ss01" format="1">
-  <advance width="1208"/>
+  <advance width="901"/>
   <note>
     g346
   </note>
   <outline>
-    <component base="I.ss01" xOffset="307"/>
-    <component base="tonos" xOffset="-486" yOffset="-105"/>
+    <component base="I.ss01"/>
+    <component base="tonos" xOffset="-705" yOffset="-94"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>I.ss01</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

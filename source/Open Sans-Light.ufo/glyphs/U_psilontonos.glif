@@ -1,35 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Upsilontonos" format="1">
-  <advance width="1321"/>
+  <advance width="1081"/>
   <unicode hex="038E"/>
   <note>
     Upsilontonos
   </note>
   <outline>
-    <component base="Upsilon" xOffset="240"/>
-    <component base="tonos" xOffset="-570" yOffset="-105"/>
+    <component base="Upsilon"/>
+    <component base="tonos" xOffset="-790" yOffset="-94"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Upsilon</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tonos</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

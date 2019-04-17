@@ -6,32 +6,13 @@
     uni1EC1
   </note>
   <outline>
-    <component base="e" xOffset="1"/>
-    <component base="g888" xOffset="1210"/>
+    <component base="e"/>
+    <component base="g888" xOffset="1198" yOffset="-10"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndexLayer</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>e</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>g888</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

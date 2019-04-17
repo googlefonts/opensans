@@ -6,30 +6,7 @@
     Igrave
   </note>
   <outline>
-    <component base="I" xOffset="47"/>
-    <component base="grave" xOffset="-356" yOffset="338"/>
+    <component base="I"/>
+    <component base="grave" xOffset="223" yOffset="338"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>I</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>grave</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lameddagesh-hb" format="1">
   <advance width="823"/>
   <unicode hex="FB3C"/>
   <note>
-uniFB3C
-</note>
+    uniFB3C
+  </note>
   <outline>
     <component base="lamed-hb"/>
-    <component base="dagesh-hb" xOffset="153.3" yOffset="-21"/>
+    <component base="dagesh-hb" xOffset="317" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>lamed-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dagesh-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

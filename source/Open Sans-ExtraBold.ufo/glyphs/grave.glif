@@ -6,6 +6,21 @@
     grave
   </note>
   <outline>
-    <component base="gravecomb" xOffset="1411"/>
+    <component base="gravecomb"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>gravecomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

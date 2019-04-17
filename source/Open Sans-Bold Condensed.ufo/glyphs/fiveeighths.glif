@@ -1,44 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fiveeighths" format="1">
-  <advance width="1597"/>
+  <advance width="1601"/>
   <unicode hex="215D"/>
   <note>
     fiveeighths
   </note>
   <outline>
-    <component base="five.numr" xOffset="-3"/>
-    <component base="fraction" xOffset="706"/>
-    <component base="eight.dnom" xOffset="942"/>
+    <component base="five.numr"/>
+    <component base="fraction" xOffset="712"/>
+    <component base="eight.dnom" xOffset="913"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>five.numr</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>fraction</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>eight.dnom</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

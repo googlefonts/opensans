@@ -1,35 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reshdagesh-hb" format="1">
   <advance width="822"/>
   <unicode hex="FB48"/>
   <note>
-uniFB48
-</note>
+    uniFB48
+  </note>
   <outline>
     <component base="resh-hb"/>
-    <component base="dagesh-hb" xOffset="233.3" yOffset="-21"/>
+    <component base="dagesh-hb" xOffset="316" yOffset="-100"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>resh-hb</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>dagesh-hb</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

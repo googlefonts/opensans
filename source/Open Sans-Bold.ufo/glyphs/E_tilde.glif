@@ -6,30 +6,7 @@
     uni1EBC
   </note>
   <outline>
-    <component base="E" xOffset="-24"/>
-    <component base="tilde" xOffset="-43" yOffset="337"/>
+    <component base="E"/>
+    <component base="tilde" xOffset="580" yOffset="331"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>E</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>tilde</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
