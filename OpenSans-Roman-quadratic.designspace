@@ -8,7 +8,7 @@
             <map input="700" output="310" />
             <map input="800" output="400" />
         </axis>
-        <axis default="5" maximum="5" minimum="3" name="width" tag="wdth" />
+        <axis default="100" maximum="100" minimum="60" name="width" tag="wdth" />
     </axes>
     <sources>
         <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-Light.ufo" name="Open Sans V Light" stylename="Light">
@@ -18,25 +18,25 @@
             <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="100" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
         </source>
         <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-ExtraBold.ufo" name="Open Sans V ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="400" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
         </source>
         <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-Light Condensed.ufo" name="Open Sans V Condensed Light" stylename="Condensed Light">
             <location>
                 <dimension name="weight" xvalue="100" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
         </source>
         <source familyname="Open Sans V" filename="./source/quadratic/Open Sans-ExtraBold Condensed.ufo" name="Open Sans V ExtraBold Condensed" stylename="ExtraBold Condensed">
             <location>
                 <dimension name="weight" xvalue="400" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
         </source>
     </sources>
@@ -44,32 +44,32 @@
         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Light.ufo" name="Open Sans Light" stylemapfamilyname="Open Sans Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="100" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Regular.ufo" name="Open Sans Regular" stylemapfamilyname="Open Sans" stylemapstylename="regular" stylename="Regular">
+        <instance familyname="Open Sans" name="Open Sans Regular" stylemapfamilyname="Open Sans" stylemapstylename="regular" stylename="Regular">
             <location>
                 <dimension name="weight" xvalue="170" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
             <kerning />
             <info />
         </instance>
-        <!--         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Semi-Bold.ufo" name="Open Sans Semi-Bold" stylemapfamilyname="Open Sans Light" stylemapstylename="bold" stylename="Semi-Bold">
+        <instance familyname="Open Sans" name="Open Sans Semi-Bold" stylemapfamilyname="Open Sans Light" stylemapstylename="bold" stylename="Semi-Bold">
             <location>
                 <dimension name="weight" xvalue="239" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
             <kerning />
             <info />
         </instance>
- -->
+
         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Bold.ufo" name="Open Sans Bold" stylemapfamilyname="Open Sans" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="310" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
             <kerning />
             <info />
@@ -77,7 +77,7 @@
         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-ExtraBold.ufo" name="Open Sans Extra-Bold" stylemapfamilyname="Open Sans Extra-Bold" stylemapstylename="regular" stylename="Extra-Bold">
             <location>
                 <dimension name="weight" xvalue="400" />
-                <dimension name="width" xvalue="5" />
+                <dimension name="width" xvalue="100" />
             </location>
             <kerning />
             <info />
@@ -99,32 +99,32 @@
         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Light Condensed.ufo" name="Open Sans Light Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="regular" stylename="Light Condensed">
             <location>
                 <dimension name="weight" xvalue="100" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
             <kerning />
             <info />
         </instance>
-        <!--         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Condensed.ufo" name="Open Sans Condensed" stylemapfamilyname="Open Sans Condensed" stylemapstylename="regular" stylename="Condensed">
+        <instance familyname="Open Sans" name="Open Sans Condensed" stylemapfamilyname="Open Sans Condensed" stylemapstylename="regular" stylename="Condensed">
             <location>
                 <dimension name="weight" xvalue="170" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Semi-BoldCondensed.ufo" name="Open Sans Semi-Bold Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="bold" stylename="Semi-Bold Condensed">
+        <instance familyname="Open Sans" name="Open Sans Semi-Bold Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="bold" stylename="Semi-Bold Condensed">
             <location>
                 <dimension name="weight" xvalue="239" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
             <kerning />
             <info />
         </instance>
- -->
+
         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-Bold Condensed.ufo" name="Open Sans Bold Condensed" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold" stylename="Bold Condensed">
             <location>
                 <dimension name="weight" xvalue="310" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
             <kerning />
             <info />
@@ -132,7 +132,7 @@
         <instance familyname="Open Sans" filename="./source/quadratic/OpenSans-ExtraBold Condensed.ufo" name="Open Sans Extra-Bold Condensed" stylemapfamilyname="Open Sans Extra-Bold Condensed" stylemapstylename="regular" stylename="Extra-Bold Condensed">
             <location>
                 <dimension name="weight" xvalue="400" />
-                <dimension name="width" xvalue="3" />
+                <dimension name="width" xvalue="60" />
             </location>
             <kerning />
             <info />
