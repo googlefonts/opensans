@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="stretchedyehArabic-math" format="1">
+  <advance width="1280"/>
+  <unicode hex="1EE69"/>
+  <outline>
+    <contour>
+      <point x="1001" y="-57" type="curve"/>
+      <point x="1038" y="-23"/>
+      <point x="1104" y="49"/>
+      <point x="1124" y="84" type="curve"/>
+      <point x="1083" y="121"/>
+      <point x="1044" y="158"/>
+      <point x="997" y="207" type="curve"/>
+      <point x="963" y="166"/>
+      <point x="913" y="111"/>
+      <point x="866" y="70" type="curve"/>
+      <point x="905" y="25"/>
+      <point x="954" y="-20"/>
+    </contour>
+    <contour>
+      <point x="694" y="-86" type="curve"/>
+      <point x="727" y="-53"/>
+      <point x="793" y="18"/>
+      <point x="815" y="53" type="curve"/>
+      <point x="774" y="90"/>
+      <point x="735" y="129"/>
+      <point x="690" y="176" type="curve"/>
+      <point x="655" y="137"/>
+      <point x="604" y="84"/>
+      <point x="557" y="39" type="curve"/>
+      <point x="596" y="-6"/>
+      <point x="647" y="-49"/>
+    </contour>
+    <component base="stretcheddotlessbehArabic-math"/>
+    <contour>
+      <point x="893" y="1212" type="move" name="mark0"/>
+    </contour>
+    <contour>
+      <point x="1001" y="-143" type="move" name="mark1"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>stretcheddotlessbehArabic-math</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>stretcheddotlessbehArabic-math</string>
+    </dict>
+  </lib>
+</glyph>
