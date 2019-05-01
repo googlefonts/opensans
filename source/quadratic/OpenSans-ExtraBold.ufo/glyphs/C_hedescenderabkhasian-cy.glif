@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Chedescenderabkhasian-cy" format="1">
   <advance width="1948"/>
   <unicode hex="04BE"/>
   <note>
-    uni04BE
-  </note>
+uni04BE
+</note>
   <outline>
     <contour>
       <point x="952" y="-455" type="line"/>
-      <point x="1337" y="-455" type="line"/>
-      <point x="1337" y="8" type="line"/>
       <point x="952" y="16" type="line"/>
+      <point x="1337" y="8" type="line"/>
+      <point x="1337" y="-455" type="line"/>
     </contour>
     <component base="Cheabkhasian-cy"/>
   </outline>

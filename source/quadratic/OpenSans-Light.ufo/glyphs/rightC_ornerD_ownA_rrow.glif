@@ -1,36 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightCornerDownArrow" format="1">
   <advance width="1417"/>
   <unicode hex="21B4"/>
   <note>
-    rightCornerDownArrow
-  </note>
+rightCornerDownArrow
+</note>
   <outline>
     <contour>
       <point x="823" y="248" type="line"/>
-      <point x="934" y="248" type="line"/>
-      <point x="934" y="885" type="line"/>
-      <point x="236" y="885" type="line"/>
-      <point x="236" y="774" type="line"/>
       <point x="823" y="774" type="line"/>
+      <point x="236" y="774" type="line"/>
+      <point x="236" y="885" type="line"/>
+      <point x="934" y="885" type="line"/>
+      <point x="934" y="248" type="line"/>
     </contour>
     <contour>
-      <point x="856" y="119" type="curve"/>
-      <point x="901" y="119" type="line"/>
-      <point x="961" y="238"/>
-      <point x="1055" y="352"/>
-      <point x="1182" y="461" type="curve"/>
-      <point x="1182" y="551" type="line"/>
-      <point x="1063" y="496"/>
-      <point x="973" y="440"/>
-      <point x="920" y="387" type="curve"/>
-      <point x="838" y="387" type="line"/>
-      <point x="784" y="440"/>
-      <point x="694" y="496"/>
-      <point x="575" y="551" type="curve"/>
-      <point x="575" y="461" type="line"/>
-      <point x="702" y="352"/>
-      <point x="797" y="238"/>
+      <point x="856" y="119" type="line"/>
+      <point x="768.9814558857406" y="294.5119788067266"/>
+      <point x="575" y="461" type="qcurve"/>
+      <point x="575.0" y="551.0" type="line"/>
+      <point x="756.263709919089" y="467.2226550794127"/>
+      <point x="838" y="387" type="qcurve"/>
+      <point x="920.0" y="387.0" type="line"/>
+      <point x="999.78125" y="466.78125"/>
+      <point x="1182" y="551" type="qcurve"/>
+      <point x="1182.0" y="461.0" type="line"/>
+      <point x="990.6185699288463" y="296.7434970255453"/>
+      <point x="901" y="119" type="qcurve"/>
     </contour>
   </outline>
 </glyph>

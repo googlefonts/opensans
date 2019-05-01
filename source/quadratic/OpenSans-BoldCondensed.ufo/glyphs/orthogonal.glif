@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="orthogonal" format="1">
   <advance width="1335"/>
   <unicode hex="221F"/>
   <note>
-    orthogonal
-  </note>
+orthogonal
+</note>
   <outline>
     <contour>
       <point x="104" y="0" type="line"/>
-      <point x="1231" y="0" type="line"/>
-      <point x="1231" y="145" type="line"/>
-      <point x="250" y="145" type="line"/>
-      <point x="250" y="1126" type="line"/>
       <point x="104" y="1126" type="line"/>
+      <point x="250" y="1126" type="line"/>
+      <point x="250" y="145" type="line"/>
+      <point x="1231" y="145" type="line"/>
+      <point x="1231" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

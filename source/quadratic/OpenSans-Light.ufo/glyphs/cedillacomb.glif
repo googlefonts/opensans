@@ -1,34 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedillacomb" format="1">
-  <advance width="0"/>
   <unicode hex="0327"/>
   <note>
-    cedilla
-  </note>
+cedilla
+</note>
   <outline>
     <contour>
-      <point x="-324" y="-492" type="curve" smooth="yes"/>
-      <point x="-163" y="-492"/>
-      <point x="-68" y="-424"/>
-      <point x="-68" y="-291" type="curve" smooth="yes"/>
-      <point x="-68" y="-200"/>
-      <point x="-124" y="-142"/>
-      <point x="-236" y="-117" type="curve"/>
-      <point x="-170" y="0" type="line"/>
+      <point x="-324.0" y="-492.0" type="qcurve" smooth="yes"/>
+      <point x="-391.2857142857143" y="-492.0"/>
+      <point x="-418" y="-481" type="qcurve"/>
+      <point x="-418.0" y="-393.0" type="line"/>
+      <point x="-389.42857142857144" y="-403.0"/>
+      <point x="-326.0" y="-403.0" type="qcurve" smooth="yes"/>
+      <point x="-166.0" y="-403.0"/>
+      <point x="-166.0" y="-295.0" type="qcurve" smooth="yes"/>
+      <point x="-166.0" y="-200.93023255813955"/>
+      <point x="-359" y="-174" type="qcurve"/>
       <point x="-266" y="0" type="line"/>
-      <point x="-359" y="-174" type="line"/>
-      <point x="-230" y="-192"/>
-      <point x="-166" y="-232"/>
-      <point x="-166" y="-295" type="curve" smooth="yes"/>
-      <point x="-166" y="-364"/>
-      <point x="-222" y="-403"/>
-      <point x="-326" y="-403" type="curve" smooth="yes"/>
-      <point x="-367" y="-403"/>
-      <point x="-398" y="-400"/>
-      <point x="-418" y="-393" type="curve"/>
-      <point x="-418" y="-481" type="line"/>
-      <point x="-401" y="-488"/>
-      <point x="-369" y="-492"/>
+      <point x="-170" y="0" type="line"/>
+      <point x="-236.0" y="-117.0" type="line"/>
+      <point x="-68.0" y="-154.5"/>
+      <point x="-68.0" y="-291.0" type="qcurve" smooth="yes"/>
+      <point x="-68.0" y="-390.75"/>
+      <point x="-203.25" y="-492.0"/>
     </contour>
     <contour>
       <point x="-243" y="0" type="move" name="_bottom"/>

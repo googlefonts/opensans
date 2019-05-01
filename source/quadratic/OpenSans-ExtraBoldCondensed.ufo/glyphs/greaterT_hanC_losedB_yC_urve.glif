@@ -1,31 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greaterThanClosedByCurve" format="1">
   <advance width="1556"/>
   <unicode hex="2AA7"/>
   <note>
-    greaterThanClosedByCurve
-  </note>
+greaterThanClosedByCurve
+</note>
   <outline>
     <contour>
-      <point x="487" y="197" type="curve"/>
-      <point x="1452" y="662" type="line"/>
+      <point x="487" y="197" type="line"/>
+      <point x="300.25" y="293.75"/>
+      <point x="104.0" y="575.25"/>
+      <point x="104.0" y="741.0" type="qcurve" smooth="yes"/>
+      <point x="104.0" y="903.75"/>
+      <point x="293.5" y="1183.25"/>
+      <point x="487" y="1286" type="qcurve"/>
       <point x="1452" y="764" type="line"/>
-      <point x="487" y="1286" type="line"/>
-      <point x="229" y="1149"/>
-      <point x="104" y="958"/>
-      <point x="104" y="741" type="curve" smooth="yes"/>
-      <point x="104" y="520"/>
-      <point x="238" y="326"/>
+      <point x="1452" y="662" type="line"/>
     </contour>
     <contour>
-      <point x="487" y="356" type="line"/>
-      <point x="344" y="428"/>
-      <point x="240" y="590"/>
-      <point x="240" y="741" type="curve" smooth="yes"/>
-      <point x="240" y="897"/>
-      <point x="346" y="1063"/>
-      <point x="487" y="1126" type="curve"/>
+      <point x="487" y="356" type="qcurve"/>
       <point x="1260" y="721" type="line"/>
+      <point x="487.0" y="1126.0" type="line"/>
+      <point x="416.5" y="1094.5"/>
+      <point x="304.75" y="972.25"/>
+      <point x="240.0" y="819.0"/>
+      <point x="240.0" y="741.0" type="qcurve" smooth="yes"/>
+      <point x="240.0" y="665.5"/>
+      <point x="303.91666666666663" y="515.5833333333333"/>
+      <point x="415.5" y="392.0"/>
     </contour>
   </outline>
 </glyph>

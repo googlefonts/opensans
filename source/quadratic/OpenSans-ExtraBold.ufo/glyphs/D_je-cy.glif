@@ -1,44 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dje-cy" format="1">
   <advance width="1696"/>
   <unicode hex="0402"/>
   <note>
-    afii10051
-  </note>
+afii10051
+</note>
   <outline>
     <contour>
-      <point x="1167" y="-20" type="curve" smooth="yes"/>
-      <point x="1454" y="-20"/>
-      <point x="1597" y="128"/>
-      <point x="1597" y="424" type="curve" smooth="yes"/>
-      <point x="1597" y="545" type="line" smooth="yes"/>
-      <point x="1597" y="804"/>
-      <point x="1419" y="956"/>
-      <point x="1092" y="956" type="curve" smooth="yes"/>
-      <point x="805" y="956" type="line"/>
-      <point x="805" y="1139" type="line"/>
-      <point x="1198" y="1139" type="line"/>
-      <point x="1198" y="1462" type="line"/>
-      <point x="51" y="1462" type="line"/>
-      <point x="51" y="1139" type="line"/>
-      <point x="408" y="1139" type="line"/>
-      <point x="408" y="0" type="line"/>
-      <point x="805" y="0" type="line"/>
+      <point x="1167.0" y="-20.0" type="qcurve" smooth="yes"/>
+      <point x="1034.8947368421052" y="-20.0"/>
+      <point x="973" y="8" type="qcurve"/>
+      <point x="973.0" y="313.0" type="line"/>
+      <point x="1039.0" y="283.0"/>
+      <point x="1108.0" y="283.0" type="qcurve" smooth="yes"/>
+      <point x="1202.0" y="283.0"/>
+      <point x="1202" y="385" type="qcurve" smooth="yes"/>
+      <point x="1202.0" y="524.0" type="line" smooth="yes"/>
+      <point x="1202.0" y="633.0"/>
+      <point x="1081" y="633" type="qcurve" smooth="yes"/>
       <point x="805" y="633" type="line"/>
-      <point x="1081" y="633" type="line" smooth="yes"/>
-      <point x="1162" y="633"/>
-      <point x="1202" y="597"/>
-      <point x="1202" y="524" type="curve" smooth="yes"/>
-      <point x="1202" y="385" type="line" smooth="yes"/>
-      <point x="1202" y="317"/>
-      <point x="1171" y="283"/>
-      <point x="1108" y="283" type="curve" smooth="yes"/>
-      <point x="1062" y="283"/>
-      <point x="1017" y="293"/>
-      <point x="973" y="313" type="curve"/>
-      <point x="973" y="8" type="line"/>
-      <point x="1015" y="-11"/>
-      <point x="1080" y="-20"/>
+      <point x="805" y="0" type="line"/>
+      <point x="408" y="0" type="line"/>
+      <point x="408" y="1139" type="line"/>
+      <point x="51" y="1139" type="line"/>
+      <point x="51" y="1462" type="line"/>
+      <point x="1198" y="1462" type="line"/>
+      <point x="1198" y="1139" type="line"/>
+      <point x="805" y="1139" type="line"/>
+      <point x="805" y="956" type="line"/>
+      <point x="1092.0" y="956.0" type="line" smooth="yes"/>
+      <point x="1337.25" y="956.0"/>
+      <point x="1597.0" y="739.25"/>
+      <point x="1597" y="545" type="qcurve" smooth="yes"/>
+      <point x="1597.0" y="424.0" type="line" smooth="yes"/>
+      <point x="1597.0" y="-20.0"/>
     </contour>
   </outline>
 </glyph>

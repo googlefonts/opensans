@@ -1,28 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cyrillichookleft" format="1">
   <advance width="422"/>
   <outline>
     <contour>
-      <point x="166.4" y="-483.1" type="curve" smooth="yes"/>
-      <point x="314.1" y="-483.1"/>
-      <point x="407.9" y="-393.3"/>
-      <point x="407.9" y="-259.5" type="curve" smooth="yes"/>
-      <point x="407.9" y="-171.7"/>
-      <point x="361.2" y="-96.2"/>
-      <point x="228.9" y="0" type="curve"/>
-      <point x="60.6" y="0" type="line"/>
-      <point x="154.2" y="-87.3"/>
-      <point x="206.6" y="-160.3"/>
-      <point x="206.6" y="-228.5" type="curve" smooth="yes"/>
-      <point x="206.6" y="-285.4"/>
-      <point x="173.9" y="-313"/>
-      <point x="127.1" y="-313" type="curve" smooth="yes"/>
-      <point x="94.8" y="-313"/>
-      <point x="59" y="-307.9"/>
-      <point x="17.6" y="-297" type="curve"/>
-      <point x="17.6" y="-460.6" type="line"/>
-      <point x="69.1" y="-476.3"/>
-      <point x="117.9" y="-483.1"/>
+      <point x="166.4" y="-483.1" type="qcurve" smooth="yes"/>
+      <point x="91.40573248407647" y="-483.1"/>
+      <point x="17.6" y="-460.6" type="qcurve"/>
+      <point x="17.6" y="-297.0" type="line"/>
+      <point x="78.37064220183498" y="-313.0"/>
+      <point x="127.1" y="-313.0" type="qcurve" smooth="yes"/>
+      <point x="162.2" y="-313.0"/>
+      <point x="206.6" y="-271.17499999999995"/>
+      <point x="206.6" y="-228.5" type="qcurve" smooth="yes"/>
+      <point x="206.6" y="-177.35000000000002"/>
+      <point x="130.79999999999998" y="-65.475"/>
+      <point x="60.6" y="0" type="qcurve"/>
+      <point x="228.9" y="0.0" type="line"/>
+      <point x="328.125" y="-72.15"/>
+      <point x="407.9" y="-193.64999999999998"/>
+      <point x="407.9" y="-259.5" type="qcurve" smooth="yes"/>
+      <point x="407.9" y="-359.84999999999997"/>
+      <point x="277.175" y="-483.1"/>
     </contour>
     <contour>
       <point x="196.495" y="3" type="move" name="_bottom"/>

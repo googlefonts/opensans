@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Shha-cy" format="1">
   <advance width="1352"/>
   <unicode hex="04BA"/>
   <note>
-    uni04BA
-  </note>
+uni04BA
+</note>
   <outline>
     <contour>
       <point x="207" y="0" type="line"/>
-      <point x="309" y="0" type="line"/>
-      <point x="309" y="739" type="line"/>
-      <point x="512" y="811"/>
-      <point x="595" y="842"/>
-      <point x="762" y="842" type="curve" smooth="yes"/>
-      <point x="974" y="842"/>
-      <point x="1087" y="751"/>
-      <point x="1087" y="567" type="curve" smooth="yes"/>
-      <point x="1087" y="0" type="line"/>
-      <point x="1190" y="0" type="line"/>
-      <point x="1190" y="563" type="line" smooth="yes"/>
-      <point x="1190" y="812"/>
-      <point x="1043" y="938"/>
-      <point x="770" y="938" type="curve" smooth="yes"/>
-      <point x="645" y="938"/>
-      <point x="492" y="901"/>
-      <point x="309" y="827" type="curve"/>
-      <point x="309" y="1462" type="line"/>
       <point x="207" y="1462" type="line"/>
+      <point x="309" y="1462" type="line"/>
+      <point x="309.0" y="827.0" type="line"/>
+      <point x="583.5" y="938.0"/>
+      <point x="770.0" y="938.0" type="qcurve" smooth="yes"/>
+      <point x="974.75" y="938.0"/>
+      <point x="1190.0" y="749.75"/>
+      <point x="1190" y="563" type="qcurve" smooth="yes"/>
+      <point x="1190" y="0" type="line"/>
+      <point x="1087" y="0" type="line"/>
+      <point x="1087.0" y="567.0" type="line" smooth="yes"/>
+      <point x="1087.0" y="705.0"/>
+      <point x="921.0" y="842.0"/>
+      <point x="762.0" y="842.0" type="qcurve" smooth="yes"/>
+      <point x="678.5" y="842.0"/>
+      <point x="550.5" y="820.5"/>
+      <point x="410.5" y="775.0"/>
+      <point x="309" y="739" type="qcurve"/>
+      <point x="309" y="0" type="line"/>
     </contour>
     <contour>
       <point x="1332" y="0" type="move" name="bottomright"/>

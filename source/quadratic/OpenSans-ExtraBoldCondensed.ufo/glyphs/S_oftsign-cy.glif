@@ -1,34 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Softsign-cy" format="1">
   <advance width="1030"/>
   <unicode hex="042C"/>
   <note>
-    afii10046
-  </note>
+afii10046
+</note>
   <outline>
     <contour>
       <point x="115" y="0" type="line"/>
-      <point x="504" y="0" type="line" smooth="yes"/>
-      <point x="812" y="0"/>
-      <point x="982" y="180"/>
-      <point x="982" y="483" type="curve" smooth="yes"/>
-      <point x="982" y="776"/>
-      <point x="820" y="924"/>
-      <point x="495" y="924" type="curve" smooth="yes"/>
-      <point x="462" y="924" type="line"/>
-      <point x="462" y="1462" type="line"/>
       <point x="115" y="1462" type="line"/>
+      <point x="462" y="1462" type="line"/>
+      <point x="462" y="924" type="line"/>
+      <point x="495.0" y="924.0" type="line" smooth="yes"/>
+      <point x="982.0" y="924.0"/>
+      <point x="982.0" y="483.0" type="qcurve" smooth="yes"/>
+      <point x="982.0" y="255.75"/>
+      <point x="735.0" y="0.0"/>
+      <point x="504" y="0" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="462" y="298" type="line"/>
+      <point x="491.0" y="298.0" type="line" smooth="yes"/>
+      <point x="632.0" y="298.0"/>
+      <point x="632.0" y="471.0" type="qcurve" smooth="yes"/>
+      <point x="632.0" y="555.0"/>
+      <point x="563.25" y="623.0"/>
+      <point x="471" y="623" type="qcurve" smooth="yes"/>
       <point x="462" y="623" type="line"/>
-      <point x="471" y="623" type="line" smooth="yes"/>
-      <point x="594" y="623"/>
-      <point x="632" y="583"/>
-      <point x="632" y="471" type="curve" smooth="yes"/>
-      <point x="632" y="356"/>
-      <point x="586" y="298"/>
-      <point x="491" y="298" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

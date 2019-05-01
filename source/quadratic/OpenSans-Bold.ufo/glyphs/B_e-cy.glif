@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Be-cy" format="1">
   <advance width="1307"/>
   <unicode hex="0411"/>
   <note>
-    afii10018
-  </note>
+afii10018
+</note>
   <outline>
     <contour>
       <point x="184" y="0" type="line"/>
-      <point x="637" y="0" type="line" smooth="yes"/>
-      <point x="1007" y="0"/>
-      <point x="1210" y="163"/>
-      <point x="1210" y="458" type="curve" smooth="yes"/>
-      <point x="1210" y="750"/>
-      <point x="1007" y="890"/>
-      <point x="620" y="890" type="curve" smooth="yes"/>
-      <point x="492" y="890" type="line"/>
-      <point x="492" y="1211" type="line"/>
-      <point x="1103" y="1211" type="line"/>
-      <point x="1103" y="1462" type="line"/>
       <point x="184" y="1462" type="line"/>
+      <point x="1103" y="1462" type="line"/>
+      <point x="1103" y="1211" type="line"/>
+      <point x="492" y="1211" type="line"/>
+      <point x="492" y="890" type="line"/>
+      <point x="620.0" y="890.0" type="line" smooth="yes"/>
+      <point x="910.25" y="890.0"/>
+      <point x="1210.0" y="677.0"/>
+      <point x="1210.0" y="458.0" type="qcurve" smooth="yes"/>
+      <point x="1210.0" y="236.75"/>
+      <point x="914.5" y="0.0"/>
+      <point x="637" y="0" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="492" y="240" type="line"/>
+      <point x="619.0" y="240.0" type="line" smooth="yes"/>
+      <point x="764.5" y="240.0"/>
+      <point x="898.0" y="345.75"/>
+      <point x="898.0" y="453.0" type="qcurve" smooth="yes"/>
+      <point x="898.0" y="558.75"/>
+      <point x="759.75" y="654.0"/>
+      <point x="612" y="654" type="qcurve" smooth="yes"/>
       <point x="492" y="654" type="line"/>
-      <point x="612" y="654" type="line" smooth="yes"/>
-      <point x="809" y="654"/>
-      <point x="898" y="594"/>
-      <point x="898" y="453" type="curve" smooth="yes"/>
-      <point x="898" y="310"/>
-      <point x="813" y="240"/>
-      <point x="619" y="240" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

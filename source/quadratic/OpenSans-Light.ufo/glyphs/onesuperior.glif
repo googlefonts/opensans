@@ -1,27 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onesuperior" format="1">
   <advance width="688"/>
   <unicode hex="00B9"/>
   <note>
-    onesuperior
-  </note>
+onesuperior
+</note>
   <outline>
     <contour>
       <point x="344" y="586" type="line"/>
-      <point x="442" y="586" type="line"/>
-      <point x="442" y="1462" type="line"/>
-      <point x="350" y="1462" type="line"/>
+      <point x="344.0" y="1133.0" type="line" smooth="yes"/>
+      <point x="344.0" y="1232.5"/>
+      <point x="356.0" y="1366.0" type="qcurve"/>
+      <point x="343.30232558139534" y="1355.1162790697674"/>
+      <point x="305.0" y="1331.0" type="qcurve" smooth="yes"/>
+      <point x="275.0" y="1312.25"/>
+      <point x="184.5" y="1257.0"/>
+      <point x="123" y="1221" type="qcurve"/>
       <point x="76" y="1298" type="line"/>
-      <point x="123" y="1221" type="line"/>
-      <point x="205" y="1269"/>
-      <point x="265" y="1306"/>
-      <point x="305" y="1331" type="curve" smooth="yes"/>
-      <point x="332" y="1348"/>
-      <point x="349" y="1360"/>
-      <point x="356" y="1366" type="curve"/>
-      <point x="348" y="1277"/>
-      <point x="344" y="1199"/>
-      <point x="344" y="1133" type="curve" smooth="yes"/>
+      <point x="350" y="1462" type="line"/>
+      <point x="442" y="1462" type="line"/>
+      <point x="442" y="586" type="line"/>
     </contour>
   </outline>
 </glyph>

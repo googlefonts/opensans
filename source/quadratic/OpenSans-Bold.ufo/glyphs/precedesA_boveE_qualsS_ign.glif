@@ -1,40 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="precedesAboveEqualsSign" format="1">
   <advance width="1171"/>
   <unicode hex="2AB3"/>
   <note>
-    precedesAboveEqualsSign
-  </note>
+precedesAboveEqualsSign
+</note>
   <outline>
     <contour>
-      <point x="1006" y="477" type="curve"/>
-      <point x="1006" y="653" type="line"/>
-      <point x="868" y="776"/>
-      <point x="586" y="944"/>
-      <point x="393" y="1006" type="curve"/>
-      <point x="393" y="1014" type="line"/>
-      <point x="590" y="1077"/>
-      <point x="891" y="1257"/>
-      <point x="1006" y="1366" type="curve"/>
-      <point x="1006" y="1542" type="line"/>
-      <point x="770" y="1323"/>
-      <point x="383" y="1120"/>
-      <point x="104" y="1057" type="curve"/>
-      <point x="104" y="963" type="line"/>
-      <point x="395" y="895"/>
-      <point x="770" y="696"/>
+      <point x="1006" y="477" type="line"/>
+      <point x="888.0" y="586.5"/>
+      <point x="577.9166666666666" y="782.9166666666666"/>
+      <point x="249.5" y="929.0"/>
+      <point x="104" y="963" type="qcurve"/>
+      <point x="104.0" y="1057.0" type="line"/>
+      <point x="208.625" y="1080.625"/>
+      <point x="448.9322916666667" y="1175.8541666666667"/>
+      <point x="693.3177083333334" y="1306.1458333333333"/>
+      <point x="917.5" y="1459.875"/>
+      <point x="1006" y="1542" type="qcurve"/>
+      <point x="1006.0" y="1366.0" type="line"/>
+      <point x="962.875" y="1325.125"/>
+      <point x="817.4479166666666" y="1223.6041666666667"/>
+      <point x="643.0520833333334" y="1121.8958333333333"/>
+      <point x="466.875" y="1037.625"/>
+      <point x="393" y="1014" type="qcurve"/>
+      <point x="393.0" y="1006.0" type="line"/>
+      <point x="465.375" y="982.75"/>
+      <point x="635.0052083333334" y="902.0052083333334"/>
+      <point x="805.2447916666666" y="802.7447916666666"/>
+      <point x="954.25" y="699.125"/>
+      <point x="1006" y="653" type="qcurve"/>
     </contour>
     <contour>
       <point x="104" y="-94" type="line"/>
-      <point x="1067" y="-94" type="line"/>
-      <point x="1067" y="51" type="line"/>
       <point x="104" y="51" type="line"/>
+      <point x="1067" y="51" type="line"/>
+      <point x="1067" y="-94" type="line"/>
     </contour>
     <contour>
       <point x="104" y="233" type="line"/>
-      <point x="1067" y="233" type="line"/>
-      <point x="1067" y="379" type="line"/>
       <point x="104" y="379" type="line"/>
+      <point x="1067" y="379" type="line"/>
+      <point x="1067" y="233" type="line"/>
     </contour>
   </outline>
 </glyph>

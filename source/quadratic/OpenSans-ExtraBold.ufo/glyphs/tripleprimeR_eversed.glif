@@ -1,41 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tripleprimeReversed" format="1">
-  <advance width="1425"/>
+  <advance width="1435"/>
   <unicode hex="2037"/>
   <outline>
-    <component base="primeReversed"/>
-    <component base="primeReversed" xOffset="475"/>
-    <component base="primeReversed" xOffset="950"/>
+    <component base="tripleprime" xScale="-1" xOffset="1221"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>primeReversed</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>primeReversed</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>primeReversed</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

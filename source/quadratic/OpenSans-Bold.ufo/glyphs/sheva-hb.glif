@@ -1,38 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sheva-hb" format="1">
-  <advance width="0"/>
   <unicode hex="05B0"/>
   <note>
-    afii57799
-  </note>
+afii57799
+</note>
   <outline>
     <contour>
-      <point x="0" y="-261" type="curve" smooth="yes"/>
-      <point x="54" y="-261"/>
-      <point x="84" y="-230"/>
-      <point x="84" y="-178" type="curve" smooth="yes"/>
-      <point x="84" y="-126"/>
-      <point x="54" y="-95"/>
-      <point x="0" y="-95" type="curve" smooth="yes"/>
-      <point x="-53" y="-95"/>
-      <point x="-84" y="-126"/>
-      <point x="-84" y="-178" type="curve" smooth="yes"/>
-      <point x="-84" y="-230"/>
-      <point x="-53" y="-261"/>
+      <point x="0.0" y="-261.0" type="qcurve" smooth="yes"/>
+      <point x="-84.0" y="-261.0"/>
+      <point x="-84.0" y="-178.0" type="qcurve" smooth="yes"/>
+      <point x="-84.0" y="-95.0"/>
+      <point x="0.0" y="-95.0" type="qcurve" smooth="yes"/>
+      <point x="84.0" y="-95.0"/>
+      <point x="84.0" y="-178.0" type="qcurve" smooth="yes"/>
+      <point x="84.0" y="-261.0"/>
     </contour>
     <contour>
-      <point x="0" y="-509" type="curve" smooth="yes"/>
-      <point x="54" y="-509"/>
-      <point x="84" y="-477"/>
-      <point x="84" y="-425" type="curve" smooth="yes"/>
-      <point x="84" y="-374"/>
-      <point x="54" y="-342"/>
-      <point x="0" y="-342" type="curve" smooth="yes"/>
-      <point x="-53" y="-342"/>
-      <point x="-84" y="-374"/>
-      <point x="-84" y="-426" type="curve" smooth="yes"/>
-      <point x="-84" y="-478"/>
-      <point x="-53" y="-509"/>
+      <point x="0.0" y="-509.0" type="qcurve" smooth="yes"/>
+      <point x="-84.0" y="-509.0"/>
+      <point x="-84.0" y="-426.0" type="qcurve" smooth="yes"/>
+      <point x="-84.0" y="-342.0"/>
+      <point x="0.0" y="-342.0" type="qcurve" smooth="yes"/>
+      <point x="84.0" y="-342.0"/>
+      <point x="84.0" y="-425.0" type="qcurve" smooth="yes"/>
+      <point x="84.0" y="-509.0"/>
     </contour>
     <contour>
       <point x="1" y="-75" type="move" name="_bottom"/>

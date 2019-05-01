@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="K" format="1">
   <advance width="1360"/>
   <unicode hex="004B"/>
   <outline>
     <contour>
       <point x="851" y="818" type="line"/>
-      <point x="1354" y="1462" type="line"/>
-      <point x="1012" y="1462" type="line"/>
-      <point x="625" y="969" type="line" smooth="yes"/>
-      <point x="567" y="893"/>
-      <point x="522" y="833"/>
-      <point x="492" y="789" type="curve"/>
-      <point x="492" y="1462" type="line"/>
-      <point x="184" y="1462" type="line"/>
-      <point x="184" y="0" type="line"/>
-      <point x="492" y="0" type="line"/>
-      <point x="492" y="522" type="line"/>
-      <point x="633" y="623" type="line"/>
-      <point x="1003" y="0" type="line"/>
       <point x="1353" y="0" type="line"/>
+      <point x="1003" y="0" type="line"/>
+      <point x="633" y="623" type="line"/>
+      <point x="492" y="522" type="line"/>
+      <point x="492" y="0" type="line"/>
+      <point x="184" y="0" type="line"/>
+      <point x="184" y="1462" type="line"/>
+      <point x="492" y="1462" type="line"/>
+      <point x="492.0" y="789.0" type="line"/>
+      <point x="514.5" y="822.0"/>
+      <point x="581.5" y="912.0"/>
+      <point x="625" y="969" type="qcurve" smooth="yes"/>
+      <point x="1012" y="1462" type="line"/>
+      <point x="1354" y="1462" type="line"/>
     </contour>
     <contour>
       <point x="682" y="0" type="move" name="bottom"/>
