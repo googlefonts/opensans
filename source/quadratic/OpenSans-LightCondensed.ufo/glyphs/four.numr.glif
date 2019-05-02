@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.numr" format="1">
   <advance width="614"/>
   <note>
-    foursuperior
-  </note>
+foursuperior
+</note>
   <outline>
     <contour>
       <point x="387" y="586" type="line"/>
-      <point x="473" y="586" type="line"/>
-      <point x="473" y="795" type="line"/>
-      <point x="573" y="795" type="line"/>
-      <point x="573" y="877" type="line"/>
-      <point x="473" y="877" type="line"/>
-      <point x="473" y="1468" type="line"/>
-      <point x="393" y="1468" type="line"/>
-      <point x="53" y="860" type="line"/>
-      <point x="53" y="795" type="line"/>
       <point x="387" y="795" type="line"/>
+      <point x="53" y="795" type="line"/>
+      <point x="53" y="860" type="line"/>
+      <point x="393" y="1468" type="line"/>
+      <point x="473" y="1468" type="line"/>
+      <point x="473" y="877" type="line"/>
+      <point x="573" y="877" type="line"/>
+      <point x="573" y="795" type="line"/>
+      <point x="473" y="795" type="line"/>
+      <point x="473" y="586" type="line"/>
     </contour>
     <contour>
-      <point x="154" y="877" type="line"/>
-      <point x="260" y="1070"/>
-      <point x="325" y="1192"/>
-      <point x="350" y="1242" type="curve" smooth="yes"/>
-      <point x="374" y="1292"/>
-      <point x="388" y="1321"/>
-      <point x="391" y="1329" type="curve"/>
-      <point x="388" y="1297"/>
-      <point x="387" y="1240"/>
-      <point x="387" y="1159" type="curve" smooth="yes"/>
+      <point x="154" y="877" type="qcurve"/>
       <point x="387" y="877" type="line"/>
+      <point x="387.0" y="1159.0" type="line" smooth="yes"/>
+      <point x="387.0" y="1219.75"/>
+      <point x="388.75" y="1305.0"/>
+      <point x="391.0" y="1329.0" type="qcurve"/>
+      <point x="388.75" y="1323.0"/>
+      <point x="368.0" y="1279.5"/>
+      <point x="350.0" y="1242.0" type="qcurve" smooth="yes"/>
+      <point x="331.25" y="1204.5"/>
+      <point x="233.5" y="1021.75"/>
     </contour>
   </outline>
 </glyph>

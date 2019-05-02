@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shortverticallineoverlaycomb" format="1">
-  <advance width="0"/>
   <unicode hex="20D3"/>
   <note>
-    shortverticallineoverlaycomb
-  </note>
+shortverticallineoverlaycomb
+</note>
   <outline>
     <contour>
       <point x="-80" y="-98" type="line"/>
-      <point x="84" y="-98" type="line"/>
-      <point x="84" y="1196" type="line"/>
       <point x="-80" y="1196" type="line"/>
+      <point x="84" y="1196" type="line"/>
+      <point x="84" y="-98" type="line"/>
     </contour>
   </outline>
 </glyph>

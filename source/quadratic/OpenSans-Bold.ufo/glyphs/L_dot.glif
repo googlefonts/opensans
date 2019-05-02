@@ -1,32 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldot" format="1">
   <advance width="1157"/>
   <unicode hex="013F"/>
   <note>
-    Ldot
-  </note>
+Ldot
+</note>
   <outline>
     <contour>
       <point x="1094" y="0" type="line"/>
-      <point x="1094" y="252" type="line"/>
-      <point x="491" y="252" type="line"/>
-      <point x="491" y="1462" type="line"/>
-      <point x="184" y="1462" type="line"/>
       <point x="184" y="0" type="line"/>
+      <point x="184" y="1462" type="line"/>
+      <point x="491" y="1462" type="line"/>
+      <point x="491" y="252" type="line"/>
+      <point x="1094" y="252" type="line"/>
     </contour>
     <contour>
-      <point x="733" y="753" type="curve" smooth="yes"/>
-      <point x="733" y="653"/>
-      <point x="788" y="603"/>
-      <point x="897" y="603" type="curve" smooth="yes"/>
-      <point x="1007" y="603"/>
-      <point x="1063" y="654"/>
-      <point x="1063" y="753" type="curve" smooth="yes"/>
-      <point x="1063" y="851"/>
-      <point x="1011" y="903"/>
-      <point x="897" y="903" type="curve" smooth="yes"/>
-      <point x="783" y="903"/>
-      <point x="733" y="854"/>
+      <point x="733.0" y="753.0" type="qcurve" smooth="yes"/>
+      <point x="733.0" y="828.75"/>
+      <point x="811.5" y="903.0"/>
+      <point x="897.0" y="903.0" type="qcurve" smooth="yes"/>
+      <point x="1063.0" y="903.0"/>
+      <point x="1063.0" y="753.0" type="qcurve" smooth="yes"/>
+      <point x="1063.0" y="603.0"/>
+      <point x="897.0" y="603.0" type="qcurve" smooth="yes"/>
+      <point x="733.0" y="603.0"/>
     </contour>
   </outline>
 </glyph>

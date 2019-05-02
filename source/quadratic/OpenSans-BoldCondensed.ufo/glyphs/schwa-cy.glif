@@ -1,42 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="schwa-cy" format="1">
   <advance width="940"/>
   <unicode hex="04D9"/>
   <note>
-    afii10846
-  </note>
+afii10846
+</note>
   <outline>
     <contour>
-      <point x="463.3" y="-20" type="curve" smooth="yes"/>
-      <point x="720.1" y="-20"/>
-      <point x="876.4" y="196"/>
-      <point x="876.4" y="565" type="curve" smooth="yes"/>
-      <point x="876.4" y="923.8"/>
-      <point x="709.3" y="1135.4"/>
-      <point x="426.3" y="1135.4" type="curve" smooth="yes"/>
-      <point x="307.2" y="1135.4"/>
-      <point x="204.1" y="1109.2"/>
-      <point x="119.1" y="1057.5" type="curve"/>
-      <point x="119.1" y="837.9" type="line"/>
-      <point x="210.8" y="894.1"/>
-      <point x="300" y="922"/>
-      <point x="384.5" y="922" type="curve" smooth="yes"/>
-      <point x="521.9" y="922"/>
-      <point x="601.6" y="823.6"/>
-      <point x="605.1" y="624.9" type="curve"/>
+      <point x="463.3" y="-20.0" type="qcurve" smooth="yes"/>
+      <point x="280.0" y="-20.0"/>
+      <point x="72.2" y="246.025"/>
+      <point x="72.2" y="483.7" type="qcurve" smooth="yes"/>
       <point x="72.2" y="624.9" type="line"/>
-      <point x="72.2" y="483.7" type="line" smooth="yes"/>
-      <point x="72.2" y="166.8"/>
-      <point x="218.9" y="-20"/>
+      <point x="605.1" y="624.9" type="line"/>
+      <point x="602.475" y="773.925"/>
+      <point x="487.54999999999995" y="922.0"/>
+      <point x="384.5" y="922.0" type="qcurve" smooth="yes"/>
+      <point x="256.323665480427" y="922.0"/>
+      <point x="119.1" y="837.9" type="qcurve"/>
+      <point x="119.1" y="1057.5" type="line"/>
+      <point x="247.17543520309482" y="1135.4"/>
+      <point x="426.3" y="1135.4" type="qcurve" smooth="yes"/>
+      <point x="638.55" y="1135.4"/>
+      <point x="876.4" y="834.0999999999999"/>
+      <point x="876.4" y="565.0" type="qcurve" smooth="yes"/>
+      <point x="876.4" y="288.25"/>
+      <point x="655.9000000000001" y="-20.0"/>
     </contour>
     <contour>
-      <point x="463" y="183.5" type="curve" smooth="yes"/>
-      <point x="381.7" y="183.5"/>
-      <point x="332.8" y="269.2"/>
-      <point x="330" y="431.8" type="curve"/>
-      <point x="599.6" y="431.8" type="line"/>
-      <point x="592.2" y="266.6"/>
-      <point x="546.4" y="183.5"/>
+      <point x="463.0" y="183.5" type="qcurve" smooth="yes"/>
+      <point x="588.477602905569" y="183.5"/>
+      <point x="599.6" y="431.8" type="qcurve"/>
+      <point x="330.0" y="431.8" type="line"/>
+      <point x="332.09999999999997" y="309.85"/>
+      <point x="402.02500000000003" y="183.5"/>
     </contour>
     <contour>
       <point x="469.9" y="1114.4" type="move" name="top"/>

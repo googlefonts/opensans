@@ -1,34 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="R" format="1">
   <advance width="1352"/>
   <unicode hex="0052"/>
   <outline>
     <contour>
       <point x="184" y="0" type="line"/>
-      <point x="491" y="0" type="line"/>
-      <point x="491" y="564" type="line"/>
-      <point x="670" y="564" type="line"/>
-      <point x="1000" y="0" type="line"/>
-      <point x="1350" y="0" type="line"/>
-      <point x="933" y="646" type="line"/>
-      <point x="1111" y="728"/>
-      <point x="1200" y="862"/>
-      <point x="1200" y="1039" type="curve" smooth="yes"/>
-      <point x="1200" y="1321"/>
-      <point x="1010" y="1462"/>
-      <point x="623" y="1462" type="curve" smooth="yes"/>
       <point x="184" y="1462" type="line"/>
+      <point x="623.0" y="1462.0" type="line" smooth="yes"/>
+      <point x="1200.0" y="1462.0"/>
+      <point x="1200.0" y="1039.0" type="qcurve" smooth="yes"/>
+      <point x="1200.0" y="769.0"/>
+      <point x="933" y="646" type="qcurve"/>
+      <point x="1350" y="0" type="line"/>
+      <point x="1000" y="0" type="line"/>
+      <point x="670" y="564" type="line"/>
+      <point x="491" y="564" type="line"/>
+      <point x="491" y="0" type="line"/>
     </contour>
     <contour>
       <point x="491" y="798" type="line"/>
+      <point x="626.0" y="798.0" type="line" smooth="yes"/>
+      <point x="888.0" y="798.0"/>
+      <point x="888.0" y="1024.0" type="qcurve" smooth="yes"/>
+      <point x="888.0" y="1126.75"/>
+      <point x="756.75" y="1225.0"/>
+      <point x="618" y="1225" type="qcurve" smooth="yes"/>
       <point x="491" y="1225" type="line"/>
-      <point x="618" y="1225" type="line" smooth="yes"/>
-      <point x="803" y="1225"/>
-      <point x="888" y="1161"/>
-      <point x="888" y="1024" type="curve" smooth="yes"/>
-      <point x="888" y="874"/>
-      <point x="797" y="798"/>
-      <point x="626" y="798" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="679" y="0" type="move" name="bottom"/>

@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="patah-hb" format="1">
-  <advance width="0"/>
   <unicode hex="05B7"/>
   <note>
-    afii57798
-  </note>
+afii57798
+</note>
   <outline>
     <contour>
       <point x="-197" y="-234" type="line"/>
-      <point x="197" y="-234" type="line"/>
-      <point x="197" y="-119" type="line"/>
       <point x="-197" y="-119" type="line"/>
+      <point x="197" y="-119" type="line"/>
+      <point x="197" y="-234" type="line"/>
     </contour>
     <contour>
       <point x="1" y="-99" type="move" name="_bottom"/>

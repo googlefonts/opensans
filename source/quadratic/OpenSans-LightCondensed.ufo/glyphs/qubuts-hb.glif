@@ -1,52 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qubuts-hb" format="1">
-  <advance width="0"/>
   <unicode hex="05BB"/>
   <note>
-    afii57796
-  </note>
+afii57796
+</note>
   <outline>
     <contour>
-      <point x="-145" y="-230" type="curve" smooth="yes"/>
-      <point x="-103" y="-230"/>
-      <point x="-82" y="-205"/>
-      <point x="-82" y="-155" type="curve" smooth="yes"/>
-      <point x="-82" y="-105"/>
-      <point x="-103" y="-80"/>
-      <point x="-145" y="-80" type="curve" smooth="yes"/>
-      <point x="-186" y="-80"/>
-      <point x="-206" y="-105"/>
-      <point x="-206" y="-155" type="curve" smooth="yes"/>
-      <point x="-206" y="-205"/>
-      <point x="-186" y="-230"/>
+      <point x="-145.0" y="-230.0" type="qcurve" smooth="yes"/>
+      <point x="-206.0" y="-230.0"/>
+      <point x="-206.0" y="-155.0" type="qcurve" smooth="yes"/>
+      <point x="-206.0" y="-80.0"/>
+      <point x="-145.0" y="-80.0" type="qcurve" smooth="yes"/>
+      <point x="-82.0" y="-80.0"/>
+      <point x="-82.0" y="-155.0" type="qcurve" smooth="yes"/>
+      <point x="-82.0" y="-230.0"/>
     </contour>
     <contour>
-      <point x="-3" y="-362" type="curve" smooth="yes"/>
-      <point x="41" y="-362"/>
-      <point x="62" y="-337"/>
-      <point x="62" y="-286" type="curve" smooth="yes"/>
-      <point x="62" y="-236"/>
-      <point x="41" y="-211"/>
-      <point x="-3" y="-211" type="curve" smooth="yes"/>
-      <point x="-44" y="-211"/>
-      <point x="-64" y="-236"/>
-      <point x="-64" y="-286" type="curve" smooth="yes"/>
-      <point x="-64" y="-337"/>
-      <point x="-44" y="-362"/>
+      <point x="-3.0" y="-362.0" type="qcurve" smooth="yes"/>
+      <point x="-64.0" y="-362.0"/>
+      <point x="-64.0" y="-286.0" type="qcurve" smooth="yes"/>
+      <point x="-64.0" y="-211.0"/>
+      <point x="-3.0" y="-211.0" type="qcurve" smooth="yes"/>
+      <point x="62.0" y="-211.0"/>
+      <point x="62.0" y="-286.0" type="qcurve" smooth="yes"/>
+      <point x="62.0" y="-362.0"/>
     </contour>
     <contour>
-      <point x="143" y="-494" type="curve" smooth="yes"/>
-      <point x="185" y="-494"/>
-      <point x="206" y="-469"/>
-      <point x="206" y="-418" type="curve" smooth="yes"/>
-      <point x="206" y="-368"/>
-      <point x="185" y="-343"/>
-      <point x="143" y="-343" type="curve" smooth="yes"/>
-      <point x="102" y="-343"/>
-      <point x="82" y="-368"/>
-      <point x="82" y="-418" type="curve" smooth="yes"/>
-      <point x="82" y="-469"/>
-      <point x="102" y="-494"/>
+      <point x="143.0" y="-494.0" type="qcurve" smooth="yes"/>
+      <point x="82.0" y="-494.0"/>
+      <point x="82.0" y="-418.0" type="qcurve" smooth="yes"/>
+      <point x="82.0" y="-343.0"/>
+      <point x="143.0" y="-343.0" type="qcurve" smooth="yes"/>
+      <point x="206.0" y="-343.0"/>
+      <point x="206.0" y="-418.0" type="qcurve" smooth="yes"/>
+      <point x="206.0" y="-494.0"/>
     </contour>
     <contour>
       <point x="1" y="-60" type="move" name="_bottom"/>

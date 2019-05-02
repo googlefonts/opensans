@@ -1,21 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotereversed" format="1">
   <advance width="464"/>
   <unicode hex="201B"/>
   <note>
-    quotereversed
-  </note>
+quotereversed
+</note>
   <outline>
     <contour>
-      <point x="192" y="947" type="curve"/>
-      <point x="454" y="947" type="line"/>
-      <point x="413" y="1125"/>
-      <point x="363" y="1391"/>
-      <point x="354" y="1462" type="curve"/>
+      <point x="192" y="947" type="line"/>
+      <point x="150.0" y="1034.5"/>
+      <point x="75.16666666666666" y="1225.5833333333333"/>
+      <point x="21.0" y="1391.0"/>
+      <point x="10" y="1440" type="qcurve"/>
       <point x="25" y="1462" type="line"/>
-      <point x="10" y="1440" type="line"/>
-      <point x="32" y="1342"/>
-      <point x="108" y="1122"/>
+      <point x="354.0" y="1462.0" type="line"/>
+      <point x="357.375" y="1435.375"/>
+      <point x="377.6770833333333" y="1319.3177083333333"/>
+      <point x="406.3229166666667" y="1169.9322916666667"/>
+      <point x="438.625" y="1013.75"/>
+      <point x="454" y="947" type="qcurve"/>
     </contour>
   </outline>
 </glyph>

@@ -1,42 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="whiteConcaveSidedDiamond" format="1">
   <advance width="1642"/>
   <unicode hex="27E1"/>
   <note>
-    whiteConcaveSidedDiamond
-  </note>
+whiteConcaveSidedDiamond
+</note>
   <outline>
     <contour>
-      <point x="815" y="-2" type="curve"/>
-      <point x="825" y="-2" type="line"/>
-      <point x="1090" y="383"/>
-      <point x="1270" y="539"/>
-      <point x="1538" y="719" type="curve"/>
-      <point x="1538" y="729" type="line"/>
-      <point x="1233" y="934"/>
-      <point x="1061" y="1104"/>
-      <point x="825" y="1446" type="curve"/>
-      <point x="815" y="1446" type="line"/>
-      <point x="594" y="1118"/>
-      <point x="426" y="948"/>
-      <point x="104" y="729" type="curve"/>
-      <point x="104" y="719" type="line"/>
-      <point x="416" y="504"/>
-      <point x="588" y="334"/>
+      <point x="815" y="-2" type="line"/>
+      <point x="729.875" y="124.0"/>
+      <point x="573.140625" y="321.4427083333333"/>
+      <point x="409.609375" y="486.3072916666667"/>
+      <point x="221.0" y="638.375"/>
+      <point x="104" y="719" type="qcurve"/>
+      <point x="104.0" y="729.0" type="line"/>
+      <point x="224.75" y="811.125"/>
+      <point x="416.046875" y="964.546875"/>
+      <point x="578.703125" y="1128.703125"/>
+      <point x="732.125" y="1323.0"/>
+      <point x="815" y="1446" type="qcurve"/>
+      <point x="825.0" y="1446.0" type="line"/>
+      <point x="913.5" y="1317.75"/>
+      <point x="1073.6822916666667" y="1118.203125"/>
+      <point x="1237.5677083333333" y="954.046875"/>
+      <point x="1423.625" y="805.875"/>
+      <point x="1538" y="729" type="qcurve"/>
+      <point x="1538.0" y="719.0" type="line"/>
+      <point x="1437.5" y="651.5"/>
+      <point x="1263.1927083333333" y="516.2760416666666"/>
+      <point x="1097.5572916666667" y="354.4739583333333"/>
+      <point x="924.375" y="142.375"/>
+      <point x="825" y="-2" type="qcurve"/>
     </contour>
     <contour>
-      <point x="821" y="231" type="curve"/>
-      <point x="633" y="475"/>
-      <point x="510" y="592"/>
-      <point x="326" y="723" type="curve"/>
-      <point x="514" y="856"/>
-      <point x="641" y="979"/>
-      <point x="821" y="1217" type="curve"/>
-      <point x="985" y="987"/>
-      <point x="1120" y="862"/>
-      <point x="1317" y="723" type="curve"/>
-      <point x="1133" y="596"/>
-      <point x="999" y="471"/>
+      <point x="821.0" y="231.0" type="qcurve"/>
+      <point x="910.0" y="351.0"/>
+      <point x="1066.5" y="524.0833333333333"/>
+      <point x="1225.0" y="659.5"/>
+      <point x="1317.0" y="723.0" type="qcurve"/>
+      <point x="1218.5" y="792.5"/>
+      <point x="1055.25" y="932.0833333333333"/>
+      <point x="903.0" y="1102.0"/>
+      <point x="821.0" y="1217.0" type="qcurve"/>
+      <point x="731.0" y="1098.0"/>
+      <point x="576.8333333333333" y="926.25"/>
+      <point x="420.0" y="789.5"/>
+      <point x="326.0" y="723.0" type="qcurve"/>
+      <point x="418.0" y="657.5"/>
+      <point x="571.8333333333333" y="524.0833333333333"/>
+      <point x="727.0" y="353.0"/>
     </contour>
   </outline>
 </glyph>

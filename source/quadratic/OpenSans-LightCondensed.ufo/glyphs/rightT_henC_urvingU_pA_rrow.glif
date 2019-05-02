@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightThenCurvingUpArrow" format="1">
   <advance width="1315"/>
   <unicode hex="2934"/>
   <note>
-    rightThenCurvingUpArrow
-  </note>
+rightThenCurvingUpArrow
+</note>
   <outline>
     <contour>
       <point x="104" y="96" type="line"/>
-      <point x="705" y="96" type="line" smooth="yes"/>
-      <point x="909" y="96"/>
-      <point x="963" y="240"/>
-      <point x="963" y="412" type="curve" smooth="yes"/>
-      <point x="963" y="1110" type="line"/>
-      <point x="852" y="1110" type="line"/>
-      <point x="852" y="430" type="line" smooth="yes"/>
-      <point x="852" y="299"/>
-      <point x="836" y="207"/>
-      <point x="705" y="207" type="curve" smooth="yes"/>
       <point x="104" y="207" type="line"/>
+      <point x="705.0" y="207.0" type="line" smooth="yes"/>
+      <point x="770.5" y="207.0"/>
+      <point x="833.0833333333334" y="263.91666666666663"/>
+      <point x="852.0" y="364.5"/>
+      <point x="852" y="430" type="qcurve" smooth="yes"/>
+      <point x="852" y="1110" type="line"/>
+      <point x="963" y="1110" type="line"/>
+      <point x="963.0" y="412.0" type="line" smooth="yes"/>
+      <point x="963.0" y="326.0"/>
+      <point x="919.0" y="182.33333333333331"/>
+      <point x="807.0" y="96.0"/>
+      <point x="705" y="96" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="604" y="885" type="line"/>
-      <point x="723" y="940"/>
-      <point x="813" y="995"/>
-      <point x="866" y="1049" type="curve"/>
-      <point x="948" y="1049" type="line"/>
-      <point x="1001" y="995"/>
-      <point x="1092" y="940"/>
-      <point x="1210" y="885" type="curve"/>
-      <point x="1210" y="975" type="line"/>
-      <point x="1083" y="1083"/>
-      <point x="989" y="1198"/>
-      <point x="930" y="1317" type="curve"/>
-      <point x="885" y="1317" type="line"/>
-      <point x="825" y="1198"/>
-      <point x="731" y="1083"/>
-      <point x="604" y="975" type="curve"/>
+      <point x="604" y="885" type="qcurve"/>
+      <point x="604.0" y="975.0" type="line"/>
+      <point x="794.0513147225762" y="1136.6184408664428"/>
+      <point x="885" y="1317" type="qcurve"/>
+      <point x="930.0" y="1317.0" type="line"/>
+      <point x="1019.0568584830111" y="1137.3768447546047"/>
+      <point x="1210" y="975" type="qcurve"/>
+      <point x="1210.0" y="885.0" type="line"/>
+      <point x="1121.5" y="926.25"/>
+      <point x="987.75" y="1008.5"/>
+      <point x="948" y="1049" type="qcurve"/>
+      <point x="866.0" y="1049.0" type="line"/>
+      <point x="826.25" y="1008.5"/>
+      <point x="693.25" y="926.25"/>
     </contour>
   </outline>
 </glyph>

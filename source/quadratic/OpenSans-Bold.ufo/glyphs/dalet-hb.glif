@@ -1,31 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dalet-hb" format="1">
   <advance width="1121"/>
   <unicode hex="05D3"/>
   <note>
-    afii57667
-  </note>
+afii57667
+</note>
   <outline>
     <contour>
       <point x="589" y="0" type="line"/>
-      <point x="891" y="0" type="line"/>
-      <point x="891" y="824" type="line" smooth="yes"/>
-      <point x="891" y="897"/>
-      <point x="902" y="948"/>
-      <point x="932" y="987" type="curve" smooth="yes"/>
-      <point x="961" y="1028"/>
-      <point x="1009" y="1054"/>
-      <point x="1073" y="1079" type="curve"/>
-      <point x="1073" y="1293" type="line"/>
-      <point x="43" y="1293" type="line"/>
+      <point x="589.0" y="829.0" type="line" smooth="yes"/>
+      <point x="589.0" y="915.8181818181819"/>
+      <point x="623.0" y="973.0" type="qcurve" smooth="yes"/>
+      <point x="652.1463414634146" y="1025.4634146341464"/>
+      <point x="696" y="1058" type="qcurve"/>
       <point x="43" y="1058" type="line"/>
-      <point x="696" y="1058" type="line"/>
-      <point x="665" y="1035"/>
-      <point x="643" y="1009"/>
-      <point x="623" y="973" type="curve" smooth="yes"/>
-      <point x="601" y="936"/>
-      <point x="589" y="885"/>
-      <point x="589" y="829" type="curve" smooth="yes"/>
+      <point x="43" y="1293" type="line"/>
+      <point x="1073" y="1293" type="line"/>
+      <point x="1073.0" y="1079.0" type="line"/>
+      <point x="1025.0" y="1060.25"/>
+      <point x="953.75" y="1017.75"/>
+      <point x="932.0" y="987.0" type="qcurve" smooth="yes"/>
+      <point x="891.0" y="933.7"/>
+      <point x="891" y="824" type="qcurve" smooth="yes"/>
+      <point x="891" y="0" type="line"/>
     </contour>
     <contour>
       <point x="559" y="0" type="move" name="bottom"/>

@@ -1,35 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="O" format="1">
   <advance width="1630"/>
   <unicode hex="004F"/>
   <outline>
     <contour>
-      <point x="1507" y="733" type="curve" smooth="yes"/>
-      <point x="1507" y="1218"/>
-      <point x="1263" y="1485"/>
-      <point x="815" y="1485" type="curve" smooth="yes"/>
-      <point x="369" y="1485"/>
-      <point x="119" y="1215"/>
-      <point x="119" y="735" type="curve" smooth="yes"/>
-      <point x="119" y="250"/>
-      <point x="370" y="-20"/>
-      <point x="813" y="-20" type="curve" smooth="yes"/>
-      <point x="1261" y="-20"/>
-      <point x="1507" y="249"/>
+      <point x="1507.0" y="733.0" type="qcurve" smooth="yes"/>
+      <point x="1507.0" y="370.0"/>
+      <point x="1149.0" y="-20.0"/>
+      <point x="813.0" y="-20.0" type="qcurve" smooth="yes"/>
+      <point x="480.75" y="-20.0"/>
+      <point x="119.0" y="371.25"/>
+      <point x="119.0" y="735.0" type="qcurve" smooth="yes"/>
+      <point x="119.0" y="1095.0"/>
+      <point x="480.5" y="1485.0"/>
+      <point x="815.0" y="1485.0" type="qcurve" smooth="yes"/>
+      <point x="1151.0" y="1485.0"/>
+      <point x="1507.0" y="1096.75"/>
     </contour>
     <contour>
-      <point x="444" y="733" type="curve" smooth="yes"/>
-      <point x="444" y="1058"/>
-      <point x="572" y="1229"/>
-      <point x="815" y="1229" type="curve" smooth="yes"/>
-      <point x="1056" y="1229"/>
-      <point x="1182" y="1064"/>
-      <point x="1182" y="733" type="curve" smooth="yes"/>
-      <point x="1182" y="402"/>
-      <point x="1059" y="239"/>
-      <point x="813" y="239" type="curve" smooth="yes"/>
-      <point x="570" y="239"/>
-      <point x="444" y="409"/>
+      <point x="444.0" y="733.0" type="qcurve" smooth="yes"/>
+      <point x="444.0" y="490.0"/>
+      <point x="630.75" y="239.0"/>
+      <point x="813.0" y="239.0" type="qcurve" smooth="yes"/>
+      <point x="1182.0" y="239.0"/>
+      <point x="1182.0" y="733.0" type="qcurve" smooth="yes"/>
+      <point x="1182.0" y="1229.0"/>
+      <point x="815.0" y="1229.0" type="qcurve" smooth="yes"/>
+      <point x="632.75" y="1229.0"/>
+      <point x="444.0" y="976.75"/>
     </contour>
     <contour>
       <point x="814" y="0" type="move" name="bottom"/>

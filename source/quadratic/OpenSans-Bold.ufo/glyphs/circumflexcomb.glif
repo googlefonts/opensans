@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb" format="1">
   <advance width="869"/>
   <unicode hex="0302"/>
   <note>
-    circumflex
-  </note>
+circumflex
+</note>
   <outline>
     <contour>
       <point x="30" y="1241" type="line"/>
-      <point x="231" y="1241" type="line"/>
-      <point x="260" y="1261"/>
-      <point x="293" y="1287"/>
-      <point x="329" y="1317" type="curve" smooth="yes"/>
-      <point x="361" y="1344"/>
-      <point x="396" y="1374"/>
-      <point x="434" y="1408" type="curve"/>
-      <point x="471" y="1373"/>
-      <point x="507" y="1342"/>
-      <point x="542" y="1314" type="curve" smooth="yes"/>
-      <point x="576" y="1287"/>
-      <point x="609" y="1262"/>
-      <point x="640" y="1241" type="curve"/>
+      <point x="30.0" y="1266.0" type="line"/>
+      <point x="74.5" y="1310.0"/>
+      <point x="171.91666666666669" y="1420.4166666666667"/>
+      <point x="257.0" y="1528.5"/>
+      <point x="283" y="1569" type="qcurve"/>
+      <point x="587.0" y="1569.0" type="line"/>
+      <point x="674.0" y="1437.0"/>
+      <point x="839" y="1266" type="qcurve"/>
       <point x="839" y="1241" type="line"/>
-      <point x="839" y="1266" type="line"/>
-      <point x="729" y="1380"/>
-      <point x="645" y="1481"/>
-      <point x="587" y="1569" type="curve"/>
-      <point x="283" y="1569" type="line"/>
-      <point x="231" y="1488"/>
-      <point x="119" y="1354"/>
-      <point x="30" y="1266" type="curve"/>
+      <point x="640.0" y="1241.0" type="line"/>
+      <point x="616.75" y="1256.75"/>
+      <point x="567.5" y="1293.75"/>
+      <point x="542.0" y="1314.0" type="qcurve" smooth="yes"/>
+      <point x="515.75" y="1335.0"/>
+      <point x="461.75" y="1381.75"/>
+      <point x="434.0" y="1408.0" type="qcurve"/>
+      <point x="405.5" y="1382.5"/>
+      <point x="353.0" y="1337.25"/>
+      <point x="329.0" y="1317.0" type="qcurve" smooth="yes"/>
+      <point x="302.0" y="1294.5"/>
+      <point x="252.75" y="1256.0"/>
+      <point x="231" y="1241" type="qcurve"/>
     </contour>
     <contour>
       <point x="435" y="1131" type="move" name="_top"/>

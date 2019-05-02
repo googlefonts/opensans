@@ -1,40 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g888" format="1">
-  <advance width="0"/>
   <note>
-    g888
-  </note>
+g888
+</note>
   <outline>
     <contour>
       <point x="-1020" y="1241" type="line"/>
-      <point x="-952" y="1241" type="line"/>
-      <point x="-867" y="1303"/>
-      <point x="-794" y="1362"/>
-      <point x="-735" y="1417" type="curve"/>
-      <point x="-676" y="1362"/>
-      <point x="-603" y="1303"/>
-      <point x="-518" y="1241" type="curve"/>
+      <point x="-1020.0" y="1257.0" type="line"/>
+      <point x="-879.0" y="1393.5"/>
+      <point x="-786" y="1518" type="qcurve"/>
+      <point x="-680.0" y="1518.0" type="line"/>
+      <point x="-629.75" y="1450.5"/>
+      <point x="-514.75" y="1320.0"/>
+      <point x="-451" y="1257" type="qcurve"/>
       <point x="-451" y="1241" type="line"/>
-      <point x="-451" y="1257" type="line"/>
-      <point x="-536" y="1341"/>
-      <point x="-613" y="1428"/>
-      <point x="-680" y="1518" type="curve"/>
-      <point x="-786" y="1518" type="line"/>
-      <point x="-848" y="1435"/>
-      <point x="-926" y="1348"/>
-      <point x="-1020" y="1257" type="curve"/>
+      <point x="-518.0" y="1241.0" type="line"/>
+      <point x="-647.6312684365781" y="1335.5545722713864"/>
+      <point x="-735.0" y="1417.0" type="qcurve"/>
+      <point x="-822.3687315634219" y="1335.5545722713864"/>
+      <point x="-952" y="1241" type="qcurve"/>
     </contour>
     <contour>
-      <point x="-1003" y="1436" type="curve"/>
-      <point x="-936" y="1436" type="line"/>
-      <point x="-936" y="1452" type="line"/>
-      <point x="-995" y="1529"/>
-      <point x="-1008" y="1548"/>
-      <point x="-1071" y="1663" type="curve"/>
+      <point x="-1003" y="1436" type="line"/>
+      <point x="-1118.1174345076784" y="1536.16711833785"/>
+      <point x="-1196" y="1647" type="qcurve"/>
       <point x="-1196" y="1663" type="line"/>
-      <point x="-1196" y="1647" type="line"/>
-      <point x="-1144" y="1573"/>
-      <point x="-1080" y="1503"/>
+      <point x="-1071.0" y="1663.0" type="line"/>
+      <point x="-1039.5" y="1605.5"/>
+      <point x="-1001.8333333333333" y="1541.6666666666667"/>
+      <point x="-965.5" y="1490.5"/>
+      <point x="-936" y="1452" type="qcurve"/>
+      <point x="-936" y="1436" type="line"/>
     </contour>
     <contour>
       <point x="-735" y="1141" type="move" name="_top"/>

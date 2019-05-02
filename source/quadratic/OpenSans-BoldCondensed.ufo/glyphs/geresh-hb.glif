@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="geresh-hb" format="1">
   <advance width="352"/>
   <unicode hex="05F3"/>
   <note>
-    gereshhb
-  </note>
+gereshhb
+</note>
   <outline>
     <contour>
-      <point x="20" y="782" type="curve"/>
-      <point x="182" y="782" type="line"/>
-      <point x="220" y="903"/>
-      <point x="242" y="976"/>
-      <point x="265" y="1057" type="curve" smooth="yes"/>
-      <point x="281" y="1111"/>
-      <point x="296" y="1171"/>
-      <point x="321" y="1271" type="curve"/>
+      <point x="20" y="782" type="line"/>
+      <point x="42.90909090909091" y="893.6818181818181"/>
+      <point x="57.0" y="974.0" type="qcurve" smooth="yes"/>
+      <point x="67.5" y="1034.75"/>
+      <point x="87.75" y="1196.25"/>
+      <point x="99" y="1293" type="qcurve"/>
       <point x="310" y="1293" type="line"/>
-      <point x="99" y="1293" type="line"/>
-      <point x="84" y="1164"/>
-      <point x="71" y="1055"/>
-      <point x="57" y="974" type="curve" smooth="yes"/>
-      <point x="47" y="917"/>
-      <point x="36" y="860"/>
+      <point x="321.0" y="1271.0" type="line"/>
+      <point x="302.25" y="1196.0"/>
+      <point x="277.0" y="1097.5"/>
+      <point x="265.0" y="1057.0" type="qcurve" smooth="yes"/>
+      <point x="247.75" y="996.25"/>
+      <point x="210.5" y="872.75"/>
+      <point x="182" y="782" type="qcurve"/>
     </contour>
   </outline>
 </glyph>

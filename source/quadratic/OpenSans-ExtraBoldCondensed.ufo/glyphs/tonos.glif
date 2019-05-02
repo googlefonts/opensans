@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonos" format="1">
   <advance width="1063"/>
   <unicode hex="0384"/>
   <note>
-    tonos
-  </note>
+tonos
+</note>
   <outline>
     <contour>
       <point x="337" y="1241" type="line"/>
-      <point x="548" y="1241" type="line"/>
-      <point x="632" y="1365"/>
-      <point x="685" y="1444"/>
-      <point x="726" y="1522" type="curve"/>
+      <point x="337.0" y="1277.0" type="line"/>
+      <point x="358.0" y="1340.0"/>
+      <point x="383.25" y="1452.75"/>
+      <point x="399" y="1548" type="qcurve"/>
       <point x="726" y="1548" type="line"/>
-      <point x="399" y="1548" type="line"/>
-      <point x="378" y="1421"/>
-      <point x="365" y="1361"/>
-      <point x="337" y="1277" type="curve"/>
+      <point x="726.0" y="1522.0" type="line"/>
+      <point x="695.25" y="1463.5"/>
+      <point x="611.0" y="1334.0"/>
+      <point x="548" y="1241" type="qcurve"/>
     </contour>
     <contour>
       <point x="532" y="1127" type="move" name="_top"/>

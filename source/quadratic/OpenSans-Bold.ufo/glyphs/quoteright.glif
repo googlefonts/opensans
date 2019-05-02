@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteright" format="1">
   <advance width="444"/>
   <unicode hex="2019"/>
   <note>
-    quoteright
-  </note>
+quoteright
+</note>
   <outline>
     <contour>
-      <point x="25" y="902" type="curve"/>
-      <point x="239" y="902" type="line"/>
-      <point x="298" y="1036"/>
-      <point x="357" y="1215"/>
-      <point x="415" y="1439" type="curve"/>
+      <point x="25" y="902" type="line"/>
+      <point x="57.25" y="1041.5"/>
+      <point x="110.25" y="1333.5"/>
+      <point x="126" y="1461" type="qcurve"/>
       <point x="401" y="1461" type="line"/>
-      <point x="126" y="1461" type="line"/>
-      <point x="105" y="1291"/>
-      <point x="68" y="1088"/>
+      <point x="415.0" y="1439.0" type="line"/>
+      <point x="328.71381337252024" y="1105.7567964731816"/>
+      <point x="239" y="902" type="qcurve"/>
     </contour>
   </outline>
 </glyph>

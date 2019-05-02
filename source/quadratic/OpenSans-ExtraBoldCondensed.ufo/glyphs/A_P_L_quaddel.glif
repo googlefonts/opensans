@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="APLquaddel" format="1">
   <advance width="1491"/>
   <unicode hex="2354"/>
   <note>
-    APLquaddel
-  </note>
+APLquaddel
+</note>
   <outline>
     <contour>
       <point x="674" y="131" type="line"/>
-      <point x="817" y="131" type="line"/>
-      <point x="1184" y="1194" type="line"/>
-      <point x="1184" y="1282" type="line"/>
-      <point x="307" y="1282" type="line"/>
       <point x="307" y="1194" type="line"/>
+      <point x="307" y="1282" type="line"/>
+      <point x="1184" y="1282" type="line"/>
+      <point x="1184" y="1194" type="line"/>
+      <point x="817" y="131" type="line"/>
     </contour>
     <contour>
       <point x="745" y="322" type="line"/>
-      <point x="469" y="1145" type="line"/>
       <point x="1022" y="1145" type="line"/>
+      <point x="469" y="1145" type="line"/>
     </contour>
     <component base="APLquad"/>
   </outline>

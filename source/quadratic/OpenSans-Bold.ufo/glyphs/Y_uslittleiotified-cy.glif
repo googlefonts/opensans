@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yuslittleiotified-cy" format="1">
   <advance width="2058"/>
   <unicode hex="0468"/>
   <note>
-    uni0468
-  </note>
+uni0468
+</note>
   <outline>
     <contour>
       <point x="184" y="0" type="line"/>
-      <point x="492" y="0" type="line"/>
-      <point x="492" y="633" type="line"/>
-      <point x="875" y="633" type="line"/>
-      <point x="601" y="0" type="line"/>
-      <point x="920" y="0" type="line"/>
-      <point x="1161" y="604" type="line"/>
-      <point x="1271" y="604" type="line"/>
-      <point x="1271" y="0" type="line"/>
-      <point x="1545" y="0" type="line"/>
-      <point x="1545" y="604" type="line"/>
-      <point x="1657" y="604" type="line"/>
-      <point x="1897" y="0" type="line"/>
-      <point x="2214" y="0" type="line"/>
-      <point x="1578" y="1464" type="line"/>
-      <point x="1238" y="1464" type="line"/>
-      <point x="988" y="888" type="line"/>
-      <point x="492" y="888" type="line"/>
-      <point x="492" y="1462" type="line"/>
       <point x="184" y="1462" type="line"/>
+      <point x="492" y="1462" type="line"/>
+      <point x="492" y="888" type="line"/>
+      <point x="988" y="888" type="line"/>
+      <point x="1238" y="1464" type="line"/>
+      <point x="1578" y="1464" type="line"/>
+      <point x="2214" y="0" type="line"/>
+      <point x="1897" y="0" type="line"/>
+      <point x="1657" y="604" type="line"/>
+      <point x="1545" y="604" type="line"/>
+      <point x="1545" y="0" type="line"/>
+      <point x="1271" y="0" type="line"/>
+      <point x="1271" y="604" type="line"/>
+      <point x="1161" y="604" type="line"/>
+      <point x="920" y="0" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="875" y="633" type="line"/>
+      <point x="492" y="633" type="line"/>
+      <point x="492" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="1252" y="836" type="line"/>
-      <point x="1316" y="992"/>
-      <point x="1368" y="1118"/>
-      <point x="1410" y="1232" type="curve"/>
-      <point x="1460" y="1094"/>
-      <point x="1504" y="984"/>
-      <point x="1563" y="836" type="curve"/>
+      <point x="1252" y="836" type="qcurve"/>
+      <point x="1563.0" y="836.0" type="line"/>
+      <point x="1518.75" y="947.0"/>
+      <point x="1447.5" y="1128.5"/>
+      <point x="1410.0" y="1232.0" type="qcurve"/>
+      <point x="1378.5" y="1146.5"/>
+      <point x="1300.0" y="953.0"/>
     </contour>
   </outline>
 </glyph>
