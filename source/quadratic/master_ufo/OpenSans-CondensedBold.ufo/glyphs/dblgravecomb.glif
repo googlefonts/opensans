@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecomb" format="2">
+  <unicode hex="030F"/>
+  <note>
+uni030F
+</note>
+  <anchor x="0.0" y="1114.0" name="_top"/>
+  <anchor x="0.0" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="273.0" y="1241.0" type="curve"/>
+      <point x="423.0" y="1241.0" type="line"/>
+      <point x="423.0" y="1268.0" type="line"/>
+      <point x="368.0" y="1343.0"/>
+      <point x="294.0" y="1473.0"/>
+      <point x="249.0" y="1569.0" type="curve"/>
+      <point x="-34.0" y="1569.0" type="line"/>
+      <point x="-34.0" y="1547.0" type="line"/>
+      <point x="4.0" y="1485.0"/>
+      <point x="170.0" y="1324.0"/>
+    </contour>
+    <contour>
+      <point x="-118.0" y="1241.0" type="curve"/>
+      <point x="32.0" y="1241.0" type="line"/>
+      <point x="32.0" y="1268.0" type="line"/>
+      <point x="-9.0" y="1322.0"/>
+      <point x="-97.0" y="1468.0"/>
+      <point x="-142.0" y="1569.0" type="curve"/>
+      <point x="-423.0" y="1569.0" type="line"/>
+      <point x="-423.0" y="1547.0" type="line"/>
+      <point x="-385.0" y="1486.0"/>
+      <point x="-217.0" y="1320.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>9.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>6.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>9.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

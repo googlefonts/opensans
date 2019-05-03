@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Z" format="2">
+  <advance width="1251.0"/>
+  <unicode hex="005A"/>
+  <anchor x="626.0" y="0.0" name="bottom"/>
+  <anchor x="626.0" y="1462.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="1200.0" y="319.0" type="line"/>
+      <point x="551.0" y="319.0" type="line"/>
+      <point x="1184.0" y="1219.0" type="line"/>
+      <point x="1184.0" y="1462.0" type="line"/>
+      <point x="76.0" y="1462.0" type="line"/>
+      <point x="76.0" y="1143.0" type="line"/>
+      <point x="694.0" y="1143.0" type="line"/>
+      <point x="61.0" y="244.0" type="line"/>
+      <point x="61.0" y="0.0" type="line"/>
+      <point x="1200.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>7.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>4.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>3.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>7.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>8.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>7.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>3.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>4.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

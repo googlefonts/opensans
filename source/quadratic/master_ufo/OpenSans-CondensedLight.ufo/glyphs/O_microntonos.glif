@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrontonos" format="2">
+  <advance width="1065.0"/>
+  <unicode hex="038C"/>
+  <note>
+Omicrontonos
+</note>
+  <anchor x="533.0" y="0.0" name="bottom"/>
+  <anchor x="533.0" y="731.0" name="center"/>
+  <anchor x="958.0" y="10.0" name="ogonek"/>
+  <anchor x="263.0" y="1461.0" name="topleft"/>
+  <anchor x="1045.0" y="1462.0" name="topright"/>
+  <outline>
+    <component base="Omicron"/>
+    <component base="tonos" xOffset="-530.0" yOffset="-95.0"/>
+  </outline>
+</glyph>

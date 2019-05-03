@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal" format="2">
+  <advance width="1169.0"/>
+  <unicode hex="003D"/>
+  <note>
+equal
+</note>
+  <outline>
+    <contour>
+      <point x="111.0" y="885.0" type="line"/>
+      <point x="1059.0" y="885.0" type="line"/>
+      <point x="1059.0" y="967.0" type="line"/>
+      <point x="111.0" y="967.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="111.0" y="477.0" type="line"/>
+      <point x="1059.0" y="477.0" type="line"/>
+      <point x="1059.0" y="559.0" type="line"/>
+      <point x="111.0" y="559.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>3.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>2.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>3.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>2.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>3.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>2.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>3.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>2.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni047F" format="2">
+  <advance width="1591.0"/>
+  <unicode hex="047F"/>
+  <note>
+uni047F
+</note>
+  <outline>
+    <contour>
+      <point x="387.0" y="1198.0" type="line"/>
+      <point x="429.0" y="1198.0" type="line"/>
+      <point x="481.0" y="1290.0" type="line"/>
+      <point x="690.0" y="1290.0" type="line"/>
+      <point x="744.0" y="1198.0" type="line"/>
+      <point x="784.0" y="1198.0" type="line"/>
+      <point x="839.0" y="1290.0" type="line"/>
+      <point x="1043.0" y="1290.0" type="line"/>
+      <point x="1099.0" y="1198.0" type="line"/>
+      <point x="1140.0" y="1198.0" type="line"/>
+      <point x="1229.0" y="1365.0" type="line"/>
+      <point x="1229.0" y="1480.0" type="line"/>
+      <point x="300.0" y="1480.0" type="line"/>
+      <point x="300.0" y="1365.0" type="line"/>
+    </contour>
+    <component base="omega-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>11.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>1.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>12.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>9.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>11.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>1.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

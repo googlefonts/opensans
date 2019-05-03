@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="1098.0"/>
+  <unicode hex="0384"/>
+  <note>
+tonos
+</note>
+  <anchor x="534.0" y="1114.0" name="_top"/>
+  <anchor x="735.0" y="1556.0" name="_topleft"/>
+  <outline>
+    <contour>
+      <point x="382.0" y="1241.0" type="line"/>
+      <point x="546.0" y="1241.0" type="line"/>
+      <point x="622.0" y="1360.0"/>
+      <point x="678.0" y="1460.0"/>
+      <point x="716.0" y="1542.0" type="curve"/>
+      <point x="716.0" y="1567.0" type="line"/>
+      <point x="454.0" y="1567.0" type="line"/>
+      <point x="436.0" y="1456.0"/>
+      <point x="411.0" y="1358.0"/>
+      <point x="382.0" y="1273.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>9.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>5.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>9.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>3.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>9.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>5.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

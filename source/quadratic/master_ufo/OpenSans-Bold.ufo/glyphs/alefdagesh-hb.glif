@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefdagesh-hb" format="2">
+  <advance width="1329.0"/>
+  <unicode hex="FB30"/>
+  <note>
+uniFB30
+</note>
+  <anchor x="655.0" y="0.0" name="bottom"/>
+  <anchor x="21.0" y="0.0" name="bottomleft"/>
+  <anchor x="578.0" y="225.0" name="center"/>
+  <anchor x="655.0" y="1119.0" name="top"/>
+  <anchor x="21.0" y="1119.0" name="topleft"/>
+  <outline>
+    <component base="alef-hb"/>
+    <component base="dagesh-hb" xOffset="577.0" yOffset="-404.0"/>
+  </outline>
+</glyph>

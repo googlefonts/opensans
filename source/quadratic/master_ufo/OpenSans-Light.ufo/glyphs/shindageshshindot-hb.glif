@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shindageshshindot-hb" format="2">
+  <advance width="1369.0"/>
+  <unicode hex="FB2C"/>
+  <note>
+uniFB2C
+</note>
+  <anchor x="685.0" y="0.0" name="bottom"/>
+  <anchor x="20.0" y="0.0" name="bottomleft"/>
+  <anchor x="762.0" y="449.0" name="center"/>
+  <anchor x="685.0" y="1087.0" name="top"/>
+  <anchor x="183.0" y="1377.0" name="topleft"/>
+  <anchor x="1300.0" y="1274.0" name="topright"/>
+  <outline>
+    <component base="shin-hb"/>
+    <component base="dagesh-hb" xOffset="753.0" yOffset="-115.0"/>
+    <component base="shindot-hb" xOffset="1291.0" yOffset="187.0"/>
+  </outline>
+</glyph>

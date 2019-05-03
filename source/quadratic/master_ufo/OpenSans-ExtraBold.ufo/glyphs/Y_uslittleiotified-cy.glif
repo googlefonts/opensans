@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yuslittleiotified-cy" format="2">
+  <advance width="2380.0"/>
+  <unicode hex="0468"/>
+  <note>
+uni0468
+</note>
+  <outline>
+    <contour>
+      <point x="158.0" y="0.0" type="line"/>
+      <point x="555.0" y="0.0" type="line"/>
+      <point x="555.0" y="596.0" type="line"/>
+      <point x="899.0" y="596.0" type="line"/>
+      <point x="639.0" y="0.0" type="line"/>
+      <point x="1047.0" y="0.0" type="line"/>
+      <point x="1260.0" y="555.0" type="line"/>
+      <point x="1341.0" y="555.0" type="line"/>
+      <point x="1341.0" y="0.0" type="line"/>
+      <point x="1690.0" y="0.0" type="line"/>
+      <point x="1690.0" y="555.0" type="line"/>
+      <point x="1772.0" y="555.0" type="line"/>
+      <point x="1987.0" y="0.0" type="line"/>
+      <point x="2392.0" y="0.0" type="line"/>
+      <point x="1745.0" y="1462.0" type="line"/>
+      <point x="1280.0" y="1462.0" type="line"/>
+      <point x="1042.0" y="920.0" type="line"/>
+      <point x="555.0" y="920.0" type="line"/>
+      <point x="555.0" y="1462.0" type="line"/>
+      <point x="158.0" y="1462.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1374.0" y="846.0" type="line"/>
+      <point x="1421.0" y="966.0"/>
+      <point x="1469.0" y="1086.0"/>
+      <point x="1516.0" y="1206.0" type="curve"/>
+      <point x="1562.0" y="1086.0"/>
+      <point x="1609.0" y="966.0"/>
+      <point x="1655.0" y="846.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>19.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>1.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>16.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>18.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>6.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>19.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>16.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>1.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>18.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>6.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>5.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

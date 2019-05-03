@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finaltsadi-hb" format="2">
+  <advance width="1173.0"/>
+  <unicode hex="05E5"/>
+  <note>
+afii57685
+</note>
+  <anchor x="568.0" y="0.0" name="bottom"/>
+  <anchor x="28.0" y="0.0" name="bottomleft"/>
+  <anchor x="568.0" y="560.0" name="center"/>
+  <anchor x="568.0" y="1119.0" name="top"/>
+  <anchor x="28.0" y="1119.0" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="288.0" y="-492.0" type="line"/>
+      <point x="590.0" y="-492.0" type="line"/>
+      <point x="590.0" y="427.0" type="line"/>
+      <point x="657.0" y="439.0" type="line" smooth="yes"/>
+      <point x="777.0" y="446.0"/>
+      <point x="872.0" y="486.0"/>
+      <point x="927.0" y="538.0" type="curve" smooth="yes"/>
+      <point x="1000.0" y="607.0"/>
+      <point x="1037.0" y="711.0"/>
+      <point x="1037.0" y="847.0" type="curve" smooth="yes"/>
+      <point x="1037.0" y="1293.0" type="line"/>
+      <point x="736.0" y="1293.0" type="line"/>
+      <point x="736.0" y="858.0" type="line" smooth="yes"/>
+      <point x="736.0" y="735.0"/>
+      <point x="695.0" y="670.0"/>
+      <point x="615.0" y="660.0" type="curve" smooth="yes"/>
+      <point x="598.0" y="656.0"/>
+      <point x="581.0" y="652.0"/>
+      <point x="564.0" y="648.0" type="curve"/>
+      <point x="331.0" y="1293.0" type="line"/>
+      <point x="8.0" y="1293.0" type="line"/>
+      <point x="288.0" y="572.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>21.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>19.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>8.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>21.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

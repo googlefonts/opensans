@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="samekhdagesh-hb" format="2">
+  <advance width="1061.0"/>
+  <unicode hex="FB41"/>
+  <note>
+uniFB41
+</note>
+  <anchor x="531.0" y="0.0" name="bottom"/>
+  <anchor x="19.0" y="0.0" name="bottomleft"/>
+  <anchor x="531.0" y="633.0" name="center"/>
+  <anchor x="531.0" y="1127.0" name="top"/>
+  <anchor x="19.0" y="1127.0" name="topleft"/>
+  <outline>
+    <component base="samekh-hb"/>
+    <component base="dagesh-hb" xOffset="422.0" yOffset="-18.0"/>
+  </outline>
+</glyph>

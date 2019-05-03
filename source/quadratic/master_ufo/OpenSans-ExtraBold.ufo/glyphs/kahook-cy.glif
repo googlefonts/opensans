@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kahook-cy" format="2">
+  <advance width="1479.0"/>
+  <unicode hex="04C4"/>
+  <note>
+uni04C4
+</note>
+  <outline>
+    <contour>
+      <point x="860.0" y="-459.0" type="curve" smooth="yes"/>
+      <point x="987.0" y="-459.0"/>
+      <point x="1093.0" y="-431.0"/>
+      <point x="1176.0" y="-377.0" type="curve" smooth="yes"/>
+      <point x="1316.0" y="-287.0"/>
+      <point x="1391.0" y="-124.0"/>
+      <point x="1391.0" y="102.0" type="curve" smooth="yes"/>
+      <point x="1391.0" y="194.0"/>
+      <point x="1372.0" y="278.0"/>
+      <point x="1334.0" y="354.0" type="curve" smooth="yes"/>
+      <point x="1258.0" y="505.0"/>
+      <point x="1110.0" y="599.0"/>
+      <point x="913.0" y="614.0" type="curve"/>
+      <point x="1360.0" y="1133.0" type="line"/>
+      <point x="928.0" y="1133.0" type="line"/>
+      <point x="526.0" y="625.0" type="line"/>
+      <point x="526.0" y="1133.0" type="line"/>
+      <point x="135.0" y="1133.0" type="line"/>
+      <point x="135.0" y="0.0" type="line"/>
+      <point x="526.0" y="0.0" type="line"/>
+      <point x="526.0" y="299.0" type="line"/>
+      <point x="597.0" y="321.0"/>
+      <point x="666.0" y="332.0"/>
+      <point x="733.0" y="332.0" type="curve" smooth="yes"/>
+      <point x="900.0" y="332.0"/>
+      <point x="993.0" y="241.0"/>
+      <point x="993.0" y="92.0" type="curve" smooth="yes"/>
+      <point x="993.0" y="-25.0"/>
+      <point x="965.0" y="-100.0"/>
+      <point x="906.0" y="-138.0" type="curve" smooth="yes"/>
+      <point x="874.0" y="-158.0"/>
+      <point x="834.0" y="-168.0"/>
+      <point x="784.0" y="-168.0" type="curve" smooth="yes"/>
+      <point x="723.0" y="-168.0"/>
+      <point x="647.0" y="-154.0"/>
+      <point x="598.0" y="-125.0" type="curve"/>
+      <point x="598.0" y="-412.0" type="line"/>
+      <point x="678.0" y="-443.0"/>
+      <point x="765.0" y="-459.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>17.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>16.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>17.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>16.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

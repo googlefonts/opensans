@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gimeldagesh-hb" format="2">
+  <advance width="984.0"/>
+  <unicode hex="FB32"/>
+  <note>
+uniFB32
+</note>
+  <anchor x="492.0" y="0.0" name="bottom"/>
+  <anchor x="20.0" y="0.0" name="bottomleft"/>
+  <anchor x="280.0" y="672.0" name="center"/>
+  <anchor x="492.0" y="1133.0" name="top"/>
+  <anchor x="20.0" y="1133.0" name="topleft"/>
+  <outline>
+    <component base="gimel-hb"/>
+    <component base="dagesh-hb" xOffset="279.0" yOffset="15.0"/>
+  </outline>
+</glyph>
