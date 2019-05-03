@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uk-cy" format="2">
+  <advance width="2310.0"/>
+  <unicode hex="0478"/>
+  <note>
+uni0478
+</note>
+  <anchor x="643.0" y="0.0" name="bottom_1"/>
+  <anchor x="2160.0" y="0.0" name="bottom_2"/>
+  <anchor x="643.0" y="731.0" name="center"/>
+  <anchor x="1157.0" y="10.0" name="ogonek"/>
+  <anchor x="643.0" y="1462.0" name="top_1"/>
+  <anchor x="1798.0" y="1127.0" name="top_2"/>
+  <anchor x="160.0" y="1462.0" name="topleft"/>
+  <anchor x="1265.0" y="1462.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="y" xOffset="1285.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>y</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefqamats-hb" format="2">
+  <advance width="1024.0"/>
+  <unicode hex="FB2F"/>
+  <note>
+uniFB2F
+</note>
+  <anchor x="512.0" y="-208.0" name="bottom"/>
+  <anchor x="20.0" y="0.0" name="bottomleft"/>
+  <anchor x="460.0" y="191.0" name="center"/>
+  <anchor x="512.0" y="1114.0" name="top"/>
+  <anchor x="20.0" y="1114.0" name="topleft"/>
+  <outline>
+    <component base="alef-hb"/>
+    <component base="qamats-hb" xOffset="512.0" yOffset="-90.0"/>
+  </outline>
+</glyph>

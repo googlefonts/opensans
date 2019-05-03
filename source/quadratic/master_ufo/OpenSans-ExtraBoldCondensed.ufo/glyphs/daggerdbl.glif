@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="1085.0"/>
+  <unicode hex="2021"/>
+  <note>
+daggerdbl
+</note>
+  <outline>
+    <contour>
+      <point x="382.0" y="0.0" type="line"/>
+      <point x="712.0" y="0.0" type="line"/>
+      <point x="643.0" y="374.0" type="line"/>
+      <point x="992.0" y="337.0" type="line"/>
+      <point x="992.0" y="626.0" type="line"/>
+      <point x="643.0" y="587.0" type="line"/>
+      <point x="707.0" y="786.0" type="line"/>
+      <point x="643.0" y="970.0" type="line"/>
+      <point x="992.0" y="930.0" type="line"/>
+      <point x="992.0" y="1218.0" type="line"/>
+      <point x="643.0" y="1183.0" type="line"/>
+      <point x="712.0" y="1556.0" type="line"/>
+      <point x="382.0" y="1556.0" type="line"/>
+      <point x="450.0" y="1183.0" type="line"/>
+      <point x="93.0" y="1218.0" type="line"/>
+      <point x="93.0" y="930.0" type="line"/>
+      <point x="450.0" y="970.0" type="line"/>
+      <point x="388.0" y="786.0" type="line"/>
+      <point x="450.0" y="587.0" type="line"/>
+      <point x="93.0" y="626.0" type="line"/>
+      <point x="93.0" y="337.0" type="line"/>
+      <point x="450.0" y="374.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>21.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>19.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>2.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>21.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <unicode hex="0308"/>
+  <note>
+dieresis
+</note>
+  <anchor x="617.0" y="1133.0" name="_top"/>
+  <anchor x="617.0" y="1571.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="856.0" y="1257.0" type="curve" smooth="yes"/>
+      <point x="963.0" y="1257.0"/>
+      <point x="1029.0" y="1318.0"/>
+      <point x="1029.0" y="1413.0" type="curve" smooth="yes"/>
+      <point x="1029.0" y="1509.0"/>
+      <point x="963.0" y="1571.0"/>
+      <point x="856.0" y="1571.0" type="curve" smooth="yes"/>
+      <point x="749.0" y="1571.0"/>
+      <point x="684.0" y="1513.0"/>
+      <point x="684.0" y="1413.0" type="curve" smooth="yes"/>
+      <point x="684.0" y="1316.0"/>
+      <point x="748.0" y="1257.0"/>
+    </contour>
+    <contour>
+      <point x="375.0" y="1257.0" type="curve" smooth="yes"/>
+      <point x="480.0" y="1257.0"/>
+      <point x="547.0" y="1318.0"/>
+      <point x="547.0" y="1413.0" type="curve" smooth="yes"/>
+      <point x="547.0" y="1510.0"/>
+      <point x="480.0" y="1571.0"/>
+      <point x="375.0" y="1571.0" type="curve" smooth="yes"/>
+      <point x="271.0" y="1571.0"/>
+      <point x="205.0" y="1513.0"/>
+      <point x="205.0" y="1413.0" type="curve" smooth="yes"/>
+      <point x="205.0" y="1314.0"/>
+      <point x="271.0" y="1257.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <real>1233.0</real>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>11.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>8.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>0.0</real>
+            <real>2.0</real>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>1.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <real>1.0</real>
+            <real>11.0</real>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

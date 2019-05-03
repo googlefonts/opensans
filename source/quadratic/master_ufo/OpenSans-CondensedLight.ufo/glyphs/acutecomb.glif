@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <note>
+acutecomb
+</note>
+  <anchor x="-90.0" y="1123.0" name="_top"/>
+  <anchor x="0.0" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="-158.0" y="1241.0" type="line"/>
+      <point x="-111.0" y="1241.0" type="line"/>
+      <point x="-16.0" y="1320.0"/>
+      <point x="106.0" y="1459.0"/>
+      <point x="158.0" y="1552.0" type="curve"/>
+      <point x="158.0" y="1569.0" type="line"/>
+      <point x="33.0" y="1569.0" type="line"/>
+      <point x="-10.0" y="1475.0"/>
+      <point x="-73.0" y="1373.0"/>
+      <point x="-158.0" y="1262.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <real>0.0</real>
+            <real>5.0</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

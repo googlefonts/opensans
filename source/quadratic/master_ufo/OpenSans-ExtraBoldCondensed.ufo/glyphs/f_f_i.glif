@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_i" format="2">
+  <advance width="1904.0"/>
+  <unicode hex="FB03"/>
+  <note>
+ffi
+</note>
+  <anchor x="1632.0" y="0.0" name="bottom"/>
+  <anchor x="340.0" y="0.0" name="bottom_1"/>
+  <anchor x="1020.0" y="0.0" name="bottom_2"/>
+  <anchor x="1846.0" y="10.0" name="ogonek"/>
+  <anchor x="1632.0" y="1577.0" name="top"/>
+  <anchor x="340.0" y="1127.0" name="top_1"/>
+  <anchor x="1020.0" y="1127.0" name="top_2"/>
+  <outline>
+    <component base="f_f"/>
+    <component base="i" xOffset="1360.0"/>
+  </outline>
+</glyph>

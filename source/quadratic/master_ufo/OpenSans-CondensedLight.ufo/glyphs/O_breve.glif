@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Obreve" format="2">
+  <advance width="1065.0"/>
+  <unicode hex="014E"/>
+  <note>
+Obreve
+</note>
+  <anchor x="533.0" y="0.0" name="bottom"/>
+  <anchor x="533.0" y="731.0" name="center"/>
+  <anchor x="958.0" y="10.0" name="ogonek"/>
+  <anchor x="533.0" y="1462.0" name="top"/>
+  <anchor x="180.0" y="1462.0" name="topleft"/>
+  <anchor x="1045.0" y="1462.0" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="breve" xOffset="-46.0" yOffset="377.0"/>
+  </outline>
+</glyph>

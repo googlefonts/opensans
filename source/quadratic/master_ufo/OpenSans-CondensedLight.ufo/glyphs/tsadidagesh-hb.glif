@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tsadidagesh-hb" format="2">
+  <advance width="755.0"/>
+  <unicode hex="FB46"/>
+  <note>
+uniFB46
+</note>
+  <anchor x="378.0" y="0.0" name="bottom"/>
+  <anchor x="20.0" y="0.0" name="bottomleft"/>
+  <anchor x="195.0" y="354.0" name="center"/>
+  <anchor x="378.0" y="1085.0" name="top"/>
+  <anchor x="20.0" y="1085.0" name="topleft"/>
+  <outline>
+    <component base="tsadi-hb"/>
+    <component base="dagesh-hb" xOffset="194.0" yOffset="-316.0"/>
+  </outline>
+</glyph>
