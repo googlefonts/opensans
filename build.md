@@ -4,4 +4,4 @@
 	`:; for I in *.ufo; do python3 -m cu2qu -i "${I}"; done`
 3. manually copy `features.fea` into the UFOs
 4. fontmake UFO to ttf with designspace
-	`fontmake -m ../../../OpenSans-Roman-quadratic.designspace -o variable`
+	`fontmake -m OpenSans-Roman-quadratic.designspace -o variable`
