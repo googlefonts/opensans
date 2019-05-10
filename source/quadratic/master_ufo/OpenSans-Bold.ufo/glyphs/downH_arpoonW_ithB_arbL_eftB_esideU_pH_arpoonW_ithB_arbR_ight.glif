@@ -1,56 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight" format="2">
-  <advance width="1356.0"/>
-  <unicode hex="296F"/>
-  <note>
-downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight
-</note>
-  <outline>
-    <contour>
-      <point x="1212.0" y="985.0" type="curve"/>
-      <point x="1212.0" y="1075.0" type="line"/>
-      <point x="1085.0" y="1184.0"/>
-      <point x="991.0" y="1298.0"/>
-      <point x="932.0" y="1417.0" type="curve"/>
-      <point x="854.0" y="1417.0" type="line"/>
-      <point x="854.0" y="1149.0" type="line"/>
-      <point x="950.0" y="1149.0" type="line"/>
-      <point x="1004.0" y="1096.0"/>
-      <point x="1094.0" y="1040.0"/>
-    </contour>
-    <contour>
-      <point x="424.0" y="0.0" type="curve"/>
-      <point x="502.0" y="0.0" type="line"/>
-      <point x="502.0" y="268.0" type="line"/>
-      <point x="406.0" y="268.0" type="line"/>
-      <point x="352.0" y="322.0"/>
-      <point x="262.0" y="377.0"/>
-      <point x="143.0" y="432.0" type="curve"/>
-      <point x="143.0" y="342.0" type="line"/>
-      <point x="270.0" y="233.0"/>
-      <point x="365.0" y="119.0"/>
-    </contour>
-    <contour>
-      <point x="391.0" y="207.0" type="line"/>
-      <point x="502.0" y="207.0" type="line"/>
-      <point x="502.0" y="1417.0" type="line"/>
-      <point x="391.0" y="1417.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="854.0" y="0.0" type="line"/>
-      <point x="965.0" y="0.0" type="line"/>
-      <point x="965.0" y="1210.0" type="line"/>
-      <point x="854.0" y="1210.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="296F"/>
+	<advance width="1356"/>
+	<outline>
+		<contour>
+			<point x="1212" y="985" type="curve"/>
+			<point x="1212" y="1075" type="line"/>
+			<point x="1085" y="1184"/>
+			<point x="991" y="1298"/>
+			<point x="932" y="1417" type="curve"/>
+			<point x="854" y="1417" type="line"/>
+			<point x="854" y="1149" type="line"/>
+			<point x="950" y="1149" type="line"/>
+			<point x="1004" y="1096"/>
+			<point x="1094" y="1040"/>
+		</contour>
+		<contour>
+			<point x="424" y="0" type="curve"/>
+			<point x="502" y="0" type="line"/>
+			<point x="502" y="268" type="line"/>
+			<point x="406" y="268" type="line"/>
+			<point x="352" y="322"/>
+			<point x="262" y="377"/>
+			<point x="143" y="432" type="curve"/>
+			<point x="143" y="342" type="line"/>
+			<point x="270" y="233"/>
+			<point x="365" y="119"/>
+		</contour>
+		<contour>
+			<point x="391" y="207" type="line"/>
+			<point x="502" y="207" type="line"/>
+			<point x="502" y="1417" type="line"/>
+			<point x="391" y="1417" type="line"/>
+		</contour>
+		<contour>
+			<point x="854" y="0" type="line"/>
+			<point x="965" y="0" type="line"/>
+			<point x="965" y="1210" type="line"/>
+			<point x="854" y="1210" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		downHarpoonWithBarbLeftBesideUpHarpoonWithBarbRight
+	</note>
 </glyph>

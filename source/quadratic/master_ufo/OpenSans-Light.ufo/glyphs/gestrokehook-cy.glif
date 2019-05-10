@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gestrokehook-cy" format="2">
-  <advance width="862.0"/>
-  <unicode hex="04FB"/>
-  <note>
-uni04FB
-</note>
-  <anchor x="276.0" y="0.0" name="cyrillicbighook"/>
-  <outline>
-    <component base="ghestroke-cy"/>
-    <component base="cyrillicbighookLC" xOffset="97.0" yOffset="-1.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ghestroke-cy</string>
-    </dict>
-  </lib>
+	<unicode hex="04FB"/>
+	<advance width="862"/>
+	<outline>
+		<component base="ghestroke-cy"/>
+		<component base="cyrillicbighookLC" xOffset="97" yOffset="-1"/>
+	</outline>
+	<anchor name="cyrillicbighook" x="276" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>ghestroke-cy</string>
+		</dict>
+	</lib>
+	<note>
+		uni04FB
+	</note>
 </glyph>

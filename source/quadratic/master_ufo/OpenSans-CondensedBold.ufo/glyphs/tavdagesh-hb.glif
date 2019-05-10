@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tavdagesh-hb" format="2">
-  <advance width="1065.0"/>
-  <unicode hex="FB4A"/>
-  <note>
-uniFB4A
-</note>
-  <anchor x="533.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="573.0" y="592.0" name="center"/>
-  <anchor x="533.0" y="1114.0" name="top"/>
-  <anchor x="20.0" y="1114.0" name="topleft"/>
-  <outline>
-    <component base="tav-hb"/>
-    <component base="dagesh-hb" xOffset="478.0" yOffset="-65.0"/>
-  </outline>
+	<unicode hex="FB4A"/>
+	<advance width="1065"/>
+	<outline>
+		<component base="tav-hb"/>
+		<component base="dagesh-hb" xOffset="478" yOffset="-65"/>
+	</outline>
+	<anchor name="bottom" x="533" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="573" y="592"/>
+	<anchor name="top" x="533" y="1114"/>
+	<anchor name="topleft" x="20" y="1114"/>
+	<note>
+		uniFB4A
+	</note>
 </glyph>

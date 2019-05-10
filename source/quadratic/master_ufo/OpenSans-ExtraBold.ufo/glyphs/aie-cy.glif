@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aie-cy" format="2">
-  <advance width="1915.0"/>
-  <unicode hex="04D5"/>
-  <note>
-uni04D5
-</note>
-  <anchor x="958.0" y="0.0" name="bottom"/>
-  <anchor x="958.0" y="1133.0" name="top"/>
-  <outline>
-    <component base="ae"/>
-  </outline>
+	<unicode hex="04D5"/>
+	<advance width="1915"/>
+	<outline>
+		<component base="ae"/>
+	</outline>
+	<anchor name="bottom" x="958" y="0"/>
+	<anchor name="top" x="958" y="1133"/>
+	<note>
+		uni04D5
+	</note>
 </glyph>

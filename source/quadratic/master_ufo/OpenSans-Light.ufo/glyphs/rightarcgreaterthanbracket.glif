@@ -1,61 +1,61 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightarcgreaterthanbracket" format="2">
-  <advance width="1499.0"/>
-  <unicode hex="2994"/>
-  <note>
-rightarcgreaterthanbracket
-</note>
-  <outline>
-    <contour>
-      <point x="336.0" y="-201.0" type="curve"/>
-      <point x="487.0" y="-201.0" type="line"/>
-      <point x="582.0" y="-41.0"/>
-      <point x="649.0" y="115.0"/>
-      <point x="688.0" y="272.0" type="curve"/>
-      <point x="1395.0" y="598.0" type="line"/>
-      <point x="1395.0" y="700.0" type="line"/>
-      <point x="684.0" y="1059.0" type="line"/>
-      <point x="639.0" y="1229.0"/>
-      <point x="567.0" y="1395.0"/>
-      <point x="467.0" y="1552.0" type="curve"/>
-      <point x="309.0" y="1552.0" type="line"/>
-      <point x="399.0" y="1425.0"/>
-      <point x="469.0" y="1288.0"/>
-      <point x="516.0" y="1143.0" type="curve"/>
-      <point x="104.0" y="1352.0" type="line"/>
-      <point x="104.0" y="1192.0" type="line"/>
-      <point x="563.0" y="969.0" type="line"/>
-      <point x="584.0" y="872.0"/>
-      <point x="594.0" y="768.0"/>
-      <point x="594.0" y="657.0" type="curve" smooth="yes"/>
-      <point x="594.0" y="557.0"/>
-      <point x="586.0" y="461.0"/>
-      <point x="569.0" y="373.0" type="curve"/>
-      <point x="104.0" y="164.0" type="line"/>
-      <point x="104.0" y="4.0" type="line"/>
-      <point x="526.0" y="197.0" type="line"/>
-      <point x="479.0" y="49.0"/>
-      <point x="416.0" y="-82.0"/>
-    </contour>
-    <contour>
-      <point x="723.0" y="440.0" type="line"/>
-      <point x="731.0" y="504.0"/>
-      <point x="737.0" y="578.0"/>
-      <point x="737.0" y="657.0" type="curve" smooth="yes"/>
-      <point x="737.0" y="737.0"/>
-      <point x="731.0" y="815.0"/>
-      <point x="719.0" y="893.0" type="curve"/>
-      <point x="1202.0" y="657.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Parenthesis</string>
-    </dict>
-  </lib>
+	<unicode hex="2994"/>
+	<advance width="1499"/>
+	<outline>
+		<contour>
+			<point x="336" y="-201" type="curve"/>
+			<point x="487" y="-201" type="line"/>
+			<point x="582" y="-41"/>
+			<point x="649" y="115"/>
+			<point x="688" y="272" type="curve"/>
+			<point x="1395" y="598" type="line"/>
+			<point x="1395" y="700" type="line"/>
+			<point x="684" y="1059" type="line"/>
+			<point x="639" y="1229"/>
+			<point x="567" y="1395"/>
+			<point x="467" y="1552" type="curve"/>
+			<point x="309" y="1552" type="line"/>
+			<point x="399" y="1425"/>
+			<point x="469" y="1288"/>
+			<point x="516" y="1143" type="curve"/>
+			<point x="104" y="1352" type="line"/>
+			<point x="104" y="1192" type="line"/>
+			<point x="563" y="969" type="line"/>
+			<point x="584" y="872"/>
+			<point x="594" y="768"/>
+			<point x="594" y="657" type="curve" smooth="yes"/>
+			<point x="594" y="557"/>
+			<point x="586" y="461"/>
+			<point x="569" y="373" type="curve"/>
+			<point x="104" y="164" type="line"/>
+			<point x="104" y="4" type="line"/>
+			<point x="526" y="197" type="line"/>
+			<point x="479" y="49"/>
+			<point x="416" y="-82"/>
+		</contour>
+		<contour>
+			<point x="723" y="440" type="line"/>
+			<point x="731" y="504"/>
+			<point x="737" y="578"/>
+			<point x="737" y="657" type="curve" smooth="yes"/>
+			<point x="737" y="737"/>
+			<point x="731" y="815"/>
+			<point x="719" y="893" type="curve"/>
+			<point x="1202" y="657" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Punctuation</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Parenthesis</string>
+		</dict>
+	</lib>
+	<note>
+		rightarcgreaterthanbracket
+	</note>
 </glyph>

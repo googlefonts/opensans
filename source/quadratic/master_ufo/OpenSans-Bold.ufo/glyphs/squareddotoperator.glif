@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squareddotoperator" format="2">
-  <advance width="1548.0"/>
-  <unicode hex="22A1"/>
-  <note>
-squareddotoperator
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="53.0" type="line"/>
-      <point x="1444.0" y="53.0" type="line"/>
-      <point x="1444.0" y="1393.0" type="line"/>
-      <point x="104.0" y="1393.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="199.0" type="line"/>
-      <point x="250.0" y="1247.0" type="line"/>
-      <point x="1298.0" y="1247.0" type="line"/>
-      <point x="1298.0" y="199.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="774.0" y="563.0" type="curve" smooth="yes"/>
-      <point x="862.0" y="563.0"/>
-      <point x="934.0" y="635.0"/>
-      <point x="934.0" y="723.0" type="curve" smooth="yes"/>
-      <point x="934.0" y="811.0"/>
-      <point x="864.0" y="885.0"/>
-      <point x="774.0" y="885.0" type="curve" smooth="yes"/>
-      <point x="682.0" y="885.0"/>
-      <point x="614.0" y="811.0"/>
-      <point x="614.0" y="723.0" type="curve" smooth="yes"/>
-      <point x="614.0" y="635.0"/>
-      <point x="684.0" y="563.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="22A1"/>
+	<advance width="1548"/>
+	<outline>
+		<contour>
+			<point x="104" y="53" type="line"/>
+			<point x="1444" y="53" type="line"/>
+			<point x="1444" y="1393" type="line"/>
+			<point x="104" y="1393" type="line"/>
+		</contour>
+		<contour>
+			<point x="250" y="199" type="line"/>
+			<point x="250" y="1247" type="line"/>
+			<point x="1298" y="1247" type="line"/>
+			<point x="1298" y="199" type="line"/>
+		</contour>
+		<contour>
+			<point x="774" y="563" type="curve" smooth="yes"/>
+			<point x="862" y="563"/>
+			<point x="934" y="635"/>
+			<point x="934" y="723" type="curve" smooth="yes"/>
+			<point x="934" y="811"/>
+			<point x="864" y="885"/>
+			<point x="774" y="885" type="curve" smooth="yes"/>
+			<point x="682" y="885"/>
+			<point x="614" y="811"/>
+			<point x="614" y="723" type="curve" smooth="yes"/>
+			<point x="614" y="635"/>
+			<point x="684" y="563"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		squareddotoperator
+	</note>
 </glyph>

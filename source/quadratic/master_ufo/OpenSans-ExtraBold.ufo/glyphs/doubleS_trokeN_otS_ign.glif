@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleStrokeNotSign" format="2">
-  <advance width="1171.0"/>
-  <unicode hex="2AEC"/>
-  <note>
-doubleStrokeNotSign
-</note>
-  <outline>
-    <contour>
-      <point x="922.0" y="371.0" type="line"/>
-      <point x="1067.0" y="371.0" type="line"/>
-      <point x="1067.0" y="903.0" type="line"/>
-      <point x="104.0" y="903.0" type="line"/>
-      <point x="104.0" y="758.0" type="line"/>
-      <point x="922.0" y="758.0" type="line"/>
-      <point x="922.0" y="653.0" type="line"/>
-      <point x="104.0" y="653.0" type="line"/>
-      <point x="104.0" y="508.0" type="line"/>
-      <point x="922.0" y="508.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2AEC"/>
+	<advance width="1171"/>
+	<outline>
+		<contour>
+			<point x="922" y="371" type="line"/>
+			<point x="1067" y="371" type="line"/>
+			<point x="1067" y="903" type="line"/>
+			<point x="104" y="903" type="line"/>
+			<point x="104" y="758" type="line"/>
+			<point x="922" y="758" type="line"/>
+			<point x="922" y="653" type="line"/>
+			<point x="104" y="653" type="line"/>
+			<point x="104" y="508" type="line"/>
+			<point x="922" y="508" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		doubleStrokeNotSign
+	</note>
 </glyph>

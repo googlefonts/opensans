@@ -1,24 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleprimeReversed" format="2">
-  <advance width="950.0"/>
-  <unicode hex="2036"/>
-  <outline>
-    <component base="primeReversed"/>
-    <component base="primeReversed" xOffset="475.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Quote</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="2036"/>
+	<advance width="950"/>
+	<outline>
+		<component base="primeReversed"/>
+		<component base="primeReversed" xOffset="475"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Punctuation</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Quote</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

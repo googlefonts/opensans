@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yoddagesh-hb" format="2">
-  <advance width="375.0"/>
-  <unicode hex="FB39"/>
-  <note>
-uniFB39
-</note>
-  <anchor x="188.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="8.0" y="786.0" name="center"/>
-  <anchor x="188.0" y="1085.0" name="top"/>
-  <anchor x="20.0" y="1085.0" name="topleft"/>
-  <outline>
-    <component base="yod-hb"/>
-    <component base="dagesh-hb" xOffset="7.0" yOffset="116.0"/>
-  </outline>
+	<unicode hex="FB39"/>
+	<advance width="375"/>
+	<outline>
+		<component base="yod-hb"/>
+		<component base="dagesh-hb" xOffset="7" yOffset="116"/>
+	</outline>
+	<anchor name="bottom" x="188" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="8" y="786"/>
+	<anchor name="top" x="188" y="1085"/>
+	<anchor name="topleft" x="20" y="1085"/>
+	<note>
+		uniFB39
+	</note>
 </glyph>

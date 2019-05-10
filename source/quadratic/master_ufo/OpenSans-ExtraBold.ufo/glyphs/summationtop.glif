@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="summationtop" format="2">
-  <advance width="1305.0"/>
-  <unicode hex="23B2"/>
-  <note>
-summationtop
-</note>
-  <outline>
-    <contour>
-      <point x="825.0" y="-600.0" type="line"/>
-      <point x="1014.0" y="-600.0" type="line"/>
-      <point x="322.0" y="1214.0" type="line"/>
-      <point x="1200.0" y="1214.0" type="line"/>
-      <point x="1200.0" y="1376.0" type="line"/>
-      <point x="104.0" y="1376.0" type="line"/>
-      <point x="104.0" y="1262.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="23B2"/>
+	<advance width="1305"/>
+	<outline>
+		<contour>
+			<point x="825" y="-600" type="line"/>
+			<point x="1014" y="-600" type="line"/>
+			<point x="322" y="1214" type="line"/>
+			<point x="1200" y="1214" type="line"/>
+			<point x="1200" y="1376" type="line"/>
+			<point x="104" y="1376" type="line"/>
+			<point x="104" y="1262" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		summationtop
+	</note>
 </glyph>

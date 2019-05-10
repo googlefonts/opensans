@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="2">
-  <advance width="1130.0"/>
-  <unicode hex="0388"/>
-  <note>
-Epsilontonos
-</note>
-  <anchor x="565.0" y="0.0" name="bottom"/>
-  <anchor x="797.0" y="10.0" name="ogonek"/>
-  <anchor x="240.0" y="1451.0" name="topleft"/>
-  <outline>
-    <component base="Epsilon"/>
-    <component base="tonos" xOffset="-570.0" yOffset="-105.0"/>
-  </outline>
+	<unicode hex="0388"/>
+	<advance width="1130"/>
+	<outline>
+		<component base="Epsilon"/>
+		<component base="tonos" xOffset="-570" yOffset="-105"/>
+	</outline>
+	<anchor name="bottom" x="565" y="0"/>
+	<anchor name="ogonek" x="797" y="10"/>
+	<anchor name="topleft" x="240" y="1451"/>
+	<note>
+		Epsilontonos
+	</note>
 </glyph>

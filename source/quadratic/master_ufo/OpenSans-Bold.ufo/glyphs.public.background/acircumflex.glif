@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acircumflex" format="2">
-  <outline>
-    <component base="a" xOffset="-95.0"/>
-    <component base="circumflexcomb" xOffset="4.0" yOffset="-14.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
+	<outline>
+		<component base="a" xOffset="-95"/>
+		<component base="circumflexcomb" xOffset="4" yOffset="-14"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>-1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorngrave" format="2">
-  <advance width="1120.0"/>
-  <unicode hex="1EDD"/>
-  <note>
-uni1EDD
-</note>
-  <anchor x="503.9" y="0.0" name="bottom"/>
-  <anchor x="507.9" y="1114.4" name="top"/>
-  <outline>
-    <component base="ohorn"/>
-    <component base="grave" xOffset="507.0"/>
-  </outline>
+	<unicode hex="1EDD"/>
+	<advance width="1120"/>
+	<outline>
+		<component base="ohorn"/>
+		<component base="grave" xOffset="507"/>
+	</outline>
+	<anchor name="bottom" x="503.9" y="0"/>
+	<anchor name="top" x="507.9" y="1114.4"/>
+	<note>
+		uni1EDD
+	</note>
 </glyph>

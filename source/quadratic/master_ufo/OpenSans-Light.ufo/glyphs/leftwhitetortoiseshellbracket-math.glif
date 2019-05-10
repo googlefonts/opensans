@@ -1,36 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftwhitetortoiseshellbracket-math" format="2">
-  <advance width="727.0"/>
-  <unicode hex="27EC"/>
-  <note>
-leftwhitetortoiseshellbracket-math
-</note>
-  <outline>
-    <contour>
-      <point x="471.0" y="-213.0" type="line"/>
-      <point x="623.0" y="-213.0" type="line"/>
-      <point x="494.0" y="-68.0" type="line"/>
-      <point x="494.0" y="1432.0" type="line"/>
-      <point x="623.0" y="1577.0" type="line"/>
-      <point x="471.0" y="1577.0" type="line"/>
-      <point x="104.0" y="1167.0" type="line"/>
-      <point x="104.0" y="197.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="371.0" y="70.0" type="line"/>
-      <point x="227.0" y="229.0" type="line"/>
-      <point x="227.0" y="1135.0" type="line"/>
-      <point x="371.0" y="1294.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>math</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Parenthesis</string>
-    </dict>
-  </lib>
+	<unicode hex="27EC"/>
+	<advance width="727"/>
+	<outline>
+		<contour>
+			<point x="471" y="-213" type="line"/>
+			<point x="623" y="-213" type="line"/>
+			<point x="494" y="-68" type="line"/>
+			<point x="494" y="1432" type="line"/>
+			<point x="623" y="1577" type="line"/>
+			<point x="471" y="1577" type="line"/>
+			<point x="104" y="1167" type="line"/>
+			<point x="104" y="197" type="line"/>
+		</contour>
+		<contour>
+			<point x="371" y="70" type="line"/>
+			<point x="227" y="229" type="line"/>
+			<point x="227" y="1135" type="line"/>
+			<point x="371" y="1294" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Punctuation</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>math</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Parenthesis</string>
+		</dict>
+	</lib>
+	<note>
+		leftwhitetortoiseshellbracket-math
+	</note>
 </glyph>

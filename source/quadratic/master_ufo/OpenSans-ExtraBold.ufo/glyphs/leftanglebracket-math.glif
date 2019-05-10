@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftanglebracket-math" format="2">
-  <advance width="788.0"/>
-  <unicode hex="27E8"/>
-  <note>
-leftanglebracket-math
-</note>
-  <outline>
-    <contour>
-      <point x="522.0" y="-213.0" type="line"/>
-      <point x="684.0" y="-213.0" type="line"/>
-      <point x="274.0" y="682.0" type="line"/>
-      <point x="684.0" y="1577.0" type="line"/>
-      <point x="522.0" y="1577.0" type="line"/>
-      <point x="104.0" y="682.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>math</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Parenthesis</string>
-    </dict>
-  </lib>
+	<unicode hex="27E8"/>
+	<advance width="788"/>
+	<outline>
+		<contour>
+			<point x="522" y="-213" type="line"/>
+			<point x="684" y="-213" type="line"/>
+			<point x="274" y="682" type="line"/>
+			<point x="684" y="1577" type="line"/>
+			<point x="522" y="1577" type="line"/>
+			<point x="104" y="682" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Punctuation</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>math</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Parenthesis</string>
+		</dict>
+	</lib>
+	<note>
+		leftanglebracket-math
+	</note>
 </glyph>

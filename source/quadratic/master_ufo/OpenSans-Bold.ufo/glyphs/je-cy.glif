@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="je-cy" format="2">
-  <advance width="625.0"/>
-  <unicode hex="0458"/>
-  <note>
-afii10105
-</note>
-  <anchor x="273.0" y="0.0" name="bottom"/>
-  <anchor x="273.0" y="1558.0" name="top"/>
-  <outline>
-    <component base="j"/>
-  </outline>
+	<unicode hex="0458"/>
+	<advance width="625"/>
+	<outline>
+		<component base="j"/>
+	</outline>
+	<anchor name="bottom" x="273" y="0"/>
+	<anchor name="top" x="273" y="1558"/>
+	<note>
+		afii10105
+	</note>
 </glyph>

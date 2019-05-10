@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uring" format="2">
-  <advance width="1372.0"/>
-  <unicode hex="016F"/>
-  <note>
-uring
-</note>
-  <anchor x="686.0" y="0.0" name="bottom"/>
-  <anchor x="1235.0" y="10.0" name="ogonek"/>
-  <anchor x="686.0" y="1743.0" name="top"/>
-  <anchor x="1352.0" y="1133.0" name="topright"/>
-  <outline>
-    <component base="u"/>
-    <component base="ringcomb" xOffset="126.0"/>
-  </outline>
+	<unicode hex="016F"/>
+	<advance width="1372"/>
+	<outline>
+		<component base="u"/>
+		<component base="ringcomb" xOffset="126"/>
+	</outline>
+	<anchor name="bottom" x="686" y="0"/>
+	<anchor name="ogonek" x="1235" y="10"/>
+	<anchor name="top" x="686" y="1743"/>
+	<anchor name="topright" x="1352" y="1133"/>
+	<note>
+		uring
+	</note>
 </glyph>

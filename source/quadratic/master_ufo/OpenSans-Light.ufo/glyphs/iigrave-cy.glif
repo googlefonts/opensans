@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iigrave-cy" format="2">
-  <advance width="1229.0"/>
-  <unicode hex="045D"/>
-  <note>
-uni045D
-</note>
-  <anchor x="1209.0" y="0.0" name="bottomright"/>
-  <anchor x="535.0" y="1529.0" name="top"/>
-  <outline>
-    <component base="ii-cy"/>
-    <component base="gravecomb" xOffset="1174.0" yOffset="-40.0"/>
-  </outline>
+	<unicode hex="045D"/>
+	<advance width="1229"/>
+	<outline>
+		<component base="ii-cy"/>
+		<component base="gravecomb" xOffset="1174" yOffset="-40"/>
+	</outline>
+	<anchor name="bottomright" x="1209" y="0"/>
+	<anchor name="top" x="535" y="1529"/>
+	<note>
+		uni045D
+	</note>
 </glyph>

@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iebreve-cy" format="2">
-  <advance width="942.0"/>
-  <unicode hex="04D7"/>
-  <note>
-uni04D7
-</note>
-  <anchor x="507.7" y="0.0" name="bottom"/>
-  <anchor x="760.3" y="25.8" name="ogonek"/>
-  <anchor x="470.6" y="1114.4" name="top"/>
-  <outline>
-    <component base="ie-cy"/>
-    <component base="brevecomb-cy" xOffset="6.0"/>
-  </outline>
+	<unicode hex="04D7"/>
+	<advance width="942"/>
+	<outline>
+		<component base="ie-cy"/>
+		<component base="brevecomb-cy" xOffset="6"/>
+	</outline>
+	<anchor name="bottom" x="507.7" y="0"/>
+	<anchor name="ogonek" x="760.3" y="25.8"/>
+	<anchor name="top" x="470.6" y="1114.4"/>
+	<note>
+		uni04D7
+	</note>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zacute" format="2">
-  <advance width="731.0"/>
-  <unicode hex="017A"/>
-  <note>
-zacute
-</note>
-  <anchor x="366.2" y="0.0" name="bottom"/>
-  <anchor x="441.0" y="1535.0" name="top"/>
-  <outline>
-    <component base="z"/>
-    <component base="acutecomb" xOffset="441.0" yOffset="-34.0"/>
-  </outline>
+	<unicode hex="017A"/>
+	<advance width="731"/>
+	<outline>
+		<component base="z"/>
+		<component base="acutecomb" xOffset="441" yOffset="-34"/>
+	</outline>
+	<anchor name="bottom" x="366.2" y="0"/>
+	<anchor name="top" x="441" y="1535"/>
+	<note>
+		zacute
+	</note>
 </glyph>

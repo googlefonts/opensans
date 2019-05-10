@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="etatonos" format="2">
-  <advance width="1208.0"/>
-  <unicode hex="03AE"/>
-  <note>
-etatonos
-</note>
-  <anchor x="604.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="eta"/>
-    <component base="tonos" xOffset="-19.0" yOffset="-25.0"/>
-  </outline>
+	<unicode hex="03AE"/>
+	<advance width="1208"/>
+	<outline>
+		<component base="eta"/>
+		<component base="tonos" xOffset="-19" yOffset="-25"/>
+	</outline>
+	<anchor name="top" x="604" y="1087"/>
+	<note>
+		etatonos
+	</note>
 </glyph>

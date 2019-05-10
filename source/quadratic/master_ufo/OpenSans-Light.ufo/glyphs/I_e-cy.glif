@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ie-cy" format="2">
-  <advance width="1130.0"/>
-  <unicode hex="0415"/>
-  <note>
-afii10022
-</note>
-  <anchor x="605.0" y="1462.0" name="top"/>
-  <anchor x="565.0" y="0.0" name="bottom"/>
-  <anchor x="797.0" y="10.0" name="ogonek"/>
-  <anchor x="20.0" y="1462.0" name="topleft"/>
-  <outline>
-    <component base="E"/>
-  </outline>
+	<unicode hex="0415"/>
+	<advance width="1130"/>
+	<outline>
+		<component base="E"/>
+	</outline>
+	<anchor name="top" x="605" y="1462"/>
+	<anchor name="bottom" x="565" y="0"/>
+	<anchor name="ogonek" x="797" y="10"/>
+	<anchor name="topleft" x="20" y="1462"/>
+	<note>
+		afii10022
+	</note>
 </glyph>

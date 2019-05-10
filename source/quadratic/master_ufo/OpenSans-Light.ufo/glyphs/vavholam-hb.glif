@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vavholam-hb" format="2">
-  <advance width="466.0"/>
-  <unicode hex="FB4B"/>
-  <note>
-afii57700
-</note>
-  <anchor x="233.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="0.0" y="665.0" name="center"/>
-  <anchor x="233.0" y="1287.0" name="top"/>
-  <anchor x="20.0" y="1087.0" name="topleft"/>
-  <outline>
-    <component base="vav-hb"/>
-    <component base="holam-hb" xOffset="234.0" yOffset="-96.0"/>
-  </outline>
+	<unicode hex="FB4B"/>
+	<advance width="466"/>
+	<outline>
+		<component base="vav-hb"/>
+		<component base="holam-hb" xOffset="234" yOffset="-96"/>
+	</outline>
+	<anchor name="bottom" x="233" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="0" y="665"/>
+	<anchor name="top" x="233" y="1287"/>
+	<anchor name="topleft" x="20" y="1087"/>
+	<note>
+		afii57700
+	</note>
 </glyph>

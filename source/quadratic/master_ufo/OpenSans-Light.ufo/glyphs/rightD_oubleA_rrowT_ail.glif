@@ -1,42 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightDoubleArrowTail" format="2">
-  <advance width="1642.0"/>
-  <unicode hex="291C"/>
-  <note>
-rightDoubleArrowTail
-</note>
-  <outline>
-    <contour>
-      <point x="385.0" y="403.0" type="line"/>
-      <point x="516.0" y="403.0" type="line"/>
-      <point x="764.0" y="707.0" type="line"/>
-      <point x="516.0" y="1010.0" type="line"/>
-      <point x="385.0" y="1010.0" type="line"/>
-      <point x="631.0" y="707.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="403.0" type="line"/>
-      <point x="236.0" y="403.0" type="line"/>
-      <point x="483.0" y="707.0" type="line"/>
-      <point x="236.0" y="1010.0" type="line"/>
-      <point x="104.0" y="1010.0" type="line"/>
-      <point x="350.0" y="707.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="387.0" y="651.0" type="line"/>
-      <point x="1538.0" y="651.0" type="line"/>
-      <point x="1538.0" y="762.0" type="line"/>
-      <point x="387.0" y="762.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="291C"/>
+	<advance width="1642"/>
+	<outline>
+		<contour>
+			<point x="385" y="403" type="line"/>
+			<point x="516" y="403" type="line"/>
+			<point x="764" y="707" type="line"/>
+			<point x="516" y="1010" type="line"/>
+			<point x="385" y="1010" type="line"/>
+			<point x="631" y="707" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="403" type="line"/>
+			<point x="236" y="403" type="line"/>
+			<point x="483" y="707" type="line"/>
+			<point x="236" y="1010" type="line"/>
+			<point x="104" y="1010" type="line"/>
+			<point x="350" y="707" type="line"/>
+		</contour>
+		<contour>
+			<point x="387" y="651" type="line"/>
+			<point x="1538" y="651" type="line"/>
+			<point x="1538" y="762" type="line"/>
+			<point x="387" y="762" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		rightDoubleArrowTail
+	</note>
 </glyph>

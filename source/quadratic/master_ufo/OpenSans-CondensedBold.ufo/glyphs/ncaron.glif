@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ncaron" format="2">
-  <advance width="1038.0"/>
-  <unicode hex="0148"/>
-  <note>
-ncaron
-</note>
-  <anchor x="518.3" y="0.0" name="bottom"/>
-  <anchor x="518.0" y="1569.0" name="top"/>
-  <outline>
-    <component base="n"/>
-    <component base="caroncomb" xOffset="-51.0"/>
-  </outline>
+	<unicode hex="0148"/>
+	<advance width="1038"/>
+	<outline>
+		<component base="n"/>
+		<component base="caroncomb" xOffset="-51"/>
+	</outline>
+	<anchor name="bottom" x="518.3" y="0"/>
+	<anchor name="top" x="518" y="1569"/>
+	<note>
+		ncaron
+	</note>
 </glyph>

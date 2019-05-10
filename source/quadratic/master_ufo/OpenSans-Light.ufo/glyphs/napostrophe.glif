@@ -1,25 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe" format="2">
-  <advance width="1284.0"/>
-  <unicode hex="0149"/>
-  <note>
-napostrophe
-</note>
-  <anchor x="680.0" y="0.0" name="bottom"/>
-  <anchor x="760.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="n" xOffset="76.0"/>
-    <component base="apostrophemod" xOffset="-28.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>n</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="0149"/>
+	<advance width="1284"/>
+	<outline>
+		<component base="n" xOffset="76"/>
+		<component base="apostrophemod" xOffset="-28"/>
+	</outline>
+	<anchor name="bottom" x="680" y="0"/>
+	<anchor name="top" x="760" y="1087"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		napostrophe
+	</note>
 </glyph>

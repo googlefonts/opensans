@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="elhook-cy" format="2">
-  <advance width="1116.0"/>
-  <unicode hex="0513"/>
-  <note>
-uni0513
-</note>
-  <anchor x="930.0" y="0.0" name="cyrillicbighook"/>
-  <outline>
-    <component base="el-cy"/>
-    <component base="cyrillicbighookLC" xOffset="751.0" yOffset="-1.0"/>
-  </outline>
+	<unicode hex="0513"/>
+	<advance width="1116"/>
+	<outline>
+		<component base="el-cy"/>
+		<component base="cyrillicbighookLC" xOffset="751" yOffset="-1"/>
+	</outline>
+	<anchor name="cyrillicbighook" x="930" y="0"/>
+	<note>
+		uni0513
+	</note>
 </glyph>

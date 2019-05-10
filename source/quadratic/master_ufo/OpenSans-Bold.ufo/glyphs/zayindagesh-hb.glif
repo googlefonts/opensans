@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zayindagesh-hb" format="2">
-  <advance width="701.0"/>
-  <unicode hex="FB36"/>
-  <note>
-uniFB36
-</note>
-  <anchor x="362.0" y="0.0" name="bottom"/>
-  <anchor x="56.0" y="0.0" name="bottomleft"/>
-  <anchor x="40.0" y="671.0" name="center"/>
-  <anchor x="362.0" y="1119.0" name="top"/>
-  <anchor x="56.0" y="1119.0" name="topleft"/>
-  <outline>
-    <component base="zayin-hb"/>
-    <component base="dagesh-hb" xOffset="39.0" yOffset="42.0"/>
-  </outline>
+	<unicode hex="FB36"/>
+	<advance width="701"/>
+	<outline>
+		<component base="zayin-hb"/>
+		<component base="dagesh-hb" xOffset="39" yOffset="42"/>
+	</outline>
+	<anchor name="bottom" x="362" y="0"/>
+	<anchor name="bottomleft" x="56" y="0"/>
+	<anchor name="center" x="40" y="671"/>
+	<anchor name="top" x="362" y="1119"/>
+	<anchor name="topleft" x="56" y="1119"/>
+	<note>
+		uniFB36
+	</note>
 </glyph>

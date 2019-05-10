@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftWhiteTriangle" format="2">
-  <advance width="1636.0"/>
-  <unicode hex="25C1"/>
-  <note>
-leftWhiteTriangle
-</note>
-  <outline>
-    <contour>
-      <point x="1532.0" y="-111.0" type="line"/>
-      <point x="1532.0" y="1538.0" type="line"/>
-      <point x="104.0" y="713.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="1384.0" y="143.0" type="line"/>
-      <point x="397.0" y="713.0" type="line"/>
-      <point x="1384.0" y="1284.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Geometry</string>
-    </dict>
-  </lib>
+	<unicode hex="25C1"/>
+	<advance width="1636"/>
+	<outline>
+		<contour>
+			<point x="1532" y="-111" type="line"/>
+			<point x="1532" y="1538" type="line"/>
+			<point x="104" y="713" type="line"/>
+		</contour>
+		<contour>
+			<point x="1384" y="143" type="line"/>
+			<point x="397" y="713" type="line"/>
+			<point x="1384" y="1284" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Geometry</string>
+		</dict>
+	</lib>
+	<note>
+		leftWhiteTriangle
+	</note>
 </glyph>

@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fi" format="2">
-  <advance width="1108.0"/>
-  <unicode hex="FB01"/>
-  <note>
-fi
-</note>
-  <anchor x="306.1" y="0.0" name="bottom_1"/>
-  <anchor x="860.3" y="0.0" name="bottom_2"/>
-  <anchor x="1049.0" y="10.0" name="ogonek"/>
-  <anchor x="306.1" y="1114.4" name="top_1"/>
-  <anchor x="860.0" y="1548.0" name="top_2"/>
-  <outline>
-    <component base="f"/>
-    <component base="i" xOffset="612.0"/>
-  </outline>
+	<unicode hex="FB01"/>
+	<advance width="1108"/>
+	<outline>
+		<component base="f"/>
+		<component base="i" xOffset="612"/>
+	</outline>
+	<anchor name="bottom_1" x="306.1" y="0"/>
+	<anchor name="bottom_2" x="860.3" y="0"/>
+	<anchor name="ogonek" x="1049" y="10"/>
+	<anchor name="top_1" x="306.1" y="1114.4"/>
+	<anchor name="top_2" x="860" y="1548"/>
+	<note>
+		fi
+	</note>
 </glyph>

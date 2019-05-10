@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sacute" format="2">
-  <advance width="1128.0"/>
-  <unicode hex="015A"/>
-  <note>
-Sacute
-</note>
-  <anchor x="579.0" y="0.0" name="bottom"/>
-  <anchor x="579.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="S"/>
-    <component base="acute" xOffset="701.0" yOffset="331.0"/>
-  </outline>
+	<unicode hex="015A"/>
+	<advance width="1128"/>
+	<outline>
+		<component base="S"/>
+		<component base="acute" xOffset="701" yOffset="331"/>
+	</outline>
+	<anchor name="bottom" x="579" y="0"/>
+	<anchor name="top" x="579" y="1462"/>
+	<note>
+		Sacute
+	</note>
 </glyph>

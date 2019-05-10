@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
-  <advance width="52.0"/>
-  <unicode hex="00AF"/>
-  <note>
-macron
-</note>
-  <outline>
-    <component base="macroncomb"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="00AF"/>
+	<advance width="52"/>
+	<outline>
+		<component base="macroncomb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		macron
+	</note>
 </glyph>

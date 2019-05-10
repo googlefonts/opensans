@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLquad" format="2">
-  <advance width="1491.0"/>
-  <unicode hex="2395"/>
-  <note>
-APLquad
-</note>
-  <outline>
-    <contour>
-      <point x="162.0" y="-209.0" type="line"/>
-      <point x="1329.0" y="-209.0" type="line"/>
-      <point x="1329.0" y="1671.0" type="line"/>
-      <point x="162.0" y="1671.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="307.0" y="-63.0" type="line"/>
-      <point x="307.0" y="1526.0" type="line"/>
-      <point x="1184.0" y="1526.0" type="line"/>
-      <point x="1184.0" y="-63.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="2395"/>
+	<advance width="1491"/>
+	<outline>
+		<contour>
+			<point x="162" y="-209" type="line"/>
+			<point x="1329" y="-209" type="line"/>
+			<point x="1329" y="1671" type="line"/>
+			<point x="162" y="1671" type="line"/>
+		</contour>
+		<contour>
+			<point x="307" y="-63" type="line"/>
+			<point x="307" y="1526" type="line"/>
+			<point x="1184" y="1526" type="line"/>
+			<point x="1184" y="-63" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		APLquad
+	</note>
 </glyph>

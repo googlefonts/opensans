@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less" format="2">
-  <advance width="918.0"/>
-  <unicode hex="003C"/>
-  <note>
-less
-</note>
-  <outline>
-    <contour>
-      <point x="811.7" y="209.3" type="line"/>
-      <point x="811.7" y="433.8" type="line"/>
-      <point x="324.4" y="723.0" type="line"/>
-      <point x="811.7" y="1010.1" type="line"/>
-      <point x="811.7" y="1234.7" type="line"/>
-      <point x="105.9" y="801.4" type="line"/>
-      <point x="105.9" y="645.2" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>6.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="003C"/>
+	<advance width="918"/>
+	<outline>
+		<contour>
+			<point x="811.7" y="209.3" type="line"/>
+			<point x="811.7" y="433.8" type="line"/>
+			<point x="324.4" y="723" type="line"/>
+			<point x="811.7" y="1010.1" type="line"/>
+			<point x="811.7" y="1234.7" type="line"/>
+			<point x="105.9" y="801.4" type="line"/>
+			<point x="105.9" y="645.2" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>6</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		less
+	</note>
 </glyph>

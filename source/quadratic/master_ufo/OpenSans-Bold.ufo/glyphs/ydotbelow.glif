@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ydotbelow" format="2">
-  <advance width="1165.0"/>
-  <unicode hex="1EF5"/>
-  <note>
-uni1EF5
-</note>
-  <anchor x="889.0" y="-432.0" name="bottom"/>
-  <anchor x="579.0" y="1119.0" name="top"/>
-  <outline>
-    <component base="y"/>
-    <component base="dotbelowcomb" xOffset="889.0"/>
-  </outline>
+	<unicode hex="1EF5"/>
+	<advance width="1165"/>
+	<outline>
+		<component base="y"/>
+		<component base="dotbelowcomb" xOffset="889"/>
+	</outline>
+	<anchor name="bottom" x="889" y="-432"/>
+	<anchor name="top" x="579" y="1119"/>
+	<note>
+		uni1EF5
+	</note>
 </glyph>

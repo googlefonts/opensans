@@ -1,69 +1,69 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
-  <unicode hex="0300"/>
-  <note>
-gravecomb
-</note>
-  <anchor x="-559.0" y="1127.0" name="_top"/>
-  <anchor x="-639.0" y="1569.0" name="top"/>
-  <outline>
-    <contour>
-      <point x="-516.0" y="1241.0" type="curve"/>
-      <point x="-447.0" y="1241.0" type="line"/>
-      <point x="-447.0" y="1257.0" type="line"/>
-      <point x="-540.0" y="1358.0"/>
-      <point x="-653.0" y="1505.0"/>
-      <point x="-688.0" y="1569.0" type="curve"/>
-      <point x="-830.0" y="1569.0" type="line"/>
-      <point x="-830.0" y="1552.0" type="line"/>
-      <point x="-786.0" y="1489.0"/>
-      <point x="-644.0" y="1346.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>9.0</real>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="0300"/>
+	<outline>
+		<contour>
+			<point x="-516" y="1241" type="curve"/>
+			<point x="-447" y="1241" type="line"/>
+			<point x="-447" y="1257" type="line"/>
+			<point x="-540" y="1358"/>
+			<point x="-653" y="1505"/>
+			<point x="-688" y="1569" type="curve"/>
+			<point x="-830" y="1569" type="line"/>
+			<point x="-830" y="1552" type="line"/>
+			<point x="-786" y="1489"/>
+			<point x="-644" y="1346"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="-559" y="1127"/>
+	<anchor name="top" x="-639" y="1569"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>9</integer>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>d</string>
+						<string>o</string>
+						<string>w</string>
+						<string>n</string>
+					</array>
+					<key>type</key>
+					<string>TopGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Anchor</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		gravecomb
+	</note>
 </glyph>

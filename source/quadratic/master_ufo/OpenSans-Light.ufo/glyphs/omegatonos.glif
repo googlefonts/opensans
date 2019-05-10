@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omegatonos" format="2">
-  <advance width="1503.0"/>
-  <unicode hex="03CE"/>
-  <note>
-omegatonos
-</note>
-  <anchor x="752.0" y="0.0" name="bottom"/>
-  <anchor x="752.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="omega"/>
-    <component base="tonos" xOffset="129.0" yOffset="-25.0"/>
-  </outline>
+	<unicode hex="03CE"/>
+	<advance width="1503"/>
+	<outline>
+		<component base="omega"/>
+		<component base="tonos" xOffset="129" yOffset="-25"/>
+	</outline>
+	<anchor name="bottom" x="752" y="0"/>
+	<anchor name="top" x="752" y="1087"/>
+	<note>
+		omegatonos
+	</note>
 </glyph>

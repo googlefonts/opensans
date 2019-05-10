@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLquaduparrow" format="2">
-  <advance width="1491.0"/>
-  <unicode hex="2350"/>
-  <note>
-APLquaduparrow
-</note>
-  <outline>
-    <contour>
-      <point x="420.0" y="1167.0" type="line"/>
-      <point x="750.0" y="1221.0" type="line"/>
-      <point x="1075.0" y="1167.0" type="line"/>
-      <point x="748.0" y="1524.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="674.0" y="-66.0" type="line"/>
-      <point x="819.0" y="-66.0" type="line"/>
-      <point x="819.0" y="1300.0" type="line"/>
-      <point x="674.0" y="1300.0" type="line"/>
-    </contour>
-    <component base="APLquad"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="2350"/>
+	<advance width="1491"/>
+	<outline>
+		<contour>
+			<point x="420" y="1167" type="line"/>
+			<point x="750" y="1221" type="line"/>
+			<point x="1075" y="1167" type="line"/>
+			<point x="748" y="1524" type="line"/>
+		</contour>
+		<contour>
+			<point x="674" y="-66" type="line"/>
+			<point x="819" y="-66" type="line"/>
+			<point x="819" y="1300" type="line"/>
+			<point x="674" y="1300" type="line"/>
+		</contour>
+		<component base="APLquad"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		APLquaduparrow
+	</note>
 </glyph>

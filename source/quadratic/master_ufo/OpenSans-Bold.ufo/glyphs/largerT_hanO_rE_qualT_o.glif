@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="largerThanOrEqualTo" format="2">
-  <advance width="1395.0"/>
-  <unicode hex="2AAD"/>
-  <note>
-largerThanOrEqualTo
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="215.0" type="line"/>
-      <point x="1290.0" y="793.0" type="line"/>
-      <point x="1290.0" y="895.0" type="line"/>
-      <point x="104.0" y="1473.0" type="line"/>
-      <point x="104.0" y="1303.0" type="line"/>
-      <point x="930.0" y="915.0" type="line"/>
-      <point x="104.0" y="915.0" type="line"/>
-      <point x="104.0" y="772.0" type="line"/>
-      <point x="930.0" y="772.0" type="line"/>
-      <point x="104.0" y="385.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="-29.0" type="line"/>
-      <point x="1290.0" y="-29.0" type="line"/>
-      <point x="1290.0" y="117.0" type="line"/>
-      <point x="104.0" y="117.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2AAD"/>
+	<advance width="1395"/>
+	<outline>
+		<contour>
+			<point x="104" y="215" type="line"/>
+			<point x="1290" y="793" type="line"/>
+			<point x="1290" y="895" type="line"/>
+			<point x="104" y="1473" type="line"/>
+			<point x="104" y="1303" type="line"/>
+			<point x="930" y="915" type="line"/>
+			<point x="104" y="915" type="line"/>
+			<point x="104" y="772" type="line"/>
+			<point x="930" y="772" type="line"/>
+			<point x="104" y="385" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="-29" type="line"/>
+			<point x="1290" y="-29" type="line"/>
+			<point x="1290" y="117" type="line"/>
+			<point x="104" y="117" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		largerThanOrEqualTo
+	</note>
 </glyph>

@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLquaddiamond" format="2">
-  <advance width="1491.0"/>
-  <unicode hex="233A"/>
-  <note>
-APLquaddiamond
-</note>
-  <outline>
-    <contour>
-      <point x="745.0" y="299.0" type="line"/>
-      <point x="1178.0" y="731.0" type="line"/>
-      <point x="745.0" y="1163.0" type="line"/>
-      <point x="313.0" y="731.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="745.0" y="459.0" type="line"/>
-      <point x="473.0" y="731.0" type="line"/>
-      <point x="745.0" y="1004.0" type="line"/>
-      <point x="1018.0" y="731.0" type="line"/>
-    </contour>
-    <component base="APLquad"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="233A"/>
+	<advance width="1491"/>
+	<outline>
+		<contour>
+			<point x="745" y="299" type="line"/>
+			<point x="1178" y="731" type="line"/>
+			<point x="745" y="1163" type="line"/>
+			<point x="313" y="731" type="line"/>
+		</contour>
+		<contour>
+			<point x="745" y="459" type="line"/>
+			<point x="473" y="731" type="line"/>
+			<point x="745" y="1004" type="line"/>
+			<point x="1018" y="731" type="line"/>
+		</contour>
+		<component base="APLquad"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		APLquaddiamond
+	</note>
 </glyph>

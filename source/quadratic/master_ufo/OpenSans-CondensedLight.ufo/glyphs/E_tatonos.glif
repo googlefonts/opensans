@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etatonos" format="2">
-  <advance width="1026.0"/>
-  <unicode hex="0389"/>
-  <note>
-Etatonos
-</note>
-  <anchor x="513.0" y="0.0" name="bottom"/>
-  <anchor x="513.0" y="731.0" name="center"/>
-  <anchor x="246.0" y="1461.0" name="topleft"/>
-  <outline>
-    <component base="Eta"/>
-    <component base="tonos" xOffset="-547.0" yOffset="-95.0"/>
-  </outline>
+	<unicode hex="0389"/>
+	<advance width="1026"/>
+	<outline>
+		<component base="Eta"/>
+		<component base="tonos" xOffset="-547" yOffset="-95"/>
+	</outline>
+	<anchor name="bottom" x="513" y="0"/>
+	<anchor name="center" x="513" y="731"/>
+	<anchor name="topleft" x="246" y="1461"/>
+	<note>
+		Etatonos
+	</note>
 </glyph>

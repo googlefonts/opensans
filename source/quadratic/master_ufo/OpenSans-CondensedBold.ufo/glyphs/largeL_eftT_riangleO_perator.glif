@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="largeLeftTriangleOperator" format="2">
-  <advance width="1096.0"/>
-  <unicode hex="2A1E"/>
-  <note>
-largeLeftTriangleOperator
-</note>
-  <outline>
-    <contour>
-      <point x="913.0" y="-133.0" type="line"/>
-      <point x="991.0" y="-106.0" type="line"/>
-      <point x="991.0" y="1454.0" type="line"/>
-      <point x="913.0" y="1481.0" type="line"/>
-      <point x="104.0" y="676.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="846.0" y="137.0" type="line"/>
-      <point x="311.0" y="676.0" type="line"/>
-      <point x="846.0" y="1210.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A1E"/>
+	<advance width="1096"/>
+	<outline>
+		<contour>
+			<point x="913" y="-133" type="line"/>
+			<point x="991" y="-106" type="line"/>
+			<point x="991" y="1454" type="line"/>
+			<point x="913" y="1481" type="line"/>
+			<point x="104" y="676" type="line"/>
+		</contour>
+		<contour>
+			<point x="846" y="137" type="line"/>
+			<point x="311" y="676" type="line"/>
+			<point x="846" y="1210" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		largeLeftTriangleOperator
+	</note>
 </glyph>

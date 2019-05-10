@@ -1,55 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nbold-math" format="2">
-  <advance width="1505.0"/>
-  <unicode hex="1D40D"/>
-  <note>
-Nbold-math
-</note>
-  <outline>
-    <contour>
-      <point x="1229.0" y="-33.0" type="line"/>
-      <point x="1286.0" y="-33.0" type="line"/>
-      <point x="1286.0" y="1149.0" type="line" smooth="yes"/>
-      <point x="1286.0" y="1294.0"/>
-      <point x="1319.0" y="1331.0"/>
-      <point x="1462.0" y="1337.0" type="curve"/>
-      <point x="1462.0" y="1389.0" type="line"/>
-      <point x="1010.0" y="1389.0" type="line"/>
-      <point x="1010.0" y="1337.0" type="line"/>
-      <point x="1161.0" y="1325.0"/>
-      <point x="1192.0" y="1296.0"/>
-      <point x="1192.0" y="1151.0" type="curve" smooth="yes"/>
-      <point x="1192.0" y="514.0" type="line"/>
-      <point x="477.0" y="1389.0" type="line"/>
-      <point x="55.0" y="1389.0" type="line"/>
-      <point x="55.0" y="1337.0" type="line"/>
-      <point x="80.0" y="1333.0"/>
-      <point x="98.0" y="1327.0"/>
-      <point x="111.0" y="1321.0" type="curve" smooth="yes"/>
-      <point x="123.0" y="1315.0"/>
-      <point x="164.0" y="1268.0"/>
-      <point x="231.0" y="1184.0" type="curve"/>
-      <point x="231.0" y="240.0" type="line" smooth="yes"/>
-      <point x="231.0" y="92.0"/>
-      <point x="199.0" y="57.0"/>
-      <point x="55.0" y="53.0" type="curve"/>
-      <point x="55.0" y="0.0" type="line"/>
-      <point x="508.0" y="0.0" type="line"/>
-      <point x="508.0" y="53.0" type="line"/>
-      <point x="360.0" y="57.0"/>
-      <point x="326.0" y="94.0"/>
-      <point x="326.0" y="240.0" type="curve" smooth="yes"/>
-      <point x="326.0" y="1067.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>math</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Uppercase</string>
-    </dict>
-  </lib>
+	<unicode hex="1D40D"/>
+	<advance width="1505"/>
+	<outline>
+		<contour>
+			<point x="1229" y="-33" type="line"/>
+			<point x="1286" y="-33" type="line"/>
+			<point x="1286" y="1149" type="line" smooth="yes"/>
+			<point x="1286" y="1294"/>
+			<point x="1319" y="1331"/>
+			<point x="1462" y="1337" type="curve"/>
+			<point x="1462" y="1389" type="line"/>
+			<point x="1010" y="1389" type="line"/>
+			<point x="1010" y="1337" type="line"/>
+			<point x="1161" y="1325"/>
+			<point x="1192" y="1296"/>
+			<point x="1192" y="1151" type="curve" smooth="yes"/>
+			<point x="1192" y="514" type="line"/>
+			<point x="477" y="1389" type="line"/>
+			<point x="55" y="1389" type="line"/>
+			<point x="55" y="1337" type="line"/>
+			<point x="80" y="1333"/>
+			<point x="98" y="1327"/>
+			<point x="111" y="1321" type="curve" smooth="yes"/>
+			<point x="123" y="1315"/>
+			<point x="164" y="1268"/>
+			<point x="231" y="1184" type="curve"/>
+			<point x="231" y="240" type="line" smooth="yes"/>
+			<point x="231" y="92"/>
+			<point x="199" y="57"/>
+			<point x="55" y="53" type="curve"/>
+			<point x="55" y="0" type="line"/>
+			<point x="508" y="0" type="line"/>
+			<point x="508" y="53" type="line"/>
+			<point x="360" y="57"/>
+			<point x="326" y="94"/>
+			<point x="326" y="240" type="curve" smooth="yes"/>
+			<point x="326" y="1067" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>math</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Uppercase</string>
+		</dict>
+	</lib>
+	<note>
+		Nbold-math
+	</note>
 </glyph>

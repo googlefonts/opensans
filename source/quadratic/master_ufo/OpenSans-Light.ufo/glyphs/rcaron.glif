@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron" format="2">
-  <advance width="797.0"/>
-  <unicode hex="0159"/>
-  <note>
-rcaron
-</note>
-  <anchor x="239.0" y="0.0" name="bottom"/>
-  <anchor x="469.0" y="1569.0" name="top"/>
-  <outline>
-    <component base="r"/>
-    <component base="caroncomb" xOffset="178.0"/>
-  </outline>
+	<unicode hex="0159"/>
+	<advance width="797"/>
+	<outline>
+		<component base="r"/>
+		<component base="caroncomb" xOffset="178"/>
+	</outline>
+	<anchor name="bottom" x="239" y="0"/>
+	<anchor name="top" x="469" y="1569"/>
+	<note>
+		rcaron
+	</note>
 </glyph>

@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="downWhiteTriangle" format="2">
-  <advance width="1858.0"/>
-  <unicode hex="25BD"/>
-  <note>
-downWhiteTriangle
-</note>
-  <outline>
-    <contour>
-      <point x="930.0" y="0.0" type="line"/>
-      <point x="1753.0" y="1427.0" type="line"/>
-      <point x="104.0" y="1427.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="930.0" y="293.0" type="line"/>
-      <point x="358.0" y="1280.0" type="line"/>
-      <point x="1499.0" y="1280.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Geometry</string>
-    </dict>
-  </lib>
+	<unicode hex="25BD"/>
+	<advance width="1858"/>
+	<outline>
+		<contour>
+			<point x="930" y="0" type="line"/>
+			<point x="1753" y="1427" type="line"/>
+			<point x="104" y="1427" type="line"/>
+		</contour>
+		<contour>
+			<point x="930" y="293" type="line"/>
+			<point x="358" y="1280" type="line"/>
+			<point x="1499" y="1280" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Geometry</string>
+		</dict>
+	</lib>
+	<note>
+		downWhiteTriangle
+	</note>
 </glyph>

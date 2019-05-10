@@ -1,72 +1,72 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lessequal" format="2">
-  <advance width="819.0"/>
-  <unicode hex="2264"/>
-  <note>
-lessequal
-</note>
-  <outline>
-    <contour>
-      <point x="762.0" y="287.0" type="line"/>
-      <point x="762.0" y="389.0" type="line"/>
-      <point x="162.0" y="723.0" type="line"/>
-      <point x="762.0" y="1057.0" type="line"/>
-      <point x="762.0" y="1157.0" type="line"/>
-      <point x="59.0" y="758.0" type="line"/>
-      <point x="59.0" y="690.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="59.0" y="0.0" type="line"/>
-      <point x="762.0" y="0.0" type="line"/>
-      <point x="762.0" y="82.0" type="line"/>
-      <point x="59.0" y="82.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>1.0</real>
-            <real>3.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>1.0</real>
-            <real>2.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>1.0</real>
-            <real>3.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>1.0</real>
-            <real>2.0</real>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="2264"/>
+	<advance width="819"/>
+	<outline>
+		<contour>
+			<point x="762" y="287" type="line"/>
+			<point x="762" y="389" type="line"/>
+			<point x="162" y="723" type="line"/>
+			<point x="762" y="1057" type="line"/>
+			<point x="762" y="1157" type="line"/>
+			<point x="59" y="758" type="line"/>
+			<point x="59" y="690" type="line"/>
+		</contour>
+		<contour>
+			<point x="59" y="0" type="line"/>
+			<point x="762" y="0" type="line"/>
+			<point x="762" y="82" type="line"/>
+			<point x="59" y="82" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>1</integer>
+						<integer>3</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>1</integer>
+						<integer>3</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>1</integer>
+						<integer>2</integer>
+					</array>
+					<key>type</key>
+					<string>TTStem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		lessequal
+	</note>
 </glyph>

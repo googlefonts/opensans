@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron" format="2">
-  <advance width="582.0"/>
-  <unicode hex="02C7"/>
-  <note>
-caron
-</note>
-  <outline>
-    <component base="caroncomb"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="02C7"/>
+	<advance width="582"/>
+	<outline>
+		<component base="caroncomb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		caron
+	</note>
 </glyph>

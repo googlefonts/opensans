@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mu" format="2">
-  <advance width="1221.0"/>
-  <unicode hex="03BC"/>
-  <note>
-uni03BC
-</note>
-  <outline>
-    <component base="micro"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="03BC"/>
+	<advance width="1221"/>
+	<outline>
+		<component base="micro"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		uni03BC
+	</note>
 </glyph>

@@ -1,102 +1,102 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftRightWaveArrow" format="2">
-  <advance width="1952.0"/>
-  <unicode hex="21AD"/>
-  <note>
-leftRightWaveArrow
-</note>
-  <outline>
-    <contour>
-      <point x="674.0" y="473.0" type="curve" smooth="yes"/>
-      <point x="891.0" y="473.0"/>
-      <point x="864.0" y="807.0"/>
-      <point x="977.0" y="807.0" type="curve" smooth="yes"/>
-      <point x="1090.0" y="807.0"/>
-      <point x="1063.0" y="473.0"/>
-      <point x="1280.0" y="473.0" type="curve" smooth="yes"/>
-      <point x="1360.0" y="473.0"/>
-      <point x="1413.0" y="526.0"/>
-      <point x="1456.0" y="651.0" type="curve"/>
-      <point x="1640.0" y="651.0" type="line"/>
-      <point x="1640.0" y="762.0" type="line"/>
-      <point x="1386.0" y="762.0" type="line"/>
-      <point x="1366.0" y="657.0"/>
-      <point x="1335.0" y="580.0"/>
-      <point x="1280.0" y="580.0" type="curve" smooth="yes"/>
-      <point x="1139.0" y="580.0"/>
-      <point x="1188.0" y="913.0"/>
-      <point x="977.0" y="913.0" type="curve" smooth="yes"/>
-      <point x="766.0" y="913.0"/>
-      <point x="815.0" y="580.0"/>
-      <point x="674.0" y="580.0" type="curve" smooth="yes"/>
-      <point x="618.0" y="580.0"/>
-      <point x="588.0" y="657.0"/>
-      <point x="567.0" y="762.0" type="curve"/>
-      <point x="313.0" y="762.0" type="line"/>
-      <point x="313.0" y="651.0" type="line"/>
-      <point x="498.0" y="651.0" type="line"/>
-      <point x="541.0" y="526.0"/>
-      <point x="594.0" y="473.0"/>
-    </contour>
-    <contour>
-      <point x="446.0" y="403.0" type="curve"/>
-      <point x="537.0" y="403.0" type="line"/>
-      <point x="481.0" y="522.0"/>
-      <point x="426.0" y="612.0"/>
-      <point x="373.0" y="666.0" type="curve"/>
-      <point x="373.0" y="748.0" type="line"/>
-      <point x="426.0" y="801.0"/>
-      <point x="481.0" y="891.0"/>
-      <point x="537.0" y="1010.0" type="curve"/>
-      <point x="446.0" y="1010.0" type="line"/>
-      <point x="338.0" y="883.0"/>
-      <point x="223.0" y="788.0"/>
-      <point x="104.0" y="729.0" type="curve"/>
-      <point x="104.0" y="684.0" type="line"/>
-      <point x="223.0" y="625.0"/>
-      <point x="338.0" y="530.0"/>
-    </contour>
-    <contour>
-      <point x="1415.0" y="403.0" type="curve"/>
-      <point x="1505.0" y="403.0" type="line"/>
-      <point x="1614.0" y="530.0"/>
-      <point x="1729.0" y="625.0"/>
-      <point x="1847.0" y="684.0" type="curve"/>
-      <point x="1847.0" y="729.0" type="line"/>
-      <point x="1729.0" y="788.0"/>
-      <point x="1614.0" y="883.0"/>
-      <point x="1505.0" y="1010.0" type="curve"/>
-      <point x="1415.0" y="1010.0" type="line"/>
-      <point x="1470.0" y="891.0"/>
-      <point x="1526.0" y="801.0"/>
-      <point x="1579.0" y="748.0" type="curve"/>
-      <point x="1579.0" y="666.0" type="line"/>
-      <point x="1526.0" y="612.0"/>
-      <point x="1470.0" y="522.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Arrow</string>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <real>616.0</real>
-            <real>-11.0</real>
-          </array>
-          <key>type</key>
-          <string>Text</string>
-          <key>width</key>
-          <real>100.0</real>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="21AD"/>
+	<advance width="1952"/>
+	<outline>
+		<contour>
+			<point x="674" y="473" type="curve" smooth="yes"/>
+			<point x="891" y="473"/>
+			<point x="864" y="807"/>
+			<point x="977" y="807" type="curve" smooth="yes"/>
+			<point x="1090" y="807"/>
+			<point x="1063" y="473"/>
+			<point x="1280" y="473" type="curve" smooth="yes"/>
+			<point x="1360" y="473"/>
+			<point x="1413" y="526"/>
+			<point x="1456" y="651" type="curve"/>
+			<point x="1640" y="651" type="line"/>
+			<point x="1640" y="762" type="line"/>
+			<point x="1386" y="762" type="line"/>
+			<point x="1366" y="657"/>
+			<point x="1335" y="580"/>
+			<point x="1280" y="580" type="curve" smooth="yes"/>
+			<point x="1139" y="580"/>
+			<point x="1188" y="913"/>
+			<point x="977" y="913" type="curve" smooth="yes"/>
+			<point x="766" y="913"/>
+			<point x="815" y="580"/>
+			<point x="674" y="580" type="curve" smooth="yes"/>
+			<point x="618" y="580"/>
+			<point x="588" y="657"/>
+			<point x="567" y="762" type="curve"/>
+			<point x="313" y="762" type="line"/>
+			<point x="313" y="651" type="line"/>
+			<point x="498" y="651" type="line"/>
+			<point x="541" y="526"/>
+			<point x="594" y="473"/>
+		</contour>
+		<contour>
+			<point x="446" y="403" type="curve"/>
+			<point x="537" y="403" type="line"/>
+			<point x="481" y="522"/>
+			<point x="426" y="612"/>
+			<point x="373" y="666" type="curve"/>
+			<point x="373" y="748" type="line"/>
+			<point x="426" y="801"/>
+			<point x="481" y="891"/>
+			<point x="537" y="1010" type="curve"/>
+			<point x="446" y="1010" type="line"/>
+			<point x="338" y="883"/>
+			<point x="223" y="788"/>
+			<point x="104" y="729" type="curve"/>
+			<point x="104" y="684" type="line"/>
+			<point x="223" y="625"/>
+			<point x="338" y="530"/>
+		</contour>
+		<contour>
+			<point x="1415" y="403" type="curve"/>
+			<point x="1505" y="403" type="line"/>
+			<point x="1614" y="530"/>
+			<point x="1729" y="625"/>
+			<point x="1847" y="684" type="curve"/>
+			<point x="1847" y="729" type="line"/>
+			<point x="1729" y="788"/>
+			<point x="1614" y="883"/>
+			<point x="1505" y="1010" type="curve"/>
+			<point x="1415" y="1010" type="line"/>
+			<point x="1470" y="891"/>
+			<point x="1526" y="801"/>
+			<point x="1579" y="748" type="curve"/>
+			<point x="1579" y="666" type="line"/>
+			<point x="1526" y="612"/>
+			<point x="1470" y="522"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Arrow</string>
+			<key>com.schriftgestaltung.annotations</key>
+			<array>
+				<dict>
+					<key>position</key>
+					<array>
+						<integer>616</integer>
+						<integer>-11</integer>
+					</array>
+					<key>type</key>
+					<string>Text</string>
+					<key>width</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		leftRightWaveArrow
+	</note>
 </glyph>

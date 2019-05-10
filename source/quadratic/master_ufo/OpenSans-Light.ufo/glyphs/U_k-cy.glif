@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uk-cy" format="2">
-  <advance width="2337.0"/>
-  <unicode hex="0478"/>
-  <note>
-uni0478
-</note>
-  <anchor x="699.10938" y="0.0" name="bottom_1"/>
-  <anchor x="1967.0" y="0.0" name="bottom_2"/>
-  <anchor x="699.10938" y="731.0" name="center"/>
-  <anchor x="1257.14688" y="10.0" name="ogonek"/>
-  <anchor x="699.10938" y="1462.0" name="top_1"/>
-  <anchor x="1867.0" y="1087.0" name="top_2"/>
-  <anchor x="17.8572" y="1462.0" name="topleft"/>
-  <anchor x="1379.4687" y="1462.0" name="topright"/>
-  <outline>
-    <component base="O" xScale="0.89286"/>
-    <component base="y" xOffset="1397.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>O</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>y</string>
-    </dict>
-  </lib>
+	<unicode hex="0478"/>
+	<advance width="2337"/>
+	<outline>
+		<component base="O" xScale="0.89286"/>
+		<component base="y" xOffset="1397"/>
+	</outline>
+	<anchor name="bottom_1" x="699.10938" y="0"/>
+	<anchor name="bottom_2" x="1967" y="0"/>
+	<anchor name="center" x="699.10938" y="731"/>
+	<anchor name="ogonek" x="1257.14688" y="10"/>
+	<anchor name="top_1" x="699.10938" y="1462"/>
+	<anchor name="top_2" x="1867" y="1087"/>
+	<anchor name="topleft" x="17.8572" y="1462"/>
+	<anchor name="topright" x="1379.4687" y="1462"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>O</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>y</string>
+		</dict>
+	</lib>
+	<note>
+		uni0478
+	</note>
 </glyph>

@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shindageshsindot-hb.rvrn" format="2">
-  <outline>
-    <component base="shin-hb"/>
-    <component base="dagesh-hb" xOffset="753.0" yOffset="-114.0"/>
-    <component base="dagesh-hb" xOffset="91.0" yOffset="909.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
+	<outline>
+		<component base="shin-hb"/>
+		<component base="dagesh-hb" xOffset="753" yOffset="-114"/>
+		<component base="dagesh-hb" xOffset="91" yOffset="909"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>-1</integer>
+				<integer>-1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

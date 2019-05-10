@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zedieresis-cy" format="2">
-  <advance width="1137.0"/>
-  <unicode hex="04DF"/>
-  <note>
-uni04DF
-</note>
-  <anchor x="544.0" y="0.0" name="bottom"/>
-  <anchor x="544.0" y="1530.0" name="top"/>
-  <outline>
-    <component base="ze-cy"/>
-    <component base="dieresiscomb" xOffset="-78.0" yOffset="-12.0"/>
-  </outline>
+	<unicode hex="04DF"/>
+	<advance width="1137"/>
+	<outline>
+		<component base="ze-cy"/>
+		<component base="dieresiscomb" xOffset="-78" yOffset="-12"/>
+	</outline>
+	<anchor name="bottom" x="544" y="0"/>
+	<anchor name="top" x="544" y="1530"/>
+	<note>
+		uni04DF
+	</note>
 </glyph>

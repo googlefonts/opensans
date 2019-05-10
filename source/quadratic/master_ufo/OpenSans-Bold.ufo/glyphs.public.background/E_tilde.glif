@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etilde" format="2">
-  <outline>
-    <component base="E" xOffset="-24.0"/>
-    <component base="tilde" xOffset="-43.0" yOffset="337.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
+	<outline>
+		<component base="E" xOffset="-24"/>
+		<component base="tilde" xOffset="-43" yOffset="337"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>-1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

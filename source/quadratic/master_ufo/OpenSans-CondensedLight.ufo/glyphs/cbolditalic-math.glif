@@ -1,62 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cbolditalic-math" format="2">
-  <advance width="844.0"/>
-  <unicode hex="1D484"/>
-  <note>
-cbolditalic-math
-</note>
-  <outline>
-    <contour>
-      <point x="283.0" y="-29.0" type="curve" smooth="yes"/>
-      <point x="432.0" y="-29.0"/>
-      <point x="565.0" y="66.0"/>
-      <point x="678.0" y="254.0" type="curve"/>
-      <point x="623.0" y="293.0" type="line"/>
-      <point x="541.0" y="168.0"/>
-      <point x="457.0" y="104.0"/>
-      <point x="375.0" y="104.0" type="curve" smooth="yes"/>
-      <point x="287.0" y="104.0"/>
-      <point x="227.0" y="172.0"/>
-      <point x="227.0" y="301.0" type="curve" smooth="yes"/>
-      <point x="227.0" y="537.0"/>
-      <point x="395.0" y="881.0"/>
-      <point x="526.0" y="881.0" type="curve" smooth="yes"/>
-      <point x="559.0" y="881.0"/>
-      <point x="575.0" y="866.0"/>
-      <point x="575.0" y="838.0" type="curve" smooth="yes"/>
-      <point x="575.0" y="825.0"/>
-      <point x="569.0" y="809.0"/>
-      <point x="555.0" y="786.0" type="curve" smooth="yes"/>
-      <point x="543.0" y="766.0"/>
-      <point x="537.0" y="745.0"/>
-      <point x="537.0" y="725.0" type="curve" smooth="yes"/>
-      <point x="537.0" y="662.0"/>
-      <point x="584.0" y="621.0"/>
-      <point x="651.0" y="621.0" type="curve" smooth="yes"/>
-      <point x="731.0" y="621.0"/>
-      <point x="782.0" y="672.0"/>
-      <point x="782.0" y="760.0" type="curve" smooth="yes"/>
-      <point x="782.0" y="858.0"/>
-      <point x="688.0" y="944.0"/>
-      <point x="545.0" y="944.0" type="curve" smooth="yes"/>
-      <point x="455.0" y="944.0"/>
-      <point x="362.0" y="911.0"/>
-      <point x="268.0" y="844.0" type="curve" smooth="yes"/>
-      <point x="80.0" y="711.0"/>
-      <point x="-29.0" y="496.0"/>
-      <point x="-29.0" y="297.0" type="curve" smooth="yes"/>
-      <point x="-29.0" y="92.0"/>
-      <point x="86.0" y="-29.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>math</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Lowercase</string>
-    </dict>
-  </lib>
+	<unicode hex="1D484"/>
+	<advance width="844"/>
+	<outline>
+		<contour>
+			<point x="283" y="-29" type="curve" smooth="yes"/>
+			<point x="432" y="-29"/>
+			<point x="565" y="66"/>
+			<point x="678" y="254" type="curve"/>
+			<point x="623" y="293" type="line"/>
+			<point x="541" y="168"/>
+			<point x="457" y="104"/>
+			<point x="375" y="104" type="curve" smooth="yes"/>
+			<point x="287" y="104"/>
+			<point x="227" y="172"/>
+			<point x="227" y="301" type="curve" smooth="yes"/>
+			<point x="227" y="537"/>
+			<point x="395" y="881"/>
+			<point x="526" y="881" type="curve" smooth="yes"/>
+			<point x="559" y="881"/>
+			<point x="575" y="866"/>
+			<point x="575" y="838" type="curve" smooth="yes"/>
+			<point x="575" y="825"/>
+			<point x="569" y="809"/>
+			<point x="555" y="786" type="curve" smooth="yes"/>
+			<point x="543" y="766"/>
+			<point x="537" y="745"/>
+			<point x="537" y="725" type="curve" smooth="yes"/>
+			<point x="537" y="662"/>
+			<point x="584" y="621"/>
+			<point x="651" y="621" type="curve" smooth="yes"/>
+			<point x="731" y="621"/>
+			<point x="782" y="672"/>
+			<point x="782" y="760" type="curve" smooth="yes"/>
+			<point x="782" y="858"/>
+			<point x="688" y="944"/>
+			<point x="545" y="944" type="curve" smooth="yes"/>
+			<point x="455" y="944"/>
+			<point x="362" y="911"/>
+			<point x="268" y="844" type="curve" smooth="yes"/>
+			<point x="80" y="711"/>
+			<point x="-29" y="496"/>
+			<point x="-29" y="297" type="curve" smooth="yes"/>
+			<point x="-29" y="92"/>
+			<point x="86" y="-29"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>math</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Lowercase</string>
+		</dict>
+	</lib>
+	<note>
+		cbolditalic-math
+	</note>
 </glyph>

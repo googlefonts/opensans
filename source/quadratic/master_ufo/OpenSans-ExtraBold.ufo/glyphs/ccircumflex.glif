@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccircumflex" format="2">
-  <advance width="1104.0"/>
-  <unicode hex="0109"/>
-  <note>
-ccircumflex
-</note>
-  <anchor x="602.0" y="0.0" name="bottom"/>
-  <anchor x="602.0" y="1569.0" name="top"/>
-  <outline>
-    <component base="c.rvrn"/>
-    <component base="circumflexcomb" xOffset="-17.0"/>
-  </outline>
+	<unicode hex="0109"/>
+	<advance width="1104"/>
+	<outline>
+		<component base="c.rvrn"/>
+		<component base="circumflexcomb" xOffset="-17"/>
+	</outline>
+	<anchor name="bottom" x="602" y="0"/>
+	<anchor name="top" x="602" y="1569"/>
+	<note>
+		ccircumflex
+	</note>
 </glyph>

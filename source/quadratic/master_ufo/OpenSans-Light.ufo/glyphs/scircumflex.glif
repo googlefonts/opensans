@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scircumflex" format="2">
-  <advance width="954.0"/>
-  <unicode hex="015D"/>
-  <note>
-scircumflex
-</note>
-  <anchor x="454.0" y="-1.0" name="bottom"/>
-  <anchor x="477.0" y="1529.0" name="top"/>
-  <outline>
-    <component base="s"/>
-    <component base="circumflexcomb" xOffset="186.0" yOffset="-40.0"/>
-  </outline>
+	<unicode hex="015D"/>
+	<advance width="954"/>
+	<outline>
+		<component base="s"/>
+		<component base="circumflexcomb" xOffset="186" yOffset="-40"/>
+	</outline>
+	<anchor name="bottom" x="454" y="-1"/>
+	<anchor name="top" x="477" y="1529"/>
+	<note>
+		scircumflex
+	</note>
 </glyph>

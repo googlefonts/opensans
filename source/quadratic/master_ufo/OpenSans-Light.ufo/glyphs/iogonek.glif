@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iogonek" format="2">
-  <advance width="463.0"/>
-  <unicode hex="012F"/>
-  <note>
-iogonek
-</note>
-  <anchor x="232.0" y="0.0" name="bottom"/>
-  <anchor x="181.0" y="10.0" name="ogonek"/>
-  <anchor x="231.0" y="1485.0" name="top"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="dotaccentcomb" xOffset="481.0"/>
-    <component base="ogonekcomb" xOffset="376.0"/>
-  </outline>
+	<unicode hex="012F"/>
+	<advance width="463"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="dotaccentcomb" xOffset="481"/>
+		<component base="ogonekcomb" xOffset="376"/>
+	</outline>
+	<anchor name="bottom" x="232" y="0"/>
+	<anchor name="ogonek" x="181" y="10"/>
+	<anchor name="top" x="231" y="1485"/>
+	<note>
+		iogonek
+	</note>
 </glyph>

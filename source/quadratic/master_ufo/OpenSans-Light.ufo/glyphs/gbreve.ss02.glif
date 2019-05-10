@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gbreve.ss02" format="2">
-  <advance width="1187.0"/>
-  <note>
-g915
-</note>
-  <anchor x="569.0" y="1447.0" name="top"/>
-  <outline>
-    <component base="g.ss02"/>
-    <component base="brevecomb" xOffset="1115.0" yOffset="-40.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<advance width="1187"/>
+	<outline>
+		<component base="g.ss02"/>
+		<component base="brevecomb" xOffset="1115" yOffset="-40"/>
+	</outline>
+	<anchor name="top" x="569" y="1447"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		g915
+	</note>
 </glyph>

@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abrevedotbelow" format="2">
-  <advance width="1094.0"/>
-  <unicode hex="1EB6"/>
-  <note>
-uni1EB6
-</note>
-  <anchor x="547.0" y="-416.0" name="bottom"/>
-  <anchor x="1015.5" y="10.0" name="ogonek"/>
-  <anchor x="547.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="A"/>
-    <component base="breve" xOffset="-16.0" yOffset="348.0"/>
-    <component base="dotbelowcomb" xOffset="548.0"/>
-  </outline>
+	<unicode hex="1EB6"/>
+	<advance width="1094"/>
+	<outline>
+		<component base="A"/>
+		<component base="breve" xOffset="-16" yOffset="348"/>
+		<component base="dotbelowcomb" xOffset="548"/>
+	</outline>
+	<anchor name="bottom" x="547" y="-416"/>
+	<anchor name="ogonek" x="1015.5" y="10"/>
+	<anchor name="top" x="547" y="1462"/>
+	<note>
+		uni1EB6
+	</note>
 </glyph>

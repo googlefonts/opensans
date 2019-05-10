@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edotaccent" format="2">
-  <advance width="1266.0"/>
-  <unicode hex="0117"/>
-  <note>
-edotaccent
-</note>
-  <anchor x="633.0" y="0.0" name="bottom"/>
-  <anchor x="869.0" y="10.0" name="ogonek"/>
-  <anchor x="633.0" y="1589.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="dotaccentcomb" xOffset="300.0"/>
-  </outline>
+	<unicode hex="0117"/>
+	<advance width="1266"/>
+	<outline>
+		<component base="e"/>
+		<component base="dotaccentcomb" xOffset="300"/>
+	</outline>
+	<anchor name="bottom" x="633" y="0"/>
+	<anchor name="ogonek" x="869" y="10"/>
+	<anchor name="top" x="633" y="1589"/>
+	<note>
+		edotaccent
+	</note>
 </glyph>

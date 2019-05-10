@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="JdoubleStruck" format="2">
-  <advance width="848.0"/>
-  <unicode hex="1D541"/>
-  <note>
-JdoubleStruck
-</note>
-  <outline>
-    <contour>
-      <point x="281.0" y="-20.0" type="curve" smooth="yes"/>
-      <point x="573.0" y="-20.0"/>
-      <point x="705.0" y="129.0"/>
-      <point x="705.0" y="498.0" type="curve" smooth="yes"/>
-      <point x="705.0" y="1462.0" type="line"/>
-      <point x="350.0" y="1462.0" type="line"/>
-      <point x="350.0" y="90.0" type="line"/>
-      <point x="342.0" y="86.0"/>
-      <point x="317.0" y="84.0"/>
-      <point x="281.0" y="84.0" type="curve" smooth="yes"/>
-      <point x="172.0" y="84.0"/>
-      <point x="80.0" y="102.0"/>
-      <point x="0.0" y="139.0" type="curve"/>
-      <point x="0.0" y="31.0" type="line"/>
-      <point x="57.0" y="0.0"/>
-      <point x="184.0" y="-20.0"/>
-    </contour>
-    <contour>
-      <point x="459.0" y="117.0" type="curve"/>
-      <point x="459.0" y="1354.0" type="line"/>
-      <point x="596.0" y="1354.0" type="line"/>
-      <point x="596.0" y="494.0" type="line" smooth="yes"/>
-      <point x="596.0" y="293.0"/>
-      <point x="555.0" y="166.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Uppercase</string>
-    </dict>
-  </lib>
+	<unicode hex="1D541"/>
+	<advance width="848"/>
+	<outline>
+		<contour>
+			<point x="281" y="-20" type="curve" smooth="yes"/>
+			<point x="573" y="-20"/>
+			<point x="705" y="129"/>
+			<point x="705" y="498" type="curve" smooth="yes"/>
+			<point x="705" y="1462" type="line"/>
+			<point x="350" y="1462" type="line"/>
+			<point x="350" y="90" type="line"/>
+			<point x="342" y="86"/>
+			<point x="317" y="84"/>
+			<point x="281" y="84" type="curve" smooth="yes"/>
+			<point x="172" y="84"/>
+			<point x="80" y="102"/>
+			<point x="0" y="139" type="curve"/>
+			<point x="0" y="31" type="line"/>
+			<point x="57" y="0"/>
+			<point x="184" y="-20"/>
+		</contour>
+		<contour>
+			<point x="459" y="117" type="curve"/>
+			<point x="459" y="1354" type="line"/>
+			<point x="596" y="1354" type="line"/>
+			<point x="596" y="494" type="line" smooth="yes"/>
+			<point x="596" y="293"/>
+			<point x="555" y="166"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Uppercase</string>
+		</dict>
+	</lib>
+	<note>
+		JdoubleStruck
+	</note>
 </glyph>

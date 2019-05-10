@@ -1,51 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tonos" format="2">
-  <advance width="1123.0"/>
-  <unicode hex="0384"/>
-  <note>
-tonos
-</note>
-  <anchor x="623.0" y="1112.0" name="_top"/>
-  <anchor x="810.0" y="1556.0" name="_topleft"/>
-  <outline>
-    <contour>
-      <point x="501.0" y="1241.0" type="line"/>
-      <point x="559.0" y="1241.0" type="line"/>
-      <point x="628.0" y="1358.0"/>
-      <point x="695.0" y="1531.0"/>
-      <point x="719.0" y="1634.0" type="curve"/>
-      <point x="719.0" y="1651.0" type="line"/>
-      <point x="600.0" y="1651.0" type="line"/>
-      <point x="581.0" y="1516.0"/>
-      <point x="540.0" y="1357.0"/>
-      <point x="501.0" y="1257.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>9.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>3.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="0384"/>
+	<advance width="1123"/>
+	<outline>
+		<contour>
+			<point x="501" y="1241" type="line"/>
+			<point x="559" y="1241" type="line"/>
+			<point x="628" y="1358"/>
+			<point x="695" y="1531"/>
+			<point x="719" y="1634" type="curve"/>
+			<point x="719" y="1651" type="line"/>
+			<point x="600" y="1651" type="line"/>
+			<point x="581" y="1516"/>
+			<point x="540" y="1357"/>
+			<point x="501" y="1257" type="curve"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="623" y="1112"/>
+	<anchor name="_topleft" x="810" y="1556"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>9</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>3</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		tonos
+	</note>
 </glyph>

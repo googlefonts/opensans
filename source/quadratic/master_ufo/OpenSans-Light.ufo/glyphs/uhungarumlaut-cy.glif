@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhungarumlaut-cy" format="2">
-  <advance width="940.0"/>
-  <unicode hex="04F3"/>
-  <note>
-uni04F3
-</note>
-  <anchor x="570.0" y="0.0" name="bottom"/>
-  <anchor x="540.0" y="1569.0" name="top"/>
-  <outline>
-    <component base="u-cy"/>
-    <component base="hungarumlautcomb" xOffset="-41.0"/>
-  </outline>
+	<unicode hex="04F3"/>
+	<advance width="940"/>
+	<outline>
+		<component base="u-cy"/>
+		<component base="hungarumlautcomb" xOffset="-41"/>
+	</outline>
+	<anchor name="bottom" x="570" y="0"/>
+	<anchor name="top" x="540" y="1569"/>
+	<note>
+		uni04F3
+	</note>
 </glyph>

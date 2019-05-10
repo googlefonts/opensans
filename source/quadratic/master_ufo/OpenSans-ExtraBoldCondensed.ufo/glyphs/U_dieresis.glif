@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Udieresis" format="2">
-  <advance width="1211.0"/>
-  <unicode hex="00DC"/>
-  <note>
-Udieresis
-</note>
-  <anchor x="606.0" y="0.0" name="bottom"/>
-  <anchor x="811.0" y="10.0" name="ogonek"/>
-  <anchor x="606.0" y="1462.0" name="top"/>
-  <anchor x="1191.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="U"/>
-    <component base="dieresis" xOffset="-159.0" yOffset="310.0"/>
-  </outline>
+	<unicode hex="00DC"/>
+	<advance width="1211"/>
+	<outline>
+		<component base="U"/>
+		<component base="dieresis" xOffset="-159" yOffset="310"/>
+	</outline>
+	<anchor name="bottom" x="606" y="0"/>
+	<anchor name="ogonek" x="811" y="10"/>
+	<anchor name="top" x="606" y="1462"/>
+	<anchor name="topright" x="1191" y="1462"/>
+	<note>
+		Udieresis
+	</note>
 </glyph>

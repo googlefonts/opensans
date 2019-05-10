@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gamma" format="2">
-  <advance width="876.0"/>
-  <unicode hex="0393"/>
-  <note>
-Gamma
-</note>
-  <anchor x="856.0" y="0.0" name="bottomright"/>
-  <anchor x="485.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="Ge-cy"/>
-  </outline>
+	<unicode hex="0393"/>
+	<advance width="876"/>
+	<outline>
+		<component base="Ge-cy"/>
+	</outline>
+	<anchor name="bottomright" x="856" y="0"/>
+	<anchor name="top" x="485" y="1462"/>
+	<note>
+		Gamma
+	</note>
 </glyph>

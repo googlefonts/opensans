@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="atilde" format="2">
-  <advance width="1085.0"/>
-  <unicode hex="00E3"/>
-  <note>
-atilde
-</note>
-  <anchor x="543.0" y="0.0" name="bottom"/>
-  <anchor x="816.0" y="10.0" name="ogonek"/>
-  <anchor x="563.0" y="1441.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="tildecomb" xOffset="819.0" yOffset="-40.0"/>
-  </outline>
+	<unicode hex="00E3"/>
+	<advance width="1085"/>
+	<outline>
+		<component base="a"/>
+		<component base="tildecomb" xOffset="819" yOffset="-40"/>
+	</outline>
+	<anchor name="bottom" x="543" y="0"/>
+	<anchor name="ogonek" x="816" y="10"/>
+	<anchor name="top" x="563" y="1441"/>
+	<note>
+		atilde
+	</note>
 </glyph>

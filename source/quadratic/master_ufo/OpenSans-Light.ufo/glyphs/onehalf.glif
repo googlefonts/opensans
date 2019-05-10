@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onehalf" format="2">
-  <advance width="1612.0"/>
-  <unicode hex="00BD"/>
-  <note>
-onehalf
-</note>
-  <outline>
-    <component base="one.numr"/>
-    <component base="fraction" xOffset="688.0"/>
-    <component base="two.dnom" xOffset="924.0"/>
-  </outline>
+	<unicode hex="00BD"/>
+	<advance width="1612"/>
+	<outline>
+		<component base="one.numr"/>
+		<component base="fraction" xOffset="688"/>
+		<component base="two.dnom" xOffset="924"/>
+	</outline>
+	<note>
+		onehalf
+	</note>
 </glyph>

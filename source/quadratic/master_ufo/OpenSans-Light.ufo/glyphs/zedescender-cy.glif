@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zedescender-cy" format="2">
-  <advance width="926.0"/>
-  <unicode hex="0499"/>
-  <note>
-uni0499
-</note>
-  <anchor x="463.0" y="-492.0" name="bottom"/>
-  <anchor x="463.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="ze-cy"/>
-    <component base="cedillacomb" xOffset="706.0"/>
-  </outline>
+	<unicode hex="0499"/>
+	<advance width="926"/>
+	<outline>
+		<component base="ze-cy"/>
+		<component base="cedillacomb" xOffset="706"/>
+	</outline>
+	<anchor name="bottom" x="463" y="-492"/>
+	<anchor name="top" x="463" y="1087"/>
+	<note>
+		uni0499
+	</note>
 </glyph>

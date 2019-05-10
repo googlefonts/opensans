@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gdotaccent.ss02" format="2">
-  <advance width="911.0"/>
-  <note>
-g916
-</note>
-  <anchor x="456.0" y="1481.0" name="top"/>
-  <outline>
-    <component base="g.ss02"/>
-    <component base="dotaccentcomb" xOffset="263.0"/>
-  </outline>
+	<advance width="911"/>
+	<outline>
+		<component base="g.ss02"/>
+		<component base="dotaccentcomb" xOffset="263"/>
+	</outline>
+	<anchor name="top" x="456" y="1481"/>
+	<note>
+		g916
+	</note>
 </glyph>

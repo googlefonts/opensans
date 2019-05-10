@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ.ss01" format="2">
-  <advance width="1475.0"/>
-  <note>
-g244
-</note>
-  <anchor x="399.0" y="0.0" name="bottom_1"/>
-  <anchor x="1143.0" y="0.0" name="bottom_2"/>
-  <anchor x="651.0" y="10.0" name="ogonek"/>
-  <anchor x="399.0" y="1462.0" name="top_1"/>
-  <anchor x="1143.0" y="1462.0" name="top_2"/>
-  <anchor x="15.0" y="1462.0" name="topleft"/>
-  <outline>
-    <component base="I.ss01"/>
-    <component base="J" xOffset="797.0"/>
-  </outline>
+	<advance width="1475"/>
+	<outline>
+		<component base="I.ss01"/>
+		<component base="J" xOffset="797"/>
+	</outline>
+	<anchor name="bottom_1" x="399" y="0"/>
+	<anchor name="bottom_2" x="1143" y="0"/>
+	<anchor name="ogonek" x="651" y="10"/>
+	<anchor name="top_1" x="399" y="1462"/>
+	<anchor name="top_2" x="1143" y="1462"/>
+	<anchor name="topleft" x="15" y="1462"/>
+	<note>
+		g244
+	</note>
 </glyph>

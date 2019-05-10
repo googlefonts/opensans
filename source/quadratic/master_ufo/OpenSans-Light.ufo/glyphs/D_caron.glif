@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcaron" format="2">
-  <advance width="1446.0"/>
-  <unicode hex="010E"/>
-  <note>
-Dcaron
-</note>
-  <anchor x="723.0" y="0.0" name="bottom"/>
-  <anchor x="723.0" y="731.0" name="center"/>
-  <anchor x="723.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="D"/>
-    <component base="caron" xOffset="432.0" yOffset="375.0"/>
-  </outline>
+	<unicode hex="010E"/>
+	<advance width="1446"/>
+	<outline>
+		<component base="D"/>
+		<component base="caron" xOffset="432" yOffset="375"/>
+	</outline>
+	<anchor name="bottom" x="723" y="0"/>
+	<anchor name="center" x="723" y="731"/>
+	<anchor name="top" x="723" y="1462"/>
+	<note>
+		Dcaron
+	</note>
 </glyph>

@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocircumflexdotbelow" format="2">
-  <advance width="1082.0"/>
-  <unicode hex="1ED9"/>
-  <note>
-uni1ED9
-</note>
-  <anchor x="540.0" y="-458.0" name="bottom"/>
-  <anchor x="540.0" y="563.0" name="center"/>
-  <anchor x="973.0" y="10.0" name="ogonek"/>
-  <anchor x="540.0" y="1127.0" name="top"/>
-  <anchor x="1062.0" y="1127.0" name="topright"/>
-  <outline>
-    <component base="o"/>
-    <component base="circumflex" xOffset="-217.0"/>
-    <component base="dotbelowcomb" xOffset="542.0"/>
-  </outline>
+	<unicode hex="1ED9"/>
+	<advance width="1082"/>
+	<outline>
+		<component base="o"/>
+		<component base="circumflex" xOffset="-217"/>
+		<component base="dotbelowcomb" xOffset="542"/>
+	</outline>
+	<anchor name="bottom" x="540" y="-458"/>
+	<anchor name="center" x="540" y="563"/>
+	<anchor name="ogonek" x="973" y="10"/>
+	<anchor name="top" x="540" y="1127"/>
+	<anchor name="topright" x="1062" y="1127"/>
+	<note>
+		uni1ED9
+	</note>
 </glyph>

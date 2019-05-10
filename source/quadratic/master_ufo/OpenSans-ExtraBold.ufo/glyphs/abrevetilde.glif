@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="abrevetilde" format="2">
-  <advance width="1276.0"/>
-  <unicode hex="1EB5"/>
-  <note>
-uni1EB5
-</note>
-  <anchor x="638.0" y="0.0" name="bottom"/>
-  <anchor x="1157.0" y="10.0" name="ogonek"/>
-  <anchor x="638.0" y="1133.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="g894" xOffset="1345.0" yOffset="9.0"/>
-  </outline>
+	<unicode hex="1EB5"/>
+	<advance width="1276"/>
+	<outline>
+		<component base="a"/>
+		<component base="g894" xOffset="1345" yOffset="9"/>
+	</outline>
+	<anchor name="bottom" x="638" y="0"/>
+	<anchor name="ogonek" x="1157" y="10"/>
+	<anchor name="top" x="638" y="1133"/>
+	<note>
+		uni1EB5
+	</note>
 </glyph>

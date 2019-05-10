@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="caron.alt" format="2">
-  <advance width="198.0"/>
-  <anchor x="198.0" y="1556.0" name="_topright"/>
-  <outline>
-    <contour>
-      <point x="0.0" y="1229.0" type="line"/>
-      <point x="53.0" y="1229.0" type="line"/>
-      <point x="124.0" y="1335.0"/>
-      <point x="178.0" y="1464.0"/>
-      <point x="198.0" y="1542.0" type="curve"/>
-      <point x="198.0" y="1556.0" type="line"/>
-      <point x="86.0" y="1556.0" type="line"/>
-      <point x="71.0" y="1453.0"/>
-      <point x="28.0" y="1305.0"/>
-      <point x="0.0" y="1245.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>9.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>3.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<advance width="198"/>
+	<outline>
+		<contour>
+			<point x="0" y="1229" type="line"/>
+			<point x="53" y="1229" type="line"/>
+			<point x="124" y="1335"/>
+			<point x="178" y="1464"/>
+			<point x="198" y="1542" type="curve"/>
+			<point x="198" y="1556" type="line"/>
+			<point x="86" y="1556" type="line"/>
+			<point x="71" y="1453"/>
+			<point x="28" y="1305"/>
+			<point x="0" y="1245" type="curve"/>
+		</contour>
+	</outline>
+	<anchor name="_topright" x="198" y="1556"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>9</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>3</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

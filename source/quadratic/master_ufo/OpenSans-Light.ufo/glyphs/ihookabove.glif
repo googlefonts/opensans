@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ihookabove" format="2">
-  <advance width="463.0"/>
-  <unicode hex="1EC9"/>
-  <note>
-uni1EC9
-</note>
-  <anchor x="232.0" y="0.0" name="bottom"/>
-  <anchor x="181.0" y="10.0" name="ogonek"/>
-  <anchor x="287.0" y="1679.0" name="top"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="hookabovecomb" xOffset="903.0"/>
-  </outline>
+	<unicode hex="1EC9"/>
+	<advance width="463"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="hookabovecomb" xOffset="903"/>
+	</outline>
+	<anchor name="bottom" x="232" y="0"/>
+	<anchor name="ogonek" x="181" y="10"/>
+	<anchor name="top" x="287" y="1679"/>
+	<note>
+		uni1EC9
+	</note>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ha-cy" format="2">
-  <advance width="1020.0"/>
-  <unicode hex="0445"/>
-  <note>
-afii10087
-</note>
-  <anchor x="1000.0" y="0.0" name="bottomright"/>
-  <anchor x="882.0" y="0.0" name="cyrillicbighook"/>
-  <anchor x="510.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="x"/>
-  </outline>
+	<unicode hex="0445"/>
+	<advance width="1020"/>
+	<outline>
+		<component base="x"/>
+	</outline>
+	<anchor name="bottomright" x="1000" y="0"/>
+	<anchor name="cyrillicbighook" x="882" y="0"/>
+	<anchor name="top" x="510" y="1087"/>
+	<note>
+		afii10087
+	</note>
 </glyph>

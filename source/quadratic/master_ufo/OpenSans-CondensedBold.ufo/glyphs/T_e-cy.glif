@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Te-cy" format="2">
-  <advance width="885.0"/>
-  <unicode hex="0422"/>
-  <note>
-afii10036
-</note>
-  <anchor x="865.3" y="0.0" name="bottomright"/>
-  <anchor x="442.8" y="731.0" name="center"/>
-  <anchor x="442.8" y="1462.0" name="top"/>
-  <outline>
-    <component base="T"/>
-  </outline>
+	<unicode hex="0422"/>
+	<advance width="885"/>
+	<outline>
+		<component base="T"/>
+	</outline>
+	<anchor name="bottomright" x="865.3" y="0"/>
+	<anchor name="center" x="442.8" y="731"/>
+	<anchor name="top" x="442.8" y="1462"/>
+	<note>
+		afii10036
+	</note>
 </glyph>

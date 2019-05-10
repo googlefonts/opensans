@@ -1,62 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftwhitecurlybracket" format="2">
-  <advance width="1004.0"/>
-  <unicode hex="2983"/>
-  <note>
-leftwhitecurlybracket
-</note>
-  <outline>
-    <contour>
-      <point x="760.0" y="-209.0" type="curve" smooth="yes"/>
-      <point x="899.0" y="-209.0" type="line"/>
-      <point x="899.0" y="-94.0" type="line"/>
-      <point x="817.0" y="-94.0" type="line"/>
-      <point x="817.0" y="1462.0" type="line"/>
-      <point x="899.0" y="1462.0" type="line"/>
-      <point x="899.0" y="1577.0" type="line"/>
-      <point x="760.0" y="1577.0" type="line" smooth="yes"/>
-      <point x="508.0" y="1577.0"/>
-      <point x="354.0" y="1460.0"/>
-      <point x="354.0" y="1253.0" type="curve" smooth="yes"/>
-      <point x="354.0" y="940.0" type="line" smooth="yes"/>
-      <point x="354.0" y="811.0"/>
-      <point x="276.0" y="754.0"/>
-      <point x="104.0" y="750.0" type="curve"/>
-      <point x="104.0" y="623.0" type="line"/>
-      <point x="264.0" y="623.0"/>
-      <point x="354.0" y="569.0"/>
-      <point x="354.0" y="430.0" type="curve" smooth="yes"/>
-      <point x="354.0" y="117.0" type="line" smooth="yes"/>
-      <point x="354.0" y="-94.0"/>
-      <point x="498.0" y="-209.0"/>
-    </contour>
-    <contour>
-      <point x="682.0" y="-86.0" type="line"/>
-      <point x="561.0" y="-63.0"/>
-      <point x="500.0" y="8.0"/>
-      <point x="500.0" y="129.0" type="curve" smooth="yes"/>
-      <point x="500.0" y="430.0" type="line" smooth="yes"/>
-      <point x="500.0" y="571.0"/>
-      <point x="434.0" y="653.0"/>
-      <point x="283.0" y="680.0" type="curve"/>
-      <point x="283.0" y="692.0" type="line"/>
-      <point x="432.0" y="719.0"/>
-      <point x="500.0" y="801.0"/>
-      <point x="500.0" y="942.0" type="curve" smooth="yes"/>
-      <point x="500.0" y="1237.0" type="line" smooth="yes"/>
-      <point x="500.0" y="1354.0"/>
-      <point x="561.0" y="1434.0"/>
-      <point x="682.0" y="1456.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Parenthesis</string>
-    </dict>
-  </lib>
+	<unicode hex="2983"/>
+	<advance width="1004"/>
+	<outline>
+		<contour>
+			<point x="760" y="-209" type="curve" smooth="yes"/>
+			<point x="899" y="-209" type="line"/>
+			<point x="899" y="-94" type="line"/>
+			<point x="817" y="-94" type="line"/>
+			<point x="817" y="1462" type="line"/>
+			<point x="899" y="1462" type="line"/>
+			<point x="899" y="1577" type="line"/>
+			<point x="760" y="1577" type="line" smooth="yes"/>
+			<point x="508" y="1577"/>
+			<point x="354" y="1460"/>
+			<point x="354" y="1253" type="curve" smooth="yes"/>
+			<point x="354" y="940" type="line" smooth="yes"/>
+			<point x="354" y="811"/>
+			<point x="276" y="754"/>
+			<point x="104" y="750" type="curve"/>
+			<point x="104" y="623" type="line"/>
+			<point x="264" y="623"/>
+			<point x="354" y="569"/>
+			<point x="354" y="430" type="curve" smooth="yes"/>
+			<point x="354" y="117" type="line" smooth="yes"/>
+			<point x="354" y="-94"/>
+			<point x="498" y="-209"/>
+		</contour>
+		<contour>
+			<point x="682" y="-86" type="line"/>
+			<point x="561" y="-63"/>
+			<point x="500" y="8"/>
+			<point x="500" y="129" type="curve" smooth="yes"/>
+			<point x="500" y="430" type="line" smooth="yes"/>
+			<point x="500" y="571"/>
+			<point x="434" y="653"/>
+			<point x="283" y="680" type="curve"/>
+			<point x="283" y="692" type="line"/>
+			<point x="432" y="719"/>
+			<point x="500" y="801"/>
+			<point x="500" y="942" type="curve" smooth="yes"/>
+			<point x="500" y="1237" type="line" smooth="yes"/>
+			<point x="500" y="1354"/>
+			<point x="561" y="1434"/>
+			<point x="682" y="1456" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Punctuation</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Parenthesis</string>
+		</dict>
+	</lib>
+	<note>
+		leftwhitecurlybracket
+	</note>
 </glyph>

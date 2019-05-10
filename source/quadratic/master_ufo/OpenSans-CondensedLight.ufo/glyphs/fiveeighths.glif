@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fiveeighths" format="2">
-  <advance width="1434.0"/>
-  <unicode hex="215D"/>
-  <note>
-fiveeighths
-</note>
-  <outline>
-    <component base="five.numr"/>
-    <component base="fraction" xOffset="624.0"/>
-    <component base="eight.dnom" xOffset="820.0"/>
-  </outline>
+	<unicode hex="215D"/>
+	<advance width="1434"/>
+	<outline>
+		<component base="five.numr"/>
+		<component base="fraction" xOffset="624"/>
+		<component base="eight.dnom" xOffset="820"/>
+	</outline>
+	<note>
+		fiveeighths
+	</note>
 </glyph>

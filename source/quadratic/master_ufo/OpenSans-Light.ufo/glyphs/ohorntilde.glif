@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorntilde" format="2">
-  <advance width="1200.0"/>
-  <unicode hex="1EE1"/>
-  <note>
-uni1EE1
-</note>
-  <anchor x="600.0" y="0.0" name="bottom"/>
-  <anchor x="600.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="ohorn"/>
-    <component base="tilde" xOffset="876.0" yOffset="-40.0"/>
-  </outline>
+	<unicode hex="1EE1"/>
+	<advance width="1200"/>
+	<outline>
+		<component base="ohorn"/>
+		<component base="tilde" xOffset="876" yOffset="-40"/>
+	</outline>
+	<anchor name="bottom" x="600" y="0"/>
+	<anchor name="top" x="600" y="1087"/>
+	<note>
+		uni1EE1
+	</note>
 </glyph>

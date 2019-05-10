@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ahookabove" format="2">
-  <advance width="1276.0"/>
-  <unicode hex="1EA3"/>
-  <note>
-uni1EA3
-</note>
-  <anchor x="638.0" y="0.0" name="bottom"/>
-  <anchor x="1157.0" y="10.0" name="ogonek"/>
-  <anchor x="638.0" y="1712.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="hookabovecomb" xOffset="638.0"/>
-  </outline>
+	<unicode hex="1EA3"/>
+	<advance width="1276"/>
+	<outline>
+		<component base="a"/>
+		<component base="hookabovecomb" xOffset="638"/>
+	</outline>
+	<anchor name="bottom" x="638" y="0"/>
+	<anchor name="ogonek" x="1157" y="10"/>
+	<anchor name="top" x="638" y="1712"/>
+	<note>
+		uni1EA3
+	</note>
 </glyph>

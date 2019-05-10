@@ -1,65 +1,65 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thalArabic-math" format="2">
-  <advance width="889.0"/>
-  <unicode hex="1EE18"/>
-  <anchor x="389.0" y="1559.0" name="mark0"/>
-  <anchor x="500.0" y="156.0" name="mark1"/>
-  <outline>
-    <contour>
-      <point x="340.0" y="276.0" type="curve" smooth="yes"/>
-      <point x="477.0" y="276.0"/>
-      <point x="606.0" y="299.0"/>
-      <point x="709.0" y="356.0" type="curve"/>
-      <point x="745.0" y="424.0"/>
-      <point x="782.0" y="512.0"/>
-      <point x="782.0" y="563.0" type="curve" smooth="yes"/>
-      <point x="782.0" y="688.0"/>
-      <point x="664.0" y="868.0"/>
-      <point x="580.0" y="1092.0" type="curve"/>
-      <point x="512.0" y="1069.0"/>
-      <point x="473.0" y="1024.0"/>
-      <point x="473.0" y="956.0" type="curve" smooth="yes"/>
-      <point x="473.0" y="891.0"/>
-      <point x="504.0" y="821.0"/>
-      <point x="565.0" y="723.0" type="curve" smooth="yes"/>
-      <point x="616.0" y="639.0"/>
-      <point x="643.0" y="582.0"/>
-      <point x="684.0" y="473.0" type="curve"/>
-      <point x="580.0" y="442.0"/>
-      <point x="485.0" y="432.0"/>
-      <point x="406.0" y="432.0" type="curve" smooth="yes"/>
-      <point x="276.0" y="432.0"/>
-      <point x="195.0" y="459.0"/>
-      <point x="127.0" y="514.0" type="curve"/>
-      <point x="104.0" y="487.0"/>
-      <point x="90.0" y="446.0"/>
-      <point x="90.0" y="406.0" type="curve" smooth="yes"/>
-      <point x="90.0" y="313.0"/>
-      <point x="193.0" y="276.0"/>
-    </contour>
-    <contour>
-      <point x="465.0" y="1147.0" type="curve"/>
-      <point x="504.0" y="1184.0"/>
-      <point x="575.0" y="1262.0"/>
-      <point x="596.0" y="1296.0" type="curve"/>
-      <point x="551.0" y="1335.0"/>
-      <point x="510.0" y="1376.0"/>
-      <point x="461.0" y="1430.0" type="curve"/>
-      <point x="424.0" y="1386.0"/>
-      <point x="369.0" y="1329.0"/>
-      <point x="317.0" y="1278.0" type="curve"/>
-      <point x="360.0" y="1233.0"/>
-      <point x="414.0" y="1186.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="1EE18"/>
+	<advance width="889"/>
+	<outline>
+		<contour>
+			<point x="340" y="276" type="curve" smooth="yes"/>
+			<point x="477" y="276"/>
+			<point x="606" y="299"/>
+			<point x="709" y="356" type="curve"/>
+			<point x="745" y="424"/>
+			<point x="782" y="512"/>
+			<point x="782" y="563" type="curve" smooth="yes"/>
+			<point x="782" y="688"/>
+			<point x="664" y="868"/>
+			<point x="580" y="1092" type="curve"/>
+			<point x="512" y="1069"/>
+			<point x="473" y="1024"/>
+			<point x="473" y="956" type="curve" smooth="yes"/>
+			<point x="473" y="891"/>
+			<point x="504" y="821"/>
+			<point x="565" y="723" type="curve" smooth="yes"/>
+			<point x="616" y="639"/>
+			<point x="643" y="582"/>
+			<point x="684" y="473" type="curve"/>
+			<point x="580" y="442"/>
+			<point x="485" y="432"/>
+			<point x="406" y="432" type="curve" smooth="yes"/>
+			<point x="276" y="432"/>
+			<point x="195" y="459"/>
+			<point x="127" y="514" type="curve"/>
+			<point x="104" y="487"/>
+			<point x="90" y="446"/>
+			<point x="90" y="406" type="curve" smooth="yes"/>
+			<point x="90" y="313"/>
+			<point x="193" y="276"/>
+		</contour>
+		<contour>
+			<point x="465" y="1147" type="curve"/>
+			<point x="504" y="1184"/>
+			<point x="575" y="1262"/>
+			<point x="596" y="1296" type="curve"/>
+			<point x="551" y="1335"/>
+			<point x="510" y="1376"/>
+			<point x="461" y="1430" type="curve"/>
+			<point x="424" y="1386"/>
+			<point x="369" y="1329"/>
+			<point x="317" y="1278" type="curve"/>
+			<point x="360" y="1233"/>
+			<point x="414" y="1186"/>
+		</contour>
+	</outline>
+	<anchor name="mark0" x="389" y="1559"/>
+	<anchor name="mark1" x="500" y="156"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteVerticalBar" format="2">
-  <advance width="788.0"/>
-  <unicode hex="2AFE"/>
-  <note>
-whiteVerticalBar
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="0.0" type="line"/>
-      <point x="684.0" y="0.0" type="line"/>
-      <point x="684.0" y="1249.0" type="line"/>
-      <point x="104.0" y="1249.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="209.0" y="104.0" type="line"/>
-      <point x="209.0" y="1145.0" type="line"/>
-      <point x="580.0" y="1145.0" type="line"/>
-      <point x="580.0" y="104.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2AFE"/>
+	<advance width="788"/>
+	<outline>
+		<contour>
+			<point x="104" y="0" type="line"/>
+			<point x="684" y="0" type="line"/>
+			<point x="684" y="1249" type="line"/>
+			<point x="104" y="1249" type="line"/>
+		</contour>
+		<contour>
+			<point x="209" y="104" type="line"/>
+			<point x="209" y="1145" type="line"/>
+			<point x="580" y="1145" type="line"/>
+			<point x="580" y="104" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		whiteVerticalBar
+	</note>
 </glyph>

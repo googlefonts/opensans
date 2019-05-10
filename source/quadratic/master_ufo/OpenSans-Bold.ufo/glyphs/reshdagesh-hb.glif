@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reshdagesh-hb" format="2">
-  <advance width="1082.0"/>
-  <unicode hex="FB48"/>
-  <note>
-uniFB48
-</note>
-  <anchor x="537.0" y="0.0" name="bottom"/>
-  <anchor x="14.0" y="0.0" name="bottomleft"/>
-  <anchor x="348.0" y="671.0" name="center"/>
-  <anchor x="537.0" y="1119.0" name="top"/>
-  <anchor x="14.0" y="1119.0" name="topleft"/>
-  <outline>
-    <component base="resh-hb"/>
-    <component base="dagesh-hb" xOffset="347.0" yOffset="42.0"/>
-  </outline>
+	<unicode hex="FB48"/>
+	<advance width="1082"/>
+	<outline>
+		<component base="resh-hb"/>
+		<component base="dagesh-hb" xOffset="347" yOffset="42"/>
+	</outline>
+	<anchor name="bottom" x="537" y="0"/>
+	<anchor name="bottomleft" x="14" y="0"/>
+	<anchor name="center" x="348" y="671"/>
+	<anchor name="top" x="537" y="1119"/>
+	<anchor name="topleft" x="14" y="1119"/>
+	<note>
+		uniFB48
+	</note>
 </glyph>

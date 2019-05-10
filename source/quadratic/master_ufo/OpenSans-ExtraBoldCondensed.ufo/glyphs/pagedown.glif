@@ -1,56 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pagedown" format="2">
-  <advance width="893.0"/>
-  <unicode hex="21DF"/>
-  <note>
-pagedown
-</note>
-  <outline>
-    <contour>
-      <point x="424.0" y="0.0" type="curve"/>
-      <point x="469.0" y="0.0" type="line"/>
-      <point x="528.0" y="119.0"/>
-      <point x="623.0" y="233.0"/>
-      <point x="750.0" y="342.0" type="curve"/>
-      <point x="750.0" y="432.0" type="line"/>
-      <point x="631.0" y="377.0"/>
-      <point x="541.0" y="322.0"/>
-      <point x="487.0" y="268.0" type="curve"/>
-      <point x="406.0" y="268.0" type="line"/>
-      <point x="352.0" y="322.0"/>
-      <point x="262.0" y="377.0"/>
-      <point x="143.0" y="432.0" type="curve"/>
-      <point x="143.0" y="342.0" type="line"/>
-      <point x="270.0" y="233.0"/>
-      <point x="365.0" y="119.0"/>
-    </contour>
-    <contour>
-      <point x="143.0" y="647.0" type="line"/>
-      <point x="750.0" y="647.0" type="line"/>
-      <point x="750.0" y="758.0" type="line"/>
-      <point x="143.0" y="758.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="391.0" y="207.0" type="line"/>
-      <point x="502.0" y="207.0" type="line"/>
-      <point x="502.0" y="1417.0" type="line"/>
-      <point x="391.0" y="1417.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="143.0" y="901.0" type="line"/>
-      <point x="750.0" y="901.0" type="line"/>
-      <point x="750.0" y="1012.0" type="line"/>
-      <point x="143.0" y="1012.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="21DF"/>
+	<advance width="893"/>
+	<outline>
+		<contour>
+			<point x="424" y="0" type="curve"/>
+			<point x="469" y="0" type="line"/>
+			<point x="528" y="119"/>
+			<point x="623" y="233"/>
+			<point x="750" y="342" type="curve"/>
+			<point x="750" y="432" type="line"/>
+			<point x="631" y="377"/>
+			<point x="541" y="322"/>
+			<point x="487" y="268" type="curve"/>
+			<point x="406" y="268" type="line"/>
+			<point x="352" y="322"/>
+			<point x="262" y="377"/>
+			<point x="143" y="432" type="curve"/>
+			<point x="143" y="342" type="line"/>
+			<point x="270" y="233"/>
+			<point x="365" y="119"/>
+		</contour>
+		<contour>
+			<point x="143" y="647" type="line"/>
+			<point x="750" y="647" type="line"/>
+			<point x="750" y="758" type="line"/>
+			<point x="143" y="758" type="line"/>
+		</contour>
+		<contour>
+			<point x="391" y="207" type="line"/>
+			<point x="502" y="207" type="line"/>
+			<point x="502" y="1417" type="line"/>
+			<point x="391" y="1417" type="line"/>
+		</contour>
+		<contour>
+			<point x="143" y="901" type="line"/>
+			<point x="750" y="901" type="line"/>
+			<point x="750" y="1012" type="line"/>
+			<point x="143" y="1012" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		pagedown
+	</note>
 </glyph>

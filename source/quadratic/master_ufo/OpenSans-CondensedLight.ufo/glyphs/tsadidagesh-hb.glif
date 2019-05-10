@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tsadidagesh-hb" format="2">
-  <advance width="755.0"/>
-  <unicode hex="FB46"/>
-  <note>
-uniFB46
-</note>
-  <anchor x="378.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="195.0" y="354.0" name="center"/>
-  <anchor x="378.0" y="1085.0" name="top"/>
-  <anchor x="20.0" y="1085.0" name="topleft"/>
-  <outline>
-    <component base="tsadi-hb"/>
-    <component base="dagesh-hb" xOffset="194.0" yOffset="-316.0"/>
-  </outline>
+	<unicode hex="FB46"/>
+	<advance width="755"/>
+	<outline>
+		<component base="tsadi-hb"/>
+		<component base="dagesh-hb" xOffset="194" yOffset="-316"/>
+	</outline>
+	<anchor name="bottom" x="378" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="195" y="354"/>
+	<anchor name="top" x="378" y="1085"/>
+	<anchor name="topleft" x="20" y="1085"/>
+	<note>
+		uniFB46
+	</note>
 </glyph>

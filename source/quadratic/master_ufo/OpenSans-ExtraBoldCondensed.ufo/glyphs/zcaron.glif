@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zcaron" format="2">
-  <advance width="812.0"/>
-  <unicode hex="017E"/>
-  <note>
-zcaron
-</note>
-  <anchor x="407.0" y="0.0" name="bottom"/>
-  <anchor x="407.0" y="1569.0" name="top"/>
-  <outline>
-    <component base="z"/>
-    <component base="caroncomb" xOffset="-350.0"/>
-  </outline>
+	<unicode hex="017E"/>
+	<advance width="812"/>
+	<outline>
+		<component base="z"/>
+		<component base="caroncomb" xOffset="-350"/>
+	</outline>
+	<anchor name="bottom" x="407" y="0"/>
+	<anchor name="top" x="407" y="1569"/>
+	<note>
+		zcaron
+	</note>
 </glyph>

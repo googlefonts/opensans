@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="2">
-  <advance width="56.0"/>
-  <unicode hex="02D8"/>
-  <note>
-breve
-</note>
-  <outline>
-    <component base="brevecomb"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="02D8"/>
+	<advance width="56"/>
+	<outline>
+		<component base="brevecomb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		breve
+	</note>
 </glyph>

@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleftupperhook" format="2">
-  <advance width="627.0"/>
-  <unicode hex="239B"/>
-  <note>
-parenleftupperhook
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="-600.0" type="line"/>
-      <point x="279.0" y="-600.0" type="line"/>
-      <point x="279.0" y="1284.0" type="line" smooth="yes"/>
-      <point x="279.0" y="1765.0"/>
-      <point x="371.0" y="1980.0"/>
-      <point x="606.0" y="2189.0" type="curve"/>
-      <point x="432.0" y="2189.0" type="line"/>
-      <point x="213.0" y="2005.0"/>
-      <point x="104.0" y="1704.0"/>
-      <point x="104.0" y="1284.0" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="239B"/>
+	<advance width="627"/>
+	<outline>
+		<contour>
+			<point x="104" y="-600" type="line"/>
+			<point x="279" y="-600" type="line"/>
+			<point x="279" y="1284" type="line" smooth="yes"/>
+			<point x="279" y="1765"/>
+			<point x="371" y="1980"/>
+			<point x="606" y="2189" type="curve"/>
+			<point x="432" y="2189" type="line"/>
+			<point x="213" y="2005"/>
+			<point x="104" y="1704"/>
+			<point x="104" y="1284" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		parenleftupperhook
+	</note>
 </glyph>

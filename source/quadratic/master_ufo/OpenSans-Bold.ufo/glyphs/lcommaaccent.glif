@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lcommaaccent" format="2">
-  <advance width="625.0"/>
-  <unicode hex="013C"/>
-  <note>
-lcommaaccent
-</note>
-  <anchor x="286.0" y="-453.0" name="bottom"/>
-  <anchor x="313.0" y="544.0" name="center"/>
-  <anchor x="358.0" y="1556.0" name="top"/>
-  <anchor x="902.0" y="1556.0" name="topright"/>
-  <outline>
-    <component base="l"/>
-    <component base="commaaccentcomb" xOffset="-15.0"/>
-  </outline>
+	<unicode hex="013C"/>
+	<advance width="625"/>
+	<outline>
+		<component base="l"/>
+		<component base="commaaccentcomb" xOffset="-15"/>
+	</outline>
+	<anchor name="bottom" x="286" y="-453"/>
+	<anchor name="center" x="313" y="544"/>
+	<anchor name="top" x="358" y="1556"/>
+	<anchor name="topright" x="902" y="1556"/>
+	<note>
+		lcommaaccent
+	</note>
 </glyph>

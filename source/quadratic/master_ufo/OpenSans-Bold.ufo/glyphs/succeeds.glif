@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="succeeds" format="2">
-  <advance width="1110.0"/>
-  <unicode hex="227B"/>
-  <note>
-succeeds
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="190.0" type="line"/>
-      <point x="340.0" y="410.0"/>
-      <point x="715.0" y="606.0"/>
-      <point x="1006.0" y="676.0" type="curve"/>
-      <point x="1006.0" y="770.0" type="line"/>
-      <point x="729.0" y="834.0"/>
-      <point x="340.0" y="1034.0"/>
-      <point x="104.0" y="1255.0" type="curve"/>
-      <point x="104.0" y="1079.0" type="line"/>
-      <point x="207.0" y="981.0"/>
-      <point x="506.0" y="795.0"/>
-      <point x="717.0" y="727.0" type="curve"/>
-      <point x="717.0" y="719.0" type="line"/>
-      <point x="518.0" y="659.0"/>
-      <point x="205.0" y="463.0"/>
-      <point x="104.0" y="367.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="227B"/>
+	<advance width="1110"/>
+	<outline>
+		<contour>
+			<point x="104" y="190" type="line"/>
+			<point x="340" y="410"/>
+			<point x="715" y="606"/>
+			<point x="1006" y="676" type="curve"/>
+			<point x="1006" y="770" type="line"/>
+			<point x="729" y="834"/>
+			<point x="340" y="1034"/>
+			<point x="104" y="1255" type="curve"/>
+			<point x="104" y="1079" type="line"/>
+			<point x="207" y="981"/>
+			<point x="506" y="795"/>
+			<point x="717" y="727" type="curve"/>
+			<point x="717" y="719" type="line"/>
+			<point x="518" y="659"/>
+			<point x="205" y="463"/>
+			<point x="104" y="367" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		succeeds
+	</note>
 </glyph>

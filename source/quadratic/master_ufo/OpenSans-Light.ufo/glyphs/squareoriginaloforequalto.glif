@@ -1,36 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squareoriginaloforequalto" format="2">
-  <advance width="1319.0"/>
-  <unicode hex="2292"/>
-  <note>
-squareoriginaloforequalto
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="332.0" type="line"/>
-      <point x="1214.0" y="332.0" type="line"/>
-      <point x="1214.0" y="1442.0" type="line"/>
-      <point x="104.0" y="1442.0" type="line"/>
-      <point x="104.0" y="1296.0" type="line"/>
-      <point x="1069.0" y="1296.0" type="line"/>
-      <point x="1069.0" y="477.0" type="line"/>
-      <point x="104.0" y="477.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="0.0" type="line"/>
-      <point x="1214.0" y="0.0" type="line"/>
-      <point x="1214.0" y="145.0" type="line"/>
-      <point x="104.0" y="145.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2292"/>
+	<advance width="1319"/>
+	<outline>
+		<contour>
+			<point x="104" y="332" type="line"/>
+			<point x="1214" y="332" type="line"/>
+			<point x="1214" y="1442" type="line"/>
+			<point x="104" y="1442" type="line"/>
+			<point x="104" y="1296" type="line"/>
+			<point x="1069" y="1296" type="line"/>
+			<point x="1069" y="477" type="line"/>
+			<point x="104" y="477" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="0" type="line"/>
+			<point x="1214" y="0" type="line"/>
+			<point x="1214" y="145" type="line"/>
+			<point x="104" y="145" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		squareoriginaloforequalto
+	</note>
 </glyph>

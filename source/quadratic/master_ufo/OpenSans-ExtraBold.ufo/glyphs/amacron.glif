@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="amacron" format="2">
-  <advance width="1276.0"/>
-  <unicode hex="0101"/>
-  <note>
-amacron
-</note>
-  <anchor x="638.0" y="0.0" name="bottom"/>
-  <anchor x="1157.0" y="10.0" name="ogonek"/>
-  <anchor x="638.0" y="1477.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="macroncomb" xOffset="337.0"/>
-  </outline>
+	<unicode hex="0101"/>
+	<advance width="1276"/>
+	<outline>
+		<component base="a"/>
+		<component base="macroncomb" xOffset="337"/>
+	</outline>
+	<anchor name="bottom" x="638" y="0"/>
+	<anchor name="ogonek" x="1157" y="10"/>
+	<anchor name="top" x="638" y="1477"/>
+	<note>
+		amacron
+	</note>
 </glyph>

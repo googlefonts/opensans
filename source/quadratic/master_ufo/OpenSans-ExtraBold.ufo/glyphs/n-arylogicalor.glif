@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="n-arylogicalor" format="2">
-  <advance width="1884.0"/>
-  <unicode hex="22C1"/>
-  <note>
-narylogicalor
-</note>
-  <outline>
-    <contour>
-      <point x="881.0" y="-188.0" type="line"/>
-      <point x="1004.0" y="-188.0" type="line"/>
-      <point x="1780.0" y="1462.0" type="line"/>
-      <point x="1624.0" y="1462.0" type="line"/>
-      <point x="942.0" y="6.0" type="line"/>
-      <point x="260.0" y="1462.0" type="line"/>
-      <point x="104.0" y="1462.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="22C1"/>
+	<advance width="1884"/>
+	<outline>
+		<contour>
+			<point x="881" y="-188" type="line"/>
+			<point x="1004" y="-188" type="line"/>
+			<point x="1780" y="1462" type="line"/>
+			<point x="1624" y="1462" type="line"/>
+			<point x="942" y="6" type="line"/>
+			<point x="260" y="1462" type="line"/>
+			<point x="104" y="1462" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		narylogicalor
+	</note>
 </glyph>

@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentcomb" format="2">
-  <anchor x="194.0" y="0.0" name="_bottom"/>
-  <anchor x="194.0" y="-453.0" name="bottom"/>
-  <outline>
-    <contour>
-      <point x="100.0" y="-453.0" type="line"/>
-      <point x="141.0" y="-453.0" type="line"/>
-      <point x="196.0" y="-378.0"/>
-      <point x="259.0" y="-249.0"/>
-      <point x="287.0" y="-145.0" type="curve"/>
-      <point x="287.0" y="-125.0" type="line"/>
-      <point x="176.0" y="-125.0" type="line"/>
-      <point x="168.0" y="-214.0"/>
-      <point x="129.0" y="-352.0"/>
-      <point x="100.0" y="-432.0" type="curve"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="100" y="-453" type="line"/>
+			<point x="141" y="-453" type="line"/>
+			<point x="196" y="-378"/>
+			<point x="259" y="-249"/>
+			<point x="287" y="-145" type="curve"/>
+			<point x="287" y="-125" type="line"/>
+			<point x="176" y="-125" type="line"/>
+			<point x="168" y="-214"/>
+			<point x="129" y="-352"/>
+			<point x="100" y="-432" type="curve"/>
+		</contour>
+	</outline>
+	<anchor name="_bottom" x="194" y="0"/>
+	<anchor name="bottom" x="194" y="-453"/>
 </glyph>

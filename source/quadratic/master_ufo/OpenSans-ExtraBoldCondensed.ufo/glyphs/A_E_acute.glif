@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AEacute" format="2">
-  <advance width="1542.0"/>
-  <unicode hex="01FC"/>
-  <note>
-AEacute
-</note>
-  <anchor x="771.0" y="0.0" name="bottom"/>
-  <anchor x="1022.0" y="1873.0" name="top"/>
-  <outline>
-    <component base="AE"/>
-    <component base="acutecomb" xOffset="1022.0" yOffset="304.0"/>
-  </outline>
+	<unicode hex="01FC"/>
+	<advance width="1542"/>
+	<outline>
+		<component base="AE"/>
+		<component base="acutecomb" xOffset="1022" yOffset="304"/>
+	</outline>
+	<anchor name="bottom" x="771" y="0"/>
+	<anchor name="top" x="1022" y="1873"/>
+	<note>
+		AEacute
+	</note>
 </glyph>

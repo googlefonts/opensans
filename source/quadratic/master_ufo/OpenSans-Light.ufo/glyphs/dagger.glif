@@ -1,66 +1,66 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dagger" format="2">
-  <advance width="1006.0"/>
-  <unicode hex="2020"/>
-  <note>
-dagger
-</note>
-  <outline>
-    <contour>
-      <point x="434.0" y="0.0" type="line"/>
-      <point x="551.0" y="0.0" type="line"/>
-      <point x="524.0" y="1075.0" type="line"/>
-      <point x="883.0" y="1055.0" type="line"/>
-      <point x="883.0" y="1167.0" type="line"/>
-      <point x="524.0" y="1139.0" type="line"/>
-      <point x="551.0" y="1556.0" type="line"/>
-      <point x="434.0" y="1556.0" type="line"/>
-      <point x="461.0" y="1139.0" type="line"/>
-      <point x="123.0" y="1167.0" type="line"/>
-      <point x="123.0" y="1055.0" type="line"/>
-      <point x="461.0" y="1075.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>11.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>11.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="2020"/>
+	<advance width="1006"/>
+	<outline>
+		<contour>
+			<point x="434" y="0" type="line"/>
+			<point x="551" y="0" type="line"/>
+			<point x="524" y="1075" type="line"/>
+			<point x="883" y="1055" type="line"/>
+			<point x="883" y="1167" type="line"/>
+			<point x="524" y="1139" type="line"/>
+			<point x="551" y="1556" type="line"/>
+			<point x="434" y="1556" type="line"/>
+			<point x="461" y="1139" type="line"/>
+			<point x="123" y="1167" type="line"/>
+			<point x="123" y="1055" type="line"/>
+			<point x="461" y="1075" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>11</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>11</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Anchor</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		dagger
+	</note>
 </glyph>

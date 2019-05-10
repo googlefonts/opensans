@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tetdagesh-hb" format="2">
-  <advance width="1351.0"/>
-  <unicode hex="FB38"/>
-  <note>
-uniFB38
-</note>
-  <anchor x="676.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="694.0" y="673.0" name="center"/>
-  <anchor x="676.0" y="1133.0" name="top"/>
-  <anchor x="20.0" y="1133.0" name="topleft"/>
-  <outline>
-    <component base="tet-hb"/>
-    <component base="dagesh-hb" xOffset="693.0" yOffset="16.0"/>
-  </outline>
+	<unicode hex="FB38"/>
+	<advance width="1351"/>
+	<outline>
+		<component base="tet-hb"/>
+		<component base="dagesh-hb" xOffset="693" yOffset="16"/>
+	</outline>
+	<anchor name="bottom" x="676" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="694" y="673"/>
+	<anchor name="top" x="676" y="1133"/>
+	<anchor name="topleft" x="20" y="1133"/>
+	<note>
+		uniFB38
+	</note>
 </glyph>

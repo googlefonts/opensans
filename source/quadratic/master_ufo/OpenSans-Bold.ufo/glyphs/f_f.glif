@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f" format="2">
-  <advance width="1586.0"/>
-  <note>
-ff
-</note>
-  <anchor x="389.0" y="0.0" name="bottom_1"/>
-  <anchor x="1182.0" y="0.0" name="bottom_2"/>
-  <anchor x="389.0" y="1119.0" name="top_1"/>
-  <anchor x="1182.0" y="1119.0" name="top_2"/>
-  <outline>
-    <component base="f"/>
-    <component base="f" xOffset="793.0"/>
-  </outline>
+	<advance width="1586"/>
+	<outline>
+		<component base="f"/>
+		<component base="f" xOffset="793"/>
+	</outline>
+	<anchor name="bottom_1" x="389" y="0"/>
+	<anchor name="bottom_2" x="1182" y="0"/>
+	<anchor name="top_1" x="389" y="1119"/>
+	<anchor name="top_2" x="1182" y="1119"/>
+	<note>
+		ff
+	</note>
 </glyph>

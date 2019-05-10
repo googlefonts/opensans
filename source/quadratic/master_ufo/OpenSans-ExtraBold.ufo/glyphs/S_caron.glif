@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="2">
-  <advance width="1182.0"/>
-  <unicode hex="0160"/>
-  <note>
-Scaron
-</note>
-  <anchor x="583.0" y="0.0" name="bottom"/>
-  <anchor x="591.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="S"/>
-    <component base="caron" xOffset="-28.0" yOffset="329.0"/>
-  </outline>
+	<unicode hex="0160"/>
+	<advance width="1182"/>
+	<outline>
+		<component base="S"/>
+		<component base="caron" xOffset="-28" yOffset="329"/>
+	</outline>
+	<anchor name="bottom" x="583" y="0"/>
+	<anchor name="top" x="591" y="1462"/>
+	<note>
+		Scaron
+	</note>
 </glyph>

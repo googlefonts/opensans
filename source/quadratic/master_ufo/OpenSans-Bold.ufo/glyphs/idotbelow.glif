@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotbelow" format="2">
-  <advance width="625.0"/>
-  <unicode hex="1ECB"/>
-  <note>
-uni1ECB
-</note>
-  <anchor x="312.0" y="-432.0" name="bottom"/>
-  <anchor x="449.0" y="10.0" name="ogonek"/>
-  <anchor x="311.0" y="1558.0" name="top"/>
-  <outline>
-    <component base="i"/>
-    <component base="dotbelowcomb" xOffset="312.0"/>
-  </outline>
+	<unicode hex="1ECB"/>
+	<advance width="625"/>
+	<outline>
+		<component base="i"/>
+		<component base="dotbelowcomb" xOffset="312"/>
+	</outline>
+	<anchor name="bottom" x="312" y="-432"/>
+	<anchor name="ogonek" x="449" y="10"/>
+	<anchor name="top" x="311" y="1558"/>
+	<note>
+		uni1ECB
+	</note>
 </glyph>

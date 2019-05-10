@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="j" format="2">
-  <advance width="500.0"/>
-  <unicode hex="006A"/>
-  <anchor x="249.7" y="0.0" name="bottom"/>
-  <anchor x="250.0" y="1548.0" name="top"/>
-  <outline>
-    <component base="jdotless"/>
-    <component base="dotaccentcomb" xOffset="-35.0"/>
-  </outline>
+	<unicode hex="006A"/>
+	<advance width="500"/>
+	<outline>
+		<component base="jdotless"/>
+		<component base="dotaccentcomb" xOffset="-35"/>
+	</outline>
+	<anchor name="bottom" x="249.7" y="0"/>
+	<anchor name="top" x="250" y="1548"/>
 </glyph>

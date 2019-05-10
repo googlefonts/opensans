@@ -1,24 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tavdagesh-hb.rvrn" format="2">
-  <advance width="1131.0"/>
-  <note>
-uniFB4A
-</note>
-  <anchor x="559.0" y="0.0" name="bottom"/>
-  <anchor x="8.0" y="0.0" name="bottomleft"/>
-  <anchor x="616.0" y="613.0" name="center"/>
-  <anchor x="559.0" y="1127.0" name="top"/>
-  <anchor x="8.0" y="1127.0" name="topleft"/>
-  <outline>
-    <component base="tav-hb"/>
-    <component base="dagesh-hb.small" xOffset="-82.0" yOffset="203.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>hebrew</string>
-    </dict>
-  </lib>
+	<advance width="1131"/>
+	<outline>
+		<component base="tav-hb"/>
+		<component base="dagesh-hb.small" xOffset="-82" yOffset="203"/>
+	</outline>
+	<anchor name="bottom" x="559" y="0"/>
+	<anchor name="bottomleft" x="8" y="0"/>
+	<anchor name="center" x="616" y="613"/>
+	<anchor name="top" x="559" y="1127"/>
+	<anchor name="topleft" x="8" y="1127"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>hebrew</string>
+		</dict>
+	</lib>
+	<note>
+		uniFB4A
+	</note>
 </glyph>

@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qofdagesh-hb" format="2">
-  <advance width="1310.0"/>
-  <unicode hex="FB47"/>
-  <note>
-uniFB47
-</note>
-  <anchor x="673.0" y="0.0" name="bottom"/>
-  <anchor x="31.0" y="0.0" name="bottomleft"/>
-  <anchor x="635.0" y="670.0" name="center"/>
-  <anchor x="673.0" y="1119.0" name="top"/>
-  <anchor x="31.0" y="1119.0" name="topleft"/>
-  <outline>
-    <component base="qof-hb"/>
-    <component base="dagesh-hb" xOffset="634.0" yOffset="41.0"/>
-  </outline>
+	<unicode hex="FB47"/>
+	<advance width="1310"/>
+	<outline>
+		<component base="qof-hb"/>
+		<component base="dagesh-hb" xOffset="634" yOffset="41"/>
+	</outline>
+	<anchor name="bottom" x="673" y="0"/>
+	<anchor name="bottomleft" x="31" y="0"/>
+	<anchor name="center" x="635" y="670"/>
+	<anchor name="top" x="673" y="1119"/>
+	<anchor name="topleft" x="31" y="1119"/>
+	<note>
+		uniFB47
+	</note>
 </glyph>

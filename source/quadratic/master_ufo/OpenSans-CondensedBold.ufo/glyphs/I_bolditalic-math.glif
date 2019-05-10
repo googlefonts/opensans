@@ -1,51 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ibolditalic-math" format="2">
-  <advance width="760.0"/>
-  <unicode hex="1D470"/>
-  <note>
-Ibolditalic-math
-</note>
-  <outline>
-    <contour>
-      <point x="-102.0" y="0.0" type="line"/>
-      <point x="539.0" y="0.0" type="line"/>
-      <point x="539.0" y="47.0" type="line"/>
-      <point x="442.0" y="51.0"/>
-      <point x="393.0" y="84.0"/>
-      <point x="393.0" y="143.0" type="curve" smooth="yes"/>
-      <point x="393.0" y="168.0"/>
-      <point x="399.0" y="203.0"/>
-      <point x="412.0" y="250.0" type="curve" smooth="yes"/>
-      <point x="643.0" y="1114.0" type="line" smooth="yes"/>
-      <point x="662.0" y="1180.0"/>
-      <point x="678.0" y="1225.0"/>
-      <point x="692.0" y="1249.0" type="curve" smooth="yes"/>
-      <point x="723.0" y="1300.0"/>
-      <point x="768.0" y="1325.0"/>
-      <point x="864.0" y="1325.0" type="curve"/>
-      <point x="864.0" y="1374.0" type="line"/>
-      <point x="221.0" y="1374.0" type="line"/>
-      <point x="221.0" y="1325.0" type="line"/>
-      <point x="317.0" y="1321.0"/>
-      <point x="367.0" y="1288.0"/>
-      <point x="367.0" y="1231.0" type="curve" smooth="yes"/>
-      <point x="367.0" y="1196.0"/>
-      <point x="360.0" y="1161.0"/>
-      <point x="350.0" y="1124.0" type="curve" smooth="yes"/>
-      <point x="119.0" y="260.0" type="line" smooth="yes"/>
-      <point x="70.0" y="80.0"/>
-      <point x="25.0" y="47.0"/>
-      <point x="-102.0" y="47.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>math</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Uppercase</string>
-    </dict>
-  </lib>
+	<unicode hex="1D470"/>
+	<advance width="760"/>
+	<outline>
+		<contour>
+			<point x="-102" y="0" type="line"/>
+			<point x="539" y="0" type="line"/>
+			<point x="539" y="47" type="line"/>
+			<point x="442" y="51"/>
+			<point x="393" y="84"/>
+			<point x="393" y="143" type="curve" smooth="yes"/>
+			<point x="393" y="168"/>
+			<point x="399" y="203"/>
+			<point x="412" y="250" type="curve" smooth="yes"/>
+			<point x="643" y="1114" type="line" smooth="yes"/>
+			<point x="662" y="1180"/>
+			<point x="678" y="1225"/>
+			<point x="692" y="1249" type="curve" smooth="yes"/>
+			<point x="723" y="1300"/>
+			<point x="768" y="1325"/>
+			<point x="864" y="1325" type="curve"/>
+			<point x="864" y="1374" type="line"/>
+			<point x="221" y="1374" type="line"/>
+			<point x="221" y="1325" type="line"/>
+			<point x="317" y="1321"/>
+			<point x="367" y="1288"/>
+			<point x="367" y="1231" type="curve" smooth="yes"/>
+			<point x="367" y="1196"/>
+			<point x="360" y="1161"/>
+			<point x="350" y="1124" type="curve" smooth="yes"/>
+			<point x="119" y="260" type="line" smooth="yes"/>
+			<point x="70" y="80"/>
+			<point x="25" y="47"/>
+			<point x="-102" y="47" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>math</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Uppercase</string>
+		</dict>
+	</lib>
+	<note>
+		Ibolditalic-math
+	</note>
 </glyph>

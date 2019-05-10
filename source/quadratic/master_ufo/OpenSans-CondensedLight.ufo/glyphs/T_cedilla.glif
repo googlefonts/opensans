@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcedilla" format="2">
-  <advance width="711.0"/>
-  <unicode hex="0162"/>
-  <note>
-Tcommaaccent
-</note>
-  <anchor x="342.0" y="-492.0" name="bottom"/>
-  <anchor x="356.0" y="731.0" name="center"/>
-  <anchor x="356.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="T"/>
-    <component base="cedillacomb" xOffset="109.0"/>
-  </outline>
+	<unicode hex="0162"/>
+	<advance width="711"/>
+	<outline>
+		<component base="T"/>
+		<component base="cedillacomb" xOffset="109"/>
+	</outline>
+	<anchor name="bottom" x="342" y="-492"/>
+	<anchor name="center" x="356" y="731"/>
+	<anchor name="top" x="356" y="1462"/>
+	<note>
+		Tcommaaccent
+	</note>
 </glyph>

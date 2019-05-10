@@ -1,55 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upFishTail" format="2">
-  <advance width="1298.0"/>
-  <unicode hex="297E"/>
-  <note>
-upFishTail
-</note>
-  <outline>
-    <contour>
-      <point x="594.0" y="92.0" type="line"/>
-      <point x="705.0" y="92.0" type="line"/>
-      <point x="705.0" y="1030.0" type="line" smooth="yes"/>
-      <point x="705.0" y="1151.0"/>
-      <point x="758.0" y="1208.0"/>
-      <point x="858.0" y="1208.0" type="curve" smooth="yes"/>
-      <point x="954.0" y="1208.0"/>
-      <point x="1004.0" y="1147.0"/>
-      <point x="1004.0" y="1026.0" type="curve" smooth="yes"/>
-      <point x="1004.0" y="874.0" type="line"/>
-      <point x="1114.0" y="874.0" type="line"/>
-      <point x="1114.0" y="1026.0" type="line" smooth="yes"/>
-      <point x="1114.0" y="1217.0"/>
-      <point x="1024.0" y="1321.0"/>
-      <point x="862.0" y="1321.0" type="curve" smooth="yes"/>
-      <point x="758.0" y="1321.0"/>
-      <point x="686.0" y="1286.0"/>
-      <point x="649.0" y="1214.0" type="curve"/>
-      <point x="612.0" y="1286.0"/>
-      <point x="541.0" y="1321.0"/>
-      <point x="436.0" y="1321.0" type="curve" smooth="yes"/>
-      <point x="274.0" y="1321.0"/>
-      <point x="184.0" y="1217.0"/>
-      <point x="184.0" y="1026.0" type="curve" smooth="yes"/>
-      <point x="184.0" y="874.0" type="line"/>
-      <point x="295.0" y="874.0" type="line"/>
-      <point x="295.0" y="1026.0" type="line" smooth="yes"/>
-      <point x="295.0" y="1147.0"/>
-      <point x="344.0" y="1208.0"/>
-      <point x="440.0" y="1208.0" type="curve" smooth="yes"/>
-      <point x="541.0" y="1208.0"/>
-      <point x="594.0" y="1151.0"/>
-      <point x="594.0" y="1030.0" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="297E"/>
+	<advance width="1298"/>
+	<outline>
+		<contour>
+			<point x="594" y="92" type="line"/>
+			<point x="705" y="92" type="line"/>
+			<point x="705" y="1030" type="line" smooth="yes"/>
+			<point x="705" y="1151"/>
+			<point x="758" y="1208"/>
+			<point x="858" y="1208" type="curve" smooth="yes"/>
+			<point x="954" y="1208"/>
+			<point x="1004" y="1147"/>
+			<point x="1004" y="1026" type="curve" smooth="yes"/>
+			<point x="1004" y="874" type="line"/>
+			<point x="1114" y="874" type="line"/>
+			<point x="1114" y="1026" type="line" smooth="yes"/>
+			<point x="1114" y="1217"/>
+			<point x="1024" y="1321"/>
+			<point x="862" y="1321" type="curve" smooth="yes"/>
+			<point x="758" y="1321"/>
+			<point x="686" y="1286"/>
+			<point x="649" y="1214" type="curve"/>
+			<point x="612" y="1286"/>
+			<point x="541" y="1321"/>
+			<point x="436" y="1321" type="curve" smooth="yes"/>
+			<point x="274" y="1321"/>
+			<point x="184" y="1217"/>
+			<point x="184" y="1026" type="curve" smooth="yes"/>
+			<point x="184" y="874" type="line"/>
+			<point x="295" y="874" type="line"/>
+			<point x="295" y="1026" type="line" smooth="yes"/>
+			<point x="295" y="1147"/>
+			<point x="344" y="1208"/>
+			<point x="440" y="1208" type="curve" smooth="yes"/>
+			<point x="541" y="1208"/>
+			<point x="594" y="1151"/>
+			<point x="594" y="1030" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		upFishTail
+	</note>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tau" format="2">
-  <advance width="885.0"/>
-  <unicode hex="03A4"/>
-  <note>
-Tau
-</note>
-  <anchor x="438.6" y="0.0" name="bottom"/>
-  <anchor x="442.8" y="731.0" name="center"/>
-  <anchor x="442.8" y="1462.0" name="top"/>
-  <outline>
-    <component base="T"/>
-  </outline>
+	<unicode hex="03A4"/>
+	<advance width="885"/>
+	<outline>
+		<component base="T"/>
+	</outline>
+	<anchor name="bottom" x="438.6" y="0"/>
+	<anchor name="center" x="442.8" y="731"/>
+	<anchor name="top" x="442.8" y="1462"/>
+	<note>
+		Tau
+	</note>
 </glyph>

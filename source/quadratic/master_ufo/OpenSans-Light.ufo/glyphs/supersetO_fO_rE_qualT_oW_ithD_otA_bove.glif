@@ -1,60 +1,60 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="supersetOfOrEqualToWithDotAbove" format="2">
-  <advance width="1391.0"/>
-  <unicode hex="2AC4"/>
-  <note>
-supersetOfOrEqualToWithDotAbove
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="287.0" type="line"/>
-      <point x="584.0" y="287.0" type="line" smooth="yes"/>
-      <point x="1065.0" y="287.0"/>
-      <point x="1286.0" y="438.0"/>
-      <point x="1286.0" y="780.0" type="curve" smooth="yes"/>
-      <point x="1286.0" y="1122.0"/>
-      <point x="1065.0" y="1274.0"/>
-      <point x="584.0" y="1274.0" type="curve" smooth="yes"/>
-      <point x="104.0" y="1274.0" type="line"/>
-      <point x="104.0" y="1128.0" type="line"/>
-      <point x="584.0" y="1128.0" type="line" smooth="yes"/>
-      <point x="987.0" y="1128.0"/>
-      <point x="1139.0" y="1028.0"/>
-      <point x="1139.0" y="780.0" type="curve" smooth="yes"/>
-      <point x="1139.0" y="532.0"/>
-      <point x="987.0" y="432.0"/>
-      <point x="584.0" y="432.0" type="curve" smooth="yes"/>
-      <point x="104.0" y="432.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="0.0" type="line"/>
-      <point x="1286.0" y="0.0" type="line"/>
-      <point x="1286.0" y="145.0" type="line"/>
-      <point x="104.0" y="145.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="602.0" y="1376.0" type="curve" smooth="yes"/>
-      <point x="666.0" y="1376.0"/>
-      <point x="725.0" y="1427.0"/>
-      <point x="725.0" y="1499.0" type="curve" smooth="yes"/>
-      <point x="725.0" y="1567.0"/>
-      <point x="670.0" y="1622.0"/>
-      <point x="602.0" y="1622.0" type="curve" smooth="yes"/>
-      <point x="530.0" y="1622.0"/>
-      <point x="479.0" y="1563.0"/>
-      <point x="479.0" y="1499.0" type="curve" smooth="yes"/>
-      <point x="479.0" y="1432.0"/>
-      <point x="535.0" y="1376.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2AC4"/>
+	<advance width="1391"/>
+	<outline>
+		<contour>
+			<point x="104" y="287" type="line"/>
+			<point x="584" y="287" type="line" smooth="yes"/>
+			<point x="1065" y="287"/>
+			<point x="1286" y="438"/>
+			<point x="1286" y="780" type="curve" smooth="yes"/>
+			<point x="1286" y="1122"/>
+			<point x="1065" y="1274"/>
+			<point x="584" y="1274" type="curve" smooth="yes"/>
+			<point x="104" y="1274" type="line"/>
+			<point x="104" y="1128" type="line"/>
+			<point x="584" y="1128" type="line" smooth="yes"/>
+			<point x="987" y="1128"/>
+			<point x="1139" y="1028"/>
+			<point x="1139" y="780" type="curve" smooth="yes"/>
+			<point x="1139" y="532"/>
+			<point x="987" y="432"/>
+			<point x="584" y="432" type="curve" smooth="yes"/>
+			<point x="104" y="432" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="0" type="line"/>
+			<point x="1286" y="0" type="line"/>
+			<point x="1286" y="145" type="line"/>
+			<point x="104" y="145" type="line"/>
+		</contour>
+		<contour>
+			<point x="602" y="1376" type="curve" smooth="yes"/>
+			<point x="666" y="1376"/>
+			<point x="725" y="1427"/>
+			<point x="725" y="1499" type="curve" smooth="yes"/>
+			<point x="725" y="1567"/>
+			<point x="670" y="1622"/>
+			<point x="602" y="1622" type="curve" smooth="yes"/>
+			<point x="530" y="1622"/>
+			<point x="479" y="1563"/>
+			<point x="479" y="1499" type="curve" smooth="yes"/>
+			<point x="479" y="1432"/>
+			<point x="535" y="1376"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		supersetOfOrEqualToWithDotAbove
+	</note>
 </glyph>

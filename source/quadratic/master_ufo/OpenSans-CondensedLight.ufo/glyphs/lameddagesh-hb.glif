@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lameddagesh-hb" format="2">
-  <advance width="606.0"/>
-  <unicode hex="FB3C"/>
-  <note>
-uniFB3C
-</note>
-  <anchor x="303.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="148.0" y="670.0" name="center"/>
-  <anchor x="303.0" y="1085.0" name="top"/>
-  <anchor x="20.0" y="1085.0" name="topleft"/>
-  <outline>
-    <component base="lamed-hb"/>
-    <component base="dagesh-hb" xOffset="147.0"/>
-  </outline>
+	<unicode hex="FB3C"/>
+	<advance width="606"/>
+	<outline>
+		<component base="lamed-hb"/>
+		<component base="dagesh-hb" xOffset="147"/>
+	</outline>
+	<anchor name="bottom" x="303" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="148" y="670"/>
+	<anchor name="top" x="303" y="1085"/>
+	<anchor name="topleft" x="20" y="1085"/>
+	<note>
+		uniFB3C
+	</note>
 </glyph>

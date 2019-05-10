@@ -1,60 +1,60 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eBold-fraktur" format="2">
-  <advance width="850.0"/>
-  <unicode hex="1D58A"/>
-  <note>
-eBold-fraktur
-</note>
-  <outline>
-    <contour>
-      <point x="473.0" y="-47.0" type="line"/>
-      <point x="780.0" y="254.0" type="line"/>
-      <point x="739.0" y="299.0" type="line"/>
-      <point x="666.0" y="233.0"/>
-      <point x="629.0" y="215.0"/>
-      <point x="553.0" y="215.0" type="curve" smooth="yes"/>
-      <point x="469.0" y="215.0"/>
-      <point x="360.0" y="285.0"/>
-      <point x="360.0" y="381.0" type="curve"/>
-      <point x="762.0" y="684.0" type="line" smooth="yes"/>
-      <point x="778.0" y="696.0"/>
-      <point x="786.0" y="707.0"/>
-      <point x="786.0" y="715.0" type="curve" smooth="yes"/>
-      <point x="786.0" y="723.0"/>
-      <point x="782.0" y="735.0"/>
-      <point x="772.0" y="750.0" type="curve" smooth="yes"/>
-      <point x="575.0" y="1042.0" type="line"/>
-      <point x="530.0" y="1042.0" type="line"/>
-      <point x="184.0" y="809.0" type="line" smooth="yes"/>
-      <point x="133.0" y="774.0"/>
-      <point x="119.0" y="750.0"/>
-      <point x="119.0" y="662.0" type="curve" smooth="yes"/>
-      <point x="119.0" y="373.0" type="line" smooth="yes"/>
-      <point x="119.0" y="201.0"/>
-      <point x="193.0" y="86.0"/>
-      <point x="426.0" y="6.0" type="curve"/>
-      <point x="418.0" y="-20.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="358.0" y="473.0" type="line"/>
-      <point x="358.0" y="721.0" type="line" smooth="yes"/>
-      <point x="358.0" y="831.0"/>
-      <point x="362.0" y="840.0"/>
-      <point x="426.0" y="883.0" type="curve"/>
-      <point x="578.0" y="643.0" type="line"/>
-      <point x="578.0" y="639.0"/>
-      <point x="573.0" y="633.0"/>
-      <point x="563.0" y="625.0" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>Black Letter</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Lowercase</string>
-    </dict>
-  </lib>
+	<unicode hex="1D58A"/>
+	<advance width="850"/>
+	<outline>
+		<contour>
+			<point x="473" y="-47" type="line"/>
+			<point x="780" y="254" type="line"/>
+			<point x="739" y="299" type="line"/>
+			<point x="666" y="233"/>
+			<point x="629" y="215"/>
+			<point x="553" y="215" type="curve" smooth="yes"/>
+			<point x="469" y="215"/>
+			<point x="360" y="285"/>
+			<point x="360" y="381" type="curve"/>
+			<point x="762" y="684" type="line" smooth="yes"/>
+			<point x="778" y="696"/>
+			<point x="786" y="707"/>
+			<point x="786" y="715" type="curve" smooth="yes"/>
+			<point x="786" y="723"/>
+			<point x="782" y="735"/>
+			<point x="772" y="750" type="curve" smooth="yes"/>
+			<point x="575" y="1042" type="line"/>
+			<point x="530" y="1042" type="line"/>
+			<point x="184" y="809" type="line" smooth="yes"/>
+			<point x="133" y="774"/>
+			<point x="119" y="750"/>
+			<point x="119" y="662" type="curve" smooth="yes"/>
+			<point x="119" y="373" type="line" smooth="yes"/>
+			<point x="119" y="201"/>
+			<point x="193" y="86"/>
+			<point x="426" y="6" type="curve"/>
+			<point x="418" y="-20" type="line"/>
+		</contour>
+		<contour>
+			<point x="358" y="473" type="line"/>
+			<point x="358" y="721" type="line" smooth="yes"/>
+			<point x="358" y="831"/>
+			<point x="362" y="840"/>
+			<point x="426" y="883" type="curve"/>
+			<point x="578" y="643" type="line"/>
+			<point x="578" y="639"/>
+			<point x="573" y="633"/>
+			<point x="563" y="625" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>Black Letter</string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Lowercase</string>
+		</dict>
+	</lib>
+	<note>
+		eBold-fraktur
+	</note>
 </glyph>

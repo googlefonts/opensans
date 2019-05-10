@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Elhook-cy" format="2">
-  <outline>
-    <component base="El-cy"/>
-    <component base="cyrillicbighookUC" xOffset="1005.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
+	<outline>
+		<component base="El-cy"/>
+		<component base="cyrillicbighookUC" xOffset="1005"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>0</integer>
+				<integer>-1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

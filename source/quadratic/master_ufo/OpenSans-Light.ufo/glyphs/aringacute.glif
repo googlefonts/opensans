@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aringacute" format="2">
-  <advance width="1085.0"/>
-  <unicode hex="01FB"/>
-  <note>
-aringacute
-</note>
-  <anchor x="543.0" y="0.0" name="bottom"/>
-  <anchor x="816.0" y="10.0" name="ogonek"/>
-  <anchor x="643.0" y="2109.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="ringcomb" xOffset="1120.0"/>
-    <component base="acutecomb" xOffset="1125.0" yOffset="540.0"/>
-  </outline>
+	<unicode hex="01FB"/>
+	<advance width="1085"/>
+	<outline>
+		<component base="a"/>
+		<component base="ringcomb" xOffset="1120"/>
+		<component base="acutecomb" xOffset="1125" yOffset="540"/>
+	</outline>
+	<anchor name="bottom" x="543" y="0"/>
+	<anchor name="ogonek" x="816" y="10"/>
+	<anchor name="top" x="643" y="2109"/>
+	<note>
+		aringacute
+	</note>
 </glyph>

@@ -1,58 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="finitePartIntegral" format="2">
-  <advance width="1001.0"/>
-  <unicode hex="2A0D"/>
-  <note>
-finitePartIntegral
-</note>
-  <outline>
-    <contour>
-      <point x="254.0" y="-492.0" type="curve" smooth="yes"/>
-      <point x="475.0" y="-492.0"/>
-      <point x="588.0" y="-367.0"/>
-      <point x="588.0" y="-127.0" type="curve" smooth="yes"/>
-      <point x="588.0" y="588.0" type="line"/>
-      <point x="897.0" y="588.0" type="line"/>
-      <point x="897.0" y="733.0" type="line"/>
-      <point x="588.0" y="733.0" type="line"/>
-      <point x="588.0" y="1436.0" type="line" smooth="yes"/>
-      <point x="588.0" y="1591.0"/>
-      <point x="645.0" y="1669.0"/>
-      <point x="758.0" y="1669.0" type="curve" smooth="yes"/>
-      <point x="797.0" y="1669.0"/>
-      <point x="836.0" y="1661.0"/>
-      <point x="872.0" y="1645.0" type="curve"/>
-      <point x="872.0" y="1794.0" type="line"/>
-      <point x="842.0" y="1806.0"/>
-      <point x="799.0" y="1812.0"/>
-      <point x="743.0" y="1812.0" type="curve" smooth="yes"/>
-      <point x="524.0" y="1812.0"/>
-      <point x="414.0" y="1692.0"/>
-      <point x="414.0" y="1448.0" type="curve" smooth="yes"/>
-      <point x="414.0" y="733.0" type="line"/>
-      <point x="104.0" y="733.0" type="line"/>
-      <point x="104.0" y="588.0" type="line"/>
-      <point x="414.0" y="588.0" type="line"/>
-      <point x="414.0" y="-115.0" type="line" smooth="yes"/>
-      <point x="414.0" y="-270.0"/>
-      <point x="354.0" y="-348.0"/>
-      <point x="238.0" y="-348.0" type="curve" smooth="yes"/>
-      <point x="197.0" y="-348.0"/>
-      <point x="156.0" y="-340.0"/>
-      <point x="115.0" y="-324.0" type="curve"/>
-      <point x="115.0" y="-471.0" type="line"/>
-      <point x="156.0" y="-485.0"/>
-      <point x="203.0" y="-492.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A0D"/>
+	<advance width="1001"/>
+	<outline>
+		<contour>
+			<point x="254" y="-492" type="curve" smooth="yes"/>
+			<point x="475" y="-492"/>
+			<point x="588" y="-367"/>
+			<point x="588" y="-127" type="curve" smooth="yes"/>
+			<point x="588" y="588" type="line"/>
+			<point x="897" y="588" type="line"/>
+			<point x="897" y="733" type="line"/>
+			<point x="588" y="733" type="line"/>
+			<point x="588" y="1436" type="line" smooth="yes"/>
+			<point x="588" y="1591"/>
+			<point x="645" y="1669"/>
+			<point x="758" y="1669" type="curve" smooth="yes"/>
+			<point x="797" y="1669"/>
+			<point x="836" y="1661"/>
+			<point x="872" y="1645" type="curve"/>
+			<point x="872" y="1794" type="line"/>
+			<point x="842" y="1806"/>
+			<point x="799" y="1812"/>
+			<point x="743" y="1812" type="curve" smooth="yes"/>
+			<point x="524" y="1812"/>
+			<point x="414" y="1692"/>
+			<point x="414" y="1448" type="curve" smooth="yes"/>
+			<point x="414" y="733" type="line"/>
+			<point x="104" y="733" type="line"/>
+			<point x="104" y="588" type="line"/>
+			<point x="414" y="588" type="line"/>
+			<point x="414" y="-115" type="line" smooth="yes"/>
+			<point x="414" y="-270"/>
+			<point x="354" y="-348"/>
+			<point x="238" y="-348" type="curve" smooth="yes"/>
+			<point x="197" y="-348"/>
+			<point x="156" y="-340"/>
+			<point x="115" y="-324" type="curve"/>
+			<point x="115" y="-471" type="line"/>
+			<point x="156" y="-485"/>
+			<point x="203" y="-492"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		finitePartIntegral
+	</note>
 </glyph>

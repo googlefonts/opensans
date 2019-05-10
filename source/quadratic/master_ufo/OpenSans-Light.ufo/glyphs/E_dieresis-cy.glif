@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Edieresis-cy" format="2">
-  <advance width="1266.0"/>
-  <unicode hex="04EC"/>
-  <note>
-uni04EC
-</note>
-  <anchor x="633.0" y="1810.0" name="top"/>
-  <outline>
-    <component base="Ereversed-cy"/>
-    <component base="dieresiscomb" xOffset="1196.0" yOffset="335.0"/>
-  </outline>
+	<unicode hex="04EC"/>
+	<advance width="1266"/>
+	<outline>
+		<component base="Ereversed-cy"/>
+		<component base="dieresiscomb" xOffset="1196" yOffset="335"/>
+	</outline>
+	<anchor name="top" x="633" y="1810"/>
+	<note>
+		uni04EC
+	</note>
 </glyph>

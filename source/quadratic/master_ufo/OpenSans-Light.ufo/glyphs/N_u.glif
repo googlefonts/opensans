@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nu" format="2">
-  <advance width="1477.0"/>
-  <unicode hex="039D"/>
-  <note>
-Nu
-</note>
-  <anchor x="739.0" y="0.0" name="bottom"/>
-  <anchor x="739.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="N"/>
-  </outline>
+	<unicode hex="039D"/>
+	<advance width="1477"/>
+	<outline>
+		<component base="N"/>
+	</outline>
+	<anchor name="bottom" x="739" y="0"/>
+	<anchor name="top" x="739" y="1462"/>
+	<note>
+		Nu
+	</note>
 </glyph>

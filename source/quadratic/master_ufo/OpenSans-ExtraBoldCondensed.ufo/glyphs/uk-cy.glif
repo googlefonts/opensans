@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uk-cy" format="2">
-  <advance width="2107.0"/>
-  <unicode hex="0479"/>
-  <note>
-uni0479
-</note>
-  <anchor x="540.0" y="0.0" name="bottom_1"/>
-  <anchor x="1957.0" y="0.0" name="bottom_2"/>
-  <anchor x="540.0" y="563.0" name="center"/>
-  <anchor x="973.0" y="10.0" name="ogonek"/>
-  <anchor x="540.0" y="1127.0" name="top_1"/>
-  <anchor x="1595.0" y="1127.0" name="top_2"/>
-  <anchor x="1062.0" y="1127.0" name="topright"/>
-  <outline>
-    <component base="o"/>
-    <component base="y" xOffset="1082.0"/>
-  </outline>
+	<unicode hex="0479"/>
+	<advance width="2107"/>
+	<outline>
+		<component base="o"/>
+		<component base="y" xOffset="1082"/>
+	</outline>
+	<anchor name="bottom_1" x="540" y="0"/>
+	<anchor name="bottom_2" x="1957" y="0"/>
+	<anchor name="center" x="540" y="563"/>
+	<anchor name="ogonek" x="973" y="10"/>
+	<anchor name="top_1" x="540" y="1127"/>
+	<anchor name="top_2" x="1595" y="1127"/>
+	<anchor name="topright" x="1062" y="1127"/>
+	<note>
+		uni0479
+	</note>
 </glyph>

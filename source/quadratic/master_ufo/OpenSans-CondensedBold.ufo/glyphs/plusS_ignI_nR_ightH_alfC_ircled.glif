@@ -1,50 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusSignInRightHalfCircled" format="2">
-  <advance width="1536.0"/>
-  <unicode hex="2A2E"/>
-  <note>
-plusSignInRightHalfCircled
-</note>
-  <outline>
-    <contour>
-      <point x="586.0" y="-131.0" type="line"/>
-      <point x="1053.0" y="-131.0"/>
-      <point x="1432.0" y="248.0"/>
-      <point x="1432.0" y="715.0" type="curve" smooth="yes"/>
-      <point x="1432.0" y="1182.0"/>
-      <point x="1053.0" y="1561.0"/>
-      <point x="586.0" y="1561.0" type="curve"/>
-      <point x="586.0" y="1456.0" type="line"/>
-      <point x="995.0" y="1456.0"/>
-      <point x="1327.0" y="1124.0"/>
-      <point x="1327.0" y="715.0" type="curve" smooth="yes"/>
-      <point x="1327.0" y="305.0"/>
-      <point x="995.0" y="-27.0"/>
-      <point x="586.0" y="-27.0" type="curve"/>
-    </contour>
-    <contour>
-      <point x="512.0" y="225.0" type="line"/>
-      <point x="659.0" y="225.0" type="line"/>
-      <point x="659.0" y="647.0" type="line"/>
-      <point x="1067.0" y="647.0" type="line"/>
-      <point x="1067.0" y="793.0" type="line"/>
-      <point x="659.0" y="793.0" type="line"/>
-      <point x="659.0" y="1217.0" type="line"/>
-      <point x="512.0" y="1217.0" type="line"/>
-      <point x="512.0" y="793.0" type="line"/>
-      <point x="104.0" y="793.0" type="line"/>
-      <point x="104.0" y="647.0" type="line"/>
-      <point x="512.0" y="647.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A2E"/>
+	<advance width="1536"/>
+	<outline>
+		<contour>
+			<point x="586" y="-131" type="line"/>
+			<point x="1053" y="-131"/>
+			<point x="1432" y="248"/>
+			<point x="1432" y="715" type="curve" smooth="yes"/>
+			<point x="1432" y="1182"/>
+			<point x="1053" y="1561"/>
+			<point x="586" y="1561" type="curve"/>
+			<point x="586" y="1456" type="line"/>
+			<point x="995" y="1456"/>
+			<point x="1327" y="1124"/>
+			<point x="1327" y="715" type="curve" smooth="yes"/>
+			<point x="1327" y="305"/>
+			<point x="995" y="-27"/>
+			<point x="586" y="-27" type="curve"/>
+		</contour>
+		<contour>
+			<point x="512" y="225" type="line"/>
+			<point x="659" y="225" type="line"/>
+			<point x="659" y="647" type="line"/>
+			<point x="1067" y="647" type="line"/>
+			<point x="1067" y="793" type="line"/>
+			<point x="659" y="793" type="line"/>
+			<point x="659" y="1217" type="line"/>
+			<point x="512" y="1217" type="line"/>
+			<point x="512" y="793" type="line"/>
+			<point x="104" y="793" type="line"/>
+			<point x="104" y="647" type="line"/>
+			<point x="512" y="647" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		plusSignInRightHalfCircled
+	</note>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Esdescender-cy" format="2">
-  <advance width="860.0"/>
-  <unicode hex="04AA"/>
-  <note>
-uni04AA
-</note>
-  <anchor x="547.0" y="0.0" name="bottom"/>
-  <anchor x="540.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="C"/>
-    <component base="cyrillichookleft" xOffset="351.0" yOffset="-3.0"/>
-  </outline>
+	<unicode hex="04AA"/>
+	<advance width="860"/>
+	<outline>
+		<component base="C"/>
+		<component base="cyrillichookleft" xOffset="351" yOffset="-3"/>
+	</outline>
+	<anchor name="bottom" x="547" y="0"/>
+	<anchor name="top" x="540" y="1462"/>
+	<note>
+		uni04AA
+	</note>
 </glyph>

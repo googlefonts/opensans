@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLcommabar" format="2">
-  <advance width="705.0"/>
-  <unicode hex="236A"/>
-  <note>
-APLcommabar
-</note>
-  <outline>
-    <contour>
-      <point x="160.0" y="0.0" type="curve"/>
-      <point x="293.0" y="0.0" type="line"/>
-      <point x="379.0" y="195.0"/>
-      <point x="436.0" y="354.0"/>
-      <point x="469.0" y="479.0" type="curve"/>
-      <point x="455.0" y="502.0" type="line"/>
-      <point x="262.0" y="502.0" type="line"/>
-      <point x="238.0" y="334.0"/>
-      <point x="203.0" y="166.0"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="733.0" type="line"/>
-      <point x="600.0" y="733.0" type="line"/>
-      <point x="600.0" y="889.0" type="line"/>
-      <point x="104.0" y="889.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="236A"/>
+	<advance width="705"/>
+	<outline>
+		<contour>
+			<point x="160" y="0" type="curve"/>
+			<point x="293" y="0" type="line"/>
+			<point x="379" y="195"/>
+			<point x="436" y="354"/>
+			<point x="469" y="479" type="curve"/>
+			<point x="455" y="502" type="line"/>
+			<point x="262" y="502" type="line"/>
+			<point x="238" y="334"/>
+			<point x="203" y="166"/>
+		</contour>
+		<contour>
+			<point x="104" y="733" type="line"/>
+			<point x="600" y="733" type="line"/>
+			<point x="600" y="889" type="line"/>
+			<point x="104" y="889" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		APLcommabar
+	</note>
 </glyph>

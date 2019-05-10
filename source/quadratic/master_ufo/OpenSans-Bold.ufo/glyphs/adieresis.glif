@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="adieresis" format="2">
-  <advance width="1237.0"/>
-  <unicode hex="00E4"/>
-  <note>
-adieresis
-</note>
-  <anchor x="615.0" y="0.0" name="bottom"/>
-  <anchor x="1063.0" y="10.0" name="ogonek"/>
-  <anchor x="615.0" y="1530.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="dieresiscomb" xOffset="-7.0" yOffset="-12.0"/>
-  </outline>
+	<unicode hex="00E4"/>
+	<advance width="1237"/>
+	<outline>
+		<component base="a"/>
+		<component base="dieresiscomb" xOffset="-7" yOffset="-12"/>
+	</outline>
+	<anchor name="bottom" x="615" y="0"/>
+	<anchor name="ogonek" x="1063" y="10"/>
+	<anchor name="top" x="615" y="1530"/>
+	<note>
+		adieresis
+	</note>
 </glyph>

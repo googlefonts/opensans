@@ -1,99 +1,99 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ellipsis" format="2">
-  <advance width="1828.0"/>
-  <unicode hex="2026"/>
-  <note>
-ellipsis
-</note>
-  <outline>
-    <contour>
-      <point x="304.0" y="-32.0" type="curve" smooth="yes"/>
-      <point x="436.0" y="-32.0"/>
-      <point x="508.0" y="42.0"/>
-      <point x="508.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="508.0" y="274.0"/>
-      <point x="441.0" y="345.0"/>
-      <point x="304.0" y="345.0" type="curve" smooth="yes"/>
-      <point x="171.0" y="345.0"/>
-      <point x="101.0" y="275.0"/>
-      <point x="101.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="101.0" y="40.0"/>
-      <point x="172.0" y="-32.0"/>
-    </contour>
-    <contour>
-      <point x="913.0" y="-32.0" type="curve" smooth="yes"/>
-      <point x="1044.0" y="-32.0"/>
-      <point x="1117.0" y="42.0"/>
-      <point x="1117.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="1117.0" y="274.0"/>
-      <point x="1051.0" y="345.0"/>
-      <point x="913.0" y="345.0" type="curve" smooth="yes"/>
-      <point x="780.0" y="345.0"/>
-      <point x="711.0" y="275.0"/>
-      <point x="711.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="711.0" y="40.0"/>
-      <point x="781.0" y="-32.0"/>
-    </contour>
-    <contour>
-      <point x="1523.0" y="-32.0" type="curve" smooth="yes"/>
-      <point x="1653.0" y="-32.0"/>
-      <point x="1725.0" y="42.0"/>
-      <point x="1725.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="1725.0" y="274.0"/>
-      <point x="1660.0" y="345.0"/>
-      <point x="1523.0" y="345.0" type="curve" smooth="yes"/>
-      <point x="1388.0" y="345.0"/>
-      <point x="1320.0" y="275.0"/>
-      <point x="1320.0" y="157.0" type="curve" smooth="yes"/>
-      <point x="1320.0" y="40.0"/>
-      <point x="1391.0" y="-32.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>11.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>11.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="2026"/>
+	<advance width="1828"/>
+	<outline>
+		<contour>
+			<point x="304" y="-32" type="curve" smooth="yes"/>
+			<point x="436" y="-32"/>
+			<point x="508" y="42"/>
+			<point x="508" y="157" type="curve" smooth="yes"/>
+			<point x="508" y="274"/>
+			<point x="441" y="345"/>
+			<point x="304" y="345" type="curve" smooth="yes"/>
+			<point x="171" y="345"/>
+			<point x="101" y="275"/>
+			<point x="101" y="157" type="curve" smooth="yes"/>
+			<point x="101" y="40"/>
+			<point x="172" y="-32"/>
+		</contour>
+		<contour>
+			<point x="913" y="-32" type="curve" smooth="yes"/>
+			<point x="1044" y="-32"/>
+			<point x="1117" y="42"/>
+			<point x="1117" y="157" type="curve" smooth="yes"/>
+			<point x="1117" y="274"/>
+			<point x="1051" y="345"/>
+			<point x="913" y="345" type="curve" smooth="yes"/>
+			<point x="780" y="345"/>
+			<point x="711" y="275"/>
+			<point x="711" y="157" type="curve" smooth="yes"/>
+			<point x="711" y="40"/>
+			<point x="781" y="-32"/>
+		</contour>
+		<contour>
+			<point x="1523" y="-32" type="curve" smooth="yes"/>
+			<point x="1653" y="-32"/>
+			<point x="1725" y="42"/>
+			<point x="1725" y="157" type="curve" smooth="yes"/>
+			<point x="1725" y="274"/>
+			<point x="1660" y="345"/>
+			<point x="1523" y="345" type="curve" smooth="yes"/>
+			<point x="1388" y="345"/>
+			<point x="1320" y="275"/>
+			<point x="1320" y="157" type="curve" smooth="yes"/>
+			<point x="1320" y="40"/>
+			<point x="1391" y="-32"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>11</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>11</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>type</key>
+					<string>TTStem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		ellipsis
+	</note>
 </glyph>

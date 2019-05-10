@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acircumflexgrave" format="2">
-  <advance width="1085.0"/>
-  <unicode hex="1EA7"/>
-  <note>
-uni1EA7
-</note>
-  <anchor x="543.0" y="0.0" name="bottom"/>
-  <anchor x="816.0" y="10.0" name="ogonek"/>
-  <anchor x="543.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="g888" xOffset="1278.0" yOffset="-54.0"/>
-  </outline>
+	<unicode hex="1EA7"/>
+	<advance width="1085"/>
+	<outline>
+		<component base="a"/>
+		<component base="g888" xOffset="1278" yOffset="-54"/>
+	</outline>
+	<anchor name="bottom" x="543" y="0"/>
+	<anchor name="ogonek" x="816" y="10"/>
+	<anchor name="top" x="543" y="1087"/>
+	<note>
+		uni1EA7
+	</note>
 </glyph>

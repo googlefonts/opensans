@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightcurlybracketupperhook" format="2">
-  <advance width="627.0"/>
-  <unicode hex="23AB"/>
-  <note>
-rightcurlybracketupperhook
-</note>
-  <outline>
-    <contour>
-      <point x="227.0" y="-600.0" type="line"/>
-      <point x="401.0" y="-600.0" type="line"/>
-      <point x="401.0" y="1833.0" type="line" smooth="yes"/>
-      <point x="401.0" y="2073.0"/>
-      <point x="285.0" y="2189.0"/>
-      <point x="45.0" y="2189.0" type="curve"/>
-      <point x="45.0" y="2040.0" type="line"/>
-      <point x="178.0" y="2040.0"/>
-      <point x="227.0" y="1974.0"/>
-      <point x="227.0" y="1819.0" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="23AB"/>
+	<advance width="627"/>
+	<outline>
+		<contour>
+			<point x="227" y="-600" type="line"/>
+			<point x="401" y="-600" type="line"/>
+			<point x="401" y="1833" type="line" smooth="yes"/>
+			<point x="401" y="2073"/>
+			<point x="285" y="2189"/>
+			<point x="45" y="2189" type="curve"/>
+			<point x="45" y="2040" type="line"/>
+			<point x="178" y="2040"/>
+			<point x="227" y="1974"/>
+			<point x="227" y="1819" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		rightcurlybracketupperhook
+	</note>
 </glyph>

@@ -1,47 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less-thanbutnotequalto" format="2">
-  <advance width="1171.0"/>
-  <unicode hex="2268"/>
-  <note>
-lessthanbutnotequalto
-</note>
-  <outline>
-    <contour>
-      <point x="1067.0" y="594.0" type="line"/>
-      <point x="1067.0" y="743.0" type="line"/>
-      <point x="326.0" y="991.0" type="line"/>
-      <point x="1067.0" y="1241.0" type="line"/>
-      <point x="1067.0" y="1391.0" type="line"/>
-      <point x="104.0" y="1042.0" type="line"/>
-      <point x="104.0" y="940.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="106.0" y="57.0" type="line"/>
-      <point x="1067.0" y="57.0" type="line"/>
-      <point x="1067.0" y="203.0" type="line"/>
-      <point x="106.0" y="203.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="442.0" y="-150.0" type="line"/>
-      <point x="793.0" y="598.0" type="line"/>
-      <point x="676.0" y="659.0" type="line"/>
-      <point x="324.0" y="-92.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="106.0" y="385.0" type="line"/>
-      <point x="1067.0" y="385.0" type="line"/>
-      <point x="1067.0" y="530.0" type="line"/>
-      <point x="106.0" y="530.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2268"/>
+	<advance width="1171"/>
+	<outline>
+		<contour>
+			<point x="1067" y="594" type="line"/>
+			<point x="1067" y="743" type="line"/>
+			<point x="326" y="991" type="line"/>
+			<point x="1067" y="1241" type="line"/>
+			<point x="1067" y="1391" type="line"/>
+			<point x="104" y="1042" type="line"/>
+			<point x="104" y="940" type="line"/>
+		</contour>
+		<contour>
+			<point x="106" y="57" type="line"/>
+			<point x="1067" y="57" type="line"/>
+			<point x="1067" y="203" type="line"/>
+			<point x="106" y="203" type="line"/>
+		</contour>
+		<contour>
+			<point x="442" y="-150" type="line"/>
+			<point x="793" y="598" type="line"/>
+			<point x="676" y="659" type="line"/>
+			<point x="324" y="-92" type="line"/>
+		</contour>
+		<contour>
+			<point x="106" y="385" type="line"/>
+			<point x="1067" y="385" type="line"/>
+			<point x="1067" y="530" type="line"/>
+			<point x="106" y="530" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		lessthanbutnotequalto
+	</note>
 </glyph>

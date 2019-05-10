@@ -1,117 +1,117 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sigma" format="2">
-  <advance width="1128.0"/>
-  <unicode hex="03A3"/>
-  <note>
-Sigma
-</note>
-  <outline>
-    <contour>
-      <point x="61.0" y="0.0" type="line"/>
-      <point x="1098.0" y="0.0" type="line"/>
-      <point x="1098.0" y="94.0" type="line"/>
-      <point x="366.0" y="94.0" type="line"/>
-      <point x="308.0" y="94.0"/>
-      <point x="251.0" y="94.0"/>
-      <point x="193.0" y="94.0" type="curve"/>
-      <point x="723.0" y="766.0" type="line"/>
-      <point x="209.0" y="1370.0" type="line"/>
-      <point x="270.0" y="1369.0"/>
-      <point x="330.0" y="1369.0"/>
-      <point x="391.0" y="1368.0" type="curve"/>
-      <point x="1038.0" y="1368.0" type="line"/>
-      <point x="1038.0" y="1462.0" type="line"/>
-      <point x="74.0" y="1462.0" type="line"/>
-      <point x="74.0" y="1380.0" type="line"/>
-      <point x="594.0" y="760.0" type="line"/>
-      <point x="61.0" y="84.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>17.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>13.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>10.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>5.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>17.0</real>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>13.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>10.0</real>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="03A3"/>
+	<advance width="1128"/>
+	<outline>
+		<contour>
+			<point x="61" y="0" type="line"/>
+			<point x="1098" y="0" type="line"/>
+			<point x="1098" y="94" type="line"/>
+			<point x="366" y="94" type="line"/>
+			<point x="308" y="94"/>
+			<point x="251" y="94"/>
+			<point x="193" y="94" type="curve"/>
+			<point x="723" y="766" type="line"/>
+			<point x="209" y="1370" type="line"/>
+			<point x="270" y="1369"/>
+			<point x="330" y="1369"/>
+			<point x="391" y="1368" type="curve"/>
+			<point x="1038" y="1368" type="line"/>
+			<point x="1038" y="1462" type="line"/>
+			<point x="74" y="1462" type="line"/>
+			<point x="74" y="1380" type="line"/>
+			<point x="594" y="760" type="line"/>
+			<point x="61" y="84" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>17</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>13</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>10</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>5</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>17</integer>
+					</array>
+					<key>type</key>
+					<string>TTStem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>13</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>10</integer>
+					</array>
+					<key>type</key>
+					<string>TTStem</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		Sigma
+	</note>
 </glyph>

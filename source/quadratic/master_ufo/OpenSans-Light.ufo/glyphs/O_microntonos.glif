@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omicrontonos" format="2">
-  <advance width="1565.0"/>
-  <unicode hex="038C"/>
-  <note>
-Omicrontonos
-</note>
-  <anchor x="783.0" y="0.0" name="bottom"/>
-  <anchor x="783.0" y="731.0" name="center"/>
-  <anchor x="1408.0" y="10.0" name="ogonek"/>
-  <anchor x="240.0" y="1450.0" name="topleft"/>
-  <anchor x="1545.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="Omicron"/>
-    <component base="tonos" xOffset="-570.0" yOffset="-106.0"/>
-  </outline>
+	<unicode hex="038C"/>
+	<advance width="1565"/>
+	<outline>
+		<component base="Omicron"/>
+		<component base="tonos" xOffset="-570" yOffset="-106"/>
+	</outline>
+	<anchor name="bottom" x="783" y="0"/>
+	<anchor name="center" x="783" y="731"/>
+	<anchor name="ogonek" x="1408" y="10"/>
+	<anchor name="topleft" x="240" y="1450"/>
+	<anchor name="topright" x="1545" y="1462"/>
+	<note>
+		Omicrontonos
+	</note>
 </glyph>

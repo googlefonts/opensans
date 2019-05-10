@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="komide-cy" format="2">
-  <advance width="1219.0"/>
-  <unicode hex="0501"/>
-  <note>
-uni0501
-</note>
-  <anchor x="610.0" y="0.0" name="bottom"/>
-  <anchor x="610.0" y="544.0" name="center"/>
-  <anchor x="610.0" y="1087.0" name="top"/>
-  <anchor x="1339.0" y="1556.0" name="topright"/>
-  <outline>
-    <component base="d"/>
-  </outline>
+	<unicode hex="0501"/>
+	<advance width="1219"/>
+	<outline>
+		<component base="d"/>
+	</outline>
+	<anchor name="bottom" x="610" y="0"/>
+	<anchor name="center" x="610" y="544"/>
+	<anchor name="top" x="610" y="1087"/>
+	<anchor name="topright" x="1339" y="1556"/>
+	<note>
+		uni0501
+	</note>
 </glyph>

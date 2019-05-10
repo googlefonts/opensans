@@ -1,29 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AnnuitySymbol" format="2">
-  <unicode hex="20E7"/>
-  <note>
-AnnuitySymbol
-</note>
-  <outline>
-    <contour>
-      <point x="1473.0" y="-178.0" type="line"/>
-      <point x="1602.0" y="-178.0" type="line"/>
-      <point x="1602.0" y="1319.0" type="line"/>
-      <point x="105.0" y="1319.0" type="line"/>
-      <point x="105.0" y="1190.0" type="line"/>
-      <point x="1473.0" y="1190.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <real>1706.0</real>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Nonspacing</string>
-    </dict>
-  </lib>
+	<unicode hex="20E7"/>
+	<outline>
+		<contour>
+			<point x="1473" y="-178" type="line"/>
+			<point x="1602" y="-178" type="line"/>
+			<point x="1602" y="1319" type="line"/>
+			<point x="105" y="1319" type="line"/>
+			<point x="105" y="1190" type="line"/>
+			<point x="1473" y="1190" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Mark</string>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>1706</integer>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Nonspacing</string>
+		</dict>
+	</lib>
+	<note>
+		AnnuitySymbol
+	</note>
 </glyph>

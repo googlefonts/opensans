@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotbelow.ss01" format="2">
-  <advance width="901.0"/>
-  <note>
-g839
-</note>
-  <anchor x="451.0" y="-479.0" name="bottom"/>
-  <anchor x="811.0" y="10.0" name="ogonek"/>
-  <anchor x="451.0" y="1462.0" name="top"/>
-  <anchor x="20.0" y="1462.0" name="topleft"/>
-  <outline>
-    <component base="I.ss01"/>
-    <component base="dotbelowcomb" xOffset="452.0"/>
-  </outline>
+	<advance width="901"/>
+	<outline>
+		<component base="I.ss01"/>
+		<component base="dotbelowcomb" xOffset="452"/>
+	</outline>
+	<anchor name="bottom" x="451" y="-479"/>
+	<anchor name="ogonek" x="811" y="10"/>
+	<anchor name="top" x="451" y="1462"/>
+	<anchor name="topleft" x="20" y="1462"/>
+	<note>
+		g839
+	</note>
 </glyph>

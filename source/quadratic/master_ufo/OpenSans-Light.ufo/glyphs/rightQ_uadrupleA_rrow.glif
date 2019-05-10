@@ -1,62 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightQuadrupleArrow" format="2">
-  <advance width="1647.0"/>
-  <unicode hex="2B46"/>
-  <note>
-rightQuadrupleArrow
-</note>
-  <outline>
-    <contour>
-      <point x="1004.0" y="53.0" type="curve"/>
-      <point x="1096.0" y="53.0" type="line"/>
-      <point x="1241.0" y="270.0"/>
-      <point x="1391.0" y="485.0"/>
-      <point x="1542.0" y="686.0" type="curve"/>
-      <point x="1542.0" y="727.0" type="line"/>
-      <point x="1391.0" y="928.0"/>
-      <point x="1241.0" y="1143.0"/>
-      <point x="1096.0" y="1360.0" type="curve"/>
-      <point x="1004.0" y="1360.0" type="line"/>
-      <point x="1067.0" y="1178.0"/>
-      <point x="1231.0" y="844.0"/>
-      <point x="1343.0" y="674.0" type="curve"/>
-      <point x="1343.0" y="739.0" type="line"/>
-      <point x="1231.0" y="569.0"/>
-      <point x="1067.0" y="236.0"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="289.0" type="line"/>
-      <point x="1217.0" y="289.0" type="line"/>
-      <point x="1217.0" y="399.0" type="line"/>
-      <point x="104.0" y="399.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="530.0" type="line"/>
-      <point x="1350.0" y="530.0" type="line"/>
-      <point x="1350.0" y="641.0" type="line"/>
-      <point x="104.0" y="641.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="772.0" type="line"/>
-      <point x="1350.0" y="772.0" type="line"/>
-      <point x="1350.0" y="883.0" type="line"/>
-      <point x="104.0" y="883.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="1014.0" type="line"/>
-      <point x="1217.0" y="1014.0" type="line"/>
-      <point x="1217.0" y="1124.0" type="line"/>
-      <point x="104.0" y="1124.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="2B46"/>
+	<advance width="1647"/>
+	<outline>
+		<contour>
+			<point x="1004" y="53" type="curve"/>
+			<point x="1096" y="53" type="line"/>
+			<point x="1241" y="270"/>
+			<point x="1391" y="485"/>
+			<point x="1542" y="686" type="curve"/>
+			<point x="1542" y="727" type="line"/>
+			<point x="1391" y="928"/>
+			<point x="1241" y="1143"/>
+			<point x="1096" y="1360" type="curve"/>
+			<point x="1004" y="1360" type="line"/>
+			<point x="1067" y="1178"/>
+			<point x="1231" y="844"/>
+			<point x="1343" y="674" type="curve"/>
+			<point x="1343" y="739" type="line"/>
+			<point x="1231" y="569"/>
+			<point x="1067" y="236"/>
+		</contour>
+		<contour>
+			<point x="104" y="289" type="line"/>
+			<point x="1217" y="289" type="line"/>
+			<point x="1217" y="399" type="line"/>
+			<point x="104" y="399" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="530" type="line"/>
+			<point x="1350" y="530" type="line"/>
+			<point x="1350" y="641" type="line"/>
+			<point x="104" y="641" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="772" type="line"/>
+			<point x="1350" y="772" type="line"/>
+			<point x="1350" y="883" type="line"/>
+			<point x="104" y="883" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="1014" type="line"/>
+			<point x="1217" y="1014" type="line"/>
+			<point x="1217" y="1124" type="line"/>
+			<point x="104" y="1124" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		rightQuadrupleArrow
+	</note>
 </glyph>

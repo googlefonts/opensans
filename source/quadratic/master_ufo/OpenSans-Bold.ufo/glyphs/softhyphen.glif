@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="softhyphen" format="2">
-  <advance width="659.0"/>
-  <unicode hex="00AD"/>
-  <note>
-uni00AD
-</note>
-  <outline>
-    <component base="hyphen"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="00AD"/>
+	<advance width="659"/>
+	<outline>
+		<component base="hyphen"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		uni00AD
+	</note>
 </glyph>

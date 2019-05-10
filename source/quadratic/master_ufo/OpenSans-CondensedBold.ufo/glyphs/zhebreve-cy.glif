@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zhebreve-cy" format="2">
-  <advance width="1405.0"/>
-  <unicode hex="04C2"/>
-  <note>
-uni04C2
-</note>
-  <anchor x="1384.6" y="0.0" name="bottomright"/>
-  <anchor x="703.0" y="1114.4" name="top"/>
-  <outline>
-    <component base="zhe-cy"/>
-    <component base="brevecomb-cy" xOffset="238.0"/>
-  </outline>
+	<unicode hex="04C2"/>
+	<advance width="1405"/>
+	<outline>
+		<component base="zhe-cy"/>
+		<component base="brevecomb-cy" xOffset="238"/>
+	</outline>
+	<anchor name="bottomright" x="1384.6" y="0"/>
+	<anchor name="top" x="703" y="1114.4"/>
+	<note>
+		uni04C2
+	</note>
 </glyph>

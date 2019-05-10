@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron" format="2">
-  <advance width="463.0"/>
-  <unicode hex="012B"/>
-  <note>
-imacron
-</note>
-  <anchor x="232.0" y="0.0" name="bottom"/>
-  <anchor x="181.0" y="10.0" name="ogonek"/>
-  <anchor x="234.0" y="1293.0" name="top"/>
-  <outline>
-    <component base="idotless"/>
-    <component base="macroncomb" xOffset="459.0" yOffset="-40.0"/>
-  </outline>
+	<unicode hex="012B"/>
+	<advance width="463"/>
+	<outline>
+		<component base="idotless"/>
+		<component base="macroncomb" xOffset="459" yOffset="-40"/>
+	</outline>
+	<anchor name="bottom" x="232" y="0"/>
+	<anchor name="ogonek" x="181" y="10"/>
+	<anchor name="top" x="234" y="1293"/>
+	<note>
+		imacron
+	</note>
 </glyph>

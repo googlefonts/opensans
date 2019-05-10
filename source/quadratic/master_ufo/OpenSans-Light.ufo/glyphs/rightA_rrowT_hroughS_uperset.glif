@@ -1,64 +1,64 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightArrowThroughSuperset" format="2">
-  <advance width="1921.0"/>
-  <unicode hex="2B44"/>
-  <note>
-rightArrowThroughSuperset
-</note>
-  <outline>
-    <contour>
-      <point x="236.0" y="213.0" type="line"/>
-      <point x="578.0" y="213.0" type="line" smooth="yes"/>
-      <point x="922.0" y="213.0"/>
-      <point x="1096.0" y="362.0"/>
-      <point x="1096.0" y="707.0" type="curve" smooth="yes"/>
-      <point x="1096.0" y="1051.0"/>
-      <point x="922.0" y="1200.0"/>
-      <point x="578.0" y="1200.0" type="curve" smooth="yes"/>
-      <point x="236.0" y="1200.0" type="line"/>
-      <point x="236.0" y="1090.0" type="line"/>
-      <point x="578.0" y="1090.0" type="line" smooth="yes"/>
-      <point x="866.0" y="1090.0"/>
-      <point x="985.0" y="981.0"/>
-      <point x="985.0" y="707.0" type="curve" smooth="yes"/>
-      <point x="985.0" y="432.0"/>
-      <point x="866.0" y="324.0"/>
-      <point x="578.0" y="324.0" type="curve" smooth="yes"/>
-      <point x="236.0" y="324.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="236.0" y="651.0" type="line"/>
-      <point x="1610.0" y="651.0" type="line"/>
-      <point x="1610.0" y="762.0" type="line"/>
-      <point x="236.0" y="762.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="1384.0" y="403.0" type="curve"/>
-      <point x="1475.0" y="403.0" type="line"/>
-      <point x="1583.0" y="530.0"/>
-      <point x="1698.0" y="625.0"/>
-      <point x="1817.0" y="684.0" type="curve"/>
-      <point x="1817.0" y="729.0" type="line"/>
-      <point x="1698.0" y="788.0"/>
-      <point x="1583.0" y="883.0"/>
-      <point x="1475.0" y="1010.0" type="curve"/>
-      <point x="1384.0" y="1010.0" type="line"/>
-      <point x="1440.0" y="891.0"/>
-      <point x="1495.0" y="801.0"/>
-      <point x="1548.0" y="748.0" type="curve"/>
-      <point x="1548.0" y="666.0" type="line"/>
-      <point x="1495.0" y="612.0"/>
-      <point x="1440.0" y="522.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2B44"/>
+	<advance width="1921"/>
+	<outline>
+		<contour>
+			<point x="236" y="213" type="line"/>
+			<point x="578" y="213" type="line" smooth="yes"/>
+			<point x="922" y="213"/>
+			<point x="1096" y="362"/>
+			<point x="1096" y="707" type="curve" smooth="yes"/>
+			<point x="1096" y="1051"/>
+			<point x="922" y="1200"/>
+			<point x="578" y="1200" type="curve" smooth="yes"/>
+			<point x="236" y="1200" type="line"/>
+			<point x="236" y="1090" type="line"/>
+			<point x="578" y="1090" type="line" smooth="yes"/>
+			<point x="866" y="1090"/>
+			<point x="985" y="981"/>
+			<point x="985" y="707" type="curve" smooth="yes"/>
+			<point x="985" y="432"/>
+			<point x="866" y="324"/>
+			<point x="578" y="324" type="curve" smooth="yes"/>
+			<point x="236" y="324" type="line"/>
+		</contour>
+		<contour>
+			<point x="236" y="651" type="line"/>
+			<point x="1610" y="651" type="line"/>
+			<point x="1610" y="762" type="line"/>
+			<point x="236" y="762" type="line"/>
+		</contour>
+		<contour>
+			<point x="1384" y="403" type="curve"/>
+			<point x="1475" y="403" type="line"/>
+			<point x="1583" y="530"/>
+			<point x="1698" y="625"/>
+			<point x="1817" y="684" type="curve"/>
+			<point x="1817" y="729" type="line"/>
+			<point x="1698" y="788"/>
+			<point x="1583" y="883"/>
+			<point x="1475" y="1010" type="curve"/>
+			<point x="1384" y="1010" type="line"/>
+			<point x="1440" y="891"/>
+			<point x="1495" y="801"/>
+			<point x="1548" y="748" type="curve"/>
+			<point x="1548" y="666" type="line"/>
+			<point x="1495" y="612"/>
+			<point x="1440" y="522"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		rightArrowThroughSuperset
+	</note>
 </glyph>

@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcaron" format="2">
-  <advance width="1051.0"/>
-  <unicode hex="013D"/>
-  <note>
-Lcaron
-</note>
-  <anchor x="526.0" y="0.0" name="bottom"/>
-  <anchor x="526.0" y="731.0" name="center"/>
-  <anchor x="426.0" y="1462.0" name="top"/>
-  <anchor x="874.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="L"/>
-    <component base="caron.alt" xOffset="676.0" yOffset="-94.0"/>
-  </outline>
+	<unicode hex="013D"/>
+	<advance width="1051"/>
+	<outline>
+		<component base="L"/>
+		<component base="caron.alt" xOffset="676" yOffset="-94"/>
+	</outline>
+	<anchor name="bottom" x="526" y="0"/>
+	<anchor name="center" x="526" y="731"/>
+	<anchor name="top" x="426" y="1462"/>
+	<anchor name="topright" x="874" y="1462"/>
+	<note>
+		Lcaron
+	</note>
 </glyph>

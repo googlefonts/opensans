@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="notparallel" format="2">
-  <advance width="1262.0"/>
-  <unicode hex="2226"/>
-  <note>
-notparallel
-</note>
-  <outline>
-    <contour>
-      <point x="199.0" y="96.0" type="line"/>
-      <point x="1161.0" y="1124.0" type="line"/>
-      <point x="1063.0" y="1214.0" type="line"/>
-      <point x="104.0" y="188.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="367.0" y="-246.0" type="line"/>
-      <point x="512.0" y="-246.0" type="line"/>
-      <point x="512.0" y="1556.0" type="line"/>
-      <point x="367.0" y="1556.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="750.0" y="-246.0" type="line"/>
-      <point x="895.0" y="-246.0" type="line"/>
-      <point x="895.0" y="1556.0" type="line"/>
-      <point x="750.0" y="1556.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2226"/>
+	<advance width="1262"/>
+	<outline>
+		<contour>
+			<point x="199" y="96" type="line"/>
+			<point x="1161" y="1124" type="line"/>
+			<point x="1063" y="1214" type="line"/>
+			<point x="104" y="188" type="line"/>
+		</contour>
+		<contour>
+			<point x="367" y="-246" type="line"/>
+			<point x="512" y="-246" type="line"/>
+			<point x="512" y="1556" type="line"/>
+			<point x="367" y="1556" type="line"/>
+		</contour>
+		<contour>
+			<point x="750" y="-246" type="line"/>
+			<point x="895" y="-246" type="line"/>
+			<point x="895" y="1556" type="line"/>
+			<point x="750" y="1556" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		notparallel
+	</note>
 </glyph>

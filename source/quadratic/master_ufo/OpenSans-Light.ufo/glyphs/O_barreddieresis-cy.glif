@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Obarreddieresis-cy" format="2">
-  <advance width="1551.0"/>
-  <unicode hex="04EA"/>
-  <note>
-uni04EA
-</note>
-  <anchor x="776.0" y="1810.0" name="top"/>
-  <outline>
-    <component base="Obarred-cy"/>
-    <component base="dieresiscomb" xOffset="1339.0" yOffset="335.0"/>
-  </outline>
+	<unicode hex="04EA"/>
+	<advance width="1551"/>
+	<outline>
+		<component base="Obarred-cy"/>
+		<component base="dieresiscomb" xOffset="1339" yOffset="335"/>
+	</outline>
+	<anchor name="top" x="776" y="1810"/>
+	<note>
+		uni04EA
+	</note>
 </glyph>

@@ -1,50 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="northWestDoubleArrow" format="2">
-  <advance width="1384.0"/>
-  <unicode hex="21D6"/>
-  <note>
-northWestDoubleArrow
-</note>
-  <outline>
-    <contour>
-      <point x="1202.0" y="324.0" type="line"/>
-      <point x="1280.0" y="403.0" type="line"/>
-      <point x="444.0" y="1239.0" type="line"/>
-      <point x="367.0" y="1159.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="995.0" y="119.0" type="line"/>
-      <point x="1075.0" y="197.0" type="line"/>
-      <point x="240.0" y="1032.0" type="line"/>
-      <point x="160.0" y="954.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="170.0" y="543.0" type="line"/>
-      <point x="229.0" y="727.0"/>
-      <point x="274.0" y="963.0"/>
-      <point x="285.0" y="1159.0" type="curve"/>
-      <point x="240.0" y="1114.0" type="line"/>
-      <point x="436.0" y="1124.0"/>
-      <point x="672.0" y="1169.0"/>
-      <point x="856.0" y="1229.0" type="curve"/>
-      <point x="793.0" y="1294.0" type="line"/>
-      <point x="625.0" y="1282.0"/>
-      <point x="412.0" y="1274.0"/>
-      <point x="150.0" y="1278.0" type="curve"/>
-      <point x="121.0" y="1249.0" type="line"/>
-      <point x="125.0" y="987.0"/>
-      <point x="117.0" y="774.0"/>
-      <point x="104.0" y="606.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Arrow</string>
-    </dict>
-  </lib>
+	<unicode hex="21D6"/>
+	<advance width="1384"/>
+	<outline>
+		<contour>
+			<point x="1202" y="324" type="line"/>
+			<point x="1280" y="403" type="line"/>
+			<point x="444" y="1239" type="line"/>
+			<point x="367" y="1159" type="line"/>
+		</contour>
+		<contour>
+			<point x="995" y="119" type="line"/>
+			<point x="1075" y="197" type="line"/>
+			<point x="240" y="1032" type="line"/>
+			<point x="160" y="954" type="line"/>
+		</contour>
+		<contour>
+			<point x="170" y="543" type="line"/>
+			<point x="229" y="727"/>
+			<point x="274" y="963"/>
+			<point x="285" y="1159" type="curve"/>
+			<point x="240" y="1114" type="line"/>
+			<point x="436" y="1124"/>
+			<point x="672" y="1169"/>
+			<point x="856" y="1229" type="curve"/>
+			<point x="793" y="1294" type="line"/>
+			<point x="625" y="1282"/>
+			<point x="412" y="1274"/>
+			<point x="150" y="1278" type="curve"/>
+			<point x="121" y="1249" type="line"/>
+			<point x="125" y="987"/>
+			<point x="117" y="774"/>
+			<point x="104" y="606" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Arrow</string>
+		</dict>
+	</lib>
+	<note>
+		northWestDoubleArrow
+	</note>
 </glyph>

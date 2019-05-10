@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Omacron" format="2">
-  <advance width="1632.0"/>
-  <unicode hex="014C"/>
-  <note>
-Omacron
-</note>
-  <anchor x="816.0" y="0.0" name="bottom"/>
-  <anchor x="816.0" y="731.0" name="center"/>
-  <anchor x="1469.0" y="10.0" name="ogonek"/>
-  <anchor x="816.0" y="1806.0" name="top"/>
-  <anchor x="240.0" y="1462.0" name="topleft"/>
-  <anchor x="1612.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="O"/>
-    <component base="macroncomb" xOffset="515.0" yOffset="329.0"/>
-  </outline>
+	<unicode hex="014C"/>
+	<advance width="1632"/>
+	<outline>
+		<component base="O"/>
+		<component base="macroncomb" xOffset="515" yOffset="329"/>
+	</outline>
+	<anchor name="bottom" x="816" y="0"/>
+	<anchor name="center" x="816" y="731"/>
+	<anchor name="ogonek" x="1469" y="10"/>
+	<anchor name="top" x="816" y="1806"/>
+	<anchor name="topleft" x="240" y="1462"/>
+	<anchor name="topright" x="1612" y="1462"/>
+	<note>
+		Omacron
+	</note>
 </glyph>

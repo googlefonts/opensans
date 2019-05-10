@@ -1,21 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gershayim-hb" format="2">
-  <advance width="632.0"/>
-  <unicode hex="05F4"/>
-  <note>
-gershayimhb
-</note>
-  <outline>
-    <component base="geresh-hb" xOffset="316.0"/>
-    <component base="geresh-hb"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="05F4"/>
+	<advance width="632"/>
+	<outline>
+		<component base="geresh-hb" xOffset="316"/>
+		<component base="geresh-hb"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		gershayimhb
+	</note>
 </glyph>

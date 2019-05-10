@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udieresis-cy" format="2">
-  <advance width="913.0"/>
-  <unicode hex="04F1"/>
-  <note>
-uni04F1
-</note>
-  <anchor x="746.6" y="0.0" name="bottom"/>
-  <anchor x="457.0" y="1501.0" name="top"/>
-  <outline>
-    <component base="u-cy"/>
-    <component base="dieresiscomb" xOffset="-108.0" yOffset="-31.0"/>
-  </outline>
+	<unicode hex="04F1"/>
+	<advance width="913"/>
+	<outline>
+		<component base="u-cy"/>
+		<component base="dieresiscomb" xOffset="-108" yOffset="-31"/>
+	</outline>
+	<anchor name="bottom" x="746.6" y="0"/>
+	<anchor name="top" x="457" y="1501"/>
+	<note>
+		uni04F1
+	</note>
 </glyph>

@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="schwadieresis-cy" format="2">
-  <advance width="940.0"/>
-  <unicode hex="04DB"/>
-  <note>
-uni04DB
-</note>
-  <anchor x="470.0" y="1501.0" name="top"/>
-  <outline>
-    <component base="schwa-cy"/>
-    <component base="dieresiscomb" xOffset="-95.0" yOffset="-31.0"/>
-  </outline>
+	<unicode hex="04DB"/>
+	<advance width="940"/>
+	<outline>
+		<component base="schwa-cy"/>
+		<component base="dieresiscomb" xOffset="-95" yOffset="-31"/>
+	</outline>
+	<anchor name="top" x="470" y="1501"/>
+	<note>
+		uni04DB
+	</note>
 </glyph>

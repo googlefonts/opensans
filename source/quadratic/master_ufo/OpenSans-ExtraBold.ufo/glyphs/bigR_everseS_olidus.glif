@@ -1,26 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bigReverseSolidus" format="2">
-  <advance width="825.0"/>
-  <unicode hex="29F9"/>
-  <note>
-bigReverseSolidus
-</note>
-  <outline>
-    <contour>
-      <point x="705.0" y="-600.0" type="line"/>
-      <point x="850.0" y="-600.0" type="line"/>
-      <point x="121.0" y="2189.0" type="line"/>
-      <point x="-25.0" y="2189.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="29F9"/>
+	<advance width="825"/>
+	<outline>
+		<contour>
+			<point x="705" y="-600" type="line"/>
+			<point x="850" y="-600" type="line"/>
+			<point x="121" y="2189" type="line"/>
+			<point x="-25" y="2189" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		bigReverseSolidus
+	</note>
 </glyph>

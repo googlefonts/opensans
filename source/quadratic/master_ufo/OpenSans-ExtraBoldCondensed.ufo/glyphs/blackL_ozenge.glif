@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="blackLozenge" format="2">
-  <advance width="1188.0"/>
-  <unicode hex="29EB"/>
-  <note>
-blackLozenge
-</note>
-  <outline>
-    <contour>
-      <point x="555.0" y="0.0" type="line"/>
-      <point x="633.0" y="0.0" type="line"/>
-      <point x="1083.0" y="737.0" type="line"/>
-      <point x="633.0" y="1475.0" type="line"/>
-      <point x="555.0" y="1475.0" type="line"/>
-      <point x="104.0" y="737.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="29EB"/>
+	<advance width="1188"/>
+	<outline>
+		<contour>
+			<point x="555" y="0" type="line"/>
+			<point x="633" y="0" type="line"/>
+			<point x="1083" y="737" type="line"/>
+			<point x="633" y="1475" type="line"/>
+			<point x="555" y="1475" type="line"/>
+			<point x="104" y="737" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		blackLozenge
+	</note>
 </glyph>

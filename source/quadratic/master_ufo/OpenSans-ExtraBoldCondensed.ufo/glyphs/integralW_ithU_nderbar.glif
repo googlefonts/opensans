@@ -1,56 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="integralWithUnderbar" format="2">
-  <advance width="1047.0"/>
-  <unicode hex="2A1C"/>
-  <note>
-integralWithUnderbar
-</note>
-  <outline>
-    <contour>
-      <point x="266.0" y="-492.0" type="curve" smooth="yes"/>
-      <point x="487.0" y="-492.0"/>
-      <point x="600.0" y="-367.0"/>
-      <point x="600.0" y="-127.0" type="curve" smooth="yes"/>
-      <point x="600.0" y="1436.0" type="line" smooth="yes"/>
-      <point x="600.0" y="1591.0"/>
-      <point x="657.0" y="1669.0"/>
-      <point x="770.0" y="1669.0" type="curve" smooth="yes"/>
-      <point x="807.0" y="1669.0"/>
-      <point x="846.0" y="1661.0"/>
-      <point x="885.0" y="1645.0" type="curve"/>
-      <point x="885.0" y="1794.0" type="line"/>
-      <point x="854.0" y="1806.0"/>
-      <point x="811.0" y="1812.0"/>
-      <point x="756.0" y="1812.0" type="curve" smooth="yes"/>
-      <point x="537.0" y="1812.0"/>
-      <point x="426.0" y="1692.0"/>
-      <point x="426.0" y="1448.0" type="curve" smooth="yes"/>
-      <point x="426.0" y="-115.0" type="line" smooth="yes"/>
-      <point x="426.0" y="-270.0"/>
-      <point x="367.0" y="-348.0"/>
-      <point x="250.0" y="-348.0" type="curve" smooth="yes"/>
-      <point x="209.0" y="-348.0"/>
-      <point x="168.0" y="-340.0"/>
-      <point x="127.0" y="-324.0" type="curve"/>
-      <point x="127.0" y="-471.0" type="line"/>
-      <point x="168.0" y="-485.0"/>
-      <point x="213.0" y="-492.0"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="-784.0" type="line"/>
-      <point x="924.0" y="-784.0" type="line"/>
-      <point x="924.0" y="-639.0" type="line"/>
-      <point x="104.0" y="-639.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A1C"/>
+	<advance width="1047"/>
+	<outline>
+		<contour>
+			<point x="266" y="-492" type="curve" smooth="yes"/>
+			<point x="487" y="-492"/>
+			<point x="600" y="-367"/>
+			<point x="600" y="-127" type="curve" smooth="yes"/>
+			<point x="600" y="1436" type="line" smooth="yes"/>
+			<point x="600" y="1591"/>
+			<point x="657" y="1669"/>
+			<point x="770" y="1669" type="curve" smooth="yes"/>
+			<point x="807" y="1669"/>
+			<point x="846" y="1661"/>
+			<point x="885" y="1645" type="curve"/>
+			<point x="885" y="1794" type="line"/>
+			<point x="854" y="1806"/>
+			<point x="811" y="1812"/>
+			<point x="756" y="1812" type="curve" smooth="yes"/>
+			<point x="537" y="1812"/>
+			<point x="426" y="1692"/>
+			<point x="426" y="1448" type="curve" smooth="yes"/>
+			<point x="426" y="-115" type="line" smooth="yes"/>
+			<point x="426" y="-270"/>
+			<point x="367" y="-348"/>
+			<point x="250" y="-348" type="curve" smooth="yes"/>
+			<point x="209" y="-348"/>
+			<point x="168" y="-340"/>
+			<point x="127" y="-324" type="curve"/>
+			<point x="127" y="-471" type="line"/>
+			<point x="168" y="-485"/>
+			<point x="213" y="-492"/>
+		</contour>
+		<contour>
+			<point x="104" y="-784" type="line"/>
+			<point x="924" y="-784" type="line"/>
+			<point x="924" y="-639" type="line"/>
+			<point x="104" y="-639" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		integralWithUnderbar
+	</note>
 </glyph>

@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Mu" format="2">
-  <advance width="1931.0"/>
-  <unicode hex="039C"/>
-  <note>
-Mu
-</note>
-  <anchor x="969.0" y="0.0" name="bottom"/>
-  <anchor x="969.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="M"/>
-  </outline>
+	<unicode hex="039C"/>
+	<advance width="1931"/>
+	<outline>
+		<component base="M"/>
+	</outline>
+	<anchor name="bottom" x="969" y="0"/>
+	<anchor name="top" x="969" y="1462"/>
+	<note>
+		Mu
+	</note>
 </glyph>

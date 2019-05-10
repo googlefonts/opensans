@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gbreve" format="2">
-  <advance width="1112.0"/>
-  <unicode hex="011E"/>
-  <note>
-Gbreve
-</note>
-  <anchor x="579.2" y="0.0" name="bottom"/>
-  <anchor x="683.5" y="1462.0" name="top"/>
-  <outline>
-    <component base="G"/>
-    <component base="breve" xOffset="121.0" yOffset="348.0"/>
-  </outline>
+	<unicode hex="011E"/>
+	<advance width="1112"/>
+	<outline>
+		<component base="G"/>
+		<component base="breve" xOffset="121" yOffset="348"/>
+	</outline>
+	<anchor name="bottom" x="579.2" y="0"/>
+	<anchor name="top" x="683.5" y="1462"/>
+	<note>
+		Gbreve
+	</note>
 </glyph>

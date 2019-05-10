@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalOrWithMiddleStem" format="2">
-  <advance width="1462.0"/>
-  <unicode hex="2A5B"/>
-  <note>
-logicalOrWithMiddleStem
-</note>
-  <outline>
-    <contour>
-      <point x="680.0" y="0.0" type="line"/>
-      <point x="782.0" y="0.0" type="line"/>
-      <point x="1358.0" y="1188.0" type="line"/>
-      <point x="1188.0" y="1188.0" type="line"/>
-      <point x="731.0" y="209.0" type="line"/>
-      <point x="274.0" y="1188.0" type="line"/>
-      <point x="104.0" y="1188.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="659.0" y="141.0" type="line"/>
-      <point x="803.0" y="141.0" type="line"/>
-      <point x="803.0" y="1188.0" type="line"/>
-      <point x="659.0" y="1188.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A5B"/>
+	<advance width="1462"/>
+	<outline>
+		<contour>
+			<point x="680" y="0" type="line"/>
+			<point x="782" y="0" type="line"/>
+			<point x="1358" y="1188" type="line"/>
+			<point x="1188" y="1188" type="line"/>
+			<point x="731" y="209" type="line"/>
+			<point x="274" y="1188" type="line"/>
+			<point x="104" y="1188" type="line"/>
+		</contour>
+		<contour>
+			<point x="659" y="141" type="line"/>
+			<point x="803" y="141" type="line"/>
+			<point x="803" y="1188" type="line"/>
+			<point x="659" y="1188" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		logicalOrWithMiddleStem
+	</note>
 </glyph>

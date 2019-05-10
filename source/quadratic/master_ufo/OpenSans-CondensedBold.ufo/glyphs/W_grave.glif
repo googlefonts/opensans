@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wgrave" format="2">
-  <advance width="1622.0"/>
-  <unicode hex="1E80"/>
-  <note>
-Wgrave
-</note>
-  <anchor x="810.7" y="0.0" name="bottom"/>
-  <anchor x="810.7" y="1462.0" name="top"/>
-  <outline>
-    <component base="W"/>
-    <component base="grave" xOffset="810.0" yOffset="348.0"/>
-  </outline>
+	<unicode hex="1E80"/>
+	<advance width="1622"/>
+	<outline>
+		<component base="W"/>
+		<component base="grave" xOffset="810" yOffset="348"/>
+	</outline>
+	<anchor name="bottom" x="810.7" y="0"/>
+	<anchor name="top" x="810.7" y="1462"/>
+	<note>
+		Wgrave
+	</note>
 </glyph>

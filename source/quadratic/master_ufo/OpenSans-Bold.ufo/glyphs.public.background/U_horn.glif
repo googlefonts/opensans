@@ -1,39 +1,39 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorn" format="2">
-  <anchor x="767.0" y="0.0" name="bottom"/>
-  <anchor x="777.0" y="1462.0" name="top"/>
-  <outline>
-    <contour>
-      <point x="763.0" y="-20.0" type="curve" smooth="yes"/>
-      <point x="1125.0" y="-20.0"/>
-      <point x="1377.0" y="173.0"/>
-      <point x="1377.0" y="516.0" type="curve" smooth="yes"/>
-      <point x="1377.0" y="1077.0" type="line"/>
-      <point x="1476.0" y="1091.0"/>
-      <point x="1556.0" y="1119.0"/>
-      <point x="1619.0" y="1161.0" type="curve" smooth="yes"/>
-      <point x="1731.0" y="1232.0"/>
-      <point x="1792.0" y="1333.0"/>
-      <point x="1831.0" y="1535.0" type="curve"/>
-      <point x="1817.0" y="1556.0" type="line"/>
-      <point x="1522.0" y="1556.0" type="line"/>
-      <point x="1522.0" y="1401.0"/>
-      <point x="1474.0" y="1297.0"/>
-      <point x="1377.0" y="1258.0" type="curve"/>
-      <point x="1377.0" y="1462.0" type="line"/>
-      <point x="1070.0" y="1462.0" type="line"/>
-      <point x="1070.0" y="549.0" type="line" smooth="yes"/>
-      <point x="1070.0" y="339.0"/>
-      <point x="974.0" y="237.0"/>
-      <point x="775.0" y="237.0" type="curve" smooth="yes"/>
-      <point x="572.0" y="237.0"/>
-      <point x="483.0" y="336.0"/>
-      <point x="483.0" y="550.0" type="curve" smooth="yes"/>
-      <point x="483.0" y="1462.0" type="line"/>
-      <point x="174.0" y="1462.0" type="line"/>
-      <point x="174.0" y="520.0" type="line" smooth="yes"/>
-      <point x="174.0" y="183.0"/>
-      <point x="390.0" y="-20.0"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="763" y="-20" type="curve" smooth="yes"/>
+			<point x="1125" y="-20"/>
+			<point x="1377" y="173"/>
+			<point x="1377" y="516" type="curve" smooth="yes"/>
+			<point x="1377" y="1077" type="line"/>
+			<point x="1476" y="1091"/>
+			<point x="1556" y="1119"/>
+			<point x="1619" y="1161" type="curve" smooth="yes"/>
+			<point x="1731" y="1232"/>
+			<point x="1792" y="1333"/>
+			<point x="1831" y="1535" type="curve"/>
+			<point x="1817" y="1556" type="line"/>
+			<point x="1522" y="1556" type="line"/>
+			<point x="1522" y="1401"/>
+			<point x="1474" y="1297"/>
+			<point x="1377" y="1258" type="curve"/>
+			<point x="1377" y="1462" type="line"/>
+			<point x="1070" y="1462" type="line"/>
+			<point x="1070" y="549" type="line" smooth="yes"/>
+			<point x="1070" y="339"/>
+			<point x="974" y="237"/>
+			<point x="775" y="237" type="curve" smooth="yes"/>
+			<point x="572" y="237"/>
+			<point x="483" y="336"/>
+			<point x="483" y="550" type="curve" smooth="yes"/>
+			<point x="483" y="1462" type="line"/>
+			<point x="174" y="1462" type="line"/>
+			<point x="174" y="520" type="line" smooth="yes"/>
+			<point x="174" y="183"/>
+			<point x="390" y="-20"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="767" y="0"/>
+	<anchor name="top" x="777" y="1462"/>
 </glyph>

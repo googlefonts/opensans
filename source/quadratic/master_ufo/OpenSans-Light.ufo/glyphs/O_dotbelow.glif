@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Odotbelow" format="2">
-  <advance width="1565.0"/>
-  <unicode hex="1ECC"/>
-  <note>
-uni1ECC
-</note>
-  <anchor x="783.0" y="-324.0" name="bottom"/>
-  <anchor x="783.0" y="731.0" name="center"/>
-  <anchor x="1408.0" y="10.0" name="ogonek"/>
-  <anchor x="783.0" y="1462.0" name="top"/>
-  <anchor x="20.0" y="1462.0" name="topleft"/>
-  <anchor x="1545.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="O"/>
-    <component base="dotbelowcomb" xOffset="783.0"/>
-  </outline>
+	<unicode hex="1ECC"/>
+	<advance width="1565"/>
+	<outline>
+		<component base="O"/>
+		<component base="dotbelowcomb" xOffset="783"/>
+	</outline>
+	<anchor name="bottom" x="783" y="-324"/>
+	<anchor name="center" x="783" y="731"/>
+	<anchor name="ogonek" x="1408" y="10"/>
+	<anchor name="top" x="783" y="1462"/>
+	<anchor name="topleft" x="20" y="1462"/>
+	<anchor name="topright" x="1545" y="1462"/>
+	<note>
+		uni1ECC
+	</note>
 </glyph>

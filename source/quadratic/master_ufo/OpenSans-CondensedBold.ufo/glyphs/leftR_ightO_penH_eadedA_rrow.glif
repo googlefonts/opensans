@@ -1,46 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftRightOpenHeadedArrow" format="2">
-  <advance width="2060.0"/>
-  <unicode hex="21FF"/>
-  <note>
-leftRightOpenHeadedArrow
-</note>
-  <outline>
-    <contour>
-      <point x="1462.0" y="446.0" type="line"/>
-      <point x="1956.0" y="707.0" type="line"/>
-      <point x="1462.0" y="967.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="598.0" y="446.0" type="line"/>
-      <point x="598.0" y="967.0" type="line"/>
-      <point x="104.0" y="707.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="500.0" y="608.0" type="line"/>
-      <point x="299.0" y="707.0" type="line"/>
-      <point x="500.0" y="805.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="557.0" y="651.0" type="line"/>
-      <point x="1503.0" y="651.0" type="line"/>
-      <point x="1503.0" y="762.0" type="line"/>
-      <point x="557.0" y="762.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="1561.0" y="608.0" type="line"/>
-      <point x="1561.0" y="805.0" type="line"/>
-      <point x="1761.0" y="707.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Arrow</string>
-    </dict>
-  </lib>
+	<unicode hex="21FF"/>
+	<advance width="2060"/>
+	<outline>
+		<contour>
+			<point x="1462" y="446" type="line"/>
+			<point x="1956" y="707" type="line"/>
+			<point x="1462" y="967" type="line"/>
+		</contour>
+		<contour>
+			<point x="598" y="446" type="line"/>
+			<point x="598" y="967" type="line"/>
+			<point x="104" y="707" type="line"/>
+		</contour>
+		<contour>
+			<point x="500" y="608" type="line"/>
+			<point x="299" y="707" type="line"/>
+			<point x="500" y="805" type="line"/>
+		</contour>
+		<contour>
+			<point x="557" y="651" type="line"/>
+			<point x="1503" y="651" type="line"/>
+			<point x="1503" y="762" type="line"/>
+			<point x="557" y="762" type="line"/>
+		</contour>
+		<contour>
+			<point x="1561" y="608" type="line"/>
+			<point x="1561" y="805" type="line"/>
+			<point x="1761" y="707" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Arrow</string>
+		</dict>
+	</lib>
+	<note>
+		leftRightOpenHeadedArrow
+	</note>
 </glyph>

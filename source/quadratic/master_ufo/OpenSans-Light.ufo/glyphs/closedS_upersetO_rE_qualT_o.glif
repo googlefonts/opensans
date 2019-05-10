@@ -1,48 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="closedSupersetOrEqualTo" format="2">
-  <advance width="1391.0"/>
-  <unicode hex="2AD2"/>
-  <note>
-closedSupersetOrEqualTo
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="287.0" type="line"/>
-      <point x="584.0" y="287.0" type="line" smooth="yes"/>
-      <point x="1065.0" y="287.0"/>
-      <point x="1286.0" y="438.0"/>
-      <point x="1286.0" y="780.0" type="curve" smooth="yes"/>
-      <point x="1286.0" y="1120.0"/>
-      <point x="1065.0" y="1274.0"/>
-      <point x="584.0" y="1274.0" type="curve" smooth="yes"/>
-      <point x="104.0" y="1274.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="0.0" type="line"/>
-      <point x="1286.0" y="0.0" type="line"/>
-      <point x="1286.0" y="145.0" type="line"/>
-      <point x="104.0" y="145.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="432.0" type="line"/>
-      <point x="250.0" y="1128.0" type="line"/>
-      <point x="584.0" y="1128.0" type="line" smooth="yes"/>
-      <point x="987.0" y="1128.0"/>
-      <point x="1139.0" y="1028.0"/>
-      <point x="1139.0" y="780.0" type="curve" smooth="yes"/>
-      <point x="1139.0" y="532.0"/>
-      <point x="987.0" y="432.0"/>
-      <point x="584.0" y="432.0" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2AD2"/>
+	<advance width="1391"/>
+	<outline>
+		<contour>
+			<point x="104" y="287" type="line"/>
+			<point x="584" y="287" type="line" smooth="yes"/>
+			<point x="1065" y="287"/>
+			<point x="1286" y="438"/>
+			<point x="1286" y="780" type="curve" smooth="yes"/>
+			<point x="1286" y="1120"/>
+			<point x="1065" y="1274"/>
+			<point x="584" y="1274" type="curve" smooth="yes"/>
+			<point x="104" y="1274" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="0" type="line"/>
+			<point x="1286" y="0" type="line"/>
+			<point x="1286" y="145" type="line"/>
+			<point x="104" y="145" type="line"/>
+		</contour>
+		<contour>
+			<point x="250" y="432" type="line"/>
+			<point x="250" y="1128" type="line"/>
+			<point x="584" y="1128" type="line" smooth="yes"/>
+			<point x="987" y="1128"/>
+			<point x="1139" y="1028"/>
+			<point x="1139" y="780" type="curve" smooth="yes"/>
+			<point x="1139" y="532"/>
+			<point x="987" y="432"/>
+			<point x="584" y="432" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		closedSupersetOrEqualTo
+	</note>
 </glyph>

@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iota.ss01" format="2">
-  <advance width="797.0"/>
-  <note>
-g359
-</note>
-  <anchor x="29.439" y="1462.0" name="topleft"/>
-  <anchor x="399.0" y="0.0" name="bottom"/>
-  <anchor x="651.0" y="10.0" name="ogonek"/>
-  <outline>
-    <component base="I.ss01"/>
-  </outline>
+	<advance width="797"/>
+	<outline>
+		<component base="I.ss01"/>
+	</outline>
+	<anchor name="topleft" x="29.439" y="1462"/>
+	<anchor name="bottom" x="399" y="0"/>
+	<anchor name="ogonek" x="651" y="10"/>
+	<note>
+		g359
+	</note>
 </glyph>

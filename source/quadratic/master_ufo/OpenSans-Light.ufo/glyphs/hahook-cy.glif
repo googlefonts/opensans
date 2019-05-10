@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahook-cy" format="2">
-  <advance width="1020.0"/>
-  <unicode hex="04FD"/>
-  <note>
-uni04FD
-</note>
-  <anchor x="510.0" y="0.0" name="bottom"/>
-  <anchor x="882.0" y="0.0" name="cyrillicbighook"/>
-  <anchor x="510.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="x"/>
-    <component base="cyrillicbighookLC" xOffset="703.0" yOffset="-1.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>x</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>x</string>
-    </dict>
-  </lib>
+	<unicode hex="04FD"/>
+	<advance width="1020"/>
+	<outline>
+		<component base="x"/>
+		<component base="cyrillicbighookLC" xOffset="703" yOffset="-1"/>
+	</outline>
+	<anchor name="bottom" x="510" y="0"/>
+	<anchor name="cyrillicbighook" x="882" y="0"/>
+	<anchor name="top" x="510" y="1087"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>x</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+			<string>x</string>
+		</dict>
+	</lib>
+	<note>
+		uni04FD
+	</note>
 </glyph>

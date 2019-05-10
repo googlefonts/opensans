@@ -1,38 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="stretchedbehArabic-math" format="2">
-  <advance width="1278.0"/>
-  <unicode hex="1EE61"/>
-  <outline>
-    <contour>
-      <point x="926.0" y="-121.0" type="curve"/>
-      <point x="956.0" y="-90.0"/>
-      <point x="1032.0" y="-6.0"/>
-      <point x="1057.0" y="29.0" type="curve"/>
-      <point x="1012.0" y="70.0"/>
-      <point x="973.0" y="109.0"/>
-      <point x="922.0" y="164.0" type="curve"/>
-      <point x="885.0" y="121.0"/>
-      <point x="829.0" y="61.0"/>
-      <point x="778.0" y="12.0" type="curve"/>
-      <point x="821.0" y="-35.0"/>
-      <point x="874.0" y="-82.0"/>
-    </contour>
-    <component base="stretcheddotlessbehArabic-math"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>stretcheddotlessbehArabic-math</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="1EE61"/>
+	<advance width="1278"/>
+	<outline>
+		<contour>
+			<point x="926" y="-121" type="curve"/>
+			<point x="956" y="-90"/>
+			<point x="1032" y="-6"/>
+			<point x="1057" y="29" type="curve"/>
+			<point x="1012" y="70"/>
+			<point x="973" y="109"/>
+			<point x="922" y="164" type="curve"/>
+			<point x="885" y="121"/>
+			<point x="829" y="61"/>
+			<point x="778" y="12" type="curve"/>
+			<point x="821" y="-35"/>
+			<point x="874" y="-82"/>
+		</contour>
+		<component base="stretcheddotlessbehArabic-math"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>stretcheddotlessbehArabic-math</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

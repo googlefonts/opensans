@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohm" format="2">
-  <advance width="1630.0"/>
-  <unicode hex="2126"/>
-  <note>
-Omega
-</note>
-  <anchor x="815.0" y="0.0" name="bottom"/>
-  <anchor x="239.0" y="1451.0" name="topleft"/>
-  <outline>
-    <component base="Omega"/>
-  </outline>
+	<unicode hex="2126"/>
+	<advance width="1630"/>
+	<outline>
+		<component base="Omega"/>
+	</outline>
+	<anchor name="bottom" x="815" y="0"/>
+	<anchor name="topleft" x="239" y="1451"/>
+	<note>
+		Omega
+	</note>
 </glyph>

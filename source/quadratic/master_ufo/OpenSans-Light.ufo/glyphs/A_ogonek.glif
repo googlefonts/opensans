@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aogonek" format="2">
-  <advance width="1229.0"/>
-  <unicode hex="0104"/>
-  <note>
-Aogonek
-</note>
-  <anchor x="615.0" y="0.0" name="bottom"/>
-  <anchor x="1106.0" y="10.0" name="ogonek"/>
-  <anchor x="615.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="A"/>
-    <component base="ogonekcomb" xOffset="1301.0"/>
-  </outline>
+	<unicode hex="0104"/>
+	<advance width="1229"/>
+	<outline>
+		<component base="A"/>
+		<component base="ogonekcomb" xOffset="1301"/>
+	</outline>
+	<anchor name="bottom" x="615" y="0"/>
+	<anchor name="ogonek" x="1106" y="10"/>
+	<anchor name="top" x="615" y="1462"/>
+	<note>
+		Aogonek
+	</note>
 </glyph>

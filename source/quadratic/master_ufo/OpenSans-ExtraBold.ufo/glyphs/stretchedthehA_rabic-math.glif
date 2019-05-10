@@ -1,68 +1,68 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="stretchedthehArabic-math" format="2">
-  <advance width="1395.0"/>
-  <unicode hex="1EE76"/>
-  <anchor x="895.0" y="1516.0" name="mark0"/>
-  <anchor x="1163.0" y="215.0" name="mark1"/>
-  <outline>
-    <contour>
-      <point x="1149.0" y="1087.0" type="curve"/>
-      <point x="1178.0" y="1112.0"/>
-      <point x="1247.0" y="1188.0"/>
-      <point x="1260.0" y="1214.0" type="curve"/>
-      <point x="1225.0" y="1247.0"/>
-      <point x="1190.0" y="1282.0"/>
-      <point x="1147.0" y="1327.0" type="curve"/>
-      <point x="1116.0" y="1290.0"/>
-      <point x="1071.0" y="1241.0"/>
-      <point x="1028.0" y="1200.0" type="curve"/>
-      <point x="1063.0" y="1161.0"/>
-      <point x="1106.0" y="1120.0"/>
-    </contour>
-    <contour>
-      <point x="858.0" y="1063.0" type="curve"/>
-      <point x="891.0" y="1096.0"/>
-      <point x="946.0" y="1155.0"/>
-      <point x="967.0" y="1188.0" type="curve"/>
-      <point x="932.0" y="1221.0"/>
-      <point x="895.0" y="1255.0"/>
-      <point x="854.0" y="1298.0" type="curve"/>
-      <point x="823.0" y="1264.0"/>
-      <point x="778.0" y="1214.0"/>
-      <point x="735.0" y="1174.0" type="curve"/>
-      <point x="770.0" y="1135.0"/>
-      <point x="815.0" y="1096.0"/>
-    </contour>
-    <contour>
-      <point x="1004.0" y="1255.0" type="curve"/>
-      <point x="1026.0" y="1274.0"/>
-      <point x="1090.0" y="1333.0"/>
-      <point x="1110.0" y="1358.0" type="curve"/>
-      <point x="1055.0" y="1407.0"/>
-      <point x="1030.0" y="1430.0"/>
-      <point x="997.0" y="1470.0" type="curve"/>
-      <point x="965.0" y="1434.0"/>
-      <point x="956.0" y="1425.0"/>
-      <point x="889.0" y="1358.0" type="curve"/>
-      <point x="915.0" y="1327.0"/>
-      <point x="973.0" y="1276.0"/>
-    </contour>
-    <component base="stretcheddotlessbehArabic-math"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>stretcheddotlessbehArabic-math</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="1EE76"/>
+	<advance width="1395"/>
+	<outline>
+		<contour>
+			<point x="1149" y="1087" type="curve"/>
+			<point x="1178" y="1112"/>
+			<point x="1247" y="1188"/>
+			<point x="1260" y="1214" type="curve"/>
+			<point x="1225" y="1247"/>
+			<point x="1190" y="1282"/>
+			<point x="1147" y="1327" type="curve"/>
+			<point x="1116" y="1290"/>
+			<point x="1071" y="1241"/>
+			<point x="1028" y="1200" type="curve"/>
+			<point x="1063" y="1161"/>
+			<point x="1106" y="1120"/>
+		</contour>
+		<contour>
+			<point x="858" y="1063" type="curve"/>
+			<point x="891" y="1096"/>
+			<point x="946" y="1155"/>
+			<point x="967" y="1188" type="curve"/>
+			<point x="932" y="1221"/>
+			<point x="895" y="1255"/>
+			<point x="854" y="1298" type="curve"/>
+			<point x="823" y="1264"/>
+			<point x="778" y="1214"/>
+			<point x="735" y="1174" type="curve"/>
+			<point x="770" y="1135"/>
+			<point x="815" y="1096"/>
+		</contour>
+		<contour>
+			<point x="1004" y="1255" type="curve"/>
+			<point x="1026" y="1274"/>
+			<point x="1090" y="1333"/>
+			<point x="1110" y="1358" type="curve"/>
+			<point x="1055" y="1407"/>
+			<point x="1030" y="1430"/>
+			<point x="997" y="1470" type="curve"/>
+			<point x="965" y="1434"/>
+			<point x="956" y="1425"/>
+			<point x="889" y="1358" type="curve"/>
+			<point x="915" y="1327"/>
+			<point x="973" y="1276"/>
+		</contour>
+		<component base="stretcheddotlessbehArabic-math"/>
+	</outline>
+	<anchor name="mark0" x="895" y="1516"/>
+	<anchor name="mark1" x="1163" y="215"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+			<string>stretcheddotlessbehArabic-math</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

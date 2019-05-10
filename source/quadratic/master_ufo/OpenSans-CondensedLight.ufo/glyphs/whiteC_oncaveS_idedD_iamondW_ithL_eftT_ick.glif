@@ -1,54 +1,54 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="whiteConcaveSidedDiamondWithLeftTick" format="2">
-  <advance width="1796.0"/>
-  <unicode hex="27E2"/>
-  <note>
-whiteConcaveSidedDiamondWithLeftTick
-</note>
-  <outline>
-    <contour>
-      <point x="969.0" y="-2.0" type="curve"/>
-      <point x="979.0" y="-2.0" type="line"/>
-      <point x="1243.0" y="383.0"/>
-      <point x="1423.0" y="539.0"/>
-      <point x="1692.0" y="719.0" type="curve"/>
-      <point x="1692.0" y="729.0" type="line"/>
-      <point x="1386.0" y="934.0"/>
-      <point x="1214.0" y="1104.0"/>
-      <point x="979.0" y="1446.0" type="curve"/>
-      <point x="969.0" y="1446.0" type="line"/>
-      <point x="766.0" y="1145.0"/>
-      <point x="602.0" y="979.0"/>
-      <point x="350.0" y="795.0" type="curve"/>
-      <point x="-10.0" y="795.0" type="line"/>
-      <point x="-10.0" y="651.0" type="line"/>
-      <point x="352.0" y="651.0" type="line"/>
-      <point x="604.0" y="469.0"/>
-      <point x="756.0" y="311.0"/>
-    </contour>
-    <contour>
-      <point x="975.0" y="231.0" type="curve"/>
-      <point x="782.0" y="481.0"/>
-      <point x="664.0" y="592.0"/>
-      <point x="479.0" y="723.0" type="curve"/>
-      <point x="674.0" y="862.0"/>
-      <point x="797.0" y="981.0"/>
-      <point x="975.0" y="1217.0" type="curve"/>
-      <point x="1143.0" y="985.0"/>
-      <point x="1278.0" y="856.0"/>
-      <point x="1470.0" y="723.0" type="curve"/>
-      <point x="1284.0" y="594.0"/>
-      <point x="1153.0" y="469.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="27E2"/>
+	<advance width="1796"/>
+	<outline>
+		<contour>
+			<point x="969" y="-2" type="curve"/>
+			<point x="979" y="-2" type="line"/>
+			<point x="1243" y="383"/>
+			<point x="1423" y="539"/>
+			<point x="1692" y="719" type="curve"/>
+			<point x="1692" y="729" type="line"/>
+			<point x="1386" y="934"/>
+			<point x="1214" y="1104"/>
+			<point x="979" y="1446" type="curve"/>
+			<point x="969" y="1446" type="line"/>
+			<point x="766" y="1145"/>
+			<point x="602" y="979"/>
+			<point x="350" y="795" type="curve"/>
+			<point x="-10" y="795" type="line"/>
+			<point x="-10" y="651" type="line"/>
+			<point x="352" y="651" type="line"/>
+			<point x="604" y="469"/>
+			<point x="756" y="311"/>
+		</contour>
+		<contour>
+			<point x="975" y="231" type="curve"/>
+			<point x="782" y="481"/>
+			<point x="664" y="592"/>
+			<point x="479" y="723" type="curve"/>
+			<point x="674" y="862"/>
+			<point x="797" y="981"/>
+			<point x="975" y="1217" type="curve"/>
+			<point x="1143" y="985"/>
+			<point x="1278" y="856"/>
+			<point x="1470" y="723" type="curve"/>
+			<point x="1284" y="594"/>
+			<point x="1153" y="469"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		whiteConcaveSidedDiamondWithLeftTick
+	</note>
 </glyph>

@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pedagesh-hb" format="2">
-  <advance width="1190.0"/>
-  <unicode hex="FB44"/>
-  <note>
-uniFB44
-</note>
-  <anchor x="595.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="595.0" y="845.0" name="center"/>
-  <anchor x="595.0" y="1087.0" name="top"/>
-  <anchor x="20.0" y="1087.0" name="topleft"/>
-  <outline>
-    <component base="pe-hb"/>
-    <component base="dagesh-hb" xOffset="586.0" yOffset="281.0"/>
-  </outline>
+	<unicode hex="FB44"/>
+	<advance width="1190"/>
+	<outline>
+		<component base="pe-hb"/>
+		<component base="dagesh-hb" xOffset="586" yOffset="281"/>
+	</outline>
+	<anchor name="bottom" x="595" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="595" y="845"/>
+	<anchor name="top" x="595" y="1087"/>
+	<anchor name="topleft" x="20" y="1087"/>
+	<note>
+		uniFB44
+	</note>
 </glyph>

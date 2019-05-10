@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="betdagesh-hb" format="2">
-  <advance width="1016.0"/>
-  <unicode hex="FB31"/>
-  <note>
-uniFB31
-</note>
-  <anchor x="508.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="374.0" y="665.0" name="center"/>
-  <anchor x="508.0" y="1087.0" name="top"/>
-  <anchor x="20.0" y="1087.0" name="topleft"/>
-  <outline>
-    <component base="bet-hb"/>
-    <component base="dagesh-hb" xOffset="365.0" yOffset="101.0"/>
-  </outline>
+	<unicode hex="FB31"/>
+	<advance width="1016"/>
+	<outline>
+		<component base="bet-hb"/>
+		<component base="dagesh-hb" xOffset="365" yOffset="101"/>
+	</outline>
+	<anchor name="bottom" x="508" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="374" y="665"/>
+	<anchor name="top" x="508" y="1087"/>
+	<anchor name="topleft" x="20" y="1087"/>
+	<note>
+		uniFB31
+	</note>
 </glyph>

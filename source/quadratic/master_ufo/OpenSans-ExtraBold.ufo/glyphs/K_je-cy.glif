@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kje-cy" format="2">
-  <advance width="1427.0"/>
-  <unicode hex="040C"/>
-  <note>
-afii10061
-</note>
-  <anchor x="1407.0" y="0.0" name="bottomright"/>
-  <anchor x="914.0" y="1898.0" name="top"/>
-  <outline>
-    <component base="Ka-cy"/>
-    <component base="acutecomb" xOffset="914.0" yOffset="329.0"/>
-  </outline>
+	<unicode hex="040C"/>
+	<advance width="1427"/>
+	<outline>
+		<component base="Ka-cy"/>
+		<component base="acutecomb" xOffset="914" yOffset="329"/>
+	</outline>
+	<anchor name="bottomright" x="1407" y="0"/>
+	<anchor name="top" x="914" y="1898"/>
+	<note>
+		afii10061
+	</note>
 </glyph>

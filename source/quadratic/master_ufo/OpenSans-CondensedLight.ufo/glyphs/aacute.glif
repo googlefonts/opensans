@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aacute" format="2">
-  <advance width="784.0"/>
-  <unicode hex="00E1"/>
-  <note>
-aacute
-</note>
-  <anchor x="392.0" y="0.0" name="bottom"/>
-  <anchor x="725.0" y="10.0" name="ogonek"/>
-  <anchor x="482.0" y="1531.0" name="top"/>
-  <outline>
-    <component base="a"/>
-    <component base="acutecomb" xOffset="482.0" yOffset="-38.0"/>
-  </outline>
+	<unicode hex="00E1"/>
+	<advance width="784"/>
+	<outline>
+		<component base="a"/>
+		<component base="acutecomb" xOffset="482" yOffset="-38"/>
+	</outline>
+	<anchor name="bottom" x="392" y="0"/>
+	<anchor name="ogonek" x="725" y="10"/>
+	<anchor name="top" x="482" y="1531"/>
+	<note>
+		aacute
+	</note>
 </glyph>

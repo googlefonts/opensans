@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ushort-cy" format="2">
-  <advance width="971.0"/>
-  <unicode hex="040E"/>
-  <note>
-afii10062
-</note>
-  <anchor x="485.8" y="1462.0" name="top"/>
-  <outline>
-    <component base="U-cy"/>
-    <component base="brevecomb-cy" xOffset="21.0" yOffset="348.0"/>
-  </outline>
+	<unicode hex="040E"/>
+	<advance width="971"/>
+	<outline>
+		<component base="U-cy"/>
+		<component base="brevecomb-cy" xOffset="21" yOffset="348"/>
+	</outline>
+	<anchor name="top" x="485.8" y="1462"/>
+	<note>
+		afii10062
+	</note>
 </glyph>

@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gcommaaccent" format="2">
-  <advance width="1481.0"/>
-  <unicode hex="0122"/>
-  <note>
-Gcommaaccent
-</note>
-  <anchor x="711.0" y="-453.0" name="bottom"/>
-  <anchor x="741.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="G"/>
-    <component base="commaaccentcomb" xOffset="945.0"/>
-  </outline>
+	<unicode hex="0122"/>
+	<advance width="1481"/>
+	<outline>
+		<component base="G"/>
+		<component base="commaaccentcomb" xOffset="945"/>
+	</outline>
+	<anchor name="bottom" x="711" y="-453"/>
+	<anchor name="top" x="741" y="1462"/>
+	<note>
+		Gcommaaccent
+	</note>
 </glyph>

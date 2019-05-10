@@ -1,30 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tackleft" format="2">
-  <advance width="1548.0"/>
-  <unicode hex="22A3"/>
-  <note>
-tackleft
-</note>
-  <outline>
-    <contour>
-      <point x="1298.0" y="53.0" type="line"/>
-      <point x="1444.0" y="53.0" type="line"/>
-      <point x="1444.0" y="1393.0" type="line"/>
-      <point x="1298.0" y="1393.0" type="line"/>
-      <point x="1298.0" y="797.0" type="line"/>
-      <point x="104.0" y="797.0" type="line"/>
-      <point x="104.0" y="651.0" type="line"/>
-      <point x="1298.0" y="651.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="22A3"/>
+	<advance width="1548"/>
+	<outline>
+		<contour>
+			<point x="1298" y="53" type="line"/>
+			<point x="1444" y="53" type="line"/>
+			<point x="1444" y="1393" type="line"/>
+			<point x="1298" y="1393" type="line"/>
+			<point x="1298" y="797" type="line"/>
+			<point x="104" y="797" type="line"/>
+			<point x="104" y="651" type="line"/>
+			<point x="1298" y="651" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		tackleft
+	</note>
 </glyph>

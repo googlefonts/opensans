@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="increasesAs" format="2">
-  <advance width="1171.0"/>
-  <unicode hex="29E1"/>
-  <note>
-increasesAs
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="485.0" type="line"/>
-      <point x="1067.0" y="485.0" type="line"/>
-      <point x="1067.0" y="1257.0" type="line"/>
-      <point x="104.0" y="555.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="209.0" type="line"/>
-      <point x="1067.0" y="209.0" type="line"/>
-      <point x="1067.0" y="354.0" type="line"/>
-      <point x="104.0" y="354.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="424.0" y="625.0" type="line"/>
-      <point x="928.0" y="995.0" type="line"/>
-      <point x="928.0" y="625.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="29E1"/>
+	<advance width="1171"/>
+	<outline>
+		<contour>
+			<point x="104" y="485" type="line"/>
+			<point x="1067" y="485" type="line"/>
+			<point x="1067" y="1257" type="line"/>
+			<point x="104" y="555" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="209" type="line"/>
+			<point x="1067" y="209" type="line"/>
+			<point x="1067" y="354" type="line"/>
+			<point x="104" y="354" type="line"/>
+		</contour>
+		<contour>
+			<point x="424" y="625" type="line"/>
+			<point x="928" y="995" type="line"/>
+			<point x="928" y="625" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		increasesAs
+	</note>
 </glyph>

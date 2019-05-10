@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Alpha" format="2">
-  <advance width="1094.0"/>
-  <unicode hex="0391"/>
-  <note>
-Alpha
-</note>
-  <anchor x="249.7" y="1496.7" name="topleft"/>
-  <anchor x="547.0" y="0.0" name="bottom"/>
-  <anchor x="1015.5" y="10.0" name="ogonek"/>
-  <outline>
-    <component base="A"/>
-  </outline>
+	<unicode hex="0391"/>
+	<advance width="1094"/>
+	<outline>
+		<component base="A"/>
+	</outline>
+	<anchor name="topleft" x="249.7" y="1496.7"/>
+	<anchor name="bottom" x="547" y="0"/>
+	<anchor name="ogonek" x="1015.5" y="10"/>
+	<note>
+		Alpha
+	</note>
 </glyph>

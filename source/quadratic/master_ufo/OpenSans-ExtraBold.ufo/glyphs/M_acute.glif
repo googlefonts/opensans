@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Macute" format="2">
-  <advance width="1980.0"/>
-  <unicode hex="1E3E"/>
-  <note>
-uni1E3E
-</note>
-  <anchor x="990.0" y="0.0" name="bottom"/>
-  <anchor x="990.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="M"/>
-    <component base="acute" xOffset="1120.0" yOffset="329.0"/>
-  </outline>
+	<unicode hex="1E3E"/>
+	<advance width="1980"/>
+	<outline>
+		<component base="M"/>
+		<component base="acute" xOffset="1120" yOffset="329"/>
+	</outline>
+	<anchor name="bottom" x="990" y="0"/>
+	<anchor name="top" x="990" y="1462"/>
+	<note>
+		uni1E3E
+	</note>
 </glyph>

@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute" format="2">
-  <advance width="1081.0"/>
-  <unicode hex="00DD"/>
-  <note>
-Yacute
-</note>
-  <anchor x="541.0" y="0.0" name="bottom"/>
-  <anchor x="541.0" y="1462.0" name="top"/>
-  <anchor x="20.0" y="1462.0" name="topleft"/>
-  <outline>
-    <component base="Y"/>
-    <component base="acute" xOffset="1123.0" yOffset="335.0"/>
-  </outline>
+	<unicode hex="00DD"/>
+	<advance width="1081"/>
+	<outline>
+		<component base="Y"/>
+		<component base="acute" xOffset="1123" yOffset="335"/>
+	</outline>
+	<anchor name="bottom" x="541" y="0"/>
+	<anchor name="top" x="541" y="1462"/>
+	<anchor name="topleft" x="20" y="1462"/>
+	<note>
+		Yacute
+	</note>
 </glyph>

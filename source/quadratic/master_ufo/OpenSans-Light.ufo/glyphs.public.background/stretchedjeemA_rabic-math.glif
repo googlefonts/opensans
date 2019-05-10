@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="stretchedjeemArabic-math" format="2">
-  <anchor x="1212.0" y="1137.0" name="mark0"/>
-  <anchor x="1409.0" y="57.0" name="mark1"/>
-  <outline>
-    <contour>
-      <point x="1628.0" y="-2.0" type="curve"/>
-      <point x="1663.0" y="31.0"/>
-      <point x="1733.0" y="109.0"/>
-      <point x="1759.0" y="147.0" type="curve"/>
-      <point x="1714.0" y="188.0"/>
-      <point x="1675.0" y="227.0"/>
-      <point x="1624.0" y="283.0" type="curve"/>
-      <point x="1587.0" y="240.0"/>
-      <point x="1532.0" y="180.0"/>
-      <point x="1481.0" y="131.0" type="curve"/>
-      <point x="1524.0" y="84.0"/>
-      <point x="1577.0" y="37.0"/>
-    </contour>
-    <component base="stretchedhahArabic-math"/>
-  </outline>
+	<outline>
+		<contour>
+			<point x="1628" y="-2" type="curve"/>
+			<point x="1663" y="31"/>
+			<point x="1733" y="109"/>
+			<point x="1759" y="147" type="curve"/>
+			<point x="1714" y="188"/>
+			<point x="1675" y="227"/>
+			<point x="1624" y="283" type="curve"/>
+			<point x="1587" y="240"/>
+			<point x="1532" y="180"/>
+			<point x="1481" y="131" type="curve"/>
+			<point x="1524" y="84"/>
+			<point x="1577" y="37"/>
+		</contour>
+		<component base="stretchedhahArabic-math"/>
+	</outline>
+	<anchor name="mark0" x="1212" y="1137"/>
+	<anchor name="mark1" x="1409" y="57"/>
 </glyph>

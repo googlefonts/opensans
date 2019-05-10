@@ -1,36 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squaredRisingDiagonalSlash" format="2">
-  <advance width="1548.0"/>
-  <unicode hex="29C4"/>
-  <note>
-squaredRisingDiagonalSlash
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="53.0" type="line"/>
-      <point x="1444.0" y="53.0" type="line"/>
-      <point x="1444.0" y="1393.0" type="line"/>
-      <point x="104.0" y="1393.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="352.0" y="199.0" type="line"/>
-      <point x="1298.0" y="1145.0" type="line"/>
-      <point x="1298.0" y="199.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="301.0" type="line"/>
-      <point x="250.0" y="1247.0" type="line"/>
-      <point x="1196.0" y="1247.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="29C4"/>
+	<advance width="1548"/>
+	<outline>
+		<contour>
+			<point x="104" y="53" type="line"/>
+			<point x="1444" y="53" type="line"/>
+			<point x="1444" y="1393" type="line"/>
+			<point x="104" y="1393" type="line"/>
+		</contour>
+		<contour>
+			<point x="352" y="199" type="line"/>
+			<point x="1298" y="1145" type="line"/>
+			<point x="1298" y="199" type="line"/>
+		</contour>
+		<contour>
+			<point x="250" y="301" type="line"/>
+			<point x="250" y="1247" type="line"/>
+			<point x="1196" y="1247" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		squaredRisingDiagonalSlash
+	</note>
 </glyph>

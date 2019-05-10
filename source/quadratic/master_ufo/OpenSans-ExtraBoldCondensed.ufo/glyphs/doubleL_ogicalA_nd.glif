@@ -1,40 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleLogicalAnd" format="2">
-  <advance width="1462.0"/>
-  <unicode hex="2A53"/>
-  <note>
-doubleLogicalAnd
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="0.0" type="line"/>
-      <point x="262.0" y="0.0" type="line"/>
-      <point x="752.0" y="1049.0" type="line"/>
-      <point x="711.0" y="1049.0" type="line"/>
-      <point x="1200.0" y="0.0" type="line"/>
-      <point x="1358.0" y="0.0" type="line"/>
-      <point x="782.0" y="1188.0" type="line"/>
-      <point x="680.0" y="1188.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="377.0" y="0.0" type="line"/>
-      <point x="518.0" y="0.0" type="line"/>
-      <point x="752.0" y="524.0" type="line"/>
-      <point x="711.0" y="524.0" type="line"/>
-      <point x="944.0" y="0.0" type="line"/>
-      <point x="1085.0" y="0.0" type="line"/>
-      <point x="760.0" y="698.0" type="line"/>
-      <point x="702.0" y="698.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A53"/>
+	<advance width="1462"/>
+	<outline>
+		<contour>
+			<point x="104" y="0" type="line"/>
+			<point x="262" y="0" type="line"/>
+			<point x="752" y="1049" type="line"/>
+			<point x="711" y="1049" type="line"/>
+			<point x="1200" y="0" type="line"/>
+			<point x="1358" y="0" type="line"/>
+			<point x="782" y="1188" type="line"/>
+			<point x="680" y="1188" type="line"/>
+		</contour>
+		<contour>
+			<point x="377" y="0" type="line"/>
+			<point x="518" y="0" type="line"/>
+			<point x="752" y="524" type="line"/>
+			<point x="711" y="524" type="line"/>
+			<point x="944" y="0" type="line"/>
+			<point x="1085" y="0" type="line"/>
+			<point x="760" y="698" type="line"/>
+			<point x="702" y="698" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		doubleLogicalAnd
+	</note>
 </glyph>

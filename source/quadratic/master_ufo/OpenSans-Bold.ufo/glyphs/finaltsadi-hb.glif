@@ -1,101 +1,101 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="finaltsadi-hb" format="2">
-  <advance width="1173.0"/>
-  <unicode hex="05E5"/>
-  <note>
-afii57685
-</note>
-  <anchor x="568.0" y="0.0" name="bottom"/>
-  <anchor x="28.0" y="0.0" name="bottomleft"/>
-  <anchor x="568.0" y="560.0" name="center"/>
-  <anchor x="568.0" y="1119.0" name="top"/>
-  <anchor x="28.0" y="1119.0" name="topleft"/>
-  <outline>
-    <contour>
-      <point x="288.0" y="-492.0" type="line"/>
-      <point x="590.0" y="-492.0" type="line"/>
-      <point x="590.0" y="427.0" type="line"/>
-      <point x="657.0" y="439.0" type="line" smooth="yes"/>
-      <point x="777.0" y="446.0"/>
-      <point x="872.0" y="486.0"/>
-      <point x="927.0" y="538.0" type="curve" smooth="yes"/>
-      <point x="1000.0" y="607.0"/>
-      <point x="1037.0" y="711.0"/>
-      <point x="1037.0" y="847.0" type="curve" smooth="yes"/>
-      <point x="1037.0" y="1293.0" type="line"/>
-      <point x="736.0" y="1293.0" type="line"/>
-      <point x="736.0" y="858.0" type="line" smooth="yes"/>
-      <point x="736.0" y="735.0"/>
-      <point x="695.0" y="670.0"/>
-      <point x="615.0" y="660.0" type="curve" smooth="yes"/>
-      <point x="598.0" y="656.0"/>
-      <point x="581.0" y="652.0"/>
-      <point x="564.0" y="648.0" type="curve"/>
-      <point x="331.0" y="1293.0" type="line"/>
-      <point x="8.0" y="1293.0" type="line"/>
-      <point x="288.0" y="572.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>21.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>19.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <real>0.0</real>
-            <real>8.0</real>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <real>0.0</real>
-            <real>21.0</real>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="05E5"/>
+	<advance width="1173"/>
+	<outline>
+		<contour>
+			<point x="288" y="-492" type="line"/>
+			<point x="590" y="-492" type="line"/>
+			<point x="590" y="427" type="line"/>
+			<point x="657" y="439" type="line" smooth="yes"/>
+			<point x="777" y="446"/>
+			<point x="872" y="486"/>
+			<point x="927" y="538" type="curve" smooth="yes"/>
+			<point x="1000" y="607"/>
+			<point x="1037" y="711"/>
+			<point x="1037" y="847" type="curve" smooth="yes"/>
+			<point x="1037" y="1293" type="line"/>
+			<point x="736" y="1293" type="line"/>
+			<point x="736" y="858" type="line" smooth="yes"/>
+			<point x="736" y="735"/>
+			<point x="695" y="670"/>
+			<point x="615" y="660" type="curve" smooth="yes"/>
+			<point x="598" y="656"/>
+			<point x="581" y="652"/>
+			<point x="564" y="648" type="curve"/>
+			<point x="331" y="1293" type="line"/>
+			<point x="8" y="1293" type="line"/>
+			<point x="288" y="572" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="568" y="0"/>
+	<anchor name="bottomleft" x="28" y="0"/>
+	<anchor name="center" x="568" y="560"/>
+	<anchor name="top" x="568" y="1119"/>
+	<anchor name="topleft" x="28" y="1119"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.hints</key>
+			<array>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<string>u</string>
+						<string>p</string>
+					</array>
+					<key>type</key>
+					<string>BottomGhost</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<false/>
+					<key>options</key>
+					<integer>0</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>19</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>target</key>
+					<array>
+						<integer>0</integer>
+						<integer>8</integer>
+					</array>
+					<key>type</key>
+					<string>Stem</string>
+				</dict>
+				<dict>
+					<key>horizontal</key>
+					<true/>
+					<key>options</key>
+					<integer>4</integer>
+					<key>origin</key>
+					<array>
+						<integer>0</integer>
+						<integer>21</integer>
+					</array>
+					<key>stem</key>
+					<integer>-2</integer>
+					<key>type</key>
+					<string>Anchor</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		afii57685
+	</note>
 </glyph>

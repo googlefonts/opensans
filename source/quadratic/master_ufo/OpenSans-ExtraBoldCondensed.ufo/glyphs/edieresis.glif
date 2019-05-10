@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edieresis" format="2">
-  <advance width="1002.0"/>
-  <unicode hex="00EB"/>
-  <note>
-edieresis
-</note>
-  <anchor x="553.0" y="0.0" name="bottom"/>
-  <anchor x="772.0" y="18.0" name="ogonek"/>
-  <anchor x="500.0" y="1534.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="dieresiscomb" xOffset="-265.0" yOffset="-25.0"/>
-  </outline>
+	<unicode hex="00EB"/>
+	<advance width="1002"/>
+	<outline>
+		<component base="e"/>
+		<component base="dieresiscomb" xOffset="-265" yOffset="-25"/>
+	</outline>
+	<anchor name="bottom" x="553" y="0"/>
+	<anchor name="ogonek" x="772" y="18"/>
+	<anchor name="top" x="500" y="1534"/>
+	<note>
+		edieresis
+	</note>
 </glyph>

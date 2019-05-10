@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udotbelow" format="2">
-  <advance width="1208.0"/>
-  <unicode hex="1EE5"/>
-  <note>
-uni1EE5
-</note>
-  <anchor x="604.0" y="-324.0" name="bottom"/>
-  <anchor x="927.0" y="10.0" name="ogonek"/>
-  <anchor x="604.0" y="1087.0" name="top"/>
-  <anchor x="1188.0" y="1087.0" name="topright"/>
-  <outline>
-    <component base="u"/>
-    <component base="dotbelowcomb" xOffset="604.0"/>
-  </outline>
+	<unicode hex="1EE5"/>
+	<advance width="1208"/>
+	<outline>
+		<component base="u"/>
+		<component base="dotbelowcomb" xOffset="604"/>
+	</outline>
+	<anchor name="bottom" x="604" y="-324"/>
+	<anchor name="ogonek" x="927" y="10"/>
+	<anchor name="top" x="604" y="1087"/>
+	<anchor name="topright" x="1188" y="1087"/>
+	<note>
+		uni1EE5
+	</note>
 </glyph>

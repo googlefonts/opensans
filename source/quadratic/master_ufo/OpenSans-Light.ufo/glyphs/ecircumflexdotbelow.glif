@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflexdotbelow" format="2">
-  <advance width="1124.0"/>
-  <unicode hex="1EC7"/>
-  <note>
-uni1EC7
-</note>
-  <anchor x="562.0" y="-324.0" name="bottom"/>
-  <anchor x="617.0" y="47.0" name="ogonek"/>
-  <anchor x="562.0" y="1087.0" name="top"/>
-  <outline>
-    <component base="e"/>
-    <component base="circumflex" xOffset="271.0" yOffset="-40.0"/>
-    <component base="dotbelowcomb" xOffset="562.0"/>
-  </outline>
+	<unicode hex="1EC7"/>
+	<advance width="1124"/>
+	<outline>
+		<component base="e"/>
+		<component base="circumflex" xOffset="271" yOffset="-40"/>
+		<component base="dotbelowcomb" xOffset="562"/>
+	</outline>
+	<anchor name="bottom" x="562" y="-324"/>
+	<anchor name="ogonek" x="617" y="47"/>
+	<anchor name="top" x="562" y="1087"/>
+	<note>
+		uni1EC7
+	</note>
 </glyph>

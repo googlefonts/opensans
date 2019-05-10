@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhungarumlaut" format="2">
-  <outline>
-    <component base="U"/>
-    <component base="hungarumlaut" xOffset="258.0" yOffset="338.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-    </dict>
-  </lib>
+	<outline>
+		<component base="U"/>
+		<component base="hungarumlaut" xOffset="258" yOffset="338"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

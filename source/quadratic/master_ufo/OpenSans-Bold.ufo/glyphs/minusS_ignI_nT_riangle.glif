@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="minusSignInTriangle" format="2">
-  <advance width="1765.0"/>
-  <unicode hex="2A3A"/>
-  <note>
-minusSignInTriangle
-</note>
-  <outline>
-    <contour>
-      <point x="104.0" y="0.0" type="line"/>
-      <point x="1661.0" y="0.0" type="line"/>
-      <point x="936.0" y="1501.0" type="line"/>
-      <point x="834.0" y="1501.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="657.0" y="412.0" type="line"/>
-      <point x="1108.0" y="412.0" type="line"/>
-      <point x="1108.0" y="528.0" type="line"/>
-      <point x="657.0" y="528.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="342.0" y="143.0" type="line"/>
-      <point x="885.0" y="1292.0" type="line"/>
-      <point x="1423.0" y="143.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A3A"/>
+	<advance width="1765"/>
+	<outline>
+		<contour>
+			<point x="104" y="0" type="line"/>
+			<point x="1661" y="0" type="line"/>
+			<point x="936" y="1501" type="line"/>
+			<point x="834" y="1501" type="line"/>
+		</contour>
+		<contour>
+			<point x="657" y="412" type="line"/>
+			<point x="1108" y="412" type="line"/>
+			<point x="1108" y="528" type="line"/>
+			<point x="657" y="528" type="line"/>
+		</contour>
+		<contour>
+			<point x="342" y="143" type="line"/>
+			<point x="885" y="1292" type="line"/>
+			<point x="1423" y="143" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		minusSignInTriangle
+	</note>
 </glyph>

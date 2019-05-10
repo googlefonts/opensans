@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vav-hb" format="2">
-  <anchor x="311.0" y="0.0" name="bottom"/>
-  <anchor x="31.0" y="0.0" name="bottomleft"/>
-  <anchor x="12.0" y="671.0" name="center"/>
-  <anchor x="311.0" y="1319.0" name="top"/>
-  <anchor x="31.0" y="1119.0" name="topleft"/>
-  <outline>
-    <contour>
-      <point x="160.0" y="0.0" type="line"/>
-      <point x="462.0" y="0.0" type="line"/>
-      <point x="462.0" y="1293.0" type="line"/>
-      <point x="160.0" y="1293.0" type="line"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="160" y="0" type="line"/>
+			<point x="462" y="0" type="line"/>
+			<point x="462" y="1293" type="line"/>
+			<point x="160" y="1293" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="311" y="0"/>
+	<anchor name="bottomleft" x="31" y="0"/>
+	<anchor name="center" x="12" y="671"/>
+	<anchor name="top" x="311" y="1319"/>
+	<anchor name="topleft" x="31" y="1119"/>
 </glyph>

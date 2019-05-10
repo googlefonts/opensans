@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="obliqueAngleOpeningUp" format="2">
-  <advance width="1270.0"/>
-  <unicode hex="29A6"/>
-  <note>
-obliqueAngleOpeningUp
-</note>
-  <outline>
-    <contour>
-      <point x="545.0" y="307.0" type="line"/>
-      <point x="1165.0" y="307.0" type="line"/>
-      <point x="1165.0" y="453.0" type="line"/>
-      <point x="606.0" y="453.0" type="line"/>
-      <point x="207.0" y="848.0" type="line"/>
-      <point x="104.0" y="745.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="29A6"/>
+	<advance width="1270"/>
+	<outline>
+		<contour>
+			<point x="545" y="307" type="line"/>
+			<point x="1165" y="307" type="line"/>
+			<point x="1165" y="453" type="line"/>
+			<point x="606" y="453" type="line"/>
+			<point x="207" y="848" type="line"/>
+			<point x="104" y="745" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		obliqueAngleOpeningUp
+	</note>
 </glyph>

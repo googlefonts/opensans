@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcommaaccent" format="2">
-  <advance width="686.0"/>
-  <unicode hex="021B"/>
-  <note>
-uni021B
-</note>
-  <anchor x="333.0" y="-453.0" name="bottom"/>
-  <anchor x="343.0" y="544.0" name="center"/>
-  <anchor x="343.0" y="1087.0" name="top"/>
-  <anchor x="678.0" y="1556.0" name="topright"/>
-  <outline>
-    <component base="t"/>
-    <component base="commaaccentcomb" xOffset="567.0"/>
-  </outline>
+	<unicode hex="021B"/>
+	<advance width="686"/>
+	<outline>
+		<component base="t"/>
+		<component base="commaaccentcomb" xOffset="567"/>
+	</outline>
+	<anchor name="bottom" x="333" y="-453"/>
+	<anchor name="center" x="343" y="544"/>
+	<anchor name="top" x="343" y="1087"/>
+	<anchor name="topright" x="678" y="1556"/>
+	<note>
+		uni021B
+	</note>
 </glyph>

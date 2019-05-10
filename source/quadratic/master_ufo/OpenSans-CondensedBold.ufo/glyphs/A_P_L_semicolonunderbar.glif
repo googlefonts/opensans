@@ -1,51 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLsemicolonunderbar" format="2">
-  <advance width="901.0"/>
-  <unicode hex="236E"/>
-  <note>
-APLsemicolonunderbar
-</note>
-  <outline>
-    <contour>
-      <point x="313.0" y="0.0" type="curve"/>
-      <point x="449.0" y="0.0" type="line"/>
-      <point x="545.0" y="213.0"/>
-      <point x="573.0" y="305.0"/>
-      <point x="602.0" y="412.0" type="curve"/>
-      <point x="588.0" y="434.0" type="line"/>
-      <point x="395.0" y="434.0" type="line"/>
-      <point x="373.0" y="272.0"/>
-      <point x="344.0" y="129.0"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="-305.0" type="line"/>
-      <point x="797.0" y="-305.0" type="line"/>
-      <point x="797.0" y="-160.0" type="line"/>
-      <point x="104.0" y="-160.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="500.0" y="772.0" type="curve" smooth="yes"/>
-      <point x="571.0" y="772.0"/>
-      <point x="629.0" y="815.0"/>
-      <point x="629.0" y="913.0" type="curve" smooth="yes"/>
-      <point x="629.0" y="1010.0"/>
-      <point x="571.0" y="1055.0"/>
-      <point x="500.0" y="1055.0" type="curve" smooth="yes"/>
-      <point x="424.0" y="1055.0"/>
-      <point x="369.0" y="1010.0"/>
-      <point x="369.0" y="913.0" type="curve" smooth="yes"/>
-      <point x="369.0" y="815.0"/>
-      <point x="426.0" y="772.0"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="236E"/>
+	<advance width="901"/>
+	<outline>
+		<contour>
+			<point x="313" y="0" type="curve"/>
+			<point x="449" y="0" type="line"/>
+			<point x="545" y="213"/>
+			<point x="573" y="305"/>
+			<point x="602" y="412" type="curve"/>
+			<point x="588" y="434" type="line"/>
+			<point x="395" y="434" type="line"/>
+			<point x="373" y="272"/>
+			<point x="344" y="129"/>
+		</contour>
+		<contour>
+			<point x="104" y="-305" type="line"/>
+			<point x="797" y="-305" type="line"/>
+			<point x="797" y="-160" type="line"/>
+			<point x="104" y="-160" type="line"/>
+		</contour>
+		<contour>
+			<point x="500" y="772" type="curve" smooth="yes"/>
+			<point x="571" y="772"/>
+			<point x="629" y="815"/>
+			<point x="629" y="913" type="curve" smooth="yes"/>
+			<point x="629" y="1010"/>
+			<point x="571" y="1055"/>
+			<point x="500" y="1055" type="curve" smooth="yes"/>
+			<point x="424" y="1055"/>
+			<point x="369" y="1010"/>
+			<point x="369" y="913" type="curve" smooth="yes"/>
+			<point x="369" y="815"/>
+			<point x="426" y="772"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		APLsemicolonunderbar
+	</note>
 </glyph>

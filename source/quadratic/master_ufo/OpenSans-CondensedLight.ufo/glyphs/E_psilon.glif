@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilon" format="2">
-  <advance width="788.0"/>
-  <unicode hex="0395"/>
-  <note>
-Epsilon
-</note>
-  <anchor x="262.0" y="1461.0" name="topleft"/>
-  <anchor x="394.0" y="0.0" name="bottom"/>
-  <anchor x="709.0" y="10.0" name="ogonek"/>
-  <outline>
-    <component base="E"/>
-  </outline>
+	<unicode hex="0395"/>
+	<advance width="788"/>
+	<outline>
+		<component base="E"/>
+	</outline>
+	<anchor name="topleft" x="262" y="1461"/>
+	<anchor name="bottom" x="394" y="0"/>
+	<anchor name="ogonek" x="709" y="10"/>
+	<note>
+		Epsilon
+	</note>
 </glyph>

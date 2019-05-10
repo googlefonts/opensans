@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dze-cy" format="2">
-  <advance width="766.0"/>
-  <unicode hex="0455"/>
-  <note>
-afii10102
-</note>
-  <anchor x="342.0" y="0.0" name="bottom"/>
-  <anchor x="382.5" y="1114.4" name="top"/>
-  <outline>
-    <component base="s"/>
-  </outline>
+	<unicode hex="0455"/>
+	<advance width="766"/>
+	<outline>
+		<component base="s"/>
+	</outline>
+	<anchor name="bottom" x="342" y="0"/>
+	<anchor name="top" x="382.5" y="1114.4"/>
+	<note>
+		afii10102
+	</note>
 </glyph>

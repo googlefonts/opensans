@@ -1,19 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="f_f_i" format="2">
-  <advance width="2358.0"/>
-  <unicode hex="FB03"/>
-  <note>
-ffi
-</note>
-  <anchor x="2025.0" y="0.0" name="bottom"/>
-  <anchor x="423.0" y="0.0" name="bottom_1"/>
-  <anchor x="1269.0" y="0.0" name="bottom_2"/>
-  <anchor x="2191.0" y="10.0" name="ogonek"/>
-  <anchor x="2025.0" y="1589.0" name="top"/>
-  <anchor x="423.0" y="1133.0" name="top_1"/>
-  <anchor x="1269.0" y="1133.0" name="top_2"/>
-  <outline>
-    <component base="f_f"/>
-    <component base="i" xOffset="1692.0"/>
-  </outline>
+	<unicode hex="FB03"/>
+	<advance width="2358"/>
+	<outline>
+		<component base="f_f"/>
+		<component base="i" xOffset="1692"/>
+	</outline>
+	<anchor name="bottom" x="2025" y="0"/>
+	<anchor name="bottom_1" x="423" y="0"/>
+	<anchor name="bottom_2" x="1269" y="0"/>
+	<anchor name="ogonek" x="2191" y="10"/>
+	<anchor name="top" x="2025" y="1589"/>
+	<anchor name="top_1" x="423" y="1133"/>
+	<anchor name="top_2" x="1269" y="1133"/>
+	<note>
+		ffi
+	</note>
 </glyph>

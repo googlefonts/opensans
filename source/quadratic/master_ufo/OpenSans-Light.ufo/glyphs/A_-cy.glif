@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A-cy" format="2">
-  <advance width="1229.0"/>
-  <unicode hex="0410"/>
-  <note>
-afii10017
-</note>
-  <anchor x="615.0" y="0.0" name="bottom"/>
-  <anchor x="1106.0" y="10.0" name="ogonek"/>
-  <anchor x="615.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="A"/>
-  </outline>
+	<unicode hex="0410"/>
+	<advance width="1229"/>
+	<outline>
+		<component base="A"/>
+	</outline>
+	<anchor name="bottom" x="615" y="0"/>
+	<anchor name="ogonek" x="1106" y="10"/>
+	<anchor name="top" x="615" y="1462"/>
+	<note>
+		afii10017
+	</note>
 </glyph>

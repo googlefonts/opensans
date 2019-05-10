@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornacute" format="2">
-  <advance width="850.0"/>
-  <unicode hex="1EDB"/>
-  <note>
-uni1EDB
-</note>
-  <anchor x="422.0" y="0.0" name="bottom"/>
-  <anchor x="426.0" y="1085.0" name="top"/>
-  <outline>
-    <component base="ohorn"/>
-    <component base="acute" xOffset="516.0" yOffset="-38.0"/>
-  </outline>
+	<unicode hex="1EDB"/>
+	<advance width="850"/>
+	<outline>
+		<component base="ohorn"/>
+		<component base="acute" xOffset="516" yOffset="-38"/>
+	</outline>
+	<anchor name="bottom" x="422" y="0"/>
+	<anchor name="top" x="426" y="1085"/>
+	<note>
+		uni1EDB
+	</note>
 </glyph>

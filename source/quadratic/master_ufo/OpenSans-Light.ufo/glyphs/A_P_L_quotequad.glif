@@ -1,31 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLquotequad" format="2">
-  <advance width="1491.0"/>
-  <unicode hex="235E"/>
-  <note>
-APLquotequad
-</note>
-  <outline>
-    <contour>
-      <point x="690.0" y="915.0" type="line"/>
-      <point x="803.0" y="915.0" type="line"/>
-      <point x="844.0" y="1444.0" type="line"/>
-      <point x="649.0" y="1444.0" type="line"/>
-    </contour>
-    <component base="APLquad"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="235E"/>
+	<advance width="1491"/>
+	<outline>
+		<contour>
+			<point x="690" y="915" type="line"/>
+			<point x="803" y="915" type="line"/>
+			<point x="844" y="1444" type="line"/>
+			<point x="649" y="1444" type="line"/>
+		</contour>
+		<component base="APLquad"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		APLquotequad
+	</note>
 </glyph>

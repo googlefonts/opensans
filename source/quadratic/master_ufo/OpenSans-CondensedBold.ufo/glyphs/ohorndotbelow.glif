@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorndotbelow" format="2">
-  <advance width="1120.0"/>
-  <unicode hex="1EE3"/>
-  <note>
-uni1EE3
-</note>
-  <anchor x="504.0" y="-416.0" name="bottom"/>
-  <anchor x="507.9" y="1114.4" name="top"/>
-  <outline>
-    <component base="ohorn"/>
-    <component base="dotbelowcomb" xOffset="505.0"/>
-  </outline>
+	<unicode hex="1EE3"/>
+	<advance width="1120"/>
+	<outline>
+		<component base="ohorn"/>
+		<component base="dotbelowcomb" xOffset="505"/>
+	</outline>
+	<anchor name="bottom" x="504" y="-416"/>
+	<anchor name="top" x="507.9" y="1114.4"/>
+	<note>
+		uni1EE3
+	</note>
 </glyph>

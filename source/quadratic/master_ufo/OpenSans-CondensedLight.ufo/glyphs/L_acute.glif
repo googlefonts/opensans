@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lacute" format="2">
-  <advance width="711.0"/>
-  <unicode hex="0139"/>
-  <note>
-Lacute
-</note>
-  <anchor x="356.0" y="0.0" name="bottom"/>
-  <anchor x="356.0" y="731.0" name="center"/>
-  <anchor x="206.0" y="1462.0" name="top"/>
-  <anchor x="584.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="L"/>
-    <component base="acute" xOffset="296.0" yOffset="339.0"/>
-  </outline>
+	<unicode hex="0139"/>
+	<advance width="711"/>
+	<outline>
+		<component base="L"/>
+		<component base="acute" xOffset="296" yOffset="339"/>
+	</outline>
+	<anchor name="bottom" x="356" y="0"/>
+	<anchor name="center" x="356" y="731"/>
+	<anchor name="top" x="206" y="1462"/>
+	<anchor name="topright" x="584" y="1462"/>
+	<note>
+		Lacute
+	</note>
 </glyph>

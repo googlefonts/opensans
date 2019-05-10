@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iebreve-cy" format="2">
-  <advance width="1130.0"/>
-  <unicode hex="04D6"/>
-  <note>
-uni04D6
-</note>
-  <anchor x="565.0" y="0.0" name="bottom"/>
-  <anchor x="797.0" y="10.0" name="ogonek"/>
-  <anchor x="605.0" y="1462.0" name="top"/>
-  <anchor x="20.0" y="1462.0" name="topleft"/>
-  <outline>
-    <component base="Ie-cy"/>
-    <component base="brevecomb-cy" xOffset="125.0" yOffset="329.0"/>
-  </outline>
+	<unicode hex="04D6"/>
+	<advance width="1130"/>
+	<outline>
+		<component base="Ie-cy"/>
+		<component base="brevecomb-cy" xOffset="125" yOffset="329"/>
+	</outline>
+	<anchor name="bottom" x="565" y="0"/>
+	<anchor name="ogonek" x="797" y="10"/>
+	<anchor name="top" x="605" y="1462"/>
+	<anchor name="topleft" x="20" y="1462"/>
+	<note>
+		uni04D6
+	</note>
 </glyph>

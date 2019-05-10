@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gje-cy" format="2">
-  <advance width="862.0"/>
-  <unicode hex="0453"/>
-  <note>
-afii10100
-</note>
-  <anchor x="842.0" y="0.0" name="bottomright"/>
-  <anchor x="671.0" y="1529.0" name="top"/>
-  <outline>
-    <component base="ge-cy"/>
-    <component base="acutecomb" xOffset="1153.0" yOffset="-40.0"/>
-  </outline>
+	<unicode hex="0453"/>
+	<advance width="862"/>
+	<outline>
+		<component base="ge-cy"/>
+		<component base="acutecomb" xOffset="1153" yOffset="-40"/>
+	</outline>
+	<anchor name="bottomright" x="842" y="0"/>
+	<anchor name="top" x="671" y="1529"/>
+	<note>
+		afii10100
+	</note>
 </glyph>

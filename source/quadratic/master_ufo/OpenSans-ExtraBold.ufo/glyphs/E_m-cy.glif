@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Em-cy" format="2">
-  <advance width="1980.0"/>
-  <unicode hex="041C"/>
-  <note>
-afii10030
-</note>
-  <anchor x="990.0" y="0.0" name="bottom"/>
-  <anchor x="990.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="M"/>
-  </outline>
+	<unicode hex="041C"/>
+	<advance width="1980"/>
+	<outline>
+		<component base="M"/>
+	</outline>
+	<anchor name="bottom" x="990" y="0"/>
+	<anchor name="top" x="990" y="1462"/>
+	<note>
+		afii10030
+	</note>
 </glyph>

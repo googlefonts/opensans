@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Umacron-cy" format="2">
-  <advance width="686.0"/>
-  <unicode hex="04EE"/>
-  <note>
-uni04EE
-</note>
-  <anchor x="343.0" y="1710.0" name="top"/>
-  <outline>
-    <component base="U-cy"/>
-    <component base="macroncomb" xOffset="117.0" yOffset="377.0"/>
-  </outline>
+	<unicode hex="04EE"/>
+	<advance width="686"/>
+	<outline>
+		<component base="U-cy"/>
+		<component base="macroncomb" xOffset="117" yOffset="377"/>
+	</outline>
+	<anchor name="top" x="343" y="1710"/>
+	<note>
+		uni04EE
+	</note>
 </glyph>

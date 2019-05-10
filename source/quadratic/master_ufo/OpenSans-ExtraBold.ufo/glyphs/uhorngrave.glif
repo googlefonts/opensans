@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorngrave" format="2">
-  <advance width="1659.0"/>
-  <unicode hex="1EEB"/>
-  <note>
-uni1EEB
-</note>
-  <anchor x="830.0" y="0.0" name="bottom"/>
-  <anchor x="830.0" y="1133.0" name="top"/>
-  <outline>
-    <component base="uhorn"/>
-    <component base="grave" xOffset="700.0" yOffset="10.0"/>
-  </outline>
+	<unicode hex="1EEB"/>
+	<advance width="1659"/>
+	<outline>
+		<component base="uhorn"/>
+		<component base="grave" xOffset="700" yOffset="10"/>
+	</outline>
+	<anchor name="bottom" x="830" y="0"/>
+	<anchor name="top" x="830" y="1133"/>
+	<note>
+		uni1EEB
+	</note>
 </glyph>

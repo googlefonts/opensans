@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uacute" format="2">
-  <advance width="870.0"/>
-  <unicode hex="00FA"/>
-  <note>
-uacute
-</note>
-  <anchor x="435.0" y="0.0" name="bottom"/>
-  <anchor x="806.0" y="10.0" name="ogonek"/>
-  <anchor x="525.0" y="1531.0" name="top"/>
-  <anchor x="850.0" y="1085.0" name="topright"/>
-  <outline>
-    <component base="u"/>
-    <component base="acutecomb" xOffset="525.0" yOffset="-38.0"/>
-  </outline>
+	<unicode hex="00FA"/>
+	<advance width="870"/>
+	<outline>
+		<component base="u"/>
+		<component base="acutecomb" xOffset="525" yOffset="-38"/>
+	</outline>
+	<anchor name="bottom" x="435" y="0"/>
+	<anchor name="ogonek" x="806" y="10"/>
+	<anchor name="top" x="525" y="1531"/>
+	<anchor name="topright" x="850" y="1085"/>
+	<note>
+		uacute
+	</note>
 </glyph>

@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="2">
-  <advance width="1552.0"/>
-  <unicode hex="00BE"/>
-  <note>
-threequarters
-</note>
-  <outline>
-    <component base="three.numr"/>
-    <component base="fraction" xOffset="718.0"/>
-    <component base="four.dnom" xOffset="864.0"/>
-  </outline>
+	<unicode hex="00BE"/>
+	<advance width="1552"/>
+	<outline>
+		<component base="three.numr"/>
+		<component base="fraction" xOffset="718"/>
+		<component base="four.dnom" xOffset="864"/>
+	</outline>
+	<note>
+		threequarters
+	</note>
 </glyph>

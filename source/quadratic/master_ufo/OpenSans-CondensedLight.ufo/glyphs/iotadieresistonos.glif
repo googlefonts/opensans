@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iotadieresistonos" format="2">
-  <advance width="446.0"/>
-  <unicode hex="0390"/>
-  <note>
-iotadieresistonos
-</note>
-  <anchor x="223.0" y="1085.0" name="top"/>
-  <outline>
-    <component base="iota"/>
-    <component base="dieresistonos" xOffset="-341.0"/>
-  </outline>
+	<unicode hex="0390"/>
+	<advance width="446"/>
+	<outline>
+		<component base="iota"/>
+		<component base="dieresistonos" xOffset="-341"/>
+	</outline>
+	<anchor name="top" x="223" y="1085"/>
+	<note>
+		iotadieresistonos
+	</note>
 </glyph>

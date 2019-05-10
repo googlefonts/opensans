@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idotless" format="2">
-  <anchor x="312.0" y="0.0" name="bottom"/>
-  <anchor x="549.0" y="10.0" name="ogonek"/>
-  <anchor x="311.0" y="1119.0" name="top"/>
-  <outline>
-    <contour>
-      <point x="463.0" y="1119.0" type="line"/>
-      <point x="160.0" y="1119.0" type="line"/>
-      <point x="160.0" y="0.0" type="line"/>
-      <point x="463.0" y="0.0" type="line"/>
-    </contour>
-  </outline>
+	<outline>
+		<contour>
+			<point x="463" y="1119" type="line"/>
+			<point x="160" y="1119" type="line"/>
+			<point x="160" y="0" type="line"/>
+			<point x="463" y="0" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="312" y="0"/>
+	<anchor name="ogonek" x="549" y="10"/>
+	<anchor name="top" x="311" y="1119"/>
 </glyph>

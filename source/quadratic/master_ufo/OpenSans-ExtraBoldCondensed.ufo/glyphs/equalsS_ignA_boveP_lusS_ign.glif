@@ -1,44 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="equalsSignAbovePlusSign" format="2">
-  <advance width="1171.0"/>
-  <unicode hex="2A71"/>
-  <note>
-equalsSignAbovePlusSign
-</note>
-  <outline>
-    <contour>
-      <point x="512.0" y="-53.0" type="line"/>
-      <point x="659.0" y="-53.0" type="line"/>
-      <point x="659.0" y="938.0" type="line"/>
-      <point x="512.0" y="938.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="369.0" type="line"/>
-      <point x="1067.0" y="369.0" type="line"/>
-      <point x="1067.0" y="514.0" type="line"/>
-      <point x="104.0" y="514.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="1026.0" type="line"/>
-      <point x="1067.0" y="1026.0" type="line"/>
-      <point x="1067.0" y="1171.0" type="line"/>
-      <point x="104.0" y="1171.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="1354.0" type="line"/>
-      <point x="1067.0" y="1354.0" type="line"/>
-      <point x="1067.0" y="1499.0" type="line"/>
-      <point x="104.0" y="1499.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A71"/>
+	<advance width="1171"/>
+	<outline>
+		<contour>
+			<point x="512" y="-53" type="line"/>
+			<point x="659" y="-53" type="line"/>
+			<point x="659" y="938" type="line"/>
+			<point x="512" y="938" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="369" type="line"/>
+			<point x="1067" y="369" type="line"/>
+			<point x="1067" y="514" type="line"/>
+			<point x="104" y="514" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="1026" type="line"/>
+			<point x="1067" y="1026" type="line"/>
+			<point x="1067" y="1171" type="line"/>
+			<point x="104" y="1171" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="1354" type="line"/>
+			<point x="1067" y="1354" type="line"/>
+			<point x="1067" y="1499" type="line"/>
+			<point x="104" y="1499" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		equalsSignAbovePlusSign
+	</note>
 </glyph>

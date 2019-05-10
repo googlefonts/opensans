@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yerudieresis-cy" format="2">
-  <advance width="1169.0"/>
-  <unicode hex="04F9"/>
-  <note>
-uni04F9
-</note>
-  <anchor x="977.0" y="0.0" name="bottom"/>
-  <anchor x="1110.0" y="10.0" name="ogonek"/>
-  <anchor x="585.0" y="1428.0" name="top"/>
-  <outline>
-    <component base="yeru-cy"/>
-    <component base="dieresiscomb" xOffset="22.0" yOffset="-42.0"/>
-  </outline>
+	<unicode hex="04F9"/>
+	<advance width="1169"/>
+	<outline>
+		<component base="yeru-cy"/>
+		<component base="dieresiscomb" xOffset="22" yOffset="-42"/>
+	</outline>
+	<anchor name="bottom" x="977" y="0"/>
+	<anchor name="ogonek" x="1110" y="10"/>
+	<anchor name="top" x="585" y="1428"/>
+	<note>
+		uni04F9
+	</note>
 </glyph>

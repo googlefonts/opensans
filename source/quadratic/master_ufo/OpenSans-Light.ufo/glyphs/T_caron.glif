@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcaron" format="2">
-  <advance width="1073.0"/>
-  <unicode hex="0164"/>
-  <note>
-Tcaron
-</note>
-  <anchor x="515.0" y="0.0" name="bottom"/>
-  <anchor x="537.0" y="731.0" name="center"/>
-  <anchor x="537.0" y="1462.0" name="top"/>
-  <outline>
-    <component base="T"/>
-    <component base="caron" xOffset="246.0" yOffset="375.0"/>
-  </outline>
+	<unicode hex="0164"/>
+	<advance width="1073"/>
+	<outline>
+		<component base="T"/>
+		<component base="caron" xOffset="246" yOffset="375"/>
+	</outline>
+	<anchor name="bottom" x="515" y="0"/>
+	<anchor name="center" x="537" y="731"/>
+	<anchor name="top" x="537" y="1462"/>
+	<note>
+		Tcaron
+	</note>
 </glyph>

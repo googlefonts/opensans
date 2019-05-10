@@ -1,37 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLquadequal" format="2">
-  <advance width="1491.0"/>
-  <unicode hex="2338"/>
-  <note>
-APLquadequal
-</note>
-  <outline>
-    <contour>
-      <point x="342.0" y="864.0" type="line"/>
-      <point x="1149.0" y="864.0" type="line"/>
-      <point x="1149.0" y="1010.0" type="line"/>
-      <point x="342.0" y="1010.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="342.0" y="453.0" type="line"/>
-      <point x="1149.0" y="453.0" type="line"/>
-      <point x="1149.0" y="598.0" type="line"/>
-      <point x="342.0" y="598.0" type="line"/>
-    </contour>
-    <component base="APLquad"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
+	<unicode hex="2338"/>
+	<advance width="1491"/>
+	<outline>
+		<contour>
+			<point x="342" y="864" type="line"/>
+			<point x="1149" y="864" type="line"/>
+			<point x="1149" y="1010" type="line"/>
+			<point x="342" y="1010" type="line"/>
+		</contour>
+		<contour>
+			<point x="342" y="453" type="line"/>
+			<point x="1149" y="453" type="line"/>
+			<point x="1149" y="598" type="line"/>
+			<point x="342" y="598" type="line"/>
+		</contour>
+		<component base="APLquad"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</lib>
+	<note>
+		APLquadequal
+	</note>
 </glyph>

@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Etatonos" format="2">
-  <outline>
-    <component base="Eta" xOffset="137.0"/>
-    <component base="tonos" xOffset="-529.0" yOffset="-95.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-    </dict>
-  </lib>
+	<outline>
+		<component base="Eta" xOffset="137"/>
+		<component base="tonos" xOffset="-529" yOffset="-95"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.componentsAlignment</key>
+			<array>
+				<integer>-1</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</lib>
 </glyph>

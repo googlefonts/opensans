@@ -1,18 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ" format="2">
-  <advance width="1356.0"/>
-  <unicode hex="0132"/>
-  <note>
-IJ
-</note>
-  <anchor x="338.0" y="0.0" name="bottom_1"/>
-  <anchor x="1024.0" y="0.0" name="bottom_2"/>
-  <anchor x="469.0" y="10.0" name="ogonek"/>
-  <anchor x="338.0" y="1462.0" name="top_1"/>
-  <anchor x="1024.0" y="1462.0" name="top_2"/>
-  <anchor x="31.0" y="1462.0" name="topleft"/>
-  <outline>
-    <component base="I"/>
-    <component base="J" xOffset="678.0"/>
-  </outline>
+	<unicode hex="0132"/>
+	<advance width="1356"/>
+	<outline>
+		<component base="I"/>
+		<component base="J" xOffset="678"/>
+	</outline>
+	<anchor name="bottom_1" x="338" y="0"/>
+	<anchor name="bottom_2" x="1024" y="0"/>
+	<anchor name="ogonek" x="469" y="10"/>
+	<anchor name="top_1" x="338" y="1462"/>
+	<anchor name="top_2" x="1024" y="1462"/>
+	<anchor name="topleft" x="31" y="1462"/>
+	<note>
+		IJ
+	</note>
 </glyph>

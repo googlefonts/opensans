@@ -1,36 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doubleVerticalBarLeftTurnstile" format="2">
-  <advance width="1712.0"/>
-  <unicode hex="2AE3"/>
-  <note>
-doubleVerticalBarLeftTurnstile
-</note>
-  <outline>
-    <contour>
-      <point x="1073.0" y="53.0" type="line"/>
-      <point x="1219.0" y="53.0" type="line"/>
-      <point x="1219.0" y="1393.0" type="line"/>
-      <point x="1073.0" y="1393.0" type="line"/>
-      <point x="1073.0" y="799.0" type="line"/>
-      <point x="104.0" y="799.0" type="line"/>
-      <point x="104.0" y="653.0" type="line"/>
-      <point x="1073.0" y="653.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="1462.0" y="53.0" type="line"/>
-      <point x="1608.0" y="53.0" type="line"/>
-      <point x="1608.0" y="1393.0" type="line"/>
-      <point x="1462.0" y="1393.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2AE3"/>
+	<advance width="1712"/>
+	<outline>
+		<contour>
+			<point x="1073" y="53" type="line"/>
+			<point x="1219" y="53" type="line"/>
+			<point x="1219" y="1393" type="line"/>
+			<point x="1073" y="1393" type="line"/>
+			<point x="1073" y="799" type="line"/>
+			<point x="104" y="799" type="line"/>
+			<point x="104" y="653" type="line"/>
+			<point x="1073" y="653" type="line"/>
+		</contour>
+		<contour>
+			<point x="1462" y="53" type="line"/>
+			<point x="1608" y="53" type="line"/>
+			<point x="1608" y="1393" type="line"/>
+			<point x="1462" y="1393" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		doubleVerticalBarLeftTurnstile
+	</note>
 </glyph>

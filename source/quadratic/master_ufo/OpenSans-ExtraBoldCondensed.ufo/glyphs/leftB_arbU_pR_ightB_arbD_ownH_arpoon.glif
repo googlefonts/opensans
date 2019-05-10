@@ -1,50 +1,50 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftBarbUpRightBarbDownHarpoon" format="2">
-  <advance width="1626.0"/>
-  <unicode hex="294A"/>
-  <note>
-leftBarbUpRightBarbDownHarpoon
-</note>
-  <outline>
-    <contour>
-      <point x="1090.0" y="403.0" type="curve"/>
-      <point x="1180.0" y="403.0" type="line"/>
-      <point x="1288.0" y="530.0"/>
-      <point x="1403.0" y="625.0"/>
-      <point x="1522.0" y="684.0" type="curve"/>
-      <point x="1522.0" y="762.0" type="line"/>
-      <point x="1253.0" y="762.0" type="line"/>
-      <point x="1253.0" y="666.0" type="line"/>
-      <point x="1200.0" y="612.0"/>
-      <point x="1145.0" y="522.0"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="651.0" type="line"/>
-      <point x="373.0" y="651.0" type="line"/>
-      <point x="373.0" y="748.0" type="line"/>
-      <point x="426.0" y="801.0"/>
-      <point x="481.0" y="891.0"/>
-      <point x="537.0" y="1010.0" type="curve"/>
-      <point x="446.0" y="1010.0" type="line"/>
-      <point x="338.0" y="883.0"/>
-      <point x="223.0" y="788.0"/>
-      <point x="104.0" y="729.0" type="curve"/>
-    </contour>
-    <contour>
-      <point x="311.0" y="651.0" type="line"/>
-      <point x="1315.0" y="651.0" type="line"/>
-      <point x="1315.0" y="762.0" type="line"/>
-      <point x="311.0" y="762.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="294A"/>
+	<advance width="1626"/>
+	<outline>
+		<contour>
+			<point x="1090" y="403" type="curve"/>
+			<point x="1180" y="403" type="line"/>
+			<point x="1288" y="530"/>
+			<point x="1403" y="625"/>
+			<point x="1522" y="684" type="curve"/>
+			<point x="1522" y="762" type="line"/>
+			<point x="1253" y="762" type="line"/>
+			<point x="1253" y="666" type="line"/>
+			<point x="1200" y="612"/>
+			<point x="1145" y="522"/>
+		</contour>
+		<contour>
+			<point x="104" y="651" type="line"/>
+			<point x="373" y="651" type="line"/>
+			<point x="373" y="748" type="line"/>
+			<point x="426" y="801"/>
+			<point x="481" y="891"/>
+			<point x="537" y="1010" type="curve"/>
+			<point x="446" y="1010" type="line"/>
+			<point x="338" y="883"/>
+			<point x="223" y="788"/>
+			<point x="104" y="729" type="curve"/>
+		</contour>
+		<contour>
+			<point x="311" y="651" type="line"/>
+			<point x="1315" y="651" type="line"/>
+			<point x="1315" y="762" type="line"/>
+			<point x="311" y="762" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		leftBarbUpRightBarbDownHarpoon
+	</note>
 </glyph>

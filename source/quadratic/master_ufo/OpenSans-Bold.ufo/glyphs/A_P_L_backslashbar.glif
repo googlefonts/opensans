@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLbackslashbar" format="2">
-  <advance width="1104.0"/>
-  <unicode hex="2340"/>
-  <note>
-APLbackslashbar
-</note>
-  <outline>
-    <contour>
-      <point x="801.0" y="-225.0" type="line"/>
-      <point x="954.0" y="-225.0" type="line"/>
-      <point x="303.0" y="1460.0" type="line"/>
-      <point x="150.0" y="1460.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="549.0" type="line"/>
-      <point x="999.0" y="549.0" type="line"/>
-      <point x="999.0" y="686.0" type="line"/>
-      <point x="104.0" y="686.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="2340"/>
+	<advance width="1104"/>
+	<outline>
+		<contour>
+			<point x="801" y="-225" type="line"/>
+			<point x="954" y="-225" type="line"/>
+			<point x="303" y="1460" type="line"/>
+			<point x="150" y="1460" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="549" type="line"/>
+			<point x="999" y="549" type="line"/>
+			<point x="999" y="686" type="line"/>
+			<point x="104" y="686" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		APLbackslashbar
+	</note>
 </glyph>

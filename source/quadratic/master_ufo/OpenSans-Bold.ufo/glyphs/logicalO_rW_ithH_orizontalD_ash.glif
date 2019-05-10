@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalOrWithHorizontalDash" format="2">
-  <advance width="1532.0"/>
-  <unicode hex="2A5D"/>
-  <note>
-logicalOrWithHorizontalDash
-</note>
-  <outline>
-    <contour>
-      <point x="715.0" y="0.0" type="line"/>
-      <point x="817.0" y="0.0" type="line"/>
-      <point x="1393.0" y="1188.0" type="line"/>
-      <point x="1223.0" y="1188.0" type="line"/>
-      <point x="766.0" y="209.0" type="line"/>
-      <point x="309.0" y="1188.0" type="line"/>
-      <point x="139.0" y="1188.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="727.0" type="line"/>
-      <point x="1427.0" y="727.0" type="line"/>
-      <point x="1427.0" y="872.0" type="line"/>
-      <point x="104.0" y="872.0" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
+	<unicode hex="2A5D"/>
+	<advance width="1532"/>
+	<outline>
+		<contour>
+			<point x="715" y="0" type="line"/>
+			<point x="817" y="0" type="line"/>
+			<point x="1393" y="1188" type="line"/>
+			<point x="1223" y="1188" type="line"/>
+			<point x="766" y="209" type="line"/>
+			<point x="309" y="1188" type="line"/>
+			<point x="139" y="1188" type="line"/>
+		</contour>
+		<contour>
+			<point x="104" y="727" type="line"/>
+			<point x="1427" y="727" type="line"/>
+			<point x="1427" y="872" type="line"/>
+			<point x="104" y="872" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Math</string>
+		</dict>
+	</lib>
+	<note>
+		logicalOrWithHorizontalDash
+	</note>
 </glyph>

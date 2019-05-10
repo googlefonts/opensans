@@ -1,24 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qofdagesh-hb.rvrn" format="2">
-  <advance width="853.0"/>
-  <note>
-uniFB47
-</note>
-  <anchor x="427.0" y="0.0" name="bottom"/>
-  <anchor x="20.0" y="0.0" name="bottomleft"/>
-  <anchor x="388.0" y="671.0" name="center"/>
-  <anchor x="427.0" y="1085.0" name="top"/>
-  <anchor x="20.0" y="1085.0" name="topleft"/>
-  <outline>
-    <component base="qof-hb"/>
-    <component base="dagesh-hb.small" xOffset="89.0" yOffset="261.0"/>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>hebrew</string>
-    </dict>
-  </lib>
+	<advance width="853"/>
+	<outline>
+		<component base="qof-hb"/>
+		<component base="dagesh-hb.small" xOffset="89" yOffset="261"/>
+	</outline>
+	<anchor name="bottom" x="427" y="0"/>
+	<anchor name="bottomleft" x="20" y="0"/>
+	<anchor name="center" x="388" y="671"/>
+	<anchor name="top" x="427" y="1085"/>
+	<anchor name="topleft" x="20" y="1085"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Letter</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string>hebrew</string>
+		</dict>
+	</lib>
+	<note>
+		uniFB47
+	</note>
 </glyph>

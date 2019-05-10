@@ -1,16 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ubreve" format="2">
-  <advance width="1548.0"/>
-  <unicode hex="016C"/>
-  <note>
-Ubreve
-</note>
-  <anchor x="776.0" y="0.0" name="bottom"/>
-  <anchor x="938.0" y="10.0" name="ogonek"/>
-  <anchor x="776.0" y="1462.0" name="top"/>
-  <anchor x="1519.0" y="1462.0" name="topright"/>
-  <outline>
-    <component base="U"/>
-    <component base="breve" xOffset="154.0" yOffset="331.0"/>
-  </outline>
+	<unicode hex="016C"/>
+	<advance width="1548"/>
+	<outline>
+		<component base="U"/>
+		<component base="breve" xOffset="154" yOffset="331"/>
+	</outline>
+	<anchor name="bottom" x="776" y="0"/>
+	<anchor name="ogonek" x="938" y="10"/>
+	<anchor name="top" x="776" y="1462"/>
+	<anchor name="topright" x="1519" y="1462"/>
+	<note>
+		Ubreve
+	</note>
 </glyph>

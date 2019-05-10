@@ -1,67 +1,67 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="APLdeltilde" format="2">
-  <advance width="1548.0"/>
-  <unicode hex="236B"/>
-  <note>
-APLdeltilde
-</note>
-  <outline>
-    <contour>
-      <point x="688.0" y="53.0" type="line"/>
-      <point x="860.0" y="53.0" type="line"/>
-      <point x="1284.0" y="1290.0" type="line"/>
-      <point x="1284.0" y="1393.0" type="line"/>
-      <point x="264.0" y="1393.0" type="line"/>
-      <point x="264.0" y="1290.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="774.0" y="203.0" type="curve"/>
-      <point x="756.0" y="287.0"/>
-      <point x="723.0" y="395.0"/>
-      <point x="680.0" y="522.0" type="curve" smooth="yes"/>
-      <point x="436.0" y="1247.0" type="line"/>
-      <point x="1112.0" y="1247.0" type="line"/>
-      <point x="868.0" y="522.0" type="line" smooth="yes"/>
-      <point x="825.0" y="395.0"/>
-      <point x="793.0" y="287.0"/>
-    </contour>
-    <contour>
-      <point x="104.0" y="602.0" type="line"/>
-      <point x="227.0" y="702.0"/>
-      <point x="313.0" y="733.0"/>
-      <point x="444.0" y="733.0" type="curve" smooth="yes"/>
-      <point x="573.0" y="733.0"/>
-      <point x="659.0" y="707.0"/>
-      <point x="752.0" y="670.0" type="curve" smooth="yes"/>
-      <point x="842.0" y="633.0"/>
-      <point x="938.0" y="602.0"/>
-      <point x="1081.0" y="602.0" type="curve" smooth="yes"/>
-      <point x="1239.0" y="602.0"/>
-      <point x="1346.0" y="641.0"/>
-      <point x="1444.0" y="725.0" type="curve"/>
-      <point x="1444.0" y="877.0" type="line"/>
-      <point x="1323.0" y="780.0"/>
-      <point x="1235.0" y="748.0"/>
-      <point x="1104.0" y="748.0" type="curve" smooth="yes"/>
-      <point x="975.0" y="748.0"/>
-      <point x="887.0" y="776.0"/>
-      <point x="797.0" y="811.0" type="curve" smooth="yes"/>
-      <point x="702.0" y="848.0"/>
-      <point x="610.0" y="877.0"/>
-      <point x="467.0" y="877.0" type="curve" smooth="yes"/>
-      <point x="311.0" y="877.0"/>
-      <point x="203.0" y="840.0"/>
-      <point x="104.0" y="756.0" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
+	<unicode hex="236B"/>
+	<advance width="1548"/>
+	<outline>
+		<contour>
+			<point x="688" y="53" type="line"/>
+			<point x="860" y="53" type="line"/>
+			<point x="1284" y="1290" type="line"/>
+			<point x="1284" y="1393" type="line"/>
+			<point x="264" y="1393" type="line"/>
+			<point x="264" y="1290" type="line"/>
+		</contour>
+		<contour>
+			<point x="774" y="203" type="curve"/>
+			<point x="756" y="287"/>
+			<point x="723" y="395"/>
+			<point x="680" y="522" type="curve" smooth="yes"/>
+			<point x="436" y="1247" type="line"/>
+			<point x="1112" y="1247" type="line"/>
+			<point x="868" y="522" type="line" smooth="yes"/>
+			<point x="825" y="395"/>
+			<point x="793" y="287"/>
+		</contour>
+		<contour>
+			<point x="104" y="602" type="line"/>
+			<point x="227" y="702"/>
+			<point x="313" y="733"/>
+			<point x="444" y="733" type="curve" smooth="yes"/>
+			<point x="573" y="733"/>
+			<point x="659" y="707"/>
+			<point x="752" y="670" type="curve" smooth="yes"/>
+			<point x="842" y="633"/>
+			<point x="938" y="602"/>
+			<point x="1081" y="602" type="curve" smooth="yes"/>
+			<point x="1239" y="602"/>
+			<point x="1346" y="641"/>
+			<point x="1444" y="725" type="curve"/>
+			<point x="1444" y="877" type="line"/>
+			<point x="1323" y="780"/>
+			<point x="1235" y="748"/>
+			<point x="1104" y="748" type="curve" smooth="yes"/>
+			<point x="975" y="748"/>
+			<point x="887" y="776"/>
+			<point x="797" y="811" type="curve" smooth="yes"/>
+			<point x="702" y="848"/>
+			<point x="610" y="877"/>
+			<point x="467" y="877" type="curve" smooth="yes"/>
+			<point x="311" y="877"/>
+			<point x="203" y="840"/>
+			<point x="104" y="756" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Symbol</string>
+			<key>com.schriftgestaltung.Glyphs.script</key>
+			<string></string>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Other</string>
+		</dict>
+	</lib>
+	<note>
+		APLdeltilde
+	</note>
 </glyph>
