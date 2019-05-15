@@ -8,3 +8,5 @@
 4. fontmake UFO to ttf with designspace
 
 	`fontmake -m OpenSans-Roman-quadratic.designspace -o variable`
+
+5. edit default `wght` in `fvar` to be 400 and not 300
