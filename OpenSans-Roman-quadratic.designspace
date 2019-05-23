@@ -9,7 +9,10 @@
             <map input="700" output="310" />
             <map input="800" output="400" />
         </axis>
-        <axis default="100" maximum="100" minimum="60" name="width" tag="wdth" />
+        <axis default="100" maximum="125" minimum="60" name="width" tag="wdth">
+            <map input="75" output="60" />
+            <map input="100" output="100" />
+        </axis>
     </axes>
     <sources>
         <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-Light.ufo" name="Open Sans Light" stylename="Light">
@@ -31,13 +34,13 @@
         <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedLight.ufo" name="Open Sans Condensed Light" stylename="Condensed Light">
             <location>
                 <dimension name="weight" xvalue="100" />
-                <dimension name="width" xvalue="60" />
+                <dimension name="width" xvalue="75" />
             </location>
         </source>
-        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-ExtraBoldCondensed.ufo" name="Open Sans ExtraBold Condensed" stylename="ExtraBold Condensed">
+        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBold.ufo" name="Open Sans Condensed ExtraBold" stylename="Condensed ExtraBold">
             <location>
                 <dimension name="weight" xvalue="400" />
-                <dimension name="width" xvalue="60" />
+                <dimension name="width" xvalue="75" />
             </location>
         </source>
     </sources>
@@ -130,7 +133,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-ExtraBoldCondensed.ufo" name="Open Sans Extra-Bold Condensed" stylemapfamilyname="Open Sans Extra-Bold Condensed" stylemapstylename="regular" stylename="Extra-Bold Condensed">
+        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBold.ufo" name="Open Sans Extra-Bold Condensed" stylemapfamilyname="Open Sans Extra-Bold Condensed" stylemapstylename="regular" stylename="Extra-Bold Condensed">
             <location>
                 <dimension name="weight" xvalue="400" />
                 <dimension name="width" xvalue="60" />
