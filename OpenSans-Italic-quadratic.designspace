@@ -10,12 +10,12 @@
             <map input="800" output="400" />
         </axis>
         <axis default="100" maximum="125" minimum="60" name="width" tag="wdth">
-            <map input="75" output="60" />
-            <map input="100" output="100" />
+<!--             <map input="75" output="60" />
+            <map input="100" output="100" /> -->
         </axis>
     </axes>
     <sources>
-        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-Light.ufo" name="Open Sans Light" stylename="Light">
+        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-LightItalic.ufo" name="Open Sans Light" stylename="Light">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -25,19 +25,19 @@
                 <dimension name="width" xvalue="100" />
             </location>
         </source>
-        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-ExtraBold.ufo" name="Open Sans ExtraBold" stylename="ExtraBold">
+        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-ExtraBoldItalic.ufo" name="Open Sans ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="400" />
                 <dimension name="width" xvalue="100" />
             </location>
         </source>
-        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedLight.ufo" name="Open Sans Condensed Light" stylename="Condensed Light">
+        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedLightItalic.ufo" name="Open Sans Condensed Light" stylename="Condensed Light">
             <location>
                 <dimension name="weight" xvalue="100" />
                 <dimension name="width" xvalue="75" />
             </location>
         </source>
-        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBold.ufo" name="Open Sans Condensed ExtraBold" stylename="Condensed ExtraBold">
+        <source familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" name="Open Sans Condensed ExtraBold" stylename="Condensed ExtraBold">
             <location>
                 <dimension name="weight" xvalue="400" />
                 <dimension name="width" xvalue="75" />
@@ -45,7 +45,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-Light.ufo" name="Open Sans Light" stylemapfamilyname="Open Sans Light" stylemapstylename="regular" stylename="Light">
+        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-LightItalic.ufo" name="Open Sans Light" stylemapfamilyname="Open Sans Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="weight" xvalue="100" />
                 <dimension name="width" xvalue="100" />
@@ -69,16 +69,7 @@
             <kerning />
             <info />
         </instance>
-
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-Bold.ufo" name="Open Sans Bold" stylemapfamilyname="Open Sans" stylemapstylename="bold" stylename="Bold">
-            <location>
-                <dimension name="weight" xvalue="310" />
-                <dimension name="width" xvalue="100" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-ExtraBold.ufo" name="Open Sans Extra-Bold" stylemapfamilyname="Open Sans Extra-Bold" stylemapstylename="regular" stylename="Extra-Bold">
+        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-ExtraBoldItalic.ufo" name="Open Sans Extra-Bold" stylemapfamilyname="Open Sans Extra-Bold" stylemapstylename="regular" stylename="Extra-Bold">
             <location>
                 <dimension name="weight" xvalue="400" />
                 <dimension name="width" xvalue="100" />
@@ -100,7 +91,7 @@
                 </dict>
             </lib>
         </instance>
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-LightCondensed.ufo" name="Open Sans Light Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="regular" stylename="Light Condensed">
+        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-LightCondensedItalic.ufo" name="Open Sans Light Condensed" stylemapfamilyname="Open Sans Light Condensed" stylemapstylename="regular" stylename="Light Condensed">
             <location>
                 <dimension name="weight" xvalue="100" />
                 <dimension name="width" xvalue="60" />
@@ -124,16 +115,7 @@
             <kerning />
             <info />
         </instance>
-
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-BoldCondensed.ufo" name="Open Sans Bold Condensed" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold" stylename="Bold Condensed">
-            <location>
-                <dimension name="weight" xvalue="310" />
-                <dimension name="width" xvalue="60" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBold.ufo" name="Open Sans Extra-Bold Condensed" stylemapfamilyname="Open Sans Extra-Bold Condensed" stylemapstylename="regular" stylename="Extra-Bold Condensed">
+        <instance familyname="Open Sans" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" name="Open Sans Extra-Bold Condensed" stylemapfamilyname="Open Sans Extra-Bold Condensed" stylemapstylename="regular" stylename="Extra-Bold Condensed">
             <location>
                 <dimension name="weight" xvalue="400" />
                 <dimension name="width" xvalue="60" />
@@ -158,18 +140,10 @@
     <rules>
         <rule name="bracket_redo">
             <condition minimum="330" name="weight" />
-            <sub name="Aringacute" with="Aringacute.rvrn"/>
-            <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
-            <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
-            <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
-            <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
-            <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
             <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
             <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
             <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
-            <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
             <sub name="dollar" with="dollar.rvrn"/>
-            <sub name="uni047C" with="uni047C.rvrn"/>
         </rule>
     </rules>
 </designspace>
