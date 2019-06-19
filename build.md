@@ -1,12 +1,12 @@
 1. fontmake .glyphs to UFO
 
-	`fontmake -g source/OpenSans-Roman-no_brackets.glyphs -o ufo --no-production-names`
+	`fontmake -g source/OpenSans-[Roman|Italic].glyphs -o ufo --no-production-names`
 2. convert UFOs to quadratic
 
-	`:; for I in *.ufo; do python3 -m cu2qu -i "${I}"; done`
-3. manually copy `features.fea` from `~/Library/Application\ Support/Temp/FONTNAME` to overwrite the one inside each UFO
+	`python3 -m cu2qu -i $allUFOs`
+3. manually copy `features.fea` from `/opensans` to overwrite the one inside each UFO
 4. fontmake UFO to ttf with designspace
 
-	`fontmake -m OpenSans-Roman-quadratic.designspace -o variable`
+	`fontmake -m OpenSans-[Roman|Italic]-quadratic.designspace -o variable`
 
 5. edit default `wght` in `fvar` to be 400 and not 300
