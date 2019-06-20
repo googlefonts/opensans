@@ -14,7 +14,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="./source/master_ufo/OpenSans-LightItalic.ufo" name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic">
+    <source filename="./source/quadratic/master_ufo/OpenSans-LightItalic.ufo" name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -24,19 +24,19 @@
         <dimension name="width" xvalue="100"/>
       </location>
     </source>
-    <source filename="./source/master_ufo/OpenSans-ExtraBoldItalic.ufo" name="Open Sans ExtraBold Italic" familyname="Open Sans" stylename="ExtraBold Italic">
+    <source filename="./source/quadratic/master_ufo/OpenSans-ExtraBoldItalic.ufo" name="Open Sans ExtraBold Italic" familyname="Open Sans" stylename="ExtraBold Italic">
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="100"/>
       </location>
     </source>
-    <source filename="./source/master_ufo/OpenSans-CondensedLightItalic.ufo" name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic">
+    <source filename="./source/quadratic/master_ufo/OpenSans-CondensedLightItalic.ufo" name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic">
       <location>
         <dimension name="weight" xvalue="100"/>
         <dimension name="width" xvalue="60"/>
       </location>
     </source>
-    <source filename="./source/master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic">
+    <source filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic">
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="60"/>
@@ -44,7 +44,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic" filename="./source/master_ufo/OpenSans-LightItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="italic">
+    <instance name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic" filename="./source/quadratic/master_ufo/OpenSans-LightItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="100"/>
         <dimension name="width" xvalue="100"/>
@@ -63,7 +63,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Italic" familyname="Open Sans" stylename="Italic" filename="./source/master_ufo/OpenSans-Italic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="italic">
+    <instance name="Open Sans Italic" familyname="Open Sans" stylename="Italic" filename="./source/quadratic/master_ufo/OpenSans-Italic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="170"/>
         <dimension name="width" xvalue="100"/>
@@ -82,7 +82,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Semi-Bold Italic" familyname="Open Sans" stylename="Semi-Bold Italic" filename="./source/master_ufo/OpenSans-Semi-BoldItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="bold italic">
+    <instance name="Open Sans Semi-Bold Italic" familyname="Open Sans" stylename="Semi-Bold Italic" filename="./source/quadratic/master_ufo/OpenSans-Semi-BoldItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="237"/>
         <dimension name="width" xvalue="100"/>
@@ -101,7 +101,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic" filename="./source/master_ufo/OpenSans-BoldItalic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="bold italic">
+    <instance name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic" filename="./source/quadratic/master_ufo/OpenSans-BoldItalic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="310"/>
         <dimension name="width" xvalue="100"/>
@@ -120,7 +120,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans ExtraBold Italic" familyname="Open Sans" stylename="ExtraBold Italic" filename="./source/master_ufo/OpenSans-ExtraBoldItalic.ufo" stylemapfamilyname="Open Sans ExtraBold" stylemapstylename="italic">
+    <instance name="Open Sans ExtraBold Italic" familyname="Open Sans" stylename="ExtraBold Italic" filename="./source/quadratic/master_ufo/OpenSans-ExtraBoldItalic.ufo" stylemapfamilyname="Open Sans ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="396"/>
         <dimension name="width" xvalue="100"/>
@@ -139,7 +139,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic" filename="./source/master_ufo/OpenSans-CondensedLightItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="italic">
+    <instance name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic" filename="./source/quadratic/master_ufo/OpenSans-CondensedLightItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="100"/>
         <dimension name="width" xvalue="60"/>
@@ -158,7 +158,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Condensed Italic" familyname="Open Sans" stylename="Condensed Italic" filename="./source/master_ufo/OpenSans-CondensedItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="italic">
+    <instance name="Open Sans Condensed Italic" familyname="Open Sans" stylename="Condensed Italic" filename="./source/quadratic/master_ufo/OpenSans-CondensedItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="170"/>
         <dimension name="width" xvalue="60"/>
@@ -177,7 +177,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Condensed Semi-Bold Italic" familyname="Open Sans" stylename="Condensed Semi-Bold Italic" filename="./source/master_ufo/OpenSans-CondensedSemi-BoldItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="bold italic">
+    <instance name="Open Sans Condensed Semi-Bold Italic" familyname="Open Sans" stylename="Condensed Semi-Bold Italic" filename="./source/quadratic/master_ufo/OpenSans-CondensedSemi-BoldItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="239"/>
         <dimension name="width" xvalue="60"/>
@@ -196,7 +196,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Condensed Bold Italic" familyname="Open Sans" stylename="Condensed Bold Italic" filename="./source/master_ufo/OpenSans-CondensedBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold italic">
+    <instance name="Open Sans Condensed Bold Italic" familyname="Open Sans" stylename="Condensed Bold Italic" filename="./source/quadratic/master_ufo/OpenSans-CondensedBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="310"/>
         <dimension name="width" xvalue="60"/>
@@ -215,7 +215,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic" filename="./source/master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="italic">
+    <instance name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic" filename="./source/quadratic/master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="400"/>
         <dimension name="width" xvalue="60"/>
