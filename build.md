@@ -4,7 +4,7 @@
 2. convert UFOs to quadratic
 
 	`python3 -m cu2qu -i $allUFOs`
-3. manually copy `features.fea` from `/opensans` to overwrite the one inside each UFO
+~~3. manually copy `features.fea` from `/opensans` to overwrite the one inside each UFO~~ appears unnecessary
 4. fontmake UFO to ttf with designspace
 
 	`fontmake -m OpenSans-[Roman|Italic]-quadratic.designspace -o variable`
