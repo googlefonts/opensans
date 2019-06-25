@@ -9,7 +9,7 @@
       <map input="800" output="400"/>
     </axis>
     <axis tag="wdth" name="width" minimum="75" maximum="100" default="100">
-      <map input="75" output="60"/>
+      <map input="75" output="75"/>
       <map input="100" output="100"/>
     </axis>
   </axes>
@@ -33,13 +33,13 @@
     <source filename="./master_ufo/OpenSans-CondensedLightItalic.ufo" name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic">
       <location>
         <dimension name="weight" xvalue="100"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
     </source>
     <source filename="./master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic">
       <location>
         <dimension name="weight" xvalue="400"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
     </source>
   </sources>
@@ -82,7 +82,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Semi-Bold Italic" familyname="Open Sans" stylename="Semi-Bold Italic" filename="./master_ufo/OpenSans-Semi-BoldItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="bold italic">
+    <instance name="Open Sans SemiBold Italic" familyname="Open Sans" stylename="SemiBold Italic" filename="./master_ufo/OpenSans-SemiBoldItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="237"/>
         <dimension name="width" xvalue="100"/>
@@ -142,7 +142,7 @@
     <instance name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic" filename="./master_ufo/OpenSans-CondensedLightItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="100"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
       <kerning/>
       <info/>
@@ -161,7 +161,7 @@
     <instance name="Open Sans Condensed Italic" familyname="Open Sans" stylename="Condensed Italic" filename="./master_ufo/OpenSans-CondensedItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="170"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
       <kerning/>
       <info/>
@@ -177,10 +177,10 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Open Sans Condensed Semi-Bold Italic" familyname="Open Sans" stylename="Condensed Semi-Bold Italic" filename="./master_ufo/OpenSans-CondensedSemi-BoldItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="bold italic">
+    <instance name="Open Sans Condensed SemiBold Italic" familyname="Open Sans" stylename="Condensed SemiBold Italic" filename="./master_ufo/OpenSans-CondensedSemiBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="239"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
       <kerning/>
       <info/>
@@ -199,7 +199,7 @@
     <instance name="Open Sans Condensed Bold Italic" familyname="Open Sans" stylename="Condensed Bold Italic" filename="./master_ufo/OpenSans-CondensedBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold italic">
       <location>
         <dimension name="weight" xvalue="310"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
       <kerning/>
       <info/>
@@ -218,7 +218,7 @@
     <instance name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic" filename="./master_ufo/OpenSans-CondensedExtraBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="italic">
       <location>
         <dimension name="weight" xvalue="400"/>
-        <dimension name="width" xvalue="60"/>
+        <dimension name="width" xvalue="75"/>
       </location>
       <kerning/>
       <info/>
