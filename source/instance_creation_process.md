@@ -13,7 +13,7 @@
 10. add `GROUP Hebrew` to the top, right below the `/* ACT generated...` line
 11. copy the Hebrew height CVT section from the source VF: it should be something very similar to the below
 
-  - ```
+  ```
          Hebrew
            SquareHeight
          	106: 1290
@@ -26,7 +26,7 @@
          	107: 20 ~ 106 @ 42 /* overshoot height */
          	109: -4 ~ 108 @ 60 /* overshoot baseline */
          	110: -492 /* descender */
-       ```
+  ```
 
        
 
