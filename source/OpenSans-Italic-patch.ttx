@@ -116,6 +116,9 @@
     <namerecord nameID="267" platformID="3" platEncID="1" langID="0x409">
       Condensed ExtraBold Italic
     </namerecord>
+    <namerecord nameID="268" platformID="3" platEncID="1" langID="0x409">
+      Italic
+    </namerecord>
   </name>
 
   <STAT>
@@ -132,6 +135,11 @@
         <AxisTag value="wdth"/>
         <AxisNameID value="257"/>  <!-- Width -->
         <AxisOrdering value="1"/>
+      </Axis>
+      <Axis index="2">
+        <AxisTag value="ital"/>
+        <AxisNameID value="268"/>  <!-- Italic -->
+        <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
     <!-- AxisValueCount=0 -->
@@ -152,7 +160,7 @@
 
       <AxisValue index="1" Format="4">
         <!-- AxisCount=2 -->
-        <Flags value="0"/>
+        <Flags value="2"/>
         <ValueNameID value="259"/>  <!-- Italic -->
         <AxisValueRecord index="0">
           <AxisIndex value="0"/>
@@ -274,6 +282,13 @@
           <AxisIndex value="1"/>
           <Value value="75.0"/>
         </AxisValueRecord>
+      </AxisValue>
+
+      <AxisValue index="10" Format="1">
+        <AxisIndex value="1"/>
+        <Flags value="0"/>
+        <ValueNameID value="268"/>  <!-- Italic -->
+        <Value value="1.0"/>
       </AxisValue>
     </AxisValueArray>
     <ElidedFallbackNameID value="2"/>  <!-- Italic -->
