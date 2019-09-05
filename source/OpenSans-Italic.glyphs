@@ -267583,6 +267583,23 @@ rightKerningGroup = NULL;
 );
 instances = (
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 instanceInterpolations = {
 "4C802D5D-2BAD-4759-8C93-835BB7B64EA1" = 1;
 };
@@ -267592,6 +267609,23 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 170;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.23333;
@@ -267601,6 +267635,23 @@ isItalic = 1;
 name = Italic;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 237;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.45667;
@@ -267613,6 +267664,23 @@ name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 310;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.7;
@@ -267624,6 +267692,23 @@ name = "Bold Italic";
 weightClass = Bold;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 396;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.98667;
@@ -267635,6 +267720,23 @@ name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationCustom = 100;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -267647,6 +267749,23 @@ weightClass = Light;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 170;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -267659,6 +267778,23 @@ name = "Condensed Italic";
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 239;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -267673,6 +267809,23 @@ weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationWeight = 310;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -267687,6 +267840,23 @@ weightClass = Bold;
 widthClass = Condensed;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
+}
+);
 interpolationCustom = 400;
 interpolationWeight = 400;
 interpolationWidth = 75;
