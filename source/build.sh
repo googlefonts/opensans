@@ -3,8 +3,8 @@
 set -e
 
 echo "Converting .glyphs to .ufo"
-fontmake -g ./OpenSans-Roman.glyphs -o ufo --no-production-names
-fontmake -g ./OpenSans-Italic.glyphs -o ufo --no-production-names
+fontmake -g ./OpenSans-Roman.glyphs -o ufo
+fontmake -g ./OpenSans-Italic.glyphs -o ufo
 
 echo "Converting cubic curves to quadratic"
 cu2qu ./master_ufo/OpenSans-Light.ufo/ ./master_ufo/OpenSans-Bold.ufo/ ./master_ufo/OpenSans-ExtraBold.ufo/ ./master_ufo/OpenSans-CondensedLight.ufo/ ./master_ufo/OpenSans-CondensedBold.ufo/ ./master_ufo/OpenSans-CondensedExtraBold.ufo/ -i
