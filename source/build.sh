@@ -13,7 +13,7 @@ cu2qu ./master_ufo/OpenSans-LightItalic.ufo/ ./master_ufo/OpenSans-ExtraBoldItal
 echo "Generating VFs"
 VF_FILENAME_ROMAN="../fonts/variable_ttf/OpenSans-Roman-VF.ttf"
 VF_FILENAME_ITALIC="../fonts/variable_ttf/OpenSans-Italic-VF.ttf"
-fontmake -m OpenSans-Roman.designspace -o variable --keep-direction --output-path $VF_FILENAME_ROMAN
+fontmake -m OpenSans-Roman.designspace -o variable --output-path $VF_FILENAME_ROMAN
 fontmake -m OpenSans-Italic.designspace -o variable --output-path $VF_FILENAME_ITALIC
 
 
