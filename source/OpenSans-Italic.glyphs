@@ -1,5 +1,5 @@
 {
-.appVersion = "1230";
+.appVersion = "1264";
 copyright = "Digitized data copyright (C) 2010-2018, Google Corporation.";
 customParameters = (
 {
@@ -62,217 +62,348 @@ value = 1;
 date = "2018-06-07 18:13:25 +0000";
 designerURL = "http://www.ascendercorp.com/typedesigners.html";
 familyName = "Open Sans";
-featurePrefixes = (
-{
-automatic = 1;
-code = "languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem hebr dflt;
-languagesystem latn CAT;
-languagesystem latn ROM;
-languagesystem latn MOL;
-";
-name = Languagesystems;
-}
-);
 features = (
 {
-automatic = 1;
-code = "feature locl;
-feature sups;
-feature frac;
-feature ordn;
-feature lnum;
-feature pnum;
-feature tnum;
-feature onum;
-feature case;
-feature salt;
-feature ss01;
-feature ss02;
-feature ss03;
-feature numr;
-feature dnom;
-";
-name = aalt;
-},
-{
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-";
-name = ccmp;
-},
-{
-automatic = 1;
 code = "script latn;
-language CAT;
-sub  l' periodcentered' l by ldot;
-sub  L' periodcentered' L by Ldot;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-";
-name = locl;
-},
-{
-automatic = 1;
-code = "sub zero by zerosuperior;
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub four by foursuperior;
-sub five by fivesuperior;
-sub six by sixsuperior;
-sub seven by sevensuperior;
-sub eight by eightsuperior;
-sub nine by ninesuperior;
-";
-name = sups;
-},
-{
-automatic = 1;
-code = "lookup FRAC {
-	sub slash by fraction;
-} FRAC;
-lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} UP;
-lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} DOWN;
-";
-name = frac;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-sub N o period by numero;
-";
-name = ordn;
-},
-{
-automatic = 1;
-code = "sub one.osf by one.lf;
-";
-name = lnum;
-},
-{
-automatic = 1;
-code = "sub one by one.lf;
-";
-name = pnum;
-},
-{
-automatic = 1;
-code = "sub one.lf by one;
-";
-name = tnum;
-},
-{
-automatic = 1;
-code = "sub zero by zero.osf;
-sub one by one.osf;
-sub two by two.osf;
-sub three by three.osf;
-sub four by four.osf;
-sub five by five.osf;
-sub six by six.osf;
-sub seven by seven.osf;
-sub eight by eight.osf;
-sub nine by nine.osf;
-sub one.lf by one.osf;
-";
-name = onum;
-},
-{
-automatic = 1;
-code = "sub one by one.lf;
-sub one.osf by one.lf;
-";
-name = case;
-},
-{
-automatic = 1;
-code = "sub f f i by f_f_i;
-sub f f l by f_f_l;
-sub f f by f_f;
-sub f i by fi;
-sub f l by fl;
+sub f f l by uniFB04;
+sub f f i by uniFB03;
+sub f f by ff;
+sub f l by uniFB02;
+sub f i by uniFB01;
+language MOL ;
+sub f f l by uniFB04;
+sub f f i by uniFB03;
+sub f f by ff;
+sub f l by uniFB02;
+sub f i by uniFB01;
+language ROM ;
+sub f f l by uniFB04;
+sub f f i by uniFB03;
+sub f f by ff;
+sub f l by uniFB02;
+sub f i by uniFB01;
 ";
 name = liga;
 },
 {
-automatic = 1;
-code = "sub I by I.ss01;
-sub IJ by IJ.ss01;
-sub Iacute by Iacute.ss01;
-sub Ibreve by Ibreve.ss01;
-sub Icircumflex by Icircumflex.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub Idotbelow by Idotbelow.ss01;
-sub Igrave by Igrave.ss01;
-sub Ihookabove by Ihookabove.ss01;
-sub Imacron by Imacron.ss01;
-sub Iogonek by Iogonek.ss01;
-sub Itilde by Itilde.ss01;
-sub I-cy by I-cy.ss01;
-sub Yi-cy by Yi-cy.ss01;
-sub Palochka-cy by Palochka-cy.ss01;
-sub palochka-cy by palochka-cy.ss01;
-sub Iota by Iota.ss01;
-sub Iotatonos by Iotatonos.ss01;
-sub Iotadieresis by Iotadieresis.ss01;
+code = "script latn;
+sub zero.os by zero;
+sub one.os by one.pnum;
+sub two.os by two;
+sub three.os by three;
+sub four.os by four;
+sub five.os by five;
+sub six.os by six;
+sub seven.os by seven;
+sub eight.os by eight;
+sub nine.os by nine;
+language MOL ;
+sub zero.os by zero;
+sub one.os by one.pnum;
+sub two.os by two;
+sub three.os by three;
+sub four.os by four;
+sub five.os by five;
+sub six.os by six;
+sub seven.os by seven;
+sub eight.os by eight;
+sub nine.os by nine;
+language ROM ;
+sub zero.os by zero;
+sub one.os by one.pnum;
+sub two.os by two;
+sub three.os by three;
+sub four.os by four;
+sub five.os by five;
+sub six.os by six;
+sub seven.os by seven;
+sub eight.os by eight;
+sub nine.os by nine;
 ";
-name = salt;
+name = lnum;
 },
 {
-automatic = 1;
-code = "sub I by I.ss01;
-sub IJ by IJ.ss01;
-sub Iacute by Iacute.ss01;
-sub Ibreve by Ibreve.ss01;
-sub Icircumflex by Icircumflex.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub Idotbelow by Idotbelow.ss01;
-sub Igrave by Igrave.ss01;
-sub Ihookabove by Ihookabove.ss01;
-sub Imacron by Imacron.ss01;
-sub Iogonek by Iogonek.ss01;
-sub Itilde by Itilde.ss01;
-sub I-cy by I-cy.ss01;
-sub Yi-cy by Yi-cy.ss01;
-sub Palochka-cy by Palochka-cy.ss01;
-sub palochka-cy by palochka-cy.ss01;
-sub Iota by Iota.ss01;
-sub Iotatonos by Iotatonos.ss01;
-sub Iotadieresis by Iotadieresis.ss01;
+code = "script latn;
+language MOL ;
+sub Tcommaaccent by Tcedilla;
+sub tcommaaccent by tcedilla;
+sub Scommaaccent by Scedilla;
+sub scommaaccent by scedilla;
+language ROM ;
+sub Tcommaaccent by Tcedilla;
+sub tcommaaccent by tcedilla;
+sub Scommaaccent by Scedilla;
+sub scommaaccent by scedilla;
+";
+name = locl;
+},
+{
+code = "script latn;
+sub zero by zero.os;
+sub one by one.os;
+sub two by two.os;
+sub three by three.os;
+sub four by four.os;
+sub five by five.os;
+sub six by six.os;
+sub seven by seven.os;
+sub eight by eight.os;
+sub nine by nine.os;
+sub zero by zero.os;
+sub two by two.os;
+sub three by three.os;
+sub four by four.os;
+sub five by five.os;
+sub six by six.os;
+sub seven by seven.os;
+sub eight by eight.os;
+sub nine by nine.os;
+sub one.pnum by one.os;
+language MOL ;
+sub zero by zero.os;
+sub one by one.os;
+sub two by two.os;
+sub three by three.os;
+sub four by four.os;
+sub five by five.os;
+sub six by six.os;
+sub seven by seven.os;
+sub eight by eight.os;
+sub nine by nine.os;
+sub zero by zero.os;
+sub two by two.os;
+sub three by three.os;
+sub four by four.os;
+sub five by five.os;
+sub six by six.os;
+sub seven by seven.os;
+sub eight by eight.os;
+sub nine by nine.os;
+sub one.pnum by one.os;
+language ROM ;
+sub zero by zero.os;
+sub one by one.os;
+sub two by two.os;
+sub three by three.os;
+sub four by four.os;
+sub five by five.os;
+sub six by six.os;
+sub seven by seven.os;
+sub eight by eight.os;
+sub nine by nine.os;
+sub zero by zero.os;
+sub two by two.os;
+sub three by three.os;
+sub four by four.os;
+sub five by five.os;
+sub six by six.os;
+sub seven by seven.os;
+sub eight by eight.os;
+sub nine by nine.os;
+sub one.pnum by one.os;
+";
+name = onum;
+},
+{
+code = "script latn;
+sub one by one.pnum;
+language MOL ;
+sub one by one.pnum;
+language ROM ;
+sub one by one.pnum;
+";
+name = pnum;
+},
+{
+code = "script latn;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+sub I by I.alt;
+sub Igrave by Igrave.alt;
+sub Iacute by Iacute.alt;
+sub Icircumflex by Icircumflex.alt;
+sub Idieresis by Idieresis.alt;
+sub Itilde by Itilde.alt;
+sub Imacron by Imacron.alt;
+sub Ibreve by Ibreve.alt;
+sub Iogonek by Iogonek.alt;
+sub Idotaccent by Idotaccent.alt;
+sub IJ by IJ.alt;
+sub Iotatonos by Iotatonos.alt;
+sub Iota by Iota.alt;
+sub Iotadieresis by Iotadieresis.alt;
+sub afii10055 by afii10055.alt;
+sub afii10056 by afii10056.alt;
+sub uni04C0 by uni04C0.alt;
+sub uni04CF by uni04CF.alt;
+sub uni1EC8 by uni1EC8.alt;
+sub uni1ECA by uni1ECA.alt;
+language MOL ;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+sub I by I.alt;
+sub Igrave by Igrave.alt;
+sub Iacute by Iacute.alt;
+sub Icircumflex by Icircumflex.alt;
+sub Idieresis by Idieresis.alt;
+sub Itilde by Itilde.alt;
+sub Imacron by Imacron.alt;
+sub Ibreve by Ibreve.alt;
+sub Iogonek by Iogonek.alt;
+sub Idotaccent by Idotaccent.alt;
+sub IJ by IJ.alt;
+sub Iotatonos by Iotatonos.alt;
+sub Iota by Iota.alt;
+sub Iotadieresis by Iotadieresis.alt;
+sub afii10055 by afii10055.alt;
+sub afii10056 by afii10056.alt;
+sub uni04C0 by uni04C0.alt;
+sub uni04CF by uni04CF.alt;
+sub uni1EC8 by uni1EC8.alt;
+sub uni1ECA by uni1ECA.alt;
+language ROM ;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+sub I by I.alt;
+sub Igrave by Igrave.alt;
+sub Iacute by Iacute.alt;
+sub Icircumflex by Icircumflex.alt;
+sub Idieresis by Idieresis.alt;
+sub Itilde by Itilde.alt;
+sub Imacron by Imacron.alt;
+sub Ibreve by Ibreve.alt;
+sub Iogonek by Iogonek.alt;
+sub Idotaccent by Idotaccent.alt;
+sub IJ by IJ.alt;
+sub Iotatonos by Iotatonos.alt;
+sub Iota by Iota.alt;
+sub Iotadieresis by Iotadieresis.alt;
+sub afii10055 by afii10055.alt;
+sub afii10056 by afii10056.alt;
+sub uni04C0 by uni04C0.alt;
+sub uni04CF by uni04CF.alt;
+sub uni1EC8 by uni1EC8.alt;
+sub uni1ECA by uni1ECA.alt;
 ";
 name = ss01;
 },
 {
-automatic = 1;
-code = "sub g by g.ss02;
-sub gbreve by gbreve.ss02;
-sub gcircumflex by gcircumflex.ss02;
-sub gcommaaccent by gcommaaccent.ss02;
-sub gdotaccent by gdotaccent.ss02;
+code = "script latn;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+language MOL ;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+language ROM ;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
 ";
 name = ss02;
 },
 {
 code = "script latn;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+sub I by I.alt;
+sub Igrave by Igrave.alt;
+sub Iacute by Iacute.alt;
+sub Icircumflex by Icircumflex.alt;
+sub Idieresis by Idieresis.alt;
+sub Itilde by Itilde.alt;
+sub Imacron by Imacron.alt;
+sub Ibreve by Ibreve.alt;
+sub Iogonek by Iogonek.alt;
+sub Idotaccent by Idotaccent.alt;
+sub IJ by IJ.alt;
+sub Iotatonos by Iotatonos.alt;
+sub Iota by Iota.alt;
+sub Iotadieresis by Iotadieresis.alt;
+sub afii10055 by afii10055.alt;
+sub afii10056 by afii10056.alt;
+sub uni04C0 by uni04C0.alt;
+sub uni04CF by uni04CF.alt;
+sub uni1EC8 by uni1EC8.alt;
+sub uni1ECA by uni1ECA.alt;
+language MOL ;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+sub I by I.alt;
+sub Igrave by Igrave.alt;
+sub Iacute by Iacute.alt;
+sub Icircumflex by Icircumflex.alt;
+sub Idieresis by Idieresis.alt;
+sub Itilde by Itilde.alt;
+sub Imacron by Imacron.alt;
+sub Ibreve by Ibreve.alt;
+sub Iogonek by Iogonek.alt;
+sub Idotaccent by Idotaccent.alt;
+sub IJ by IJ.alt;
+sub Iotatonos by Iotatonos.alt;
+sub Iota by Iota.alt;
+sub Iotadieresis by Iotadieresis.alt;
+sub afii10055 by afii10055.alt;
+sub afii10056 by afii10056.alt;
+sub uni04C0 by uni04C0.alt;
+sub uni04CF by uni04CF.alt;
+sub uni1EC8 by uni1EC8.alt;
+sub uni1ECA by uni1ECA.alt;
+language ROM ;
+sub g by g.alt;
+sub gcircumflex by gcircumflex.alt;
+sub gbreve by gbreve.alt;
+sub gdot by gdot.alt;
+sub gcommaaccent by gcommaaccent.alt;
+sub I by I.alt;
+sub Igrave by Igrave.alt;
+sub Iacute by Iacute.alt;
+sub Icircumflex by Icircumflex.alt;
+sub Idieresis by Idieresis.alt;
+sub Itilde by Itilde.alt;
+sub Imacron by Imacron.alt;
+sub Ibreve by Ibreve.alt;
+sub Iogonek by Iogonek.alt;
+sub Idotaccent by Idotaccent.alt;
+sub IJ by IJ.alt;
+sub Iotatonos by Iotatonos.alt;
+sub Iota by Iota.alt;
+sub Iotadieresis by Iotadieresis.alt;
+sub afii10055 by afii10055.alt;
+sub afii10056 by afii10056.alt;
+sub uni04C0 by uni04C0.alt;
+sub uni04CF by uni04CF.alt;
+sub uni1EC8 by uni1EC8.alt;
+sub uni1ECA by uni1ECA.alt;
+";
+name = salt;
+},
+{
+code = "# ss03
+
+script latn;
 sub I by I.ss01;
 sub Igrave by Igrave.ss01;
 sub Iacute by Iacute.ss01;
@@ -339,6 +470,61 @@ sub Idotbelow by Idotbelow.ss01;
 name = ss03;
 },
 {
+code = "script latn;
+sub zero.os by zero;
+sub one.os by one;
+sub two.os by two;
+sub three.os by three;
+sub four.os by four;
+sub five.os by five;
+sub six.os by six;
+sub seven.os by seven;
+sub eight.os by eight;
+sub nine.os by nine;
+sub one.pnum by one;
+language MOL ;
+sub zero.os by zero;
+sub one.os by one;
+sub two.os by two;
+sub three.os by three;
+sub four.os by four;
+sub five.os by five;
+sub six.os by six;
+sub seven.os by seven;
+sub eight.os by eight;
+sub nine.os by nine;
+sub one.pnum by one;
+language ROM ;
+sub zero.os by zero;
+sub one.os by one;
+sub two.os by two;
+sub three.os by three;
+sub four.os by four;
+sub five.os by five;
+sub six.os by six;
+sub seven.os by seven;
+sub eight.os by eight;
+sub nine.os by nine;
+sub one.pnum by one;
+";
+name = tnum;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+name = sups;
+},
+{
 automatic = 1;
 code = "sub zero by zero.numr;
 sub one by one.numr;
@@ -367,6 +553,21 @@ sub eight by eight.dnom;
 sub nine by nine.dnom;
 ";
 name = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+";
+name = frac;
 }
 );
 fontMaster = (
