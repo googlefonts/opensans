@@ -1,5 +1,5 @@
 {
-.appVersion = "1264";
+.appVersion = "1230";
 copyright = "Digitized data copyright (C) 2010-2018, Google Corporation.";
 customParameters = (
 {
@@ -57,6 +57,21 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = panose;
+value = (
+2,
+11,
+6,
+6,
+3,
+5,
+4,
+2,
+2,
+4
+);
 }
 );
 date = "2018-06-07 18:13:25 +0000";
@@ -64,67 +79,45 @@ designerURL = "http://www.ascendercorp.com/typedesigners.html";
 familyName = "Open Sans";
 features = (
 {
-code = "script latn;
-sub f f l by uniFB04;
-sub f f i by uniFB03;
-sub f f by ff;
-sub f l by uniFB02;
-sub f i by uniFB01;
-language MOL ;
-sub f f l by uniFB04;
-sub f f i by uniFB03;
-sub f f by ff;
-sub f l by uniFB02;
-sub f i by uniFB01;
-language ROM ;
-sub f f l by uniFB04;
-sub f f i by uniFB03;
-sub f f by ff;
-sub f l by uniFB02;
-sub f i by uniFB01;
+automatic = 1;
+code = "feature lnum;
+feature locl;
+feature onum;
+feature pnum;
+feature ss01;
+feature ss02;
+feature salt;
+feature ss03;
+feature frac;
+feature numr;
+feature dnom;
+feature sups;
 ";
+name = aalt;
+},
+{
+code = "sub f f l by f_f_l;
+sub f f i by f_f_i;
+sub f f by f_f;
+sub f l by fl;
+sub f i by fi;";
 name = liga;
 },
 {
-code = "script latn;
-sub zero.os by zero;
-sub one.os by one.pnum;
-sub two.os by two;
-sub three.os by three;
-sub four.os by four;
-sub five.os by five;
-sub six.os by six;
-sub seven.os by seven;
-sub eight.os by eight;
-sub nine.os by nine;
-language MOL ;
-sub zero.os by zero;
-sub one.os by one.pnum;
-sub two.os by two;
-sub three.os by three;
-sub four.os by four;
-sub five.os by five;
-sub six.os by six;
-sub seven.os by seven;
-sub eight.os by eight;
-sub nine.os by nine;
-language ROM ;
-sub zero.os by zero;
-sub one.os by one.pnum;
-sub two.os by two;
-sub three.os by three;
-sub four.os by four;
-sub five.os by five;
-sub six.os by six;
-sub seven.os by seven;
-sub eight.os by eight;
-sub nine.os by nine;
-";
+code = "sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;";
 name = lnum;
 },
 {
-code = "script latn;
-language MOL ;
+code = "language MOL ;
 sub Tcommaaccent by Tcedilla;
 sub tcommaaccent by tcedilla;
 sub Scommaaccent by Scedilla;
@@ -138,273 +131,90 @@ sub scommaaccent by scedilla;
 name = locl;
 },
 {
-code = "script latn;
-sub zero by zero.os;
-sub one by one.os;
-sub two by two.os;
-sub three by three.os;
-sub four by four.os;
-sub five by five.os;
-sub six by six.os;
-sub seven by seven.os;
-sub eight by eight.os;
-sub nine by nine.os;
-sub zero by zero.os;
-sub two by two.os;
-sub three by three.os;
-sub four by four.os;
-sub five by five.os;
-sub six by six.os;
-sub seven by seven.os;
-sub eight by eight.os;
-sub nine by nine.os;
-sub one.pnum by one.os;
-language MOL ;
-sub zero by zero.os;
-sub one by one.os;
-sub two by two.os;
-sub three by three.os;
-sub four by four.os;
-sub five by five.os;
-sub six by six.os;
-sub seven by seven.os;
-sub eight by eight.os;
-sub nine by nine.os;
-sub zero by zero.os;
-sub two by two.os;
-sub three by three.os;
-sub four by four.os;
-sub five by five.os;
-sub six by six.os;
-sub seven by seven.os;
-sub eight by eight.os;
-sub nine by nine.os;
-sub one.pnum by one.os;
-language ROM ;
-sub zero by zero.os;
-sub one by one.os;
-sub two by two.os;
-sub three by three.os;
-sub four by four.os;
-sub five by five.os;
-sub six by six.os;
-sub seven by seven.os;
-sub eight by eight.os;
-sub nine by nine.os;
-sub zero by zero.os;
-sub two by two.os;
-sub three by three.os;
-sub four by four.os;
-sub five by five.os;
-sub six by six.os;
-sub seven by seven.os;
-sub eight by eight.os;
-sub nine by nine.os;
-sub one.pnum by one.os;
+code = "sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
+sub one.lf by one.osf;
 ";
 name = onum;
 },
 {
-code = "script latn;
-sub one by one.pnum;
-language MOL ;
-sub one by one.pnum;
-language ROM ;
-sub one by one.pnum;
-";
+code = "sub one by one.lf;";
 name = pnum;
 },
 {
-code = "script latn;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-sub I by I.alt;
-sub Igrave by Igrave.alt;
-sub Iacute by Iacute.alt;
-sub Icircumflex by Icircumflex.alt;
-sub Idieresis by Idieresis.alt;
-sub Itilde by Itilde.alt;
-sub Imacron by Imacron.alt;
-sub Ibreve by Ibreve.alt;
-sub Iogonek by Iogonek.alt;
-sub Idotaccent by Idotaccent.alt;
-sub IJ by IJ.alt;
-sub Iotatonos by Iotatonos.alt;
-sub Iota by Iota.alt;
-sub Iotadieresis by Iotadieresis.alt;
-sub afii10055 by afii10055.alt;
-sub afii10056 by afii10056.alt;
-sub uni04C0 by uni04C0.alt;
-sub uni04CF by uni04CF.alt;
-sub uni1EC8 by uni1EC8.alt;
-sub uni1ECA by uni1ECA.alt;
-language MOL ;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-sub I by I.alt;
-sub Igrave by Igrave.alt;
-sub Iacute by Iacute.alt;
-sub Icircumflex by Icircumflex.alt;
-sub Idieresis by Idieresis.alt;
-sub Itilde by Itilde.alt;
-sub Imacron by Imacron.alt;
-sub Ibreve by Ibreve.alt;
-sub Iogonek by Iogonek.alt;
-sub Idotaccent by Idotaccent.alt;
-sub IJ by IJ.alt;
-sub Iotatonos by Iotatonos.alt;
-sub Iota by Iota.alt;
-sub Iotadieresis by Iotadieresis.alt;
-sub afii10055 by afii10055.alt;
-sub afii10056 by afii10056.alt;
-sub uni04C0 by uni04C0.alt;
-sub uni04CF by uni04CF.alt;
-sub uni1EC8 by uni1EC8.alt;
-sub uni1ECA by uni1ECA.alt;
-language ROM ;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-sub I by I.alt;
-sub Igrave by Igrave.alt;
-sub Iacute by Iacute.alt;
-sub Icircumflex by Icircumflex.alt;
-sub Idieresis by Idieresis.alt;
-sub Itilde by Itilde.alt;
-sub Imacron by Imacron.alt;
-sub Ibreve by Ibreve.alt;
-sub Iogonek by Iogonek.alt;
-sub Idotaccent by Idotaccent.alt;
-sub IJ by IJ.alt;
-sub Iotatonos by Iotatonos.alt;
-sub Iota by Iota.alt;
-sub Iotadieresis by Iotadieresis.alt;
-sub afii10055 by afii10055.alt;
-sub afii10056 by afii10056.alt;
-sub uni04C0 by uni04C0.alt;
-sub uni04CF by uni04CF.alt;
-sub uni1EC8 by uni1EC8.alt;
-sub uni1ECA by uni1ECA.alt;
-";
+code = "sub g by g.ss02;
+sub gcircumflex by gcircumflex.ss02;
+sub gbreve by gbreve.ss02;
+sub gdotaccent by gdotaccent.ss02;
+sub gcommaaccent by gcommaaccent.ss02;
+sub I by I.ss01;
+sub Igrave by Igrave.ss01;
+sub Iacute by Iacute.ss01;
+sub Icircumflex by Icircumflex.ss01;
+sub Idieresis by Idieresis.ss01;
+sub Itilde by Itilde.ss01;
+sub Imacron by Imacron.ss01;
+sub Ibreve by Ibreve.ss01;
+sub Iogonek by Iogonek.ss01;
+sub Idotaccent by Idotaccent.ss01;
+sub IJ by IJ.ss01;
+sub Iotatonos by Iotatonos.ss01;
+sub Iota by Iota.ss01;
+sub Iotadieresis by Iotadieresis.ss01;
+sub I-cy by I-cy.ss01;
+sub Yi-cy by Yi-cy.ss01;
+sub Palochka-cy by Palochka-cy.ss01;
+sub palochka-cy by palochka-cy.ss01;
+sub Ihookabove by Ihookabove.ss01;
+sub Idotbelow by Idotbelow.ss01;";
 name = ss01;
 },
 {
-code = "script latn;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-language MOL ;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-language ROM ;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-";
+code = "sub g by g.ss02;
+sub gcircumflex by gcircumflex.ss02;
+sub gbreve by gbreve.ss02;
+sub gdotaccent by gdotaccent.ss02;
+sub gcommaaccent by gcommaaccent.ss02;";
 name = ss02;
 },
 {
-code = "script latn;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-sub I by I.alt;
-sub Igrave by Igrave.alt;
-sub Iacute by Iacute.alt;
-sub Icircumflex by Icircumflex.alt;
-sub Idieresis by Idieresis.alt;
-sub Itilde by Itilde.alt;
-sub Imacron by Imacron.alt;
-sub Ibreve by Ibreve.alt;
-sub Iogonek by Iogonek.alt;
-sub Idotaccent by Idotaccent.alt;
-sub IJ by IJ.alt;
-sub Iotatonos by Iotatonos.alt;
-sub Iota by Iota.alt;
-sub Iotadieresis by Iotadieresis.alt;
-sub afii10055 by afii10055.alt;
-sub afii10056 by afii10056.alt;
-sub uni04C0 by uni04C0.alt;
-sub uni04CF by uni04CF.alt;
-sub uni1EC8 by uni1EC8.alt;
-sub uni1ECA by uni1ECA.alt;
-language MOL ;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-sub I by I.alt;
-sub Igrave by Igrave.alt;
-sub Iacute by Iacute.alt;
-sub Icircumflex by Icircumflex.alt;
-sub Idieresis by Idieresis.alt;
-sub Itilde by Itilde.alt;
-sub Imacron by Imacron.alt;
-sub Ibreve by Ibreve.alt;
-sub Iogonek by Iogonek.alt;
-sub Idotaccent by Idotaccent.alt;
-sub IJ by IJ.alt;
-sub Iotatonos by Iotatonos.alt;
-sub Iota by Iota.alt;
-sub Iotadieresis by Iotadieresis.alt;
-sub afii10055 by afii10055.alt;
-sub afii10056 by afii10056.alt;
-sub uni04C0 by uni04C0.alt;
-sub uni04CF by uni04CF.alt;
-sub uni1EC8 by uni1EC8.alt;
-sub uni1ECA by uni1ECA.alt;
-language ROM ;
-sub g by g.alt;
-sub gcircumflex by gcircumflex.alt;
-sub gbreve by gbreve.alt;
-sub gdot by gdot.alt;
-sub gcommaaccent by gcommaaccent.alt;
-sub I by I.alt;
-sub Igrave by Igrave.alt;
-sub Iacute by Iacute.alt;
-sub Icircumflex by Icircumflex.alt;
-sub Idieresis by Idieresis.alt;
-sub Itilde by Itilde.alt;
-sub Imacron by Imacron.alt;
-sub Ibreve by Ibreve.alt;
-sub Iogonek by Iogonek.alt;
-sub Idotaccent by Idotaccent.alt;
-sub IJ by IJ.alt;
-sub Iotatonos by Iotatonos.alt;
-sub Iota by Iota.alt;
-sub Iotadieresis by Iotadieresis.alt;
-sub afii10055 by afii10055.alt;
-sub afii10056 by afii10056.alt;
-sub uni04C0 by uni04C0.alt;
-sub uni04CF by uni04CF.alt;
-sub uni1EC8 by uni1EC8.alt;
-sub uni1ECA by uni1ECA.alt;
-";
+code = "sub g by g.ss02;
+sub gcircumflex by gcircumflex.ss02;
+sub gbreve by gbreve.ss02;
+sub gdotaccent by gdotaccent.ss02;
+sub gcommaaccent by gcommaaccent.ss02;
+sub I by I.ss01;
+sub Igrave by Igrave.ss01;
+sub Iacute by Iacute.ss01;
+sub Icircumflex by Icircumflex.ss01;
+sub Idieresis by Idieresis.ss01;
+sub Itilde by Itilde.ss01;
+sub Imacron by Imacron.ss01;
+sub Ibreve by Ibreve.ss01;
+sub Iogonek by Iogonek.ss01;
+sub Idotaccent by Idotaccent.ss01;
+sub IJ by IJ.ss01;
+sub Iotatonos by Iotatonos.ss01;
+sub Iota by Iota.ss01;
+sub Iotadieresis by Iotadieresis.ss01;
+sub I-cy by I-cy.ss01;
+sub Yi-cy by Yi-cy.ss01;
+sub Palochka-cy by Palochka-cy.ss01;
+sub palochka-cy by palochka-cy.ss01;
+sub Ihookabove by Ihookabove.ss01;
+sub Idotbelow by Idotbelow.ss01;";
 name = salt;
 },
 {
-code = "# ss03
-
-script latn;
-sub I by I.ss01;
+code = "sub I by I.ss01;
 sub Igrave by Igrave.ss01;
 sub Iacute by Iacute.ss01;
 sub Icircumflex by Icircumflex.ss01;
@@ -423,106 +233,23 @@ sub Yi-cy by Yi-cy.ss01;
 sub Palochka-cy by Palochka-cy.ss01;
 sub palochka-cy by palochka-cy.ss01;
 sub Ihookabove by Ihookabove.ss01;
-sub Idotbelow by Idotbelow.ss01;
-language MOL ;
-sub I by I.ss01;
-sub Igrave by Igrave.ss01;
-sub Iacute by Iacute.ss01;
-sub Icircumflex by Icircumflex.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Itilde by Itilde.ss01;
-sub Imacron by Imacron.ss01;
-sub Ibreve by Ibreve.ss01;
-sub Iogonek by Iogonek.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub IJ by IJ.ss01;
-sub Iotatonos by Iotatonos.ss01;
-sub Iota by Iota.ss01;
-sub Iotadieresis by Iotadieresis.ss01;
-sub I-cy by I-cy.ss01;
-sub Yi-cy by Yi-cy.ss01;
-sub Palochka-cy by Palochka-cy.ss01;
-sub palochka-cy by palochka-cy.ss01;
-sub Ihookabove by Ihookabove.ss01;
-sub Idotbelow by Idotbelow.ss01;
-language ROM ;
-sub I by I.ss01;
-sub Igrave by Igrave.ss01;
-sub Iacute by Iacute.ss01;
-sub Icircumflex by Icircumflex.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Itilde by Itilde.ss01;
-sub Imacron by Imacron.ss01;
-sub Ibreve by Ibreve.ss01;
-sub Iogonek by Iogonek.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub IJ by IJ.ss01;
-sub Iotatonos by Iotatonos.ss01;
-sub Iota by Iota.ss01;
-sub Iotadieresis by Iotadieresis.ss01;
-sub I-cy by I-cy.ss01;
-sub Yi-cy by Yi-cy.ss01;
-sub Palochka-cy by Palochka-cy.ss01;
-sub palochka-cy by palochka-cy.ss01;
-sub Ihookabove by Ihookabove.ss01;
-sub Idotbelow by Idotbelow.ss01;
-";
+sub Idotbelow by Idotbelow.ss01;";
 name = ss03;
 },
 {
-code = "script latn;
-sub zero.os by zero;
-sub one.os by one;
-sub two.os by two;
-sub three.os by three;
-sub four.os by four;
-sub five.os by five;
-sub six.os by six;
-sub seven.os by seven;
-sub eight.os by eight;
-sub nine.os by nine;
-sub one.pnum by one;
-language MOL ;
-sub zero.os by zero;
-sub one.os by one;
-sub two.os by two;
-sub three.os by three;
-sub four.os by four;
-sub five.os by five;
-sub six.os by six;
-sub seven.os by seven;
-sub eight.os by eight;
-sub nine.os by nine;
-sub one.pnum by one;
-language ROM ;
-sub zero.os by zero;
-sub one.os by one;
-sub two.os by two;
-sub three.os by three;
-sub four.os by four;
-sub five.os by five;
-sub six.os by six;
-sub seven.os by seven;
-sub eight.os by eight;
-sub nine.os by nine;
-sub one.pnum by one;
-";
-name = tnum;
-},
-{
 automatic = 1;
-code = "sub zero by zerosuperior;
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub four by foursuperior;
-sub five by fivesuperior;
-sub six by sixsuperior;
-sub seven by sevensuperior;
-sub eight by eightsuperior;
-sub nine by ninesuperior;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
 ";
-name = sups;
+name = frac;
 },
 {
 automatic = 1;
@@ -556,18 +283,18 @@ name = dnom;
 },
 {
 automatic = 1;
-code = "lookup FRAC {
-	sub slash by fraction;
-} FRAC;
-lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} UP;
-lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} DOWN;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
 ";
-name = frac;
+name = sups;
 }
 );
 fontMaster = (
@@ -618,6 +345,46 @@ value = 2189;
 {
 name = hheaDescender;
 value = -600;
+},
+{
+name = subscriptYOffset;
+value = "287";
+},
+{
+name = superscriptYSize;
+value = "1331";
+},
+{
+name = superscriptXSize;
+value = "1434";
+},
+{
+name = superscriptYOffset;
+value = "977";
+},
+{
+name = subscriptXSize;
+value = "1434";
+},
+{
+name = subscriptYSize;
+value = "1331";
+},
+{
+name = strikeoutPosition;
+value = 512;
+},
+{
+name = strikeoutSize;
+value = 102;
+},
+{
+name = subscriptXOffset;
+value = "0";
+},
+{
+name = superscriptXOffset;
+value = "0";
 }
 );
 descender = -492;
@@ -685,6 +452,46 @@ value = 2189;
 {
 name = hheaDescender;
 value = -600;
+},
+{
+name = subscriptYOffset;
+value = "287";
+},
+{
+name = superscriptYSize;
+value = "1331";
+},
+{
+name = superscriptXSize;
+value = "1434";
+},
+{
+name = superscriptYOffset;
+value = "977";
+},
+{
+name = subscriptXSize;
+value = "1434";
+},
+{
+name = subscriptYSize;
+value = "1331";
+},
+{
+name = subscriptXOffset;
+value = "0";
+},
+{
+name = superscriptXOffset;
+value = "0";
+},
+{
+name = strikeoutPosition;
+value = 512;
+},
+{
+name = strikeoutSize;
+value = 102;
 }
 );
 descender = -492;
@@ -755,6 +562,46 @@ value = 2189;
 {
 name = hheaDescender;
 value = -600;
+},
+{
+name = subscriptYOffset;
+value = "287";
+},
+{
+name = superscriptYSize;
+value = "1331";
+},
+{
+name = superscriptXSize;
+value = "1434";
+},
+{
+name = superscriptYOffset;
+value = "977";
+},
+{
+name = subscriptXSize;
+value = "1434";
+},
+{
+name = subscriptYSize;
+value = "1331";
+},
+{
+name = subscriptXOffset;
+value = "0";
+},
+{
+name = superscriptXOffset;
+value = "0";
+},
+{
+name = strikeoutPosition;
+value = 512;
+},
+{
+name = strikeoutSize;
+value = 102;
 }
 );
 descender = -492;
@@ -826,6 +673,46 @@ value = 2189;
 {
 name = hheaDescender;
 value = -600;
+},
+{
+name = subscriptYOffset;
+value = "287";
+},
+{
+name = superscriptYSize;
+value = "1331";
+},
+{
+name = superscriptXSize;
+value = "1434";
+},
+{
+name = superscriptYOffset;
+value = "977";
+},
+{
+name = subscriptXSize;
+value = "1434";
+},
+{
+name = subscriptYSize;
+value = "1331";
+},
+{
+name = subscriptXOffset;
+value = "0";
+},
+{
+name = superscriptXOffset;
+value = "0";
+},
+{
+name = strikeoutPosition;
+value = 512;
+},
+{
+name = strikeoutSize;
+value = 102;
 }
 );
 descender = -492;
@@ -24809,6 +24696,64 @@ leftKerningGroup = T;
 note = Tcaron;
 rightKerningGroup = T;
 unicode = 0164;
+},
+{
+glyphname = Tcedilla;
+layers = (
+{
+components = (
+{
+name = T;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 331, 0}";
+}
+);
+layerId = "4C802D5D-2BAD-4759-8C93-835BB7B64EA1";
+width = 985;
+},
+{
+components = (
+{
+name = T;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 314, 0}";
+}
+);
+layerId = "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4";
+width = 1130;
+},
+{
+components = (
+{
+name = T;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 176, 0}";
+}
+);
+layerId = "9047BFCD-DDCC-4357-AC30-29E5270711EF";
+width = 639;
+},
+{
+components = (
+{
+name = T;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 225, 0}";
+}
+);
+layerId = "055178C8-6F6F-4B48-86C1-608D4439D248";
+width = 960;
+}
+);
+unicode = 0162;
 },
 {
 glyphname = Tcommaaccent;
@@ -62345,6 +62290,64 @@ leftKerningGroup = t;
 note = tcaron;
 rightKerningGroup = t;
 unicode = 0165;
+},
+{
+glyphname = tcedilla;
+layers = (
+{
+components = (
+{
+name = t;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 268, 0}";
+}
+);
+layerId = "4C802D5D-2BAD-4759-8C93-835BB7B64EA1";
+width = 616;
+},
+{
+components = (
+{
+name = t;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 217, 0}";
+}
+);
+layerId = "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4";
+width = 936;
+},
+{
+components = (
+{
+name = t;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 138, 0}";
+}
+);
+layerId = "9047BFCD-DDCC-4357-AC30-29E5270711EF";
+width = 403;
+},
+{
+components = (
+{
+name = t;
+},
+{
+name = cedillacomb;
+transform = "{1, 0, 0, 1, 250, 0}";
+}
+);
+layerId = "055178C8-6F6F-4B48-86C1-608D4439D248";
+width = 757;
+}
+);
+unicode = 0163;
 },
 {
 glyphname = tcommaaccent;
@@ -267784,55 +267787,6 @@ rightKerningGroup = NULL;
 );
 instances = (
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 instanceInterpolations = {
 "4C802D5D-2BAD-4759-8C93-835BB7B64EA1" = 1;
 };
@@ -267842,55 +267796,6 @@ name = "Light Italic";
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 170;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.23333;
@@ -267900,55 +267805,6 @@ isItalic = 1;
 name = Italic;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 237;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.45667;
@@ -267961,55 +267817,6 @@ name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 310;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.7;
@@ -268021,55 +267828,6 @@ name = "Bold Italic";
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 396;
 instanceInterpolations = {
 "0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4" = 0.98667;
@@ -268081,55 +267839,6 @@ name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationCustom = 100;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -268142,55 +267851,6 @@ weightClass = Light;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 170;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -268203,55 +267863,6 @@ name = "Condensed Italic";
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 239;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -268266,55 +267877,6 @@ weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationWeight = 310;
 interpolationWidth = 75;
 instanceInterpolations = {
@@ -268329,55 +267891,6 @@ weightClass = Bold;
 widthClass = Condensed;
 },
 {
-customParameters = (
-{
-name = panose;
-value = (
-2,
-11,
-6,
-6,
-3,
-5,
-4,
-2,
-2,
-4
-);
-},
-{
-name = subscriptYOffset;
-value = "287";
-},
-{
-name = superscriptYSize;
-value = "1331";
-},
-{
-name = superscriptXSize;
-value = "1434";
-},
-{
-name = superscriptYOffset;
-value = "977";
-},
-{
-name = subscriptXSize;
-value = "1434";
-},
-{
-name = subscriptYSize;
-value = "1331";
-},
-{
-name = strikeoutPosition;
-value = 497;
-},
-{
-name = subscriptYOffset;
-value = "0";
-}
-);
 interpolationCustom = 400;
 interpolationWeight = 400;
 interpolationWidth = 75;
