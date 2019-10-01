@@ -117,7 +117,7 @@ sub nine.osf by nine;";
 name = lnum;
 },
 {
-code = "language MOL ;
+code = "language MOL
 sub Tcommaaccent by Tcedilla;
 sub tcommaaccent by tcedilla;
 sub Scommaaccent by Scedilla;
@@ -267907,6 +267907,6 @@ widthClass = Condensed;
 manufacturer = "Ascender Corporation";
 manufacturerURL = "http://www.ascendercorp.com/";
 unitsPerEm = 2048;
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
