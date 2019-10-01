@@ -35,4 +35,4 @@ ttx -x "MVAR" $VF_FILENAME_ITALIC
 rm $VF_FILENAME_ITALIC
 ttx "${VF_FILENAME_ITALIC%.*}.ttx"
 
-rm ../fonts/variable_ttf/*.ttx
+rm ../fonts/vf/*.ttx
