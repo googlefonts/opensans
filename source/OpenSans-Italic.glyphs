@@ -328,7 +328,7 @@ value = -600;
 },
 {
 name = typoLineGap;
-value = 512;
+value = 0;
 },
 {
 name = winAscent;
@@ -385,6 +385,10 @@ value = "0";
 {
 name = superscriptXOffset;
 value = "0";
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -492;
@@ -435,7 +439,7 @@ value = -600;
 },
 {
 name = typoLineGap;
-value = 512;
+value = 0;
 },
 {
 name = winAscent;
@@ -492,6 +496,10 @@ value = 512;
 {
 name = strikeoutSize;
 value = 102;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -492;
@@ -545,7 +553,7 @@ value = -600;
 },
 {
 name = typoLineGap;
-value = 512;
+value = 0;
 },
 {
 name = winAscent;
@@ -602,6 +610,10 @@ value = 512;
 {
 name = strikeoutSize;
 value = 102;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -492;
@@ -656,7 +668,7 @@ value = -600;
 },
 {
 name = typoLineGap;
-value = 512;
+value = 0;
 },
 {
 name = winAscent;
@@ -713,6 +725,10 @@ value = 512;
 {
 name = strikeoutSize;
 value = 102;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -492;
@@ -267907,6 +267923,6 @@ widthClass = Condensed;
 manufacturer = "Ascender Corporation";
 manufacturerURL = "http://www.ascendercorp.com/";
 unitsPerEm = 2048;
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
