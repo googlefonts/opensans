@@ -36,3 +36,13 @@ rm $VF_FILENAME_ITALIC
 ttx "${VF_FILENAME_ITALIC%.*}.ttx"
 
 rm ../fonts/vf/*.ttx
+
+echo "Post processing VFs"
+gftools fix-dsig -f $VF_FILENAME_ROMAN
+gftools fix-dsig -f $VF_FILENAME_ITALIC
+
+gftools fix-nonhinting $VF_FILENAME_ROMAN $VF_FILENAME_ROMAN.fix
+gftools fix-nonhinting $VF_FILENAME_ITALIC $VF_FILENAME_ITALIC.fix
+mv $VF_FILENAME_ROMAN.fix $VF_FILENAME_ROMAN
+mv $VF_FILENAME_ITALIC.fix $VF_FILENAME_ITALIC
+rm ../fonts/vf/*gasp.ttf
