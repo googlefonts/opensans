@@ -11,8 +11,8 @@ cu2qu ./master_ufo/OpenSans-Light.ufo/ ./master_ufo/OpenSans-Bold.ufo/ ./master_
 cu2qu ./master_ufo/OpenSans-LightItalic.ufo/ ./master_ufo/OpenSans-ExtraBoldItalic.ufo/ ./master_ufo/OpenSans-CondensedLightItalic.ufo/ ./master_ufo/OpenSans-CondensedExtraBoldItalic.ufo/ -i
 
 echo "Generating VFs"
-VF_FILENAME_ROMAN="../fonts/variable_ttf/OpenSans-Roman-VF.ttf"
-VF_FILENAME_ITALIC="../fonts/variable_ttf/OpenSans-Italic-VF.ttf"
+VF_FILENAME_ROMAN="../fonts/variable_ttf/OpenSans[wdth,wght].ttf"
+VF_FILENAME_ITALIC="../fonts/variable_ttf/OpenSans-Italic[wdth,wght].ttf"
 fontmake -m OpenSans-Roman.designspace -o variable --output-path $VF_FILENAME_ROMAN
 fontmake -m OpenSans-Italic.designspace -o variable --output-path $VF_FILENAME_ITALIC
 
@@ -20,7 +20,7 @@ fontmake -m OpenSans-Italic.designspace -o variable --output-path $VF_FILENAME_I
 rm -rf ./master_ufo ./instance_ufo/
 
 # Drop MVAR and patch name and stat tables
-ttx -m "../fonts/variable_ttf/OpenSans-Roman-VF.ttf" OpenSans-Roman-patch.ttx
+ttx -m $VF_FILENAME_ROMAN OpenSans-Roman-patch.ttx
 mv OpenSans-Roman-patch.ttf $VF_FILENAME_ROMAN
 
 ttx -x "MVAR" $VF_FILENAME_ROMAN
@@ -28,7 +28,7 @@ rm $VF_FILENAME_ROMAN
 ttx "${VF_FILENAME_ROMAN%.*}.ttx"
 
 
-ttx -m "../fonts/variable_ttf/OpenSans-Italic-VF.ttf" OpenSans-Italic-patch.ttx
+ttx -m $VF_FILENAME_ITALIC OpenSans-Italic-patch.ttx
 mv OpenSans-Italic-patch.ttf "../fonts/variable_ttf/OpenSans-Italic-VF.ttf"
 
 ttx -x "MVAR" $VF_FILENAME_ITALIC
