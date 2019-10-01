@@ -11,8 +11,8 @@ cu2qu ./master_ufo/OpenSans-Light.ufo/ ./master_ufo/OpenSans-Bold.ufo/ ./master_
 cu2qu ./master_ufo/OpenSans-LightItalic.ufo/ ./master_ufo/OpenSans-ExtraBoldItalic.ufo/ ./master_ufo/OpenSans-CondensedLightItalic.ufo/ ./master_ufo/OpenSans-CondensedExtraBoldItalic.ufo/ -i
 
 echo "Generating VFs"
-VF_FILENAME_ROMAN="../fonts/variable_ttf/OpenSans[wdth,wght].ttf"
-VF_FILENAME_ITALIC="../fonts/variable_ttf/OpenSans-Italic[wdth,wght].ttf"
+VF_FILENAME_ROMAN="../fonts/vf/OpenSans[wdth,wght].ttf"
+VF_FILENAME_ITALIC="../fonts/vf/OpenSans-Italic[wdth,wght].ttf"
 fontmake -m OpenSans-Roman.designspace -o variable --output-path $VF_FILENAME_ROMAN
 fontmake -m OpenSans-Italic.designspace -o variable --output-path $VF_FILENAME_ITALIC
 
@@ -29,7 +29,7 @@ ttx "${VF_FILENAME_ROMAN%.*}.ttx"
 
 
 ttx -m $VF_FILENAME_ITALIC OpenSans-Italic-patch.ttx
-mv OpenSans-Italic-patch.ttf "../fonts/variable_ttf/OpenSans-Italic-VF.ttf"
+mv OpenSans-Italic-patch.ttf $VF_FILENAME_ITALIC
 
 ttx -x "MVAR" $VF_FILENAME_ITALIC
 rm $VF_FILENAME_ITALIC
