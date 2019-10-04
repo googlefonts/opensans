@@ -2,47 +2,93 @@
 
 set -e
 
-echo "Converting .glyphs to .ufo"
-fontmake -g ./OpenSans-Roman.glyphs -o ufo
-fontmake -g ./OpenSans-Italic.glyphs -o ufo
+generate_vf () {
+	# arg1: input.glyphs file, arg2: out.ttf
 
-echo "Converting cubic curves to quadratic"
-cu2qu ./master_ufo/OpenSans-Light.ufo/ ./master_ufo/OpenSans-Bold.ufo/ ./master_ufo/OpenSans-ExtraBold.ufo/ ./master_ufo/OpenSans-CondensedLight.ufo/ ./master_ufo/OpenSans-CondensedBold.ufo/ ./master_ufo/OpenSans-CondensedExtraBold.ufo/ -i
-cu2qu ./master_ufo/OpenSans-LightItalic.ufo/ ./master_ufo/OpenSans-ExtraBoldItalic.ufo/ ./master_ufo/OpenSans-CondensedLightItalic.ufo/ ./master_ufo/OpenSans-CondensedExtraBoldItalic.ufo/ -i
+	fontmake -g $1 -o ufo --no-production-names
+	cu2qu $(ls -d ./master_ufo/*.ufo) -i
+	fontmake -m ./master_ufo/*.designspace -o variable --output-path $2
+}
+
+
+postprocess_vf () {
+	# arg1: input.ttf, arg2: patchfile.ttx
+
+	# Patch in STAT table
+	ttx -m $1 $2
+	mv "${2%.*}.ttf" $1
+
+	# Drop MVAR
+	ttx -x "MVAR" $1
+	ttx -f "${1%.*}.ttx"
+	rm "${1%.*}.ttx"
+
+	postprocess_ttf $1
+}
+
+
+postprocess_ttf () {
+	# arg 1: input.ttf
+
+	gftools fix-dsig -f $1
+	gftools fix-nonhinting $1 $1.fix
+	mv $1.fix $1
+	rm $(dirname "$1")/*gasp.ttf
+}
+
+
+instantiate_instance () {
+	# arg 1: input.ttf arg2: wght_axis arg3: wdth_axis arg4: out
+	fontTools varLib.mutator $1 wght=$2 wdth=$3
+	mv "${1%.*}-instance.ttf" $4
+	postprocess_ttf $1
+}
+
+
+# --------------
+
+
+VF_ROMAN_SRC="./OpenSans-Roman.glyphs"
+VF_ITALIC_SRC="./OpenSans-Italic.glyphs"
+
+VF_ROMAN_OUT="../fonts/vf/OpenSans[wdth,wght].ttf"
+VF_ITALIC_OUT="../fonts/vf/OpenSans-Italic[wdth,wght].ttf"
+
+rm -rf ../fonts
+mkdir -p ../fonts ../fonts/vf ../fonts/ttf
 
 echo "Generating VFs"
-VF_FILENAME_ROMAN="../fonts/vf/OpenSans[wdth,wght].ttf"
-VF_FILENAME_ITALIC="../fonts/vf/OpenSans-Italic[wdth,wght].ttf"
-fontmake -m OpenSans-Roman.designspace -o variable --output-path $VF_FILENAME_ROMAN
-fontmake -m OpenSans-Italic.designspace -o variable --output-path $VF_FILENAME_ITALIC
-
-
-rm -rf ./master_ufo ./instance_ufo/
-
-# Drop MVAR and patch name and stat tables
-ttx -m $VF_FILENAME_ROMAN OpenSans-Roman-patch.ttx
-mv OpenSans-Roman-patch.ttf $VF_FILENAME_ROMAN
-
-ttx -x "MVAR" $VF_FILENAME_ROMAN
-rm $VF_FILENAME_ROMAN
-ttx "${VF_FILENAME_ROMAN%.*}.ttx"
-
-
-ttx -m $VF_FILENAME_ITALIC OpenSans-Italic-patch.ttx
-mv OpenSans-Italic-patch.ttf $VF_FILENAME_ITALIC
-
-ttx -x "MVAR" $VF_FILENAME_ITALIC
-rm $VF_FILENAME_ITALIC
-ttx "${VF_FILENAME_ITALIC%.*}.ttx"
-
-rm ../fonts/vf/*.ttx
+generate_vf $VF_ROMAN_SRC $VF_ROMAN_OUT
+rm -rf ./master_ufo ./instance_ufo
+generate_vf $VF_ITALIC_SRC $VF_ITALIC_OUT
+rm -rf ./master_ufo ./instance_ufo
 
 echo "Post processing VFs"
-gftools fix-dsig -f $VF_FILENAME_ROMAN
-gftools fix-dsig -f $VF_FILENAME_ITALIC
+postprocess_vf $VF_ROMAN_OUT OpenSans-Roman-patch.ttx
+postprocess_vf $VF_ITALIC_OUT OpenSans-Italic-patch.ttx
 
-gftools fix-nonhinting $VF_FILENAME_ROMAN $VF_FILENAME_ROMAN.fix
-gftools fix-nonhinting $VF_FILENAME_ITALIC $VF_FILENAME_ITALIC.fix
-mv $VF_FILENAME_ROMAN.fix $VF_FILENAME_ROMAN
-mv $VF_FILENAME_ITALIC.fix $VF_FILENAME_ITALIC
-rm ../fonts/vf/*gasp.ttf
+echo "Instantiating Instances"
+# Roman
+instantiate_instance $VF_ROMAN_OUT 300 100 ../fonts/ttf/OpenSans-Light.ttf
+instantiate_instance $VF_ROMAN_OUT 400 100 ../fonts/ttf/OpenSans-Regular.ttf
+instantiate_instance $VF_ROMAN_OUT 600 100 ../fonts/ttf/OpenSans-SemiBold.ttf
+instantiate_instance $VF_ROMAN_OUT 700 100 ../fonts/ttf/OpenSans-Bold.ttf
+instantiate_instance $VF_ROMAN_OUT 800 100 ../fonts/ttf/OpenSans-ExtraBold.ttf
+# Italic
+instantiate_instance $VF_ITALIC_OUT 300 100 ../fonts/ttf/OpenSans-LightItalic.ttf
+instantiate_instance $VF_ITALIC_OUT 400 100 ../fonts/ttf/OpenSans-Italic.ttf
+instantiate_instance $VF_ITALIC_OUT 600 100 ../fonts/ttf/OpenSans-SemiBoldItalic.ttf
+instantiate_instance $VF_ITALIC_OUT 700 100 ../fonts/ttf/OpenSans-BoldItalic.ttf
+instantiate_instance $VF_ITALIC_OUT 800 100 ../fonts/ttf/OpenSans-ExtraBoldItalic.ttf
+# Condensed Roman
+instantiate_instance $VF_ROMAN_OUT 300 75 ../fonts/ttf/OpenSansCondensed-Light.ttf
+instantiate_instance $VF_ROMAN_OUT 400 75 ../fonts/ttf/OpenSansCondensed-Regular.ttf
+instantiate_instance $VF_ROMAN_OUT 600 75 ../fonts/ttf/OpenSansCondensed-SemiBold.ttf
+instantiate_instance $VF_ROMAN_OUT 700 75 ../fonts/ttf/OpenSansCondensed-Bold.ttf
+instantiate_instance $VF_ROMAN_OUT 800 75 ../fonts/ttf/OpenSansCondensed-ExtraBold.ttf
+# Condensed Italic
+instantiate_instance $VF_ITALIC_OUT 300 75 ../fonts/ttf/OpenSansCondensed-LightItalic.ttf
+instantiate_instance $VF_ITALIC_OUT 400 75 ../fonts/ttf/OpenSansCondensed-Italic.ttf
+instantiate_instance $VF_ITALIC_OUT 600 75 ../fonts/ttf/OpenSansCondensed-SemiBoldItalic.ttf
+instantiate_instance $VF_ITALIC_OUT 700 75 ../fonts/ttf/OpenSansCondensed-BoldItalic.ttf
+instantiate_instance $VF_ITALIC_OUT 800 75 ../fonts/ttf/OpenSansCondensed-ExtraBoldItalic.ttf
