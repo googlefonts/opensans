@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb" format="2">
+  <unicode hex="0312"/>
+  <anchor x="301.0" y="1094.6666666666667" name="_top"/>
+  <anchor x="301.0" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="177.33333333333337" y="1241.0" type="line"/>
+      <point x="335.6666666666667" y="1241.0" type="line"/>
+      <point x="346.33333333333337" y="1331.0"/>
+      <point x="393.66666666666663" y="1485.0"/>
+      <point x="423.66666666666663" y="1546.0" type="curve"/>
+      <point x="423.66666666666663" y="1569.0" type="line"/>
+      <point x="340.33333333333337" y="1569.0" type="line"/>
+      <point x="269.33333333333337" y="1492.6666666666667"/>
+      <point x="202.33333333333331" y="1353.3333333333333"/>
+      <point x="177.33333333333337" y="1262.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

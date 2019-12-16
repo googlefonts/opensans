@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance width="976.3285714285715"/>
+  <unicode hex="2021"/>
+  <note>
+daggerdbl
+</note>
+  <outline>
+    <contour>
+      <point x="377.17" y="0.0" type="line"/>
+      <point x="592.3233333333333" y="0.0" type="line"/>
+      <point x="547.4733333333334" y="377.75666666666666" type="line"/>
+      <point x="867.4933333333333" y="352.02666666666664" type="line"/>
+      <point x="867.4933333333333" y="535.3033333333333" type="line"/>
+      <point x="547.4733333333334" y="511.33" type="line"/>
+      <point x="582.4933333333332" y="786.0" type="line"/>
+      <point x="547.4733333333334" y="1045.1333333333334" type="line"/>
+      <point x="867.4933333333333" y="1021.2333333333335" type="line"/>
+      <point x="867.4933333333333" y="1204.0466666666669" type="line"/>
+      <point x="547.4733333333334" y="1178.17" type="line"/>
+      <point x="592.3233333333333" y="1556.0" type="line"/>
+      <point x="377.17" y="1556.0" type="line"/>
+      <point x="421.5566666666667" y="1178.17" type="line"/>
+      <point x="109.1" y="1204.0466666666669" type="line"/>
+      <point x="109.1" y="1021.2333333333335" type="line"/>
+      <point x="421.5566666666667" y="1045.1333333333334" type="line"/>
+      <point x="386.39" y="786.0" type="line"/>
+      <point x="421.5566666666667" y="511.33" type="line"/>
+      <point x="109.1" y="535.3033333333333" type="line"/>
+      <point x="109.1" y="352.02666666666664" type="line"/>
+      <point x="421.5566666666667" y="377.75666666666666" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

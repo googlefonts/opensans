@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <unicode hex="0326"/>
+  <anchor x="194" y="0" name="_bottom"/>
+  <anchor x="194" y="-453" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="100" y="-453" type="line"/>
+      <point x="141" y="-453" type="line"/>
+      <point x="196" y="-378"/>
+      <point x="259" y="-249"/>
+      <point x="287" y="-145" type="curve"/>
+      <point x="287" y="-125" type="line"/>
+      <point x="176" y="-125" type="line"/>
+      <point x="168" y="-214"/>
+      <point x="129" y="-352"/>
+      <point x="100" y="-432" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>387</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb" format="2">
+  <unicode hex="0306"/>
+  <note>
+breve
+</note>
+  <anchor x="568.4095238095238" y="1104.195238095238" name="_top"/>
+  <anchor x="568.4095238095238" y="1537.2476190476189" name="top"/>
+  <outline>
+    <contour>
+      <point x="564.0571428571428" y="1241.6904761904761" type="curve" smooth="yes"/>
+      <point x="733.504761904762" y="1241.6904761904761"/>
+      <point x="835.6857142857141" y="1350.547619047619"/>
+      <point x="846.9666666666667" y="1537.2476190476189" type="curve"/>
+      <point x="716.0571428571429" y="1537.2476190476189" type="line"/>
+      <point x="703.0571428571427" y="1443.2047619047619"/>
+      <point x="663.647619047619" y="1403.795238095238"/>
+      <point x="566.7333333333333" y="1403.795238095238" type="curve" smooth="yes"/>
+      <point x="464.86190476190467" y="1403.795238095238"/>
+      <point x="427.40952380952376" y="1440.8952380952383"/>
+      <point x="418.40952380952376" y="1537.2476190476189" type="curve"/>
+      <point x="289.5142857142856" y="1537.2476190476189" type="line"/>
+      <point x="297.19047619047626" y="1347.490476190476"/>
+      <point x="389.69523809523804" y="1241.6904761904761"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>56</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>13</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>6</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>13</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>6</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <note>
+hungarumlaut
+</note>
+  <anchor x="577.0285714285715" y="1104.1952380952382" name="_top"/>
+  <anchor x="577.0285714285714" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="551.1285714285715" y="1241.0" type="line"/>
+      <point x="665.6428571428571" y="1241.0" type="line"/>
+      <point x="769.1476190476191" y="1328.5619047619048"/>
+      <point x="910.2571428571429" y="1478.8285714285714"/>
+      <point x="950.004761904762" y="1548.6904761904761" type="curve"/>
+      <point x="950.004761904762" y="1569.0" type="line"/>
+      <point x="723.7761904761904" y="1569.0" type="line"/>
+      <point x="690.0714285714286" y="1493.9"/>
+      <point x="612.452380952381" y="1349.6047619047617"/>
+      <point x="551.1285714285715" y="1265.9714285714285" type="curve"/>
+    </contour>
+    <contour>
+      <point x="203.05238095238096" y="1241.0" type="line"/>
+      <point x="318.2285714285714" y="1241.0" type="line"/>
+      <point x="407.8619047619047" y="1314.352380952381"/>
+      <point x="553.2095238095238" y="1469.8714285714286"/>
+      <point x="601.2666666666667" y="1548.6904761904761" type="curve"/>
+      <point x="601.2666666666667" y="1569.0" type="line"/>
+      <point x="375.03809523809525" y="1569.0" type="line"/>
+      <point x="341.33333333333337" y="1493.2380952380952"/>
+      <point x="263.7142857142857" y="1349.6047619047617"/>
+      <point x="203.05238095238096" y="1265.9714285714285" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1162</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

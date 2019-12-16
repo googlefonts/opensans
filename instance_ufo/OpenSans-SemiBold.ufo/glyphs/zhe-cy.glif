@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zhe-cy" format="2">
+  <advance width="1643.9714285714285"/>
+  <unicode hex="0436"/>
+  <note>
+afii10072
+</note>
+  <anchor x="1633.9" y="0.0" name="bottomright"/>
+  <anchor x="828.6047619047619" y="1108.1809523809525" name="top"/>
+  <outline>
+    <contour>
+      <point x="2.0285714285714285" y="0.0" type="line"/>
+      <point x="267.3666666666667" y="0.0" type="line"/>
+      <point x="713.0761904761905" y="562.2523809523809" type="line"/>
+      <point x="713.0761904761905" y="0.0" type="line"/>
+      <point x="943.4714285714285" y="0.0" type="line"/>
+      <point x="943.4714285714285" y="562.2523809523809" type="line"/>
+      <point x="1389.1809523809525" y="0.0" type="line"/>
+      <point x="1654.5190476190476" y="0.0" type="line"/>
+      <point x="1186.2333333333333" y="574.8857142857142" type="line"/>
+      <point x="1616.857142857143" y="1108.1809523809525" type="line"/>
+      <point x="1357.5190476190476" y="1108.1809523809525" type="line"/>
+      <point x="943.4714285714285" y="570.2523809523809" type="line"/>
+      <point x="943.4714285714285" y="1108.1809523809525" type="line"/>
+      <point x="713.0761904761905" y="1108.1809523809525" type="line"/>
+      <point x="713.0761904761905" y="570.2523809523809" type="line"/>
+      <point x="299.69047619047615" y="1108.1809523809525" type="line"/>
+      <point x="40.352380952380955" y="1108.1809523809525" type="line"/>
+      <point x="468.9761904761905" y="572.8714285714286" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>17</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>15</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>2</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>17</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>15</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

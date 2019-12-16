@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <note>
+acutecomb
+</note>
+  <anchor x="-80.07142857142857" y="1139.547619047619" name="_top"/>
+  <anchor x="0.0" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="-215.58571428571432" y="1241.0" type="line"/>
+      <point x="-75.91904761904762" y="1241.0" type="line"/>
+      <point x="34.304761904761904" y="1331.252380952381"/>
+      <point x="176.8238095238095" y="1480.1809523809525"/>
+      <point x="215.58571428571426" y="1548.6904761904761" type="curve"/>
+      <point x="215.58571428571426" y="1569.0" type="line"/>
+      <point x="-37.16190476190476" y="1569.0" type="line"/>
+      <point x="-71.55714285714285" y="1492.8714285714286"/>
+      <point x="-149.1190476190476" y="1351.1571428571428"/>
+      <point x="-215.58571428571432" y="1265.9714285714285" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
