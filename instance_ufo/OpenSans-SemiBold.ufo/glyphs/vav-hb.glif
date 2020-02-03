@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vav-hb" format="2">
+  <advance width="571.2428571428571"/>
+  <unicode hex="05D5"/>
+  <note>
+afii57669
+</note>
+  <anchor x="284.62857142857143" y="0.0" name="bottom"/>
+  <anchor x="27.28095238095238" y="0.0" name="bottomleft"/>
+  <anchor x="7.942857142857143" y="668.9714285714285" name="center"/>
+  <anchor x="284.62857142857143" y="1308.1809523809525" name="top"/>
+  <anchor x="27.28095238095238" y="1108.1809523809525" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="167.43809523809523" y="0.0" type="line"/>
+      <point x="401.81904761904764" y="0.0" type="line"/>
+      <point x="401.81904761904764" y="1291.9857142857143" type="line"/>
+      <point x="167.43809523809523" y="1291.9857142857143" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

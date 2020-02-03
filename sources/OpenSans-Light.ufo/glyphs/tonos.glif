@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="1123"/>
+  <unicode hex="0384"/>
+  <note>
+tonos
+</note>
+  <anchor x="623" y="1112" name="_top"/>
+  <anchor x="810" y="1556" name="_topleft"/>
+  <outline>
+    <contour>
+      <point x="501" y="1241" type="line"/>
+      <point x="559" y="1241" type="line"/>
+      <point x="628" y="1358"/>
+      <point x="695" y="1531"/>
+      <point x="719" y="1634" type="curve"/>
+      <point x="719" y="1651" type="line"/>
+      <point x="600" y="1651" type="line"/>
+      <point x="581" y="1516"/>
+      <point x="540" y="1357"/>
+      <point x="501" y="1257" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

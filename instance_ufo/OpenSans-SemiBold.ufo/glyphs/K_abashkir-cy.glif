@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kabashkir-cy" format="2">
+  <advance width="1439.4666666666667"/>
+  <unicode hex="04A0"/>
+  <note>
+uni04A0
+</note>
+  <outline>
+    <contour>
+      <point x="329.3809523809524" y="0.0" type="line"/>
+      <point x="567.7333333333333" y="0.0" type="line"/>
+      <point x="567.7333333333333" y="548.3714285714286" type="line"/>
+      <point x="726.9904761904762" y="673.3761904761905" type="line"/>
+      <point x="1161.5666666666666" y="0.0" type="line"/>
+      <point x="1435.4952380952382" y="0.0" type="line"/>
+      <point x="896.2904761904762" y="826.7904761904762" type="line"/>
+      <point x="1430.747619047619" y="1462.0" type="line"/>
+      <point x="1161.4238095238095" y="1462.0" type="line"/>
+      <point x="710.5380952380953" y="933.5" type="line"/>
+      <point x="567.7333333333333" y="759.5857142857143" type="line"/>
+      <point x="567.7333333333333" y="1462.0" type="line"/>
+      <point x="3.3809523809523814" y="1462.0" type="line"/>
+      <point x="3.3809523809523814" y="1260.7571428571428" type="line"/>
+      <point x="329.3809523809524" y="1260.7571428571428" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>14</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>11</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>12</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>14</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>14</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>11</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>12</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

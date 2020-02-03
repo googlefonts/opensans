@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <note>
+gravecomb
+</note>
+  <anchor x="0.6619047619047684" y="1104.1952380952382" name="_top"/>
+  <anchor x="0.6619047619047618" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="75.58095238095238" y="1241.0" type="curve"/>
+      <point x="215.58571428571426" y="1241.0" type="line"/>
+      <point x="215.58571428571426" y="1265.9714285714285" type="line"/>
+      <point x="158.4857142857143" y="1340.7333333333333"/>
+      <point x="73.16190476190475" y="1488.9714285714285"/>
+      <point x="37.823809523809516" y="1569.0" type="curve"/>
+      <point x="-215.58571428571432" y="1569.0" type="line"/>
+      <point x="-215.58571428571432" y="1548.6904761904761" type="line"/>
+      <point x="-175.5285714285714" y="1477.547619047619"/>
+      <point x="-18.700000000000003" y="1317.295238095238"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

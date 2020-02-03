@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finalnun-hb" format="2">
+  <advance width="602"/>
+  <unicode hex="05DF"/>
+  <note>
+afii57679
+</note>
+  <anchor x="305" y="0" name="bottom"/>
+  <anchor x="39" y="0" name="bottomleft"/>
+  <anchor x="305" y="560" name="center"/>
+  <anchor x="305" y="1119" name="top"/>
+  <anchor x="39" y="1119" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="140" y="-479" type="line"/>
+      <point x="442" y="-479" type="line"/>
+      <point x="442" y="846" type="line" smooth="yes"/>
+      <point x="442" y="994"/>
+      <point x="410" y="1178"/>
+      <point x="395" y="1232" type="curve" smooth="yes"/>
+      <point x="388" y="1258"/>
+      <point x="381" y="1278"/>
+      <point x="376" y="1293" type="curve"/>
+      <point x="73" y="1293" type="line"/>
+      <point x="78" y="1277"/>
+      <point x="83" y="1260"/>
+      <point x="88" y="1243" type="curve" smooth="yes"/>
+      <point x="115" y="1155"/>
+      <point x="140" y="996"/>
+      <point x="140" y="846" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

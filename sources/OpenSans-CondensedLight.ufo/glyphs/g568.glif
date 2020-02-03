@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="g568" format="2">
+  <advance width="1024"/>
+  <note>
+g568
+</note>
+  <outline>
+    <contour>
+      <point x="422" y="1229" type="line"/>
+      <point x="459" y="1229" type="line"/>
+      <point x="507" y="1302"/>
+      <point x="571" y="1461"/>
+      <point x="584" y="1536" type="curve"/>
+      <point x="584" y="1556" type="line"/>
+      <point x="471" y="1556" type="line"/>
+      <point x="462" y="1460"/>
+      <point x="434" y="1300"/>
+      <point x="422" y="1249" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

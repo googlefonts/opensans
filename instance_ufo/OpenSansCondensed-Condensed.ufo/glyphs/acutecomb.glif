@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <note>
+acutecomb
+</note>
+  <anchor x="-85.0" y="1131.3333333333333" name="_top"/>
+  <anchor x="0.0" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="-187.00000000000003" y="1241.0" type="line"/>
+      <point x="-93.33333333333333" y="1241.0" type="line"/>
+      <point x="9.333333333333336" y="1325.6666666666667"/>
+      <point x="141.66666666666666" y="1469.6666666666665"/>
+      <point x="187.00000000000003" y="1550.3333333333333" type="curve"/>
+      <point x="187.00000000000003" y="1569.0" type="line"/>
+      <point x="-2.3333333333333384" y="1569.0" type="line"/>
+      <point x="-41.0" y="1484.0"/>
+      <point x="-111.33333333333333" y="1362.0"/>
+      <point x="-187.00000000000003" y="1264.0" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb" format="2">
+  <unicode hex="0312"/>
+  <anchor x="167.03333333333333" y="1108.1809523809525" name="_top"/>
+  <anchor x="199.23333333333332" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="52.576190476190476" y="1241.0" type="line"/>
+      <point x="278.4238095238095" y="1241.0" type="line"/>
+      <point x="285.76190476190476" y="1312.9714285714285"/>
+      <point x="315.1857142857143" y="1447.8619047619047"/>
+      <point x="345.2285714285714" y="1546.7047619047619" type="curve"/>
+      <point x="345.2285714285714" y="1569.0" type="line"/>
+      <point x="209.4904761904762" y="1569.0" type="line"/>
+      <point x="143.56190476190477" y="1478.0714285714287"/>
+      <point x="88.84285714285713" y="1361.9714285714285"/>
+      <point x="52.576190476190476" y="1258.9714285714285" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
