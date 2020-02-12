@@ -16,7 +16,8 @@ fontmake -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
-fontmake -m OpenSans-Roman.designspace -o variable --output-path ../fonts/vf/OpenSans[wght].ttf
+mkdir -p ../fonts/vf
+fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght].ttf"
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
