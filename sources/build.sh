@@ -68,7 +68,8 @@ do
 done
 
 echo "Fixing VF Meta"
-gftools fix-vf-meta $vfs;
+# gftools fix-vf-meta $vfs;
+statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght][wdth].ttf fonts/vf/OpenSans[wght][wdth].ttf;
 
 echo "Fixing Hinting"
 for vf in $vfs
