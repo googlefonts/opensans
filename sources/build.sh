@@ -17,7 +17,7 @@ fontmake -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
-fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght].ttf"
+fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght][wdth].ttf"
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
@@ -38,7 +38,7 @@ do
 done
 
 
-vfs=$(ls ../fonts/vf/*\[wght\].ttf)
+vfs=$(ls ../fonts/vf/*.ttf)
 
 echo "Post processing VFs"
 for vf in $vfs
