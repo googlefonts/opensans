@@ -22,6 +22,10 @@ fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/Op
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
 
+echo "Instanciate single axis VFs"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght][wdth].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wght][wdth].ttf "wdth=75"
+
 echo "Post processing"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
