@@ -19,7 +19,7 @@ echo "Generating VFs"
 mkdir -p ../fonts/vf
 fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght][wdth].ttf"
 
-rm -rf master_ufo/ instance_ufo/ instance_ufos/*
+rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 
 echo "Instanciate single axis VFs"
