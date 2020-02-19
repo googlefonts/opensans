@@ -17,14 +17,17 @@ fontmake -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
-fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght][wdth].ttf"
+fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght,wdth].ttf"
+fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vf/OpenSans-Italic[wght,wdth].ttf"
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 
 echo "Instanciate single axis VFs"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght][wdth].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wght][wdth].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght,wdth].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wght,wdth].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght,wdth].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght,wdth].ttf "wdth=75"
 
 echo "Post processing"
 ttfs=$(ls ../fonts/ttf/*.ttf)
@@ -73,7 +76,7 @@ done
 
 echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
-statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght][wdth].ttf ../fonts/vf/OpenSans[wght][wdth].ttf;
+statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght,wdth].ttf ../fonts/vf/OpenSans[wght,wdth].ttf;
 
 echo "Fixing Hinting"
 for vf in $vfs
