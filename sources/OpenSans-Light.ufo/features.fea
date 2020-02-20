@@ -1,5 +1,17 @@
 feature aalt {
 # automatic
+feature lnum;
+feature locl;
+feature onum;
+feature pnum;
+feature ss01;
+feature ss02;
+feature salt;
+feature ss03;
+feature frac;
+feature numr;
+feature dnom;
+feature sups;
 
 } aalt;
 
@@ -25,17 +37,17 @@ sub nine.osf by nine;
 } lnum;
 
 feature locl {
-language MOL ;
-sub Tcommaaccent by Tcedilla;
-sub tcommaaccent by tcedilla;
-sub Scommaaccent by Scedilla;
-sub scommaaccent by scedilla;
-language ROM ;
-sub Tcommaaccent by Tcedilla;
-sub tcommaaccent by tcedilla;
-sub Scommaaccent by Scedilla;
-sub scommaaccent by scedilla;
+lookup locl_MOLROM {
+	sub Tcommaaccent by Tcedilla;
+	sub tcommaaccent by tcedilla;
+	sub Scommaaccent by Scedilla;
+	sub scommaaccent by scedilla;
+} locl_MOLROM;
 
+language MOL;
+lookup locl_MOLROM;
+language ROM;
+lookup locl_MOLROM;
 } locl;
 
 feature onum {
