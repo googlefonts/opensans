@@ -10,8 +10,27 @@
     </axis>
     <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
   </axes>
+  <rules>
+    <rule name="bracket_redo">
+      <conditionset>
+        <condition minimum="330" name="Weight" />
+      </conditionset>
+      <sub name="Aringacute" with="Aringacute.rvrn"/>
+      <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
+      <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
+      <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
+      <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
+      <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
+      <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
+      <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
+      <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
+      <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
+      <sub name="dollar" with="dollar.rvrn"/>
+      <sub name="uni047C" with="uni047C.rvrn"/>
+    </rule>
+  </rules>
   <sources>
-	  <source filename="./OpenSans-Light.ufo" name="Open Sans Light" familyname="Open Sans" stylename="Light">
+    <source filename="./OpenSans-Light.ufo" name="Open Sans Light" familyname="Open Sans" stylename="Light">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -134,21 +153,4 @@
       <info/>
     </instance>
   </instances>
-    <rules>
-        <rule name="bracket_redo">
-            <condition minimum="330" name="Weight" />
-            <sub name="Aringacute" with="Aringacute.rvrn"/>
-            <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
-            <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
-            <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
-            <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
-            <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
-            <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
-            <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
-            <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
-            <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
-            <sub name="dollar" with="dollar.rvrn"/>
-            <sub name="uni047C" with="uni047C.rvrn"/>
-        </rule>
-    </rules>
 </designspace>
