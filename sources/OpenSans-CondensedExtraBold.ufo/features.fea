@@ -69,12 +69,15 @@ feature pnum {
 sub one by one.lf;
 } pnum;
 
-feature ss01 {
+lookup galternates {
 sub g by g.ss02;
 sub gcircumflex by gcircumflex.ss02;
 sub gbreve by gbreve.ss02;
 sub gdotaccent by gdotaccent.ss02;
 sub gcommaaccent by gcommaaccent.ss02;
+} galternates;
+
+lookup Ialternates {
 sub I by I.ss01;
 sub Igrave by Igrave.ss01;
 sub Iacute by Iacute.ss01;
@@ -95,65 +98,24 @@ sub Palochka-cy by Palochka-cy.ss01;
 sub palochka-cy by palochka-cy.ss01;
 sub Ihookabove by Ihookabove.ss01;
 sub Idotbelow by Idotbelow.ss01;
+} Ialternates;
+
+feature ss01 {
+	lookup galternates;
+	lookup Ialternates;
 } ss01;
 
 feature ss02 {
-sub g by g.ss02;
-sub gcircumflex by gcircumflex.ss02;
-sub gbreve by gbreve.ss02;
-sub gdotaccent by gdotaccent.ss02;
-sub gcommaaccent by gcommaaccent.ss02;
+	lookup galternates;
 } ss02;
 
 feature salt {
-sub g by g.ss02;
-sub gcircumflex by gcircumflex.ss02;
-sub gbreve by gbreve.ss02;
-sub gdotaccent by gdotaccent.ss02;
-sub gcommaaccent by gcommaaccent.ss02;
-sub I by I.ss01;
-sub Igrave by Igrave.ss01;
-sub Iacute by Iacute.ss01;
-sub Icircumflex by Icircumflex.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Itilde by Itilde.ss01;
-sub Imacron by Imacron.ss01;
-sub Ibreve by Ibreve.ss01;
-sub Iogonek by Iogonek.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub IJ by IJ.ss01;
-sub Iotatonos by Iotatonos.ss01;
-sub Iota by Iota.ss01;
-sub Iotadieresis by Iotadieresis.ss01;
-sub I-cy by I-cy.ss01;
-sub Yi-cy by Yi-cy.ss01;
-sub Palochka-cy by Palochka-cy.ss01;
-sub palochka-cy by palochka-cy.ss01;
-sub Ihookabove by Ihookabove.ss01;
-sub Idotbelow by Idotbelow.ss01;
+	lookup galternates;
+	lookup Ialternates;
 } salt;
 
 feature ss03 {
-sub I by I.ss01;
-sub Igrave by Igrave.ss01;
-sub Iacute by Iacute.ss01;
-sub Icircumflex by Icircumflex.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Itilde by Itilde.ss01;
-sub Imacron by Imacron.ss01;
-sub Ibreve by Ibreve.ss01;
-sub Iogonek by Iogonek.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub IJ by IJ.ss01;
-sub Iotatonos by Iotatonos.ss01;
-sub Iota by Iota.ss01;
-sub Iotadieresis by Iotadieresis.ss01;
-sub I-cy by I-cy.ss01;
-sub Yi-cy by Yi-cy.ss01;
-sub Palochka-cy by Palochka-cy.ss01;
-sub palochka-cy by palochka-cy.ss01;
-sub Ihookabove by Ihookabove.ss01;
-sub Idotbelow by Idotbelow.ss01;
+	lookup Ialternates;
 } ss03;
 
 feature frac {
