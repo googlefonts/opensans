@@ -1,0 +1,179 @@
+feature aalt {
+# automatic
+feature lnum;
+feature locl;
+feature onum;
+feature pnum;
+feature ss01;
+feature ss02;
+feature salt;
+feature ss03;
+feature frac;
+feature numr;
+feature dnom;
+feature sups;
+
+} aalt;
+
+feature liga {
+sub f f l by f_f_l;
+sub f f i by f_f_i;
+sub f f by f_f;
+sub f l by fl;
+sub f i by fi;
+} liga;
+
+feature lnum {
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+} lnum;
+
+feature locl {
+lookup locl_MOLROM {
+	sub Tcommaaccent by Tcedilla;
+	sub tcommaaccent by tcedilla;
+	sub Scommaaccent by Scedilla;
+	sub scommaaccent by scedilla;
+} locl_MOLROM;
+
+language MOL;
+lookup locl_MOLROM;
+language ROM;
+lookup locl_MOLROM;
+} locl;
+
+feature onum {
+sub zero by zero.osf;
+sub one by one.osf;
+sub two by two.osf;
+sub three by three.osf;
+sub four by four.osf;
+sub five by five.osf;
+sub six by six.osf;
+sub seven by seven.osf;
+sub eight by eight.osf;
+sub nine by nine.osf;
+sub one.lf by one.osf;
+
+} onum;
+
+feature pnum {
+sub one by one.lf;
+} pnum;
+
+lookup galternates {
+sub g by g.ss02;
+sub gcircumflex by gcircumflex.ss02;
+sub gbreve by gbreve.ss02;
+sub gdotaccent by gdotaccent.ss02;
+sub gcommaaccent by gcommaaccent.ss02;
+} galternates;
+
+lookup Ialternates {
+sub I by I.ss01;
+sub Igrave by Igrave.ss01;
+sub Iacute by Iacute.ss01;
+sub Icircumflex by Icircumflex.ss01;
+sub Idieresis by Idieresis.ss01;
+sub Itilde by Itilde.ss01;
+sub Imacron by Imacron.ss01;
+sub Ibreve by Ibreve.ss01;
+sub Iogonek by Iogonek.ss01;
+sub Idotaccent by Idotaccent.ss01;
+sub IJ by IJ.ss01;
+sub Iotatonos by Iotatonos.ss01;
+sub Iota by Iota.ss01;
+sub Iotadieresis by Iotadieresis.ss01;
+sub I-cy by I-cy.ss01;
+sub Yi-cy by Yi-cy.ss01;
+sub Palochka-cy by Palochka-cy.ss01;
+sub palochka-cy by palochka-cy.ss01;
+sub Ihookabove by Ihookabove.ss01;
+sub Idotbelow by Idotbelow.ss01;
+} Ialternates;
+
+feature ss01 {
+	lookup galternates;
+	lookup Ialternates;
+} ss01;
+
+feature ss02 {
+	lookup galternates;
+} ss02;
+
+feature salt {
+	lookup galternates;
+	lookup Ialternates;
+} salt;
+
+feature ss03 {
+	lookup Ialternates;
+} ss03;
+
+feature frac {
+# automatic
+lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+
+} frac;
+
+feature numr {
+# automatic
+sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+
+} numr;
+
+feature dnom {
+# automatic
+sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+
+} dnom;
+
+feature sups {
+# automatic
+sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+
+} sups;
