@@ -11,35 +11,41 @@ rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
-fontmake -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
 
-fontmake -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
+fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
-fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wght,wdth].ttf"
-fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vf/OpenSans-Italic[wght,wdth].ttf"
+fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wdth,wght].ttf"
+fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vf/OpenSans-Italic[wdth,wght].ttf"
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 
 echo "Instanciate single axis VFs"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght,wdth].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wght,wdth].ttf "wdth=75"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght,wdth].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght,wdth].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
 
-echo "Post processing"
+echo "Update Condensed VFs name table"
+ttx -q -t name -o ../fonts/vf/OpenSansCondensed[wght].name.ttx ../fonts/vf/OpenSansCondensed[wght].ttf
+ttx -q -t name -o ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx ../fonts/vf/OpenSansCondensed-Italic[wght].ttf
+sed -i "" "s/Condensed //;s/\(Open *Sans\)\( *\)/\1\2Condensed\2/" ../fonts/vf/OpenSansCondensed[wght].name.ttx
+sed -i "" "s/Condensed //;s/\(Open *Sans\)\( *\)/\1\2Condensed\2/" ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx
+ttx -m ../fonts/vf/OpenSansCondensed[wght].ttf -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSansCondensed[wght].name.ttx
+ttx -m ../fonts/vf/OpenSansCondensed-Italic[wght].ttf -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx
+rm ../fonts/vf/OpenSansCondensed[wght].name.ttx
+rm ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx
+
+echo "Post processing Static fonts"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
 	python3 -m ttfautohint $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
-done
-
-for ttf in $ttfs
-do
 	gftools fix-hinting $ttf;
 	mv "$ttf.fix" $ttf;
 done
@@ -58,10 +64,6 @@ do
 	# rm "$vf.fix";
 done
 
-
-
-
-
 echo "Dropping MVAR"
 for vf in $vfs
 do
@@ -76,13 +78,18 @@ done
 
 echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
-statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght,wdth].ttf ../fonts/vf/OpenSans[wght,wdth].ttf;
+statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wdth,wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf;
+# statmake --stylespace OpenSansCondensed.stylespace --designspace OpenSansCondensed-Roman.designspace --output-path ../fonts/vf/OpenSansCondensed[wdth,wght].ttf ../fonts/vf/OpenSansCondensed[wdth,wght].ttf;
+# statmake --stylespace OpenSans-Italic.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wdth,wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf;
+# statmake --stylespace OpenSansCondensed-Italic.stylespace --designspace OpenSansCondensed-Italic.designspace --output-path ../fonts/vf/OpenSansCondensed-Italic[wdth,wght].ttf ../fonts/vf/OpenSansCondensed-Italic[wdth,wght].ttf;
 
 echo "Fixing Hinting"
 for vf in $vfs
 do
 	gftools fix-hinting $vf;
-	mv "$vf.fix" $vf;
+	if [ -e $vf.fix ];
+		then mv "$vf.fix" $vf;
+	fi;
 done
 
 
