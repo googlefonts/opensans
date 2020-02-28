@@ -58,6 +58,12 @@
         <array>
           <dict>
             <key>name</key>
+            <string>Condensed</string>
+            <key>value</key>
+            <integer>75</integer>
+          </dict>
+          <dict>
+            <key>name</key>
             <string>Normal</string>
             <key>value</key>
             <integer>100</integer>
@@ -66,11 +72,30 @@
               <string>ElidableAxisValueName</string>
             </array>
           </dict>
+        </array>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Italic</string>
+        <key>tag</key>
+        <string>ital</string>
+        <key>locations</key>
+        <array>
           <dict>
             <key>name</key>
-            <string>Condensed</string>
+            <string>Normal</string>
             <key>value</key>
-            <integer>75</integer>
+            <integer>0</integer>
+            <key>flags</key>
+            <array>
+              <string>ElidableAxisValueName</string>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>Italic</string>
+            <key>value</key>
+            <integer>1</integer>
           </dict>
         </array>
       </dict>
