@@ -29,16 +29,6 @@ fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/v
 fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
 fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
 
-echo "Update Condensed VFs name table"
-ttx -q -t name -o ../fonts/vf/OpenSansCondensed[wght].name.ttx ../fonts/vf/OpenSansCondensed[wght].ttf
-ttx -q -t name -o ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx ../fonts/vf/OpenSansCondensed-Italic[wght].ttf
-sed -i "" "s/Condensed //;s/\(Open *Sans\)\( *\)/\1\2Condensed\2/" ../fonts/vf/OpenSansCondensed[wght].name.ttx
-sed -i "" "s/Condensed //;s/\(Open *Sans\)\( *\)/\1\2Condensed\2/" ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx
-ttx -m ../fonts/vf/OpenSansCondensed[wght].ttf -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSansCondensed[wght].name.ttx
-ttx -m ../fonts/vf/OpenSansCondensed-Italic[wght].ttf -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx
-rm ../fonts/vf/OpenSansCondensed[wght].name.ttx
-rm ../fonts/vf/OpenSansCondensed-Italic[wght].name.ttx
-
 echo "Post processing Static fonts"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
