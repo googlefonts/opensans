@@ -47,8 +47,7 @@ echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	# python3 -m ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-	python3 -m ttfautohint --stem-width-mode nnn $vf "$vf.fix";
+	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
 
 	mv "$vf.fix" $vf;
 	# rm "$vf.fix";
