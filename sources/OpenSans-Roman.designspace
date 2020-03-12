@@ -8,7 +8,6 @@
       <map input="600" output="239"/>
       <map input="700" output="310"/>
       <map input="800" output="400"/>
-    <axis tag="ital" name="Italic" minimum="0" maximum="0" default="0"/>
     </axis>
   </axes>
   <rules>
@@ -39,42 +38,36 @@
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="./OpenSans-Bold.ufo" name="Open Sans Bold" familyname="Open Sans" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="310"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="./OpenSans-ExtraBold.ufo" name="Open Sans ExtraBold" familyname="Open Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="./OpenSans-CondensedLight.ufo" name="Open Sans Condensed Light" familyname="Open Sans" stylename="Condensed Light">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="./OpenSans-CondensedBold.ufo" name="Open Sans Condensed Bold" familyname="Open Sans" stylename="Condensed Bold">
       <location>
         <dimension name="Weight" xvalue="310"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
     <source filename="./OpenSans-CondensedExtraBold.ufo" name="Open Sans Condensed ExtraBold" familyname="Open Sans" stylename="Condensed ExtraBold">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
     </source>
   </sources>
@@ -83,7 +76,6 @@
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -92,7 +84,6 @@
       <location>
         <dimension name="Weight" xvalue="170"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -101,7 +92,6 @@
       <location>
         <dimension name="Weight" xvalue="239"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -110,7 +100,6 @@
       <location>
         <dimension name="Weight" xvalue="310"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -119,7 +108,6 @@
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="100"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -128,7 +116,6 @@
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -137,7 +124,6 @@
       <location>
         <dimension name="Weight" xvalue="170"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -146,7 +132,6 @@
       <location>
         <dimension name="Weight" xvalue="239"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -155,7 +140,6 @@
       <location>
         <dimension name="Weight" xvalue="310"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
@@ -164,10 +148,18 @@
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
-        <dimension name="Italic" xvalue="0"/>
       </location>
       <kerning/>
       <info/>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
 </designspace>
