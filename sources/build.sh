@@ -68,8 +68,12 @@ done
 
 echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
-statmake --stylespace OpenSans[wdth,wght].stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wdth,wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf;
+statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wdth,wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf;
 statmake --stylespace OpenSans-Italic[wdth,wght].stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wdth,wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf;
+statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght].ttf;
+statmake --stylespace OpenSans-Italic[wght].stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght].ttf;
+statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans-Condensed[wght].ttf;
+statmake --stylespace OpenSans-Italic[wght].stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-CondensedItalic[wght].ttf;
 
 echo "Fixing Hinting"
 for vf in $vfs
