@@ -12,8 +12,9 @@ rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 echo "Generating Static fonts"
 mkdir -p ../fonts
 fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
-
+fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
+fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/vf
