@@ -26,9 +26,9 @@ rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 echo "Instanciate single axis VFs"
 fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
 fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
 
 echo "Post processing Static fonts"
 ttfs=$(ls ../fonts/ttf/*.ttf)
