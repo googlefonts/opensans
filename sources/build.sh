@@ -24,11 +24,11 @@ fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vf/O
 rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 
-echo "Instanciate single axis VFs"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
+# echo "Instanciate single axis VFs"
+# fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=drop"
+# fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
+# fonttools varLib.instancer -o ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
+# fonttools varLib.instancer -o ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
 
 echo "Post processing Static fonts"
 ttfs=$(ls ../fonts/ttf/*.ttf)
@@ -69,10 +69,10 @@ echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
 statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wdth,wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf;
 statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wdth,wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf;
-statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght].ttf;
-statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght].ttf;
-statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans-Condensed[wght].ttf;
-statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-CondensedItalic[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans-Condensed[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-CondensedItalic[wght].ttf;
 
 echo "Fixing Non-Hinting"
 for vf in $vfs
