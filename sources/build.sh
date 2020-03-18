@@ -44,15 +44,14 @@ done
 
 vfs=$(ls ../fonts/vf/*.ttf)
 
-echo "Post processing VFs"
-for vf in $vfs
-do
-	gftools fix-dsig -f $vf;
-	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-
-	mv "$vf.fix" $vf;
-	# rm "$vf.fix";
-done
+# echo "Post processing VFs"
+# for vf in $vfs
+# do
+# 	gftools fix-dsig -f $vf;
+# 	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
+# 
+# 	mv "$vf.fix" $vf;
+# done
 
 echo "Dropping MVAR"
 for vf in $vfs
@@ -75,11 +74,9 @@ statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designsp
 statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans-Condensed[wght].ttf ../fonts/vf/OpenSans-Condensed[wght].ttf;
 statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-CondensedItalic[wght].ttf ../fonts/vf/OpenSans-CondensedItalic[wght].ttf;
 
-echo "Fixing Hinting"
+echo "Fixing Non-Hinting"
 for vf in $vfs
 do
-	gftools fix-hinting $vf;
-	if [ -e $vf.fix ];
-		then mv "$vf.fix" $vf;
-	fi;
+	gftools fix-nonhinting $vf $vf;
 done
+rm ../fonts/vf/*gasp.ttf
