@@ -1,52 +1,58 @@
 #!/bin/sh
 set -e
 
+# Go the sources directory to run commands
+SOURCE="${BASH_SOURCE[0]}"
+DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
+cd $DIR
+echo $(pwd)
+
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
-fontmake -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
-
-fontmake -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
+fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
+fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
-fontmake -m OpenSans-Roman.designspace -o variable --output-path ../fonts/vf/OpenSans[wght].ttf
+mkdir -p ../fonts/vf
+fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wdth,wght].ttf"
+fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vf/OpenSans-Italic[wdth,wght].ttf"
 
-rm -rf master_ufo/ instance_ufo/ instance_ufos/*
+rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 
-echo "Post processing"
+echo "Instanciate single axis VFs"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
+fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
+fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
+
+echo "Post processing Static fonts"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	ttfautohint $ttf "$ttf.fix";
+	python3 -m ttfautohint $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
-done
-
-for ttf in $ttfs
-do
 	gftools fix-hinting $ttf;
 	mv "$ttf.fix" $ttf;
 done
 
 
-vfs=$(ls ../fonts/vf/*\[wght\].ttf)
+vfs=$(ls ../fonts/vf/*.ttf)
 
 echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	# ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-	ttfautohint --stem-width-mode nnn $vf "$vf.fix";
+	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
 
 	mv "$vf.fix" $vf;
 	# rm "$vf.fix";
 done
-
-
-
-
 
 echo "Dropping MVAR"
 for vf in $vfs
@@ -61,13 +67,15 @@ do
 done
 
 echo "Fixing VF Meta"
-gftools fix-vf-meta $vfs;
+# gftools fix-vf-meta $vfs;
+statmake --stylespace OpenSans[wdth,wght].stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wdth,wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf;
+statmake --stylespace OpenSans-Italic[wdth,wght].stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wdth,wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf;
 
 echo "Fixing Hinting"
 for vf in $vfs
 do
 	gftools fix-hinting $vf;
-	mv "$vf.fix" $vf;
+	if [ -e $vf.fix ];
+		then mv "$vf.fix" $vf;
+	fi;
 done
-
-

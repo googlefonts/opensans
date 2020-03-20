@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
   <axes>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
     <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
       <map input="300" output="100"/>
       <map input="400" output="170"/>
@@ -8,10 +9,28 @@
       <map input="700" output="310"/>
       <map input="800" output="400"/>
     </axis>
-    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
   </axes>
+  <rules>
+    <rule name="bracket_redo">
+      <conditionset>
+        <condition minimum="330" name="Weight" />
+      </conditionset>
+      <sub name="Aringacute" with="Aringacute.rvrn"/>
+      <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
+      <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
+      <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
+      <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
+      <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
+      <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
+      <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
+      <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
+      <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
+      <sub name="dollar" with="dollar.rvrn"/>
+      <sub name="uni047C" with="uni047C.rvrn"/>
+    </rule>
+  </rules>
   <sources>
-	  <source filename="./OpenSans-Light.ufo" name="Open Sans Light" familyname="Open Sans" stylename="Light">
+    <source filename="./OpenSans-Light.ufo" name="Open Sans Light" familyname="Open Sans" stylename="Light">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -69,7 +88,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans SemiBold" familyname="Open Sans" stylename="SemiBold" filename="../instance_ufo/OpenSans-SemiBold.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="bold">
+    <instance name="Open Sans SemiBold" familyname="Open Sans" stylename="SemiBold" filename="../instance_ufo/OpenSans-SemiBold.ufo" stylemapfamilyname="Open Sans SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="239"/>
         <dimension name="Width" xvalue="100"/>
@@ -93,7 +112,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Condensed Condensed Light" familyname="Open Sans Condensed" stylename="Condensed Light" filename="../instance_ufo/OpenSansCondensed-CondensedLight.ufo" stylemapfamilyname="Open Sans Condensed Condensed Light" stylemapstylename="regular">
+    <instance name="Open Sans Condensed Light" familyname="Open Sans" stylename="Light" filename="../instance_ufo/OpenSans-CondensedLight.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Width" xvalue="75"/>
@@ -101,7 +120,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Condensed Condensed" familyname="Open Sans Condensed" stylename="Condensed" filename="../instance_ufo/OpenSansCondensed-Condensed.ufo" stylemapfamilyname="Open Sans Condensed Condensed" stylemapstylename="regular">
+    <instance name="Open Sans Condensed" familyname="Open Sans" stylename="Condensed" filename="../instance_ufo/OpenSans-Condensed.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="170"/>
         <dimension name="Width" xvalue="75"/>
@@ -109,7 +128,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Condensed Condensed SemiBold" familyname="Open Sans Condensed" stylename="Condensed SemiBold" filename="../instance_ufo/OpenSansCondensed-CondensedSemiBold.ufo" stylemapfamilyname="Open Sans Condensed Condensed Light" stylemapstylename="bold">
+    <instance name="Open Sans Condensed SemiBold" familyname="Open Sans" stylename="Condensed SemiBold" filename="../instance_ufo/OpenSans-CondensedSemiBold.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="239"/>
         <dimension name="Width" xvalue="75"/>
@@ -117,7 +136,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Condensed Condensed Bold" familyname="Open Sans Condensed" stylename="Condensed Bold" filename="../instance_ufo/OpenSansCondensed-CondensedBold.ufo" stylemapfamilyname="Open Sans Condensed Condensed" stylemapstylename="bold">
+    <instance name="Open Sans Condensed Bold" familyname="Open Sans" stylename="Condensed Bold" filename="../instance_ufo/OpenSans-CondensedBold.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="310"/>
         <dimension name="Width" xvalue="75"/>
@@ -125,7 +144,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Condensed Condensed ExtraBold" familyname="Open Sans Condensed" stylename="Condensed ExtraBold" filename="../instance_ufo/OpenSansCondensed-CondensedExtraBold.ufo" stylemapfamilyname="Open Sans Condensed Condensed ExtraBold" stylemapstylename="regular">
+    <instance name="Open Sans Condensed ExtraBold" familyname="Open Sans" stylename="Condensed ExtraBold" filename="../instance_ufo/OpenSans-CondensedExtraBold.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Width" xvalue="75"/>
@@ -134,21 +153,13 @@
       <info/>
     </instance>
   </instances>
-    <rules>
-        <rule name="bracket_redo">
-            <condition minimum="330" name="Weight" />
-            <sub name="Aringacute" with="Aringacute.rvrn"/>
-            <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
-            <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
-            <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
-            <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
-            <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
-            <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
-            <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
-            <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
-            <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
-            <sub name="dollar" with="dollar.rvrn"/>
-            <sub name="uni047C" with="uni047C.rvrn"/>
-        </rule>
-    </rules>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
 </designspace>
