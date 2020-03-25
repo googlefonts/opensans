@@ -17,18 +17,18 @@ fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o otf 
 fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
-mkdir -p ../fonts/vf
-fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/vf/OpenSans[wdth,wght].ttf"
-fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vf/OpenSans-Italic[wdth,wght].ttf"
+mkdir -p ../fonts/variable
+fontmake -m OpenSans-Roman.designspace -o variable --output-path "../fonts/variable/OpenSans[wdth,wght].ttf"
+fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/variable/OpenSans-Italic[wdth,wght].ttf"
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos
 
 
-echo "Instanciate single axis VFs"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed[wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf "wdth=75"
-fonttools varLib.instancer -o ../fonts/vf/OpenSans-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
-fonttools varLib.instancer -o ../fonts/vf/OpenSansCondensed-Italic[wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf "wdth=75"
+# echo "Instanciate single axis VFs"
+# fonttools varLib.instancer -o ../fonts/variable/OpenSans[wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf "wdth=drop"
+# fonttools varLib.instancer -o ../fonts/variable/OpenSans-Italic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
+# fonttools varLib.instancer -o ../fonts/variable/OpenSans-Condensed[wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf "wdth=75"
+# fonttools varLib.instancer -o ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=75"
 
 echo "Post processing Static fonts"
 ttfs=$(ls ../fonts/ttf/*.ttf)
@@ -42,16 +42,15 @@ do
 done
 
 
-vfs=$(ls ../fonts/vf/*.ttf)
+vfs=$(ls ../fonts/variable/*.ttf)
 
 echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-
-	mv "$vf.fix" $vf;
-	# rm "$vf.fix";
+# 	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
+# 
+# 	mv "$vf.fix" $vf;
 done
 
 echo "Dropping MVAR"
@@ -60,7 +59,7 @@ do
 	# mv "$vf.fix" $vf;
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/vf/$rtrip.ttx;
+	new_file=../fonts/variable/$rtrip.ttx;
 	rm $vf;
 	ttx $new_file
 	rm $new_file
@@ -68,14 +67,16 @@ done
 
 echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
-statmake --stylespace OpenSans[wdth,wght].stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/vf/OpenSans[wdth,wght].ttf ../fonts/vf/OpenSans[wdth,wght].ttf;
-statmake --stylespace OpenSans-Italic[wdth,wght].stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/vf/OpenSans-Italic[wdth,wght].ttf ../fonts/vf/OpenSans-Italic[wdth,wght].ttf;
+statmake --stylespace stat.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans[wdth,wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf;
+statmake --stylespace stat.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-Italic[wdth,wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans[wght].ttf ../fonts/variable/OpenSans[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-Italic[wght].ttf ../fonts/variable/OpenSans-Italic[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans-Condensed[wght].ttf ../fonts/variable/OpenSans-Condensed[wght].ttf;
+# statmake --stylespace OpenSans.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-CondensedItalic[wght].ttf;
 
-echo "Fixing Hinting"
+echo "Fixing Non-Hinting"
 for vf in $vfs
 do
-	gftools fix-hinting $vf;
-	if [ -e $vf.fix ];
-		then mv "$vf.fix" $vf;
-	fi;
+	gftools fix-nonhinting $vf $vf;
 done
+rm ../fonts/variable/*gasp.ttf
