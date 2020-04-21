@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="1149"/>
+  <advance width="1130"/>
   <unicode hex="02DD"/>
   <note>
 hungarumlaut
 </note>
-  <anchor x="594" y="1126" name="_top"/>
+  <anchor x="626" y="1126" name="_top"/>
   <outline>
-    <component base="hungarumlautcomb"/>
+    <component base="hungarumlautcomb" xOffset="32"/>
   </outline>
   <lib>
     <dict>

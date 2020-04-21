@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breve" format="2">
-  <advance width="1112"/>
+  <advance width="1125"/>
   <unicode hex="02D8"/>
   <note>
 breve
 </note>
   <outline>
-    <component base="brevecomb"/>
+    <component base="brevecomb" xOffset="224"/>
   </outline>
 </glyph>
