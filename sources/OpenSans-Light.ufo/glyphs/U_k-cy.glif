@@ -6,7 +6,34 @@
 uni0478
 </note>
   <outline>
-    <component base="O" xScale="0.89286"/>
+    <contour>
+      <point x="1282" y="733" type="curve" smooth="yes"/>
+      <point x="1282" y="1198"/>
+      <point x="1064" y="1485"/>
+      <point x="700" y="1485" type="curve" smooth="yes"/>
+      <point x="338" y="1485"/>
+      <point x="115" y="1200"/>
+      <point x="115" y="735" type="curve" smooth="yes"/>
+      <point x="115" y="268"/>
+      <point x="335" y="-20"/>
+      <point x="698" y="-20" type="curve" smooth="yes"/>
+      <point x="1063" y="-20"/>
+      <point x="1282" y="269"/>
+    </contour>
+    <contour>
+      <point x="214" y="733" type="curve" smooth="yes"/>
+      <point x="214" y="1150"/>
+      <point x="389" y="1386"/>
+      <point x="700" y="1386" type="curve" smooth="yes"/>
+      <point x="1012" y="1386"/>
+      <point x="1183" y="1154"/>
+      <point x="1183" y="733" type="curve" smooth="yes"/>
+      <point x="1183" y="310"/>
+      <point x="1013" y="76"/>
+      <point x="698" y="76" type="curve" smooth="yes"/>
+      <point x="387" y="76"/>
+      <point x="214" y="314"/>
+    </contour>
     <component base="y" xOffset="1397"/>
   </outline>
   <lib>
