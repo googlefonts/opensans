@@ -33,8 +33,8 @@ fonttools varLib.instancer -o ../fonts/variable/OpenSans-Condensed[wght].ttf ../
 fonttools varLib.instancer -o ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=75" "wght=100"
 
 echo "Drop CondensedExtraBoldItalic and interpolated instances"
-rm ../fonts/otf/*Condensed{ExtraBold,Bold,SemiBold,Italic}.otf
-rm ../fonts/ttf/*Condensed{ExtraBold,Bold,SemiBold,Italic}.ttf
+rm ../fonts/otf/*Condensed{ExtraBold,Bold,SemiBold,}Italic.otf
+rm ../fonts/ttf/*Condensed{ExtraBold,Bold,SemiBold,}Italic.ttf
 rm ../fonts/variable/OpenSans[wdth,wght].ttf
 rm ../fonts/variable/OpenSans-Italic[wdth,wght].ttf
 
