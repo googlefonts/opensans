@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet" format="2">
+  <advance width="770.0"/>
+  <unicode hex="2022"/>
+  <note>
+bullet
+</note>
+  <outline>
+    <contour>
+      <point x="384.33809523809526" y="483.6" type="curve" smooth="yes"/>
+      <point x="531.3047619047619" y="483.6"/>
+      <point x="619.0904761904762" y="581.3857142857142"/>
+      <point x="619.0904761904762" y="748.0" type="curve" smooth="yes"/>
+      <point x="619.0904761904762" y="915.2904761904762"/>
+      <point x="534.2904761904762" y="1011.4"/>
+      <point x="384.33809523809526" y="1011.4" type="curve" smooth="yes"/>
+      <point x="234.3857142857143" y="1011.4"/>
+      <point x="150.24761904761905" y="919.2904761904762"/>
+      <point x="150.24761904761905" y="748.0" type="curve" smooth="yes"/>
+      <point x="150.24761904761905" y="577.7238095238096"/>
+      <point x="237.37142857142857" y="483.6"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

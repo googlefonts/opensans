@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="852.0"/>
+  <unicode hex="2265"/>
+  <note>
+greaterequal
+</note>
+  <outline>
+    <contour>
+      <point x="73.33333333333333" y="289.0" type="line"/>
+      <point x="776.6666666666666" y="693.3333333333334" type="line"/>
+      <point x="776.6666666666666" y="786.6666666666666" type="line"/>
+      <point x="73.33333333333333" y="1187.6666666666665" type="line"/>
+      <point x="73.33333333333333" y="1052.0" type="line"/>
+      <point x="635.6666666666666" y="739.3333333333333" type="line"/>
+      <point x="73.33333333333333" y="426.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="73.33333333333333" y="0.0" type="line"/>
+      <point x="776.6666666666667" y="0.0" type="line"/>
+      <point x="776.6666666666667" y="123.66666666666667" type="line"/>
+      <point x="73.33333333333333" y="123.66666666666667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>1</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>1</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

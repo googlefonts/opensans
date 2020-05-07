@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotereversed" format="2">
+  <advance width="392.9761904761905"/>
+  <unicode hex="201B"/>
+  <note>
+quotereversed
+</note>
+  <outline>
+    <contour>
+      <point x="201.67619047619047" y="921.947619047619" type="curve"/>
+      <point x="365.3" y="921.947619047619" type="line"/>
+      <point x="322.65238095238095" y="1093.0285714285715"/>
+      <point x="278.24285714285713" y="1316.8761904761905"/>
+      <point x="260.5952380952381" y="1461.3380952380953" type="curve"/>
+      <point x="39.67619047619048" y="1461.3380952380953" type="line"/>
+      <point x="26.35238095238095" y="1440.0142857142857" type="line"/>
+      <point x="81.29523809523809" y="1233.3142857142857"/>
+      <point x="148.0142857142857" y="1037.2571428571428"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>4</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>4</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

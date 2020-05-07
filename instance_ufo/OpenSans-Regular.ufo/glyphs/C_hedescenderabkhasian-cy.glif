@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Chedescenderabkhasian-cy" format="2">
+  <advance width="1738.0"/>
+  <unicode hex="04BE"/>
+  <note>
+uni04BE
+</note>
+  <outline>
+    <contour>
+      <point x="920.5666666666667" y="-389.06666666666666" type="line"/>
+      <point x="1086.3" y="-389.06666666666666" type="line"/>
+      <point x="1086.3" y="-1.1999999999999997" type="line"/>
+      <point x="920.5666666666667" y="3.7333333333333334" type="line"/>
+    </contour>
+    <component base="Cheabkhasian-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

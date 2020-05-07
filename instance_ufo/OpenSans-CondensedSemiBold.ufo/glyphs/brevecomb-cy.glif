@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb-cy" format="2">
+  <note>
+g566
+</note>
+  <anchor x="429.83809523809526" y="1104.195238095238" name="_top"/>
+  <outline>
+    <contour>
+      <point x="422.1904761904762" y="1219.5904761904762" type="curve" smooth="yes"/>
+      <point x="628.8761904761905" y="1219.5904761904762"/>
+      <point x="731.1142857142856" y="1316.8999999999999"/>
+      <point x="753.6904761904761" y="1526.404761904762" type="curve"/>
+      <point x="574.9809523809524" y="1526.404761904762" type="line"/>
+      <point x="560.3333333333333" y="1399.952380952381"/>
+      <point x="520.952380952381" y="1344.557142857143"/>
+      <point x="426.82380952380953" y="1344.557142857143" type="curve" smooth="yes"/>
+      <point x="335.04761904761904" y="1344.557142857143"/>
+      <point x="295.66666666666663" y="1385.9952380952382"/>
+      <point x="279.3428571428571" y="1526.404761904762" type="curve"/>
+      <point x="103.28095238095237" y="1526.404761904762" type="line"/>
+      <point x="121.57619047619048" y="1311.5333333333333"/>
+      <point x="220.79999999999998" y="1219.5904761904762"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>965</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>13</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>6</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>13</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>6</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

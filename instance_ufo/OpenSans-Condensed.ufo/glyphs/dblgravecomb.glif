@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecomb" format="2">
+  <unicode hex="030F"/>
+  <note>
+uni030F
+</note>
+  <anchor x="-0.6666666666666666" y="1094.6666666666667" name="_top"/>
+  <anchor x="-0.6666666666666666" y="1569.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="244.33333333333334" y="1214.0" type="curve"/>
+      <point x="325.6666666666667" y="1214.0" type="line"/>
+      <point x="325.6666666666667" y="1237.0" type="line"/>
+      <point x="276.0" y="1301.3333333333335"/>
+      <point x="203.33333333333334" y="1430.0"/>
+      <point x="154.33333333333334" y="1542.0" type="curve"/>
+      <point x="-20.0" y="1542.0" type="line"/>
+      <point x="-20.0" y="1523.3333333333333" type="line"/>
+      <point x="30.0" y="1435.3333333333335"/>
+      <point x="161.33333333333331" y="1283.6666666666667"/>
+    </contour>
+    <contour>
+      <point x="-64.66666666666667" y="1214.0" type="curve"/>
+      <point x="17.333333333333336" y="1214.0" type="line"/>
+      <point x="17.333333333333336" y="1237.0" type="line"/>
+      <point x="-31.0" y="1300.3333333333333"/>
+      <point x="-98.33333333333333" y="1417.0"/>
+      <point x="-154.66666666666666" y="1542.0" type="curve"/>
+      <point x="-327.0" y="1542.0" type="line"/>
+      <point x="-327.0" y="1523.3333333333333" type="line"/>
+      <point x="-279.66666666666663" y="1437.0"/>
+      <point x="-148.33333333333334" y="1285.6666666666667"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

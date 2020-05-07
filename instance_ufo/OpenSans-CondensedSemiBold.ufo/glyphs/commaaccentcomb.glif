@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaaccentcomb" format="2">
+  <unicode hex="0326"/>
+  <anchor x="240.33333333333334" y="0.0" name="_bottom"/>
+  <anchor x="240.33333333333331" y="-453.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="100.0" y="-458.32380952380953" type="line"/>
+      <point x="221.09047619047618" y="-458.32380952380953" type="line"/>
+      <point x="280.06190476190477" y="-374.7190476190476"/>
+      <point x="339.0904761904762" y="-262.92857142857144"/>
+      <point x="380.9904761904761" y="-150.3238095238095" type="curve"/>
+      <point x="380.9904761904761" y="-130.32380952380953" type="line"/>
+      <point x="169.38095238095238" y="-130.32380952380953" type="line"/>
+      <point x="160.71904761904764" y="-212.7047619047619"/>
+      <point x="127.01428571428573" y="-350.70476190476194"/>
+      <point x="100.0" y="-433.35238095238094" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

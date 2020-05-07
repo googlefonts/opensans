@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="replacementCharacter" format="2">
+  <advance width="2048.0"/>
+  <unicode hex="FFFD"/>
+  <note>
+uniFFFD
+</note>
+  <outline>
+    <contour>
+      <point x="1021.3380952380952" y="-319.0" type="line"/>
+      <point x="1961.3380952380953" y="618.0" type="line"/>
+      <point x="1021.3380952380952" y="1556.0" type="line"/>
+      <point x="84.0" y="618.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="990.3380952380952" y="-43.0" type="curve" smooth="yes"/>
+      <point x="897.3380952380952" y="-43.0"/>
+      <point x="849.3380952380952" y="8.0"/>
+      <point x="849.3380952380952" y="92.0" type="curve" smooth="yes"/>
+      <point x="849.3380952380952" y="179.0"/>
+      <point x="894.3380952380952" y="229.0"/>
+      <point x="990.3380952380952" y="229.0" type="curve" smooth="yes"/>
+      <point x="1079.3380952380953" y="229.0"/>
+      <point x="1129.3380952380953" y="177.0"/>
+      <point x="1129.3380952380953" y="92.0" type="curve" smooth="yes"/>
+      <point x="1129.3380952380953" y="9.0"/>
+      <point x="1078.3380952380953" y="-43.0"/>
+    </contour>
+    <contour>
+      <point x="876.3380952380952" y="367.0" type="line"/>
+      <point x="876.3380952380952" y="426.0" type="line" smooth="yes"/>
+      <point x="876.3380952380952" y="525.0"/>
+      <point x="907.3380952380952" y="589.0"/>
+      <point x="1019.3380952380952" y="680.0" type="curve"/>
+      <point x="1115.3380952380953" y="752.0"/>
+      <point x="1140.3380952380953" y="791.0"/>
+      <point x="1140.3380952380953" y="862.0" type="curve" smooth="yes"/>
+      <point x="1140.3380952380953" y="925.0"/>
+      <point x="1099.3380952380953" y="967.0"/>
+      <point x="1015.3380952380952" y="967.0" type="curve" smooth="yes"/>
+      <point x="950.0428571428571" y="967.0"/>
+      <point x="867.0428571428571" y="940.0"/>
+      <point x="765.3380952380952" y="887.0" type="curve"/>
+      <point x="683.3380952380952" y="1065.0" type="line"/>
+      <point x="783.6333333333333" y="1124.9714285714285"/>
+      <point x="909.0428571428571" y="1163.0"/>
+      <point x="1019.3380952380952" y="1163.0" type="curve" smooth="yes"/>
+      <point x="1239.3380952380953" y="1163.0"/>
+      <point x="1371.3380952380953" y="1054.0"/>
+      <point x="1371.3380952380953" y="874.0" type="curve" smooth="yes"/>
+      <point x="1371.3380952380953" y="757.0"/>
+      <point x="1332.3380952380953" y="687.0"/>
+      <point x="1195.3380952380953" y="578.0" type="curve" smooth="yes"/>
+      <point x="1108.3380952380953" y="513.0"/>
+      <point x="1086.3380952380953" y="481.0"/>
+      <point x="1086.3380952380953" y="414.0" type="curve" smooth="yes"/>
+      <point x="1086.3380952380953" y="367.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>2</integer>
+            <integer>27</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>2</integer>
+            <integer>27</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

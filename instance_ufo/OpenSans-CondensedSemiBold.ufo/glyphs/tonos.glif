@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="1126.3999999999999"/>
+  <unicode hex="0384"/>
+  <note>
+tonos
+</note>
+  <anchor x="536.3666666666667" y="1104.195238095238" name="_top"/>
+  <anchor x="754.6095238095238" y="1556.0" name="_topleft"/>
+  <outline>
+    <contour>
+      <point x="417.16190476190474" y="1219.9142857142858" type="line"/>
+      <point x="544.3095238095237" y="1219.9142857142858" type="line"/>
+      <point x="613.547619047619" y="1335.1952380952382"/>
+      <point x="672.252380952381" y="1451.7619047619046"/>
+      <point x="707.8857142857144" y="1536.804761904762" type="curve"/>
+      <point x="707.8857142857144" y="1560.452380952381" type="line"/>
+      <point x="497.2761904761905" y="1560.452380952381" type="line"/>
+      <point x="480.96666666666664" y="1462.3"/>
+      <point x="447.1761904761905" y="1334.209523809524"/>
+      <point x="417.16190476190474" y="1248.1952380952382" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

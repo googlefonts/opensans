@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta" format="2">
+  <advance width="998.3619047619047"/>
+  <unicode hex="03B6"/>
+  <note>
+zeta
+</note>
+  <outline>
+    <contour>
+      <point x="601.1904761904761" y="-384.45238095238096" type="curve"/>
+      <point x="837.5142857142857" y="-384.45238095238096" type="line"/>
+      <point x="926.1476190476191" y="-265.4809523809524"/>
+      <point x="963.0904761904762" y="-171.27142857142857"/>
+      <point x="963.0904761904762" y="-77.37142857142857" type="curve" smooth="yes"/>
+      <point x="963.0904761904762" y="11.628571428571426"/>
+      <point x="930.0619047619048" y="72.24761904761905"/>
+      <point x="858.6380952380953" y="117.20476190476191" type="curve" smooth="yes"/>
+      <point x="812.3285714285714" y="147.45714285714286"/>
+      <point x="740.9904761904762" y="173.09047619047618"/>
+      <point x="642.9619047619047" y="193.76666666666665" type="curve" smooth="yes"/>
+      <point x="543.047619047619" y="215.4142857142857"/>
+      <point x="473.0761904761905" y="240.39999999999998"/>
+      <point x="433.04761904761904" y="267.4" type="curve" smooth="yes"/>
+      <point x="368.2142857142857" y="307.48571428571427"/>
+      <point x="340.81904761904764" y="367.6"/>
+      <point x="340.81904761904764" y="474.9142857142857" type="curve" smooth="yes"/>
+      <point x="340.81904761904764" y="585.8571428571429"/>
+      <point x="368.1142857142857" y="692.1380952380953"/>
+      <point x="423.0285714285714" y="797.7285714285714" type="curve" smooth="yes"/>
+      <point x="509.69047619047615" y="969.5190476190476"/>
+      <point x="677.8047619047619" y="1158.057142857143"/>
+      <point x="960.5571428571428" y="1408.852380952381" type="curve"/>
+      <point x="960.5571428571428" y="1556.0" type="line"/>
+      <point x="160.15714285714284" y="1556.0" type="line"/>
+      <point x="160.15714285714284" y="1375.347619047619" type="line"/>
+      <point x="423.252380952381" y="1375.347619047619" type="line" smooth="yes"/>
+      <point x="544.6238095238095" y="1375.347619047619"/>
+      <point x="634.5142857142857" y="1379.9952380952382"/>
+      <point x="695.2476190476191" y="1389.6285714285714" type="curve"/>
+      <point x="576.7809523809524" y="1285.104761904762"/>
+      <point x="486.06190476190477" y="1199.695238095238"/>
+      <point x="422.76666666666665" y="1131.4" type="curve" smooth="yes"/>
+      <point x="320.9904761904762" y="1022.947619047619"/>
+      <point x="243.24285714285713" y="919.8619047619047"/>
+      <point x="189.52380952380952" y="815.1142857142858" type="curve" smooth="yes"/>
+      <point x="132.4952380952381" y="702.7476190476191"/>
+      <point x="101.12857142857143" y="587.3666666666667"/>
+      <point x="101.12857142857143" y="464.2952380952381" type="curve" smooth="yes"/>
+      <point x="101.12857142857143" y="378.01428571428573"/>
+      <point x="112.7904761904762" y="307.7047619047619"/>
+      <point x="136.46666666666667" y="251.36666666666667" type="curve" smooth="yes"/>
+      <point x="185.8190476190476" y="134.9857142857143"/>
+      <point x="292.53809523809525" y="62.647619047619045"/>
+      <point x="476.25714285714287" y="25.0" type="curve"/>
+      <point x="480.5952380952381" y="24.0" type="line"/>
+      <point x="548.9333333333334" y="9.014285714285714"/>
+      <point x="599.947619047619" y="-3.9857142857142858"/>
+      <point x="633.9761904761905" y="-17.66190476190476" type="curve" smooth="yes"/>
+      <point x="704.3714285714286" y="-43.352380952380955"/>
+      <point x="732.4" y="-70.05714285714285"/>
+      <point x="732.4" y="-123.8047619047619" type="curve" smooth="yes"/>
+      <point x="732.4" y="-183.53809523809525"/>
+      <point x="681.8238095238096" y="-284.76190476190476"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>24</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>23</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>37</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>15</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>50</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>23</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>24</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

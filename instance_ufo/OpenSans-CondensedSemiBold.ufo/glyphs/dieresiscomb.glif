@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb" format="2">
+  <unicode hex="0308"/>
+  <note>
+dieresis
+</note>
+  <anchor x="564.3238095238095" y="1138.9142857142856" name="_top"/>
+  <anchor x="564.3238095238095" y="1511.0380952380951" name="top"/>
+  <outline>
+    <contour>
+      <point x="745.0666666666666" y="1239.9142857142858" type="curve" smooth="yes"/>
+      <point x="810.5" y="1239.9142857142858"/>
+      <point x="853.7380952380952" y="1279.4761904761906"/>
+      <point x="853.7380952380952" y="1352.3761904761905" type="curve" smooth="yes"/>
+      <point x="853.7380952380952" y="1425.9238095238095"/>
+      <point x="809.1761904761905" y="1465.1476190476192"/>
+      <point x="745.0666666666666" y="1465.1476190476192" type="curve" smooth="yes"/>
+      <point x="678.9857142857143" y="1465.1476190476192"/>
+      <point x="636.0714285714286" y="1425.9238095238095"/>
+      <point x="636.0714285714286" y="1352.3761904761905" type="curve" smooth="yes"/>
+      <point x="636.0714285714286" y="1280.138095238095"/>
+      <point x="679.6476190476191" y="1239.9142857142858"/>
+    </contour>
+    <contour>
+      <point x="377.8619047619047" y="1239.9142857142858" type="curve" smooth="yes"/>
+      <point x="442.6190476190476" y="1239.9142857142858"/>
+      <point x="487.1809523809524" y="1281.4619047619049"/>
+      <point x="487.1809523809524" y="1352.3761904761905" type="curve" smooth="yes"/>
+      <point x="487.1809523809524" y="1423.2761904761905"/>
+      <point x="442.6190476190476" y="1465.1476190476192"/>
+      <point x="377.8619047619047" y="1465.1476190476192" type="curve" smooth="yes"/>
+      <point x="312.42857142857144" y="1465.1476190476192"/>
+      <point x="269.51428571428573" y="1425.9238095238095"/>
+      <point x="269.51428571428573" y="1352.3761904761905" type="curve" smooth="yes"/>
+      <point x="269.51428571428573" y="1278.8142857142857"/>
+      <point x="312.42857142857144" y="1239.9142857142858"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>1266</integer>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>1</integer>
+            <integer>11</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>1</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>1</integer>
+            <integer>11</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.alt" format="2">
+  <advance width="294.6380952380952"/>
+  <anchor x="295.96190476190475" y="1512.9761904761904" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="-2.0" y="1178.5380952380951" type="line"/>
+      <point x="134.39999999999998" y="1178.5380952380951" type="line"/>
+      <point x="182.89523809523808" y="1252.7666666666667"/>
+      <point x="240.2047619047619" y="1369.1904761904761"/>
+      <point x="295.2857142857143" y="1487.5666666666666" type="curve"/>
+      <point x="295.2857142857143" y="1505.5380952380951" type="line"/>
+      <point x="70.76190476190476" y="1505.5380952380951" type="line"/>
+      <point x="58.40952380952381" y="1415.1142857142856"/>
+      <point x="26.66190476190476" y="1288.9571428571428"/>
+      <point x="-2.0" y="1199.8333333333333" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

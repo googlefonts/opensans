@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron.alt" format="2">
+  <advance width="198"/>
+  <anchor x="198" y="1556" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="-2" y="1207" type="line"/>
+      <point x="51" y="1207" type="line"/>
+      <point x="122" y="1313"/>
+      <point x="176" y="1442"/>
+      <point x="196" y="1520" type="curve"/>
+      <point x="196" y="1534" type="line"/>
+      <point x="84" y="1534" type="line"/>
+      <point x="69" y="1431"/>
+      <point x="26" y="1283"/>
+      <point x="-2" y="1223" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>9</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

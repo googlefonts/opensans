@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hadescender-cy" format="2">
+  <advance width="916.4"/>
+  <unicode hex="04B3"/>
+  <note>
+uni04B3
+</note>
+  <outline>
+    <contour>
+      <point x="687.7866666666666" y="-387.99666666666667" type="line"/>
+      <point x="895.3033333333333" y="-387.99666666666667" type="line"/>
+      <point x="895.3033333333333" y="168.76666666666668" type="line"/>
+      <point x="709.8100000000001" y="168.76666666666668" type="line"/>
+      <point x="516.27" y="563.0466666666666" type="line"/>
+      <point x="783.29" y="1104.4600000000003" type="line"/>
+      <point x="568.4566666666667" y="1104.4600000000003" type="line"/>
+      <point x="413.67" y="730.7166666666667" type="line"/>
+      <point x="253.90999999999997" y="1104.4600000000003" type="line"/>
+      <point x="36.00333333333333" y="1104.4600000000003" type="line"/>
+      <point x="300.87666666666667" y="567.17" type="line"/>
+      <point x="21.1" y="0.0" type="line"/>
+      <point x="237.25" y="0.0" type="line"/>
+      <point x="404.2566666666667" y="394.40333333333336" type="line"/>
+      <point x="577.6033333333334" y="0.0" type="line"/>
+      <point x="687.7866666666666" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>10</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>2</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>15</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>2</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>10</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>8</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

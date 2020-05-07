@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="714"/>
+  <unicode hex="203A"/>
+  <note>
+guilsinglright
+</note>
+  <outline>
+    <contour>
+      <point x="328" y="76" type="line"/>
+      <point x="645" y="556" type="line"/>
+      <point x="645" y="582" type="line"/>
+      <point x="328" y="1063" type="line"/>
+      <point x="70" y="919" type="line"/>
+      <point x="289" y="570" type="line"/>
+      <point x="70" y="220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

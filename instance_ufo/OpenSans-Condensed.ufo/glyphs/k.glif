@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k" format="2">
+  <advance width="795.6666666666666"/>
+  <unicode hex="006B"/>
+  <anchor x="398.46666666666664" y="0.0" name="bottom"/>
+  <anchor x="398.46666666666664" y="1094.8000000000002" name="top"/>
+  <outline>
+    <contour>
+      <point x="134.26666666666665" y="0.0" type="line"/>
+      <point x="286.4333333333334" y="0.0" type="line"/>
+      <point x="286.4333333333334" y="419.0" type="line"/>
+      <point x="401.06666666666666" y="555.5333333333333" type="line"/>
+      <point x="625.4" y="0.0" type="line"/>
+      <point x="784.9000000000001" y="0.0" type="line"/>
+      <point x="503.5666666666667" y="676.1999999999999" type="line"/>
+      <point x="763.8333333333334" y="1094.8000000000002" type="line"/>
+      <point x="601.3333333333334" y="1094.8000000000002" type="line"/>
+      <point x="349.43333333333334" y="675.6999999999999" type="line" smooth="yes"/>
+      <point x="326.5" y="637.1333333333333"/>
+      <point x="307.03333333333336" y="597.5666666666667"/>
+      <point x="286.33333333333337" y="558.0" type="curve"/>
+      <point x="277.56666666666666" y="558.0" type="line"/>
+      <point x="280.2666666666667" y="623.4333333333334"/>
+      <point x="286.4333333333334" y="688.1"/>
+      <point x="286.4333333333334" y="753.5333333333334" type="curve"/>
+      <point x="286.4333333333334" y="1556.0" type="line"/>
+      <point x="134.26666666666665" y="1556.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>18</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>7</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>18</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>18</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>7</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

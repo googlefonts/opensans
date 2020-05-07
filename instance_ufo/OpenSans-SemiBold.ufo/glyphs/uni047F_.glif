@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni047F" format="2">
+  <advance width="1722.7428571428572"/>
+  <unicode hex="047F"/>
+  <note>
+uni047F
+</note>
+  <outline>
+    <contour>
+      <point x="491.43" y="1219.5166666666667" type="line"/>
+      <point x="530.84" y="1219.5166666666667" type="line"/>
+      <point x="581.9866666666667" y="1329.5666666666666" type="line"/>
+      <point x="752.5533333333333" y="1329.5666666666666" type="line"/>
+      <point x="804.7733333333333" y="1219.5166666666667" type="line"/>
+      <point x="843.6466666666666" y="1219.5166666666667" type="line"/>
+      <point x="895.8666666666667" y="1329.5666666666666" type="line"/>
+      <point x="1066.4333333333334" y="1329.5666666666666" type="line"/>
+      <point x="1117.58" y="1219.5166666666667" type="line"/>
+      <point x="1156.99" y="1219.5166666666667" type="line"/>
+      <point x="1237.9166666666667" y="1391.5166666666667" type="line"/>
+      <point x="1237.9166666666667" y="1464.85" type="line"/>
+      <point x="411.43" y="1464.85" type="line"/>
+      <point x="411.43" y="1391.5166666666667" type="line"/>
+    </contour>
+    <component base="omega-cy"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>11</integer>
+          </array>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>4</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <integer>0</integer>
+            <integer>11</integer>
+          </array>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
