@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="800" default="100">
+      <map input="100" output="26"/>
+      <map input="300" output="50"/>
+      <map input="400" output="83"/>
+      <map input="500" output="90"/>
+      <map input="600" output="117"/>
+      <map input="700" output="151"/>
+      <map input="800" output="190"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100">
+      <map input="75" output="70"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSans-ThinItalic.ufo" name="Noto Sans Thin Italic" familyname="Noto Sans" stylename="Thin Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-MediumItalic.ufo" name="Noto Sans Medium Italic" familyname="Noto Sans" stylename="Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-BoldItalic.ufo" name="Noto Sans Bold Italic" familyname="Noto Sans" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-ExtraBold.ufo" name="Noto Sans ExtraBold" familyname="Noto Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-CondensedThinItalic.ufo" name="Noto Sans Condensed Thin Italic" familyname="Noto Sans" stylename="Condensed Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-CondensedMediumItalic.ufo" name="Noto Sans Condensed Medium Italic" familyname="Noto Sans" stylename="Condensed Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-CondensedBold.ufo" name="Noto Sans Condensed Bold" familyname="Noto Sans" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-CondensedExtraBold.ufo" name="Noto Sans Condensed ExtraBold" familyname="Noto Sans" stylename="Condensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Thin" familyname="Noto Sans" stylename="Thin" filename="../NotoSans-Thin.ufo" stylemapfamilyname="Noto Sans Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Light Italic" familyname="Noto Sans" stylename="Light Italic" filename="../NotoSans-LightItalic.ufo" stylemapfamilyname="Noto Sans Light Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Italic" familyname="Noto Sans" stylename="Italic" filename="../NotoSans-Italic.ufo" stylemapfamilyname="Noto Sans Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="83"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Medium" familyname="Noto Sans" stylename="Medium" filename="../NotoSans-Medium.ufo" stylemapfamilyname="Noto Sans Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiBold Italic" familyname="Noto Sans" stylename="SemiBold Italic" filename="../NotoSans-SemiBoldItalic.ufo" stylemapfamilyname="Noto Sans SemiBold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="117"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Bold Italic" familyname="Noto Sans" stylename="Bold Italic" filename="../NotoSans-BoldItalic.ufo" stylemapfamilyname="Noto Sans Bold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraBold Italic" familyname="Noto Sans" stylename="ExtraBold Italic" filename="../NotoSans-ExtraBoldItalic.ufo" stylemapfamilyname="Noto Sans ExtraBold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Thin" familyname="Noto Sans" stylename="Condensed Thin" filename="../NotoSans-CondensedThin.ufo" stylemapfamilyname="Noto Sans Condensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Light Italic" familyname="Noto Sans" stylename="Condensed Light Italic" filename="../NotoSans-CondensedLightItalic.ufo" stylemapfamilyname="Noto Sans Condensed Light Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Italic" familyname="Noto Sans" stylename="Condensed Italic" filename="../NotoSans-CondensedItalic.ufo" stylemapfamilyname="Noto Sans Condensed Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="83"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Medium" familyname="Noto Sans" stylename="Condensed Medium" filename="../NotoSans-CondensedMedium.ufo" stylemapfamilyname="Noto Sans Condensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed SemiBold Italic" familyname="Noto Sans" stylename="Condensed SemiBold Italic" filename="../NotoSans-CondensedSemiBoldItalic.ufo" stylemapfamilyname="Noto Sans Condensed SemiBold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="117"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Bold Italic" familyname="Noto Sans" stylename="Condensed Bold Italic" filename="../NotoSans-CondensedBoldItalic.ufo" stylemapfamilyname="Noto Sans Condensed Bold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed ExtraBold Italic" familyname="Noto Sans" stylename="Condensed ExtraBold Italic" filename="../NotoSans-CondensedExtraBoldItalic.ufo" stylemapfamilyname="Noto Sans Condensed ExtraBold Italic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A</key>
+        <dict/>
+      </dict>
+      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+      <array>
+        <dict>
+          <key>class</key>
+          <string>KernFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>append</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>class</key>
+          <string>MarkFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>skip</string>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</designspace>
