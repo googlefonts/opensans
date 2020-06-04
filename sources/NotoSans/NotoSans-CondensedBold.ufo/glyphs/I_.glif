@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I" format="2">
+  <advance width="543"/>
+  <unicode hex="0049"/>
+  <anchor x="270" y="0" name="bottom"/>
+  <anchor x="270" y="1462" name="top"/>
+  <anchor x="502" y="1462" name="topright"/>
+  <outline>
+    <contour>
+      <point x="131" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="412" y="1462" type="line"/>
+      <point x="131" y="1462" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

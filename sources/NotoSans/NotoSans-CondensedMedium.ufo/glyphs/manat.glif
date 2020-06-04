@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="manat" format="2">
+  <advance width="1266"/>
+  <unicode hex="20BC"/>
+  <outline>
+    <contour>
+      <point x="88" y="0" type="line"/>
+      <point x="254" y="0" type="line"/>
+      <point x="254" y="309" type="line" smooth="yes"/>
+      <point x="254" y="709"/>
+      <point x="340" y="856"/>
+      <point x="547" y="877" type="curve"/>
+      <point x="547" y="336" type="line"/>
+      <point x="709" y="336" type="line"/>
+      <point x="709" y="877" type="line"/>
+      <point x="905" y="856"/>
+      <point x="1001" y="713"/>
+      <point x="1001" y="309" type="curve" smooth="yes"/>
+      <point x="1001" y="0" type="line"/>
+      <point x="1167" y="0" type="line"/>
+      <point x="1167" y="313" type="line" smooth="yes"/>
+      <point x="1167" y="807"/>
+      <point x="1024" y="999"/>
+      <point x="709" y="1024" type="curve"/>
+      <point x="709" y="1462" type="line"/>
+      <point x="547" y="1462" type="line"/>
+      <point x="547" y="1024" type="line"/>
+      <point x="217" y="999"/>
+      <point x="88" y="799"/>
+      <point x="88" y="307" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

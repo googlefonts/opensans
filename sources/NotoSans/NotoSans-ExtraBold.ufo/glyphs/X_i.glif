@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xi" format="2">
+  <advance width="1176"/>
+  <unicode hex="039E"/>
+  <anchor x="588" y="0" name="bottom"/>
+  <anchor x="588" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="1096" y="0" type="line"/>
+      <point x="1096" y="322" type="line"/>
+      <point x="80" y="322" type="line"/>
+    </contour>
+    <contour>
+      <point x="203" y="598" type="line"/>
+      <point x="973" y="598" type="line"/>
+      <point x="973" y="915" type="line"/>
+      <point x="203" y="915" type="line"/>
+    </contour>
+    <contour>
+      <point x="121" y="1145" type="line"/>
+      <point x="1055" y="1145" type="line"/>
+      <point x="1055" y="1462" type="line"/>
+      <point x="121" y="1462" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA690" format="2">
+  <advance width="1026"/>
+  <unicode hex="A690"/>
+  <outline>
+    <contour>
+      <point x="236" y="-397" type="curve" smooth="yes"/>
+      <point x="276" y="-397"/>
+      <point x="319" y="-389"/>
+      <point x="350" y="-379" type="curve"/>
+      <point x="377" y="-256" type="line"/>
+      <point x="350" y="-264"/>
+      <point x="309" y="-272"/>
+      <point x="276" y="-272" type="curve" smooth="yes"/>
+      <point x="215" y="-272"/>
+      <point x="182" y="-244"/>
+      <point x="182" y="-184" type="curve" smooth="yes"/>
+      <point x="182" y="-92"/>
+      <point x="252" y="0"/>
+      <point x="406" y="0" type="curve"/>
+      <point x="367" y="90" type="line"/>
+      <point x="188" y="80"/>
+      <point x="33" y="-27"/>
+      <point x="33" y="-205" type="curve" smooth="yes"/>
+      <point x="33" y="-317"/>
+      <point x="106" y="-397"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>T</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2C64" format="2">
+  <advance width="1352"/>
+  <unicode hex="2C64"/>
+  <anchor x="676" y="-492" name="bottom"/>
+  <anchor x="676" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="610" y="1462" type="curve" smooth="yes"/>
+      <point x="184" y="1462" type="line"/>
+      <point x="184" y="-131" type="line" smooth="yes"/>
+      <point x="184" y="-387"/>
+      <point x="319" y="-492"/>
+      <point x="543" y="-492" type="curve" smooth="yes"/>
+      <point x="612" y="-492"/>
+      <point x="682" y="-475"/>
+      <point x="715" y="-461" type="curve"/>
+      <point x="715" y="-227" type="line"/>
+      <point x="692" y="-236"/>
+      <point x="649" y="-248"/>
+      <point x="602" y="-248" type="curve" smooth="yes"/>
+      <point x="539" y="-248"/>
+      <point x="494" y="-209"/>
+      <point x="494" y="-125" type="curve" smooth="yes"/>
+      <point x="494" y="561" type="line"/>
+      <point x="659" y="561" type="line"/>
+      <point x="1008" y="0" type="line"/>
+      <point x="1352" y="0" type="line"/>
+      <point x="922" y="637" type="line"/>
+      <point x="1065" y="702"/>
+      <point x="1194" y="823"/>
+      <point x="1194" y="1024" type="curve" smooth="yes"/>
+      <point x="1194" y="1319"/>
+      <point x="1008" y="1462"/>
+    </contour>
+    <contour>
+      <point x="588" y="1208" type="line" smooth="yes"/>
+      <point x="788" y="1208"/>
+      <point x="881" y="1155"/>
+      <point x="881" y="1016" type="curve" smooth="yes"/>
+      <point x="881" y="883"/>
+      <point x="799" y="813"/>
+      <point x="594" y="813" type="curve" smooth="yes"/>
+      <point x="494" y="813" type="line"/>
+      <point x="494" y="1208" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

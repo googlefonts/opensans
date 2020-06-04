@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pamphyliandigamma" format="2">
+  <advance width="1010"/>
+  <unicode hex="0377"/>
+  <anchor x="391" y="0" name="bottom"/>
+  <anchor x="621" y="1085" name="top"/>
+  <outline>
+    <contour>
+      <point x="-27" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="580" y="461" type="line"/>
+      <point x="571" y="430"/>
+      <point x="559" y="379"/>
+      <point x="553" y="348" type="curve"/>
+      <point x="479" y="0" type="line"/>
+      <point x="797" y="0" type="line"/>
+      <point x="1036" y="1133" type="line"/>
+      <point x="709" y="1133" type="line"/>
+      <point x="434" y="698" type="line"/>
+      <point x="442" y="725"/>
+      <point x="457" y="774"/>
+      <point x="463" y="801" type="curve"/>
+      <point x="532" y="1133" type="line"/>
+      <point x="215" y="1133" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

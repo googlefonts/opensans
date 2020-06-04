@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n.sc" format="2">
+  <advance width="1276"/>
+  <anchor x="639" y="0" name="bottom"/>
+  <anchor x="639" y="1171" name="top"/>
+  <anchor x="1235" y="1171" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1122" y="1171" type="line"/>
+      <point x="961" y="1171" type="line"/>
+      <point x="961" y="500" type="line" smooth="yes"/>
+      <point x="961" y="403"/>
+      <point x="963" y="283"/>
+      <point x="969" y="225" type="curve"/>
+      <point x="963" y="225" type="line"/>
+      <point x="371" y="1171" type="line"/>
+      <point x="152" y="1171" type="line"/>
+      <point x="152" y="0" type="line"/>
+      <point x="313" y="0" type="line"/>
+      <point x="313" y="664" type="line" smooth="yes"/>
+      <point x="313" y="750"/>
+      <point x="305" y="877"/>
+      <point x="301" y="950" type="curve"/>
+      <point x="309" y="950" type="line"/>
+      <point x="903" y="0" type="line"/>
+      <point x="1122" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>
