@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eopenreversedhook" format="2">
+  <advance width="1415.5409836065573"/>
+  <unicode hex="025D"/>
+  <anchor x="346.6393442622951" y="-20.0" name="bottom"/>
+  <anchor x="563.4098360655737" y="1127.2950819672133" name="top"/>
+  <outline>
+    <contour>
+      <point x="1214.5409836065573" y="535.0163934426229" type="curve" smooth="yes"/>
+      <point x="1305.5245901639346" y="535.0163934426229"/>
+      <point x="1383.8524590163934" y="567.2295081967213"/>
+      <point x="1453.8524590163936" y="615.1147540983607" type="curve"/>
+      <point x="1387.5573770491803" y="761.1475409836066" type="line"/>
+      <point x="1343.0819672131147" y="734.9180327868852"/>
+      <point x="1305.5245901639344" y="715.0327868852459"/>
+      <point x="1252.622950819672" y="715.0327868852459" type="curve" smooth="yes"/>
+      <point x="1191.6229508196723" y="715.0327868852459"/>
+      <point x="1162.6229508196723" y="761.8032786885245"/>
+      <point x="1157.049180327869" y="881.2295081967213" type="curve" smooth="yes"/>
+      <point x="1151.4754098360656" y="996.2622950819672" type="line"/>
+      <point x="768.0983606557377" y="899.1967213114754" type="line"/>
+      <point x="776.0983606557377" y="736.7377049180328" type="line"/>
+      <point x="983.1311475409836" y="786.1639344262295" type="line"/>
+      <point x="1003.016393442623" y="605.344262295082"/>
+      <point x="1088.327868852459" y="535.0163934426229"/>
+    </contour>
+    <component base="afii10073"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10073</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rhotichookmod</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

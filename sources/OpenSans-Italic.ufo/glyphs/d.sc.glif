@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="d.sc" format="2">
+  <advance width="1119.953125"/>
+  <anchor x="436.46875" y="0.0" name="bottom"/>
+  <anchor x="672.359375" y="584.578125" name="center"/>
+  <anchor x="674.90625" y="1166.375" name="top"/>
+  <anchor x="1203.515625" y="1166.375" name="topright"/>
+  <outline>
+    <contour>
+      <point x="42.53125" y="0.0" type="line"/>
+      <point x="347.078125" y="0.0" type="line" smooth="yes"/>
+      <point x="804.578125" y="0.0"/>
+      <point x="1042.875" y="304.234375"/>
+      <point x="1042.875" y="700.03125" type="curve" smooth="yes"/>
+      <point x="1042.875" y="1012.859375"/>
+      <point x="871.15625" y="1166.59375"/>
+      <point x="575.4375" y="1166.59375" type="curve" smooth="yes"/>
+      <point x="289.875" y="1166.59375" type="line"/>
+    </contour>
+    <contour>
+      <point x="237.453125" y="142.734375" type="line"/>
+      <point x="427.28125" y="1026.53125" type="line"/>
+      <point x="560.296875" y="1026.53125" type="line" smooth="yes"/>
+      <point x="749.484375" y="1026.53125"/>
+      <point x="870.3125" y="927.140625"/>
+      <point x="870.3125" y="699.59375" type="curve" smooth="yes"/>
+      <point x="870.3125" y="387.03125"/>
+      <point x="692.09375" y="142.734375"/>
+      <point x="361.34375" y="142.734375" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

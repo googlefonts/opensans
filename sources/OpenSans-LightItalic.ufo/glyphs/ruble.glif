@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ruble" format="2">
+  <advance width="1132.0"/>
+  <unicode hex="20BD"/>
+  <outline>
+    <contour>
+      <point x="94.5" y="0.0" type="line"/>
+      <point x="198.5" y="0.0" type="line"/>
+      <point x="271.0" y="345.25" type="line"/>
+      <point x="597.125" y="345.25" type="line"/>
+      <point x="613.875" y="427.0" type="line"/>
+      <point x="289.0" y="427.0" type="line"/>
+      <point x="328.0" y="613.375" type="line"/>
+      <point x="505.0" y="613.375" type="line" smooth="yes"/>
+      <point x="871.0" y="613.375"/>
+      <point x="1136.5" y="776.375"/>
+      <point x="1136.5" y="1106.125" type="curve" smooth="yes"/>
+      <point x="1136.5" y="1339.125"/>
+      <point x="991.125" y="1462.0"/>
+      <point x="709.25" y="1462.0" type="curve" smooth="yes"/>
+      <point x="404.875" y="1462.0" type="line"/>
+      <point x="244.5" y="703.75" type="line"/>
+      <point x="59.25" y="703.75" type="line"/>
+      <point x="41.0" y="613.375" type="line"/>
+      <point x="225.875" y="613.375" type="line"/>
+      <point x="185.625" y="427.0" type="line"/>
+      <point x="0.7500000000000009" y="427.0" type="line"/>
+      <point x="-16.375" y="345.25" type="line"/>
+      <point x="167.875" y="345.25" type="line"/>
+    </contour>
+    <contour>
+      <point x="347.875" y="703.75" type="line"/>
+      <point x="490.0" y="1372.0" type="line"/>
+      <point x="684.0" y="1372.0" type="line" smooth="yes"/>
+      <point x="909.125" y="1372.0"/>
+      <point x="1029.0" y="1284.5"/>
+      <point x="1029.0" y="1089.625" type="curve" smooth="yes"/>
+      <point x="1029.0" y="818.875"/>
+      <point x="814.75" y="703.75"/>
+      <point x="512.25" y="703.75" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

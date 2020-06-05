@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="F" format="2">
+  <advance width="1104"/>
+  <unicode hex="0046"/>
+  <anchor x="553" y="0" name="bottom"/>
+  <anchor x="590" y="1462" name="top"/>
+  <anchor x="1063" y="1462" name="topright"/>
+  <outline>
+    <contour>
+      <point x="547" y="0" type="line"/>
+      <point x="547" y="549" type="line"/>
+      <point x="985" y="549" type="line"/>
+      <point x="985" y="866" type="line"/>
+      <point x="547" y="866" type="line"/>
+      <point x="547" y="1145" type="line"/>
+      <point x="1022" y="1145" type="line"/>
+      <point x="1022" y="1462" type="line"/>
+      <point x="158" y="1462" type="line"/>
+      <point x="158" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

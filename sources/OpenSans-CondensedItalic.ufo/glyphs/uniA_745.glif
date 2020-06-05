@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA745" format="2">
+  <advance width="715.5"/>
+  <unicode hex="A745"/>
+  <outline>
+    <contour>
+      <point x="301.453125" y="201.234375" type="line"/>
+      <point x="689.46875" y="311.046875" type="line"/>
+      <point x="664.328125" y="401.46875" type="line"/>
+      <point x="277.09375" y="291.65625" type="line"/>
+    </contour>
+    <component base="uniA741"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uniA741</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

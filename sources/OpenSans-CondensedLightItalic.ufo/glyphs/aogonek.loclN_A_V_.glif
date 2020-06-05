@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek.loclNAV" format="2">
+  <advance width="809.75"/>
+  <anchor x="195.875" y="-445.875" name="bottom"/>
+  <anchor x="520.875" y="1084.875" name="top"/>
+  <outline>
+    <contour>
+      <point x="302.125" y="-445.875" type="curve" smooth="yes"/>
+      <point x="338.125" y="-445.875"/>
+      <point x="365.875" y="-438.625"/>
+      <point x="388.25" y="-430.0" type="curve"/>
+      <point x="403.25" y="-358.125" type="line"/>
+      <point x="380.0" y="-365.375"/>
+      <point x="354.875" y="-370.125"/>
+      <point x="331.0" y="-370.125" type="curve" smooth="yes"/>
+      <point x="283.25" y="-370.125"/>
+      <point x="255.0" y="-340.125"/>
+      <point x="255.0" y="-286.375" type="curve" smooth="yes"/>
+      <point x="255.0" y="-192.625"/>
+      <point x="307.625" y="-60.875"/>
+      <point x="419.0" y="47.875" type="curve"/>
+      <point x="362.0" y="47.875" type="line"/>
+      <point x="238.5" y="-55.25"/>
+      <point x="168.5" y="-190.375"/>
+      <point x="168.5" y="-306.5" type="curve" smooth="yes"/>
+      <point x="168.5" y="-386.25"/>
+      <point x="213.75" y="-445.875"/>
+    </contour>
+    <component base="a"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onehalf" format="2">
+  <advance width="1896"/>
+  <unicode hex="00BD"/>
+  <outline>
+    <contour>
+      <point x="381" y="0" type="line"/>
+      <point x="682" y="0" type="line"/>
+      <point x="1436" y="1462" type="line"/>
+      <point x="1135" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="264" y="586" type="line"/>
+      <point x="547" y="586" type="line"/>
+      <point x="547" y="1462" type="line"/>
+      <point x="328" y="1462" type="line"/>
+      <point x="-12" y="1188" type="line"/>
+      <point x="133" y="1018" type="line"/>
+      <point x="211" y="1087" type="line"/>
+      <point x="238" y="1112"/>
+      <point x="268" y="1147"/>
+      <point x="274" y="1159" type="curve"/>
+      <point x="272" y="1149"/>
+      <point x="264" y="965"/>
+      <point x="264" y="942" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1155" y="0" type="line"/>
+      <point x="1829" y="0" type="line"/>
+      <point x="1829" y="225" type="line"/>
+      <point x="1483" y="225" type="line"/>
+      <point x="1679" y="399" type="line"/>
+      <point x="1749" y="469"/>
+      <point x="1808" y="553"/>
+      <point x="1808" y="662" type="curve" smooth="yes"/>
+      <point x="1808" y="811"/>
+      <point x="1700" y="899"/>
+      <point x="1511" y="899" type="curve" smooth="yes"/>
+      <point x="1356" y="899"/>
+      <point x="1247" y="862"/>
+      <point x="1141" y="764" type="curve"/>
+      <point x="1282" y="598" type="line"/>
+      <point x="1343" y="657"/>
+      <point x="1401" y="686"/>
+      <point x="1454" y="686" type="curve" smooth="yes"/>
+      <point x="1497" y="686"/>
+      <point x="1520" y="668"/>
+      <point x="1520" y="629" type="curve" smooth="yes"/>
+      <point x="1520" y="582"/>
+      <point x="1483" y="532"/>
+      <point x="1370" y="420" type="curve" smooth="yes"/>
+      <point x="1155" y="207" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=twosuperior</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fraction</string>
+    </dict>
+  </lib>
+</glyph>

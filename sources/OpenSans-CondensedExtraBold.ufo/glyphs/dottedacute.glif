@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dottedacute" format="2">
+  <unicode hex="1DC1"/>
+  <anchor x="0" y="1133" name="_top"/>
+  <anchor x="4" y="1702" name="top"/>
+  <outline>
+    <contour>
+      <point x="-143" y="1307" type="line"/>
+      <point x="4" y="1307" type="line"/>
+      <point x="63" y="1415"/>
+      <point x="115" y="1520"/>
+      <point x="145" y="1612" type="curve"/>
+      <point x="145" y="1632" type="line"/>
+      <point x="-117" y="1632" type="line"/>
+      <point x="-119" y="1546"/>
+      <point x="-133" y="1413"/>
+      <point x="-143" y="1333" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-315" y="1262" type="curve"/>
+      <point x="-238" y="1262"/>
+      <point x="-182" y="1311"/>
+      <point x="-182" y="1409" type="curve"/>
+      <point x="-182" y="1513"/>
+      <point x="-238" y="1561"/>
+      <point x="-315" y="1561" type="curve"/>
+      <point x="-397" y="1561"/>
+      <point x="-446" y="1513"/>
+      <point x="-446" y="1409" type="curve"/>
+      <point x="-446" y="1311"/>
+      <point x="-397" y="1262"/>
+    </contour>
+    <contour>
+      <point x="313" y="1405" type="curve"/>
+      <point x="393" y="1405"/>
+      <point x="446" y="1452"/>
+      <point x="446" y="1550" type="curve"/>
+      <point x="446" y="1655"/>
+      <point x="393" y="1702"/>
+      <point x="313" y="1702" type="curve"/>
+      <point x="231" y="1702"/>
+      <point x="180" y="1655"/>
+      <point x="180" y="1550" type="curve"/>
+      <point x="180" y="1452"/>
+      <point x="231" y="1405"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

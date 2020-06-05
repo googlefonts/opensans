@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek.sc" format="2">
+  <advance width="1257.2950819672133"/>
+  <anchor x="628.1475409836066" y="-469.1475409836066" name="bottom"/>
+  <anchor x="628.1475409836066" y="1180.295081967213" name="top"/>
+  <outline>
+    <contour>
+      <point x="784.5409836065575" y="-233.1311475409836" type="curve" smooth="yes"/>
+      <point x="784.5409836065575" y="-154.65573770491804"/>
+      <point x="837.1475409836066" y="-73.9672131147541"/>
+      <point x="1001.950819672131" y="126.08196721311475" type="curve"/>
+      <point x="814.032786885246" y="32.77049180327869" type="line"/>
+      <point x="713.0" y="-30.540983606557372"/>
+      <point x="608.655737704918" y="-141.88524590163937"/>
+      <point x="608.655737704918" y="-259.7704918032787" type="curve" smooth="yes"/>
+      <point x="608.655737704918" y="-386.9672131147541"/>
+      <point x="688.3770491803278" y="-469.1475409836066"/>
+      <point x="836.9180327868852" y="-469.1475409836066" type="curve" smooth="yes"/>
+      <point x="895.672131147541" y="-469.1475409836066"/>
+      <point x="935.9836065573771" y="-459.26229508196724"/>
+      <point x="976.7540983606557" y="-448.3770491803279" type="curve"/>
+      <point x="976.7540983606557" y="-305.4918032786885" type="line"/>
+      <point x="952.5409836065573" y="-311.8196721311475"/>
+      <point x="915.344262295082" y="-320.70491803278685"/>
+      <point x="871.2295081967213" y="-320.70491803278685" type="curve" smooth="yes"/>
+      <point x="818.0983606557377" y="-320.70491803278685"/>
+      <point x="784.5409836065575" y="-291.91803278688525"/>
+    </contour>
+    <component base="u.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

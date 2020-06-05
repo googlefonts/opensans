@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="1085"/>
+  <unicode hex="0394"/>
+  <anchor x="428" y="0" name="bottom"/>
+  <anchor x="737" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="-55" y="0" type="line"/>
+      <point x="944" y="0" type="line"/>
+      <point x="985" y="197" type="line"/>
+      <point x="950" y="1468" type="line"/>
+      <point x="516" y="1468" type="line"/>
+      <point x="-55" y="195" type="line"/>
+    </contour>
+    <contour>
+      <point x="346" y="301" type="line"/>
+      <point x="604" y="967" type="line"/>
+      <point x="616" y="995"/>
+      <point x="643" y="1090"/>
+      <point x="655" y="1143" type="curve"/>
+      <point x="649" y="1061"/>
+      <point x="649" y="1014"/>
+      <point x="647" y="961" type="curve" smooth="yes"/>
+      <point x="633" y="301" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

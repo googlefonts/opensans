@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB4F" format="2">
+  <advance width="1346"/>
+  <unicode hex="AB4F"/>
+  <outline>
+    <contour>
+      <point x="6" y="664" type="line"/>
+      <point x="6" y="461" type="line"/>
+      <point x="1339" y="461" type="line"/>
+      <point x="1339" y="664" type="line"/>
+    </contour>
+    <component base="uniAB4E"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uniAB4E</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

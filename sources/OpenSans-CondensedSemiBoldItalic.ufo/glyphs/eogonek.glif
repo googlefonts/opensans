@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek" format="2">
+  <advance width="818.295081967213"/>
+  <unicode hex="0119"/>
+  <anchor x="200.37704918032787" y="-441.0655737704918" name="bottom"/>
+  <anchor x="524.1475409836065" y="1083.8852459016396" name="top"/>
+  <outline>
+    <contour>
+      <point x="383.88524590163945" y="-441.0655737704918" type="curve" smooth="yes"/>
+      <point x="426.65573770491795" y="-441.0655737704918"/>
+      <point x="466.0819672131148" y="-437.9508196721311"/>
+      <point x="503.5081967213114" y="-421.7377049180328" type="curve"/>
+      <point x="533.2622950819673" y="-287.2786885245901" type="line"/>
+      <point x="503.6065573770493" y="-293.2786885245901"/>
+      <point x="475.8360655737705" y="-298.60655737704917"/>
+      <point x="454.83606557377044" y="-298.60655737704917" type="curve" smooth="yes"/>
+      <point x="420.2622950819671" y="-298.60655737704917"/>
+      <point x="398.0327868852459" y="-277.9344262295082"/>
+      <point x="398.0327868852459" y="-237.36065573770492" type="curve" smooth="yes"/>
+      <point x="400.9180327868853" y="-158.22950819672127"/>
+      <point x="455.0327868852459" y="-58.34426229508197"/>
+      <point x="595.3278688524589" y="38.77049180327869" type="curve"/>
+      <point x="428.9180327868852" y="25.01639344262295" type="line"/>
+      <point x="296.1147540983606" y="-74.2295081967213"/>
+      <point x="225.81967213114757" y="-169.77049180327867"/>
+      <point x="225.81967213114757" y="-287.1967213114754" type="curve" smooth="yes"/>
+      <point x="225.81967213114757" y="-375.8524590163935"/>
+      <point x="278.3606557377049" y="-441.0655737704918"/>
+    </contour>
+    <component base="e" xOffset="4.440892098500626e-16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

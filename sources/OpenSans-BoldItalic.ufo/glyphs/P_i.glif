@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pi" format="2">
+  <advance width="1423"/>
+  <unicode hex="03A0"/>
+  <anchor x="594" y="0" name="bottom"/>
+  <anchor x="905" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="53" y="0" type="line"/>
+      <point x="358" y="0" type="line"/>
+      <point x="614" y="1204" type="line"/>
+      <point x="1075" y="1204" type="line"/>
+      <point x="819" y="0" type="line"/>
+      <point x="1124" y="0" type="line"/>
+      <point x="1434" y="1462" type="line"/>
+      <point x="362" y="1462" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

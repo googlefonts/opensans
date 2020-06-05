@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonek" format="2">
+  <advance width="614"/>
+  <unicode hex="02DB"/>
+  <outline>
+    <contour>
+      <point x="336" y="-199" type="curve" smooth="yes"/>
+      <point x="336" y="-137"/>
+      <point x="377" y="-88"/>
+      <point x="469" y="0" type="curve"/>
+      <point x="315" y="51" type="line"/>
+      <point x="133" y="-72"/>
+      <point x="82" y="-168"/>
+      <point x="82" y="-260" type="curve" smooth="yes"/>
+      <point x="82" y="-403"/>
+      <point x="203" y="-492"/>
+      <point x="358" y="-492" type="curve" smooth="yes"/>
+      <point x="432" y="-492"/>
+      <point x="487" y="-479"/>
+      <point x="532" y="-465" type="curve"/>
+      <point x="532" y="-244" type="line"/>
+      <point x="504" y="-256"/>
+      <point x="449" y="-266"/>
+      <point x="414" y="-266" type="curve" smooth="yes"/>
+      <point x="367" y="-266"/>
+      <point x="336" y="-248"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

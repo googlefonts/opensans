@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek" format="2">
+  <advance width="1149.640625"/>
+  <unicode hex="0119"/>
+  <anchor x="609.109375" y="-450.234375" name="bottom"/>
+  <anchor x="580.609375" y="1096.140625" name="top"/>
+  <outline>
+    <contour>
+      <point x="788.25" y="-241.28125" type="curve" smooth="yes"/>
+      <point x="788.25" y="-155.09375"/>
+      <point x="832.390625" y="-78.46875"/>
+      <point x="992.140625" y="49.90625" type="curve"/>
+      <point x="841.28125" y="32.53125" type="line"/>
+      <point x="752.171875" y="-32.57812500000001"/>
+      <point x="650.640625" y="-145.046875"/>
+      <point x="650.640625" y="-259.96875" type="curve" smooth="yes"/>
+      <point x="650.640625" y="-380.09375"/>
+      <point x="717.40625" y="-450.234375"/>
+      <point x="856.828125" y="-450.234375" type="curve" smooth="yes"/>
+      <point x="908.734375" y="-450.234375"/>
+      <point x="943.953125" y="-441.34375"/>
+      <point x="981.203125" y="-431.5625" type="curve"/>
+      <point x="981.203125" y="-323.78125" type="line"/>
+      <point x="959.09375" y="-329.109375"/>
+      <point x="927.4375" y="-336.890625"/>
+      <point x="883.203125" y="-336.890625" type="curve" smooth="yes"/>
+      <point x="822.796875" y="-336.890625"/>
+      <point x="788.25" y="-304.359375"/>
+    </contour>
+    <component base="e"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

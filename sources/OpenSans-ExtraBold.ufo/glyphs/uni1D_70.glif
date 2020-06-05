@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D70" format="2">
+  <advance width="1497"/>
+  <unicode hex="1D70"/>
+  <outline>
+    <contour>
+      <point x="1559" y="666" type="curve"/>
+      <point x="1368" y="666" type="line"/>
+      <point x="1364" y="578"/>
+      <point x="1296" y="551"/>
+      <point x="1225" y="551" type="curve"/>
+      <point x="965" y="551"/>
+      <point x="516" y="698"/>
+      <point x="256" y="698" type="curve"/>
+      <point x="57" y="698"/>
+      <point x="-70" y="567"/>
+      <point x="-61" y="354" type="curve"/>
+      <point x="129" y="354" type="line"/>
+      <point x="131" y="446"/>
+      <point x="174" y="465"/>
+      <point x="262" y="465" type="curve"/>
+      <point x="573" y="465"/>
+      <point x="887" y="336"/>
+      <point x="1243" y="336" type="curve"/>
+      <point x="1454" y="336"/>
+      <point x="1554" y="449"/>
+    </contour>
+    <component base="n" xOffset="63"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>n</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

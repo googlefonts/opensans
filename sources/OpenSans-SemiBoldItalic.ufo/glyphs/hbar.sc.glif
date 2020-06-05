@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar.sc" format="2">
+  <advance width="1197.262295081967"/>
+  <anchor x="473.8032786885246" y="0.0" name="bottom"/>
+  <anchor x="730.4590163934427" y="1179.1803278688524" name="top"/>
+  <outline>
+    <contour>
+      <point x="75.11475409836065" y="867.311475409836" type="line"/>
+      <point x="1256.7049180327867" y="867.311475409836" type="line"/>
+      <point x="1289.2459016393443" y="1025.5573770491803" type="line"/>
+      <point x="106.21311475409836" y="1025.5573770491803" type="line"/>
+    </contour>
+    <component base="h.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>h.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

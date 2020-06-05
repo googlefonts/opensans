@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketrightwithquill" format="2">
+  <advance width="582.8852459016395"/>
+  <unicode hex="2046"/>
+  <outline>
+    <contour>
+      <point x="37.91803278688524" y="508.9180327868852" type="line"/>
+      <point x="430.39344262295083" y="508.9180327868852" type="line"/>
+      <point x="464.1475409836065" y="670.9180327868852" type="line"/>
+      <point x="72.22950819672131" y="670.9180327868852" type="line"/>
+    </contour>
+    <component base="bracketright" xOffset="1.1102230246251565e-16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>bracketright</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

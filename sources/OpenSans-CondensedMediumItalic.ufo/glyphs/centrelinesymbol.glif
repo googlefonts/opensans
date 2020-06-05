@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="centrelinesymbol" format="2">
+  <advance width="879"/>
+  <unicode hex="2104"/>
+  <outline>
+    <contour>
+      <point x="307" y="0" type="line"/>
+      <point x="801" y="0" type="line"/>
+      <point x="801" y="135" type="line"/>
+      <point x="442" y="135" type="line"/>
+      <point x="442" y="397" type="line"/>
+      <point x="485" y="403"/>
+      <point x="522" y="418"/>
+      <point x="555" y="442" type="curve"/>
+      <point x="555" y="551" type="line"/>
+      <point x="518" y="526"/>
+      <point x="481" y="510"/>
+      <point x="442" y="502" type="curve"/>
+      <point x="442" y="1108" type="line"/>
+      <point x="471" y="1102"/>
+      <point x="504" y="1092"/>
+      <point x="537" y="1075" type="curve"/>
+      <point x="569" y="1174" type="line"/>
+      <point x="530" y="1194"/>
+      <point x="487" y="1208"/>
+      <point x="442" y="1214" type="curve"/>
+      <point x="442" y="1462" type="line"/>
+      <point x="307" y="1462" type="line"/>
+      <point x="307" y="1208" type="line"/>
+      <point x="164" y="1174"/>
+      <point x="70" y="1034"/>
+      <point x="70" y="801" type="curve" smooth="yes"/>
+      <point x="70" y="563"/>
+      <point x="158" y="428"/>
+      <point x="307" y="397" type="curve"/>
+    </contour>
+    <contour>
+      <point x="307" y="510" type="line"/>
+      <point x="238" y="543"/>
+      <point x="190" y="637"/>
+      <point x="190" y="801" type="curve" smooth="yes"/>
+      <point x="190" y="967"/>
+      <point x="236" y="1067"/>
+      <point x="307" y="1098" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>
