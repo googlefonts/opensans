@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalturned" format="2">
+  <advance width="835.125"/>
+  <unicode hex="0296"/>
+  <anchor x="418.5" y="0.0" name="bottom"/>
+  <anchor x="418.5" y="1547.25" name="top"/>
+  <outline>
+    <contour>
+      <point x="376.0" y="-20.0" type="curve" smooth="yes"/>
+      <point x="635.75" y="-20.0"/>
+      <point x="784.625" y="128.25"/>
+      <point x="784.625" y="376.0" type="curve" smooth="yes"/>
+      <point x="784.625" y="643.125"/>
+      <point x="610.25" y="789.625"/>
+      <point x="393.375" y="887.0" type="curve"/>
+      <point x="393.375" y="1547.25" type="line"/>
+      <point x="292.125" y="1547.25" type="line"/>
+      <point x="292.125" y="831.125" type="line"/>
+      <point x="506.0" y="752.625"/>
+      <point x="681.25" y="633.375"/>
+      <point x="681.25" y="380.75" type="curve" smooth="yes"/>
+      <point x="681.25" y="176.875"/>
+      <point x="569.375" y="67.75"/>
+      <point x="371.75" y="67.75" type="curve" smooth="yes"/>
+      <point x="245.25" y="67.75"/>
+      <point x="138.375" y="109.25"/>
+      <point x="58.875" y="156.5" type="curve"/>
+      <point x="20.625" y="76.5" type="line"/>
+      <point x="114.75" y="20.625"/>
+      <point x="224.875" y="-20.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

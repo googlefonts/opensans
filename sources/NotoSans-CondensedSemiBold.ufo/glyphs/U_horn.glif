@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1261.704918032787"/>
+  <unicode hex="01AF"/>
+  <anchor x="554.0491803278688" y="0.0" name="bottom"/>
+  <anchor x="563.1475409836066" y="1462.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="974.4918032786885" y="1462.0" type="line"/>
+      <point x="754.4590163934425" y="1462.0" type="line"/>
+      <point x="754.4590163934425" y="517.9180327868852" type="line" smooth="yes"/>
+      <point x="754.4590163934425" y="282.77049180327873"/>
+      <point x="687.5409836065575" y="176.8360655737705"/>
+      <point x="553.8196721311475" y="176.8360655737705" type="curve" smooth="yes"/>
+      <point x="422.8688524590164" y="176.8360655737705"/>
+      <point x="350.60655737704917" y="285.2131147540984"/>
+      <point x="350.60655737704917" y="515.9180327868852" type="curve" smooth="yes"/>
+      <point x="350.60655737704917" y="1462.0" type="line"/>
+      <point x="130.80327868852459" y="1462.0" type="line"/>
+      <point x="130.80327868852459" y="514.1639344262295" type="line" smooth="yes"/>
+      <point x="130.80327868852459" y="162.65573770491804"/>
+      <point x="279.09836065573774" y="-20.0"/>
+      <point x="552.9344262295081" y="-20.0" type="curve" smooth="yes"/>
+      <point x="829.3114754098362" y="-20.0"/>
+      <point x="974.4918032786885" y="162.19672131147541"/>
+      <point x="974.4918032786885" y="518.3770491803278" type="curve" smooth="yes"/>
+      <point x="974.4918032786885" y="1108.4426229508194" type="line"/>
+      <point x="1186.8524590163936" y="1120.0163934426232"/>
+      <point x="1300.4754098360656" y="1239.9016393442623"/>
+      <point x="1326.0163934426232" y="1532.0" type="curve"/>
+      <point x="1311.7868852459014" y="1556.0" type="line"/>
+      <point x="1118.1803278688526" y="1556.0" type="line"/>
+      <point x="1118.1803278688526" y="1402.3114754098362"/>
+      <point x="1093.065573770492" y="1272.6885245901642"/>
+      <point x="974.4918032786885" y="1258.672131147541" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

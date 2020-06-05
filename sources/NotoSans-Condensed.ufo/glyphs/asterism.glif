@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterism" format="2">
+  <advance width="1717.796875"/>
+  <unicode hex="2042"/>
+  <outline>
+    <component base="asterisk" xScale="0.9513906249999999" yScale="0.9513906249999999" xOffset="482.8125" yOffset="-19.96875000000003"/>
+    <component base="asterisk" xScale="0.9513906249999999" yScale="0.9513906249999999" xOffset="11.812499999999996" yOffset="-881.953125"/>
+    <component base="asterisk" xScale="0.9513906249999999" yScale="0.9513906249999999" xOffset="953.8125" yOffset="-881.953125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>asterisk</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>asterisk</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>asterisk</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03FC" format="2">
+  <advance width="1170.171875"/>
+  <unicode hex="03FC"/>
+  <anchor x="365.578125" y="-490.140625" name="bottom"/>
+  <anchor x="700.03125" y="1096.140625" name="top"/>
+  <outline>
+    <contour>
+      <point x="-170.65625" y="-312.984375" type="line"/>
+      <point x="497.421875" y="-312.984375" type="line"/>
+      <point x="526.453125" y="-180.046875" type="line"/>
+      <point x="-141.953125" y="-180.046875" type="line"/>
+    </contour>
+    <component base="rho"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>rho</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

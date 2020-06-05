@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresistonos" format="2">
+  <advance width="999"/>
+  <unicode hex="0385"/>
+  <anchor x="508" y="1083" name="_top"/>
+  <outline>
+    <contour>
+      <point x="535" y="1397" type="line"/>
+      <point x="614" y="1397" type="line"/>
+      <point x="666" y="1458"/>
+      <point x="772" y="1626"/>
+      <point x="805" y="1698" type="curve"/>
+      <point x="807" y="1716" type="line"/>
+      <point x="662" y="1716" type="line"/>
+      <point x="641" y="1647"/>
+      <point x="573" y="1489"/>
+      <point x="535" y="1417" type="curve"/>
+    </contour>
+    <contour>
+      <point x="383" y="1292" type="curve" smooth="yes"/>
+      <point x="440" y="1292"/>
+      <point x="483" y="1350"/>
+      <point x="483" y="1430" type="curve" smooth="yes"/>
+      <point x="483" y="1477"/>
+      <point x="461" y="1501"/>
+      <point x="420" y="1501" type="curve" smooth="yes"/>
+      <point x="354" y="1501"/>
+      <point x="315" y="1438"/>
+      <point x="315" y="1368" type="curve" smooth="yes"/>
+      <point x="315" y="1317"/>
+      <point x="338" y="1292"/>
+    </contour>
+    <contour>
+      <point x="778" y="1292" type="curve" smooth="yes"/>
+      <point x="836" y="1292"/>
+      <point x="879" y="1350"/>
+      <point x="879" y="1430" type="curve" smooth="yes"/>
+      <point x="879" y="1477"/>
+      <point x="854" y="1501"/>
+      <point x="815" y="1501" type="curve" smooth="yes"/>
+      <point x="750" y="1501"/>
+      <point x="711" y="1438"/>
+      <point x="711" y="1368" type="curve" smooth="yes"/>
+      <point x="711" y="1317"/>
+      <point x="733" y="1292"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

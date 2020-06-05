@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek.sc" format="2">
+  <advance width="979"/>
+  <anchor x="489" y="-479" name="bottom"/>
+  <anchor x="489" y="1192" name="top"/>
+  <outline>
+    <contour>
+      <point x="590" y="-213" type="curve"/>
+      <point x="590" y="-139"/>
+      <point x="616" y="-80"/>
+      <point x="778" y="104" type="curve"/>
+      <point x="596" y="45" type="line"/>
+      <point x="436" y="-70"/>
+      <point x="379" y="-166"/>
+      <point x="379" y="-262" type="curve"/>
+      <point x="379" y="-397"/>
+      <point x="485" y="-479"/>
+      <point x="629" y="-479" type="curve"/>
+      <point x="694" y="-479"/>
+      <point x="743" y="-469"/>
+      <point x="784" y="-455" type="curve"/>
+      <point x="784" y="-272" type="line"/>
+      <point x="758" y="-283"/>
+      <point x="709" y="-293"/>
+      <point x="676" y="-293" type="curve"/>
+      <point x="621" y="-293"/>
+      <point x="590" y="-268"/>
+    </contour>
+    <component base="u.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u.sc</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=u.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

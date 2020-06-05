@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni023E" format="2">
+  <advance width="1005.375"/>
+  <unicode hex="023E"/>
+  <anchor x="388.25" y="0.0" name="bottom"/>
+  <anchor x="699.625" y="1462.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="-91.5" y="-79.25" type="line"/>
+      <point x="-3.552713678800501e-15" y="-79.25" type="line"/>
+      <point x="1127.0" y="1630.75" type="line"/>
+      <point x="1038.375" y="1630.75" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>T</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

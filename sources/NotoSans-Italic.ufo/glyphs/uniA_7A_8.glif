@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA7A8" format="2">
+  <advance width="1032.46875"/>
+  <unicode hex="A7A8"/>
+  <anchor x="400.125" y="0.0" name="bottom"/>
+  <anchor x="693.421875" y="1462.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="35.4375" y="594.875" type="line"/>
+      <point x="1070.15625" y="836.0" type="line"/>
+      <point x="1095.515625" y="954.6875" type="line"/>
+      <point x="59.90625" y="713.78125" type="line"/>
+    </contour>
+    <component base="S" xOffset="-0.21875000000000022"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>S</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

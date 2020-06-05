@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightdottedsubstitutionbracket" format="2">
+  <advance width="1024"/>
+  <unicode hex="2E05"/>
+  <outline>
+    <contour>
+      <point x="633" y="565" type="line"/>
+      <point x="782" y="565" type="line"/>
+      <point x="782" y="1196" type="line"/>
+      <point x="375" y="1462" type="line"/>
+      <point x="293" y="1337" type="line"/>
+      <point x="633" y="1114" type="line"/>
+    </contour>
+    <contour>
+      <point x="348" y="815" type="curve" smooth="yes"/>
+      <point x="403" y="815"/>
+      <point x="453" y="852"/>
+      <point x="453" y="928" type="curve" smooth="yes"/>
+      <point x="453" y="1010"/>
+      <point x="403" y="1044"/>
+      <point x="348" y="1044" type="curve" smooth="yes"/>
+      <point x="287" y="1044"/>
+      <point x="240" y="1010"/>
+      <point x="240" y="928" type="curve" smooth="yes"/>
+      <point x="240" y="852"/>
+      <point x="287" y="815"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="V" format="2">
+  <advance width="886.265625"/>
+  <unicode hex="0056"/>
+  <anchor x="440.90625" y="0.0" name="bottom"/>
+  <anchor x="448.03125" y="1462.0" name="top"/>
+  <anchor x="845.265625" y="1462.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="886.265625" y="1462.0" type="line"/>
+      <point x="720.046875" y="1462.0" type="line"/>
+      <point x="491.25" y="455.34375" type="line" smooth="yes"/>
+      <point x="470.46875" y="365.09375"/>
+      <point x="453.125" y="267.46875"/>
+      <point x="440.6875" y="180.5625" type="curve"/>
+      <point x="429.25" y="267.46875"/>
+      <point x="411.6875" y="366.65625"/>
+      <point x="392.796875" y="451.78125" type="curve" smooth="yes"/>
+      <point x="165.890625" y="1462.0" type="line"/>
+      <point x="0.0" y="1462.0" type="line"/>
+      <point x="348.6875" y="0.0" type="line"/>
+      <point x="533.359375" y="0.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

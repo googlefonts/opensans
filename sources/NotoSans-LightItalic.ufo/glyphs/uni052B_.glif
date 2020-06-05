@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni052B" format="2">
+  <advance width="1950.875"/>
+  <unicode hex="052B"/>
+  <anchor x="779.0" y="-381.0" name="bottom"/>
+  <anchor x="1091.5" y="1087.375" name="top"/>
+  <outline>
+    <contour>
+      <point x="-160.5" y="-381.0" type="line"/>
+      <point x="-63.75000000000001" y="-381.0" type="line"/>
+      <point x="18.249999999999993" y="0.0" type="line"/>
+      <point x="720.25" y="0.0" type="line"/>
+      <point x="637.0" y="-381.0" type="line"/>
+      <point x="733.125" y="-381.0" type="line"/>
+      <point x="834.25" y="86.25" type="line"/>
+      <point x="695.25" y="86.25" type="line"/>
+      <point x="905.75" y="1088.125" type="line"/>
+      <point x="467.25" y="1088.125" type="line"/>
+      <point x="373.25" y="715.75"/>
+      <point x="209.5" y="328.25"/>
+      <point x="11.75" y="86.25" type="curve"/>
+      <point x="-58.75" y="86.25" type="line"/>
+    </contour>
+    <contour>
+      <point x="126.625" y="86.25" type="line"/>
+      <point x="295.625" y="307.625"/>
+      <point x="451.0" y="671.375"/>
+      <point x="538.25" y="1000.75" type="curve"/>
+      <point x="785.25" y="1000.75" type="line"/>
+      <point x="594.625" y="86.25" type="line"/>
+    </contour>
+    <contour>
+      <point x="746.5" y="528.625" type="line"/>
+      <point x="1244.875" y="528.625" type="line"/>
+      <point x="1262.625" y="610.375" type="line"/>
+      <point x="763.625" y="610.375" type="line"/>
+    </contour>
+    <component base="afii10076" xOffset="1036.5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10076</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>afii10076</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

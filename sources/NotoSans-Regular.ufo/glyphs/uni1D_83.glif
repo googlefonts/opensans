@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D83" format="2">
+  <advance width="1572.609375"/>
+  <unicode hex="1D83"/>
+  <outline>
+    <contour>
+      <point x="1050.46875" y="230.01562499999997" type="line"/>
+      <point x="1050.46875" y="97.07812499999999" type="line"/>
+      <point x="1373.53125" y="97.07812499999999" type="line"/>
+      <point x="1373.53125" y="-138.390625" type="line" smooth="yes"/>
+      <point x="1373.53125" y="-214.140625"/>
+      <point x="1338.296875" y="-247.796875"/>
+      <point x="1275.53125" y="-247.796875" type="curve" smooth="yes"/>
+      <point x="1233.84375" y="-247.796875"/>
+      <point x="1197.9375" y="-237.125"/>
+      <point x="1175.9375" y="-228.796875" type="curve"/>
+      <point x="1175.9375" y="-368.078125" type="line"/>
+      <point x="1201.0625" y="-378.078125"/>
+      <point x="1244.09375" y="-391.421875"/>
+      <point x="1294.234375" y="-391.421875" type="curve" smooth="yes"/>
+      <point x="1451.234375" y="-391.421875"/>
+      <point x="1523.609375" y="-299.25"/>
+      <point x="1523.609375" y="-130.140625" type="curve" smooth="yes"/>
+      <point x="1523.609375" y="230.01562499999997" type="line"/>
+    </contour>
+    <component base="g.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>g.salt</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

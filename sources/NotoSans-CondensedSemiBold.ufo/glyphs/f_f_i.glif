@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_i" format="2">
+  <advance width="1579.5409836065576"/>
+  <unicode hex="FB03"/>
+  <anchor x="226.42622950819674" y="0.0" name="bottom_1"/>
+  <anchor x="785.5901639344263" y="0.0" name="bottom_2"/>
+  <anchor x="1352.377049180328" y="0.0" name="bottom_3"/>
+  <anchor x="526.1803278688526" y="0.0" name="caret_1"/>
+  <anchor x="1053.360655737705" y="0.0" name="caret_2"/>
+  <anchor x="389.4262295081968" y="1567.0" name="top_1"/>
+  <anchor x="948.5901639344262" y="1567.0" name="top_2"/>
+  <anchor x="1349.049180327869" y="1567.0" name="top_3"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="558.7213114754098"/>
+    <component base="i" xOffset="1117.8852459016393"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>f</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>f</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>i</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Ligature</string>
+    </dict>
+  </lib>
+</glyph>

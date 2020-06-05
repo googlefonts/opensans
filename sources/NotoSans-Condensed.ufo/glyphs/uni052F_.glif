@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni052F" format="2">
+  <advance width="889.265625"/>
+  <unicode hex="052F"/>
+  <anchor x="445.078125" y="-378.046875" name="bottom"/>
+  <anchor x="445.078125" y="1097.703125" name="top"/>
+  <outline>
+    <contour>
+      <point x="627.84375" y="0.0" type="line"/>
+      <point x="713.109375" y="0.0" type="line"/>
+      <point x="713.109375" y="-378.046875" type="line"/>
+      <point x="852.5" y="-378.046875" type="line"/>
+      <point x="852.5" y="127.59375" type="line"/>
+      <point x="717.3125" y="127.59375" type="line"/>
+    </contour>
+    <component base="afii10077"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10077</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>afii10088</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

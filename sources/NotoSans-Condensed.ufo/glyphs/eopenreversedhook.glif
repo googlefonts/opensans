@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eopenreversedhook" format="2">
+  <advance width="968.0"/>
+  <unicode hex="025D"/>
+  <anchor x="324.34375" y="0.0" name="bottom"/>
+  <anchor x="324.34375" y="1097.703125" name="top"/>
+  <outline>
+    <contour>
+      <point x="821.8125" y="570.140625" type="curve" smooth="yes"/>
+      <point x="879.28125" y="570.140625"/>
+      <point x="927.65625" y="594.265625"/>
+      <point x="968.0" y="629.84375" type="curve"/>
+      <point x="926.28125" y="716.703125" type="line"/>
+      <point x="900.28125" y="694.03125"/>
+      <point x="872.84375" y="679.484375"/>
+      <point x="834.5" y="679.484375" type="curve" smooth="yes"/>
+      <point x="780.625" y="679.484375"/>
+      <point x="759.84375" y="727.90625"/>
+      <point x="732.640625" y="868.953125" type="curve" smooth="yes"/>
+      <point x="712.84375" y="966.046875" type="line"/>
+      <point x="443.78125" y="859.828125" type="line"/>
+      <point x="473.609375" y="755.390625" type="line"/>
+      <point x="636.53125" y="822.0" type="line"/>
+      <point x="671.640625" y="646.171875"/>
+      <point x="718.671875" y="570.140625"/>
+    </contour>
+    <component base="afii10073"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10073</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rhotichookmod</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

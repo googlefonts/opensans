@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twoemdash" format="2">
+  <advance width="3725.0"/>
+  <unicode hex="2E3A"/>
+  <outline>
+    <contour>
+      <point x="68.625" y="500.125" type="line"/>
+      <point x="3629.875" y="500.125" type="line"/>
+      <point x="3648.625" y="594.25" type="line"/>
+      <point x="87.5" y="594.25" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>emdash</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>emdash</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Dash</string>
+    </dict>
+  </lib>
+</glyph>

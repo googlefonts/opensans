@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="516"/>
+  <unicode hex="0131"/>
+  <anchor x="137" y="0" name="bottom"/>
+  <anchor x="379" y="1133" name="top"/>
+  <outline>
+    <contour>
+      <point x="-25" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="543" y="1133" type="line"/>
+      <point x="217" y="1133" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>
