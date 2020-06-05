@@ -5,24 +5,25 @@ DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
 cd $DIR
 echo $(pwd)
 
-# glyphs2ufo --no-preserve-glyphsapp-metadata -m NotoSans/ -n ./ NotoSans/NotoSans-MM.glyphs
-# glyphs2ufo --no-preserve-glyphsapp-metadata -m NotoSans/ -n ./ NotoSans/NotoSans-ItalicMM.glyphs
-fontmake -o ufo -i -m NotoSans/NotoSans-MM.designspace
-fontmake -o ufo -i -m NotoSans/NotoSans-ItalicMM.designspace
-rm -rf NotoSans-*Thin*.ufo
+# glyphs2ufo --no-preserve-glyphsapp-metadata -m NotoSans/ -n ./ NotoSans/OpenSans-MM.glyphs
+# glyphs2ufo --no-preserve-glyphsapp-metadata -m NotoSans/ -n ./ NotoSans/OpenSans-ItalicMM.glyphs
+fontmake -o ufo -i -m NotoSans/OpenSans-Roman.designspace
+fontmake -o ufo -i -m NotoSans/Open-Italic.designspace
+# Not using Thin for now
+rm -rf OpenSans-*Thin*.ufo
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
-fontmake --expand-features-to-instances -m NotoSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake --expand-features-to-instances -m NotoSans-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
+fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
-fontmake -o variable -m NotoSans-Roman.designspace --output-path "../fonts/variable/NotoSans[wdth,wght].ttf"
-fontmake -o variable -m NotoSans-Italic.designspace --output-path "../fonts/variable/NotoSans-Italic[wdth,wght].ttf"
+fontmake -o variable -m OpenSans-Roman.designspace --output-path "../fonts/variable/OpenSans[wdth,wght].ttf"
+fontmake -o variable -m OpenSans-Italic.designspace --output-path "../fonts/variable/OpenSans-Italic[wdth,wght].ttf"
 
 echo "Post processing Static fonts"
-ttfs=$(ls ../fonts/ttf/NotoSans*.ttf)
+ttfs=$(ls ../fonts/ttf/OpenSans*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
@@ -31,7 +32,7 @@ do
 done
 
 
-vfs=$(ls ../fonts/variable/NotoSans*.ttf)
+vfs=$(ls ../fonts/variable/OpenSans*.ttf)
 echo "Post processing VFs"
 for vf in $vfs
 do
