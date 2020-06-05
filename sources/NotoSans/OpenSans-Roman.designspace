@@ -16,7 +16,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoSans-Thin.ufo" name="Noto Sans Thin" familyname="Noto Sans" stylename="Thin">
+    <source filename="OpenSans-Thin.ufo" name="Open Sans Thin" familyname="Open Sans" stylename="Thin">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -26,43 +26,43 @@
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-Medium.ufo" name="Noto Sans Medium" familyname="Noto Sans" stylename="Medium">
+    <source filename="OpenSans-Medium.ufo" name="Open Sans Medium" familyname="Open Sans" stylename="Medium">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-Bold.ufo" name="Noto Sans Bold" familyname="Noto Sans" stylename="Bold">
+    <source filename="OpenSans-Bold.ufo" name="Open Sans Bold" familyname="Open Sans" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-ExtraBold.ufo" name="Noto Sans ExtraBold" familyname="Noto Sans" stylename="ExtraBold">
+    <source filename="OpenSans-ExtraBold.ufo" name="Open Sans ExtraBold" familyname="Open Sans" stylename="ExtraBold">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedThin.ufo" name="Noto Sans Condensed Thin" familyname="Noto Sans" stylename="Condensed Thin">
+    <source filename="OpenSans-CondensedThin.ufo" name="Open Sans Condensed Thin" familyname="Open Sans" stylename="Condensed Thin">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedMedium.ufo" name="Noto Sans Condensed Medium" familyname="Noto Sans" stylename="Condensed Medium">
+    <source filename="OpenSans-CondensedMedium.ufo" name="Open Sans Condensed Medium" familyname="Open Sans" stylename="Condensed Medium">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedBold.ufo" name="Noto Sans Condensed Bold" familyname="Noto Sans" stylename="Condensed Bold">
+    <source filename="OpenSans-CondensedBold.ufo" name="Open Sans Condensed Bold" familyname="Open Sans" stylename="Condensed Bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedExtraBold.ufo" name="Noto Sans Condensed ExtraBold" familyname="Noto Sans" stylename="Condensed ExtraBold">
+    <source filename="OpenSans-CondensedExtraBold.ufo" name="Open Sans Condensed ExtraBold" familyname="Open Sans" stylename="Condensed ExtraBold">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
@@ -70,7 +70,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Thin" familyname="Noto Sans" stylename="Thin" filename="../NotoSans-Thin.ufo" stylemapfamilyname="Noto Sans Thin" stylemapstylename="regular">
+    <instance name="Open Sans Thin" familyname="Open Sans" stylename="Thin" filename="../OpenSans-Thin.ufo" stylemapfamilyname="Open Sans Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
@@ -78,7 +78,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Light" familyname="Noto Sans" stylename="Light" filename="../NotoSans-Light.ufo" stylemapfamilyname="Noto Sans Light" stylemapstylename="regular">
+    <instance name="Open Sans Light" familyname="Open Sans" stylename="Light" filename="../OpenSans-Light.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="50"/>
         <dimension name="Width" xvalue="100"/>
@@ -86,7 +86,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Regular" familyname="Noto Sans" stylename="Regular" filename="../NotoSans-Regular.ufo" stylemapfamilyname="Noto Sans" stylemapstylename="regular">
+    <instance name="Open Sans Regular" familyname="Open Sans" stylename="Regular" filename="../OpenSans-Regular.ufo" stylemapfamilyname="Open Sans" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="83"/>
         <dimension name="Width" xvalue="100"/>
@@ -94,7 +94,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Medium" familyname="Noto Sans" stylename="Medium" filename="../NotoSans-Medium.ufo" stylemapfamilyname="Noto Sans Medium" stylemapstylename="regular">
+    <instance name="Open Sans Medium" familyname="Open Sans" stylename="Medium" filename="../OpenSans-Medium.ufo" stylemapfamilyname="Open Sans Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
@@ -102,7 +102,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans SemiBold" familyname="Noto Sans" stylename="SemiBold" filename="../NotoSans-SemiBold.ufo" stylemapfamilyname="Noto Sans SemiBold" stylemapstylename="regular">
+    <instance name="Open Sans SemiBold" familyname="Open Sans" stylename="SemiBold" filename="../OpenSans-SemiBold.ufo" stylemapfamilyname="Open Sans SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="117"/>
         <dimension name="Width" xvalue="100"/>
@@ -110,7 +110,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Bold" familyname="Noto Sans" stylename="Bold" filename="../NotoSans-Bold.ufo" stylemapfamilyname="Noto Sans Bold" stylemapstylename="regular">
+    <instance name="Open Sans Bold" familyname="Open Sans" stylename="Bold" filename="../OpenSans-Bold.ufo" stylemapfamilyname="Open Sans Bold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
@@ -118,7 +118,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans ExtraBold" familyname="Noto Sans" stylename="ExtraBold" filename="../NotoSans-ExtraBold.ufo" stylemapfamilyname="Noto Sans ExtraBold" stylemapstylename="regular">
+    <instance name="Open Sans ExtraBold" familyname="Open Sans" stylename="ExtraBold" filename="../OpenSans-ExtraBold.ufo" stylemapfamilyname="Open Sans ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
@@ -126,7 +126,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed Thin" familyname="Noto Sans" stylename="Condensed Thin" filename="../NotoSans-CondensedThin.ufo" stylemapfamilyname="Noto Sans Condensed Thin" stylemapstylename="regular">
+    <instance name="Open Sans Condensed Thin" familyname="Open Sans" stylename="Condensed Thin" filename="../OpenSans-CondensedThin.ufo" stylemapfamilyname="Open Sans Condensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
@@ -134,7 +134,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed Light" familyname="Noto Sans" stylename="Condensed Light" filename="../NotoSans-CondensedLight.ufo" stylemapfamilyname="Noto Sans Condensed Light" stylemapstylename="regular">
+    <instance name="Open Sans Condensed Light" familyname="Open Sans" stylename="Condensed Light" filename="../OpenSans-CondensedLight.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="50"/>
         <dimension name="Width" xvalue="70"/>
@@ -142,7 +142,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed" familyname="Noto Sans" stylename="Condensed" filename="../NotoSans-Condensed.ufo" stylemapfamilyname="Noto Sans Condensed" stylemapstylename="regular">
+    <instance name="Open Sans Condensed" familyname="Open Sans" stylename="Condensed" filename="../OpenSans-Condensed.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="83"/>
         <dimension name="Width" xvalue="70"/>
@@ -150,7 +150,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed Medium" familyname="Noto Sans" stylename="Condensed Medium" filename="../NotoSans-CondensedMedium.ufo" stylemapfamilyname="Noto Sans Condensed Medium" stylemapstylename="regular">
+    <instance name="Open Sans Condensed Medium" familyname="Open Sans" stylename="Condensed Medium" filename="../OpenSans-CondensedMedium.ufo" stylemapfamilyname="Open Sans Condensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
@@ -158,7 +158,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed SemiBold" familyname="Noto Sans" stylename="Condensed SemiBold" filename="../NotoSans-CondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Condensed SemiBold" stylemapstylename="regular">
+    <instance name="Open Sans Condensed SemiBold" familyname="Open Sans" stylename="Condensed SemiBold" filename="../OpenSans-CondensedSemiBold.ufo" stylemapfamilyname="Open Sans Condensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="117"/>
         <dimension name="Width" xvalue="70"/>
@@ -166,7 +166,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed Bold" familyname="Noto Sans" stylename="Condensed Bold" filename="../NotoSans-CondensedBold.ufo" stylemapfamilyname="Noto Sans Condensed Bold" stylemapstylename="regular">
+    <instance name="Open Sans Condensed Bold" familyname="Open Sans" stylename="Condensed Bold" filename="../OpenSans-CondensedBold.ufo" stylemapfamilyname="Open Sans Condensed Bold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
@@ -174,7 +174,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Condensed ExtraBold" familyname="Noto Sans" stylename="Condensed ExtraBold" filename="../NotoSans-CondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Condensed ExtraBold" stylemapstylename="regular">
+    <instance name="Open Sans Condensed ExtraBold" familyname="Open Sans" stylename="Condensed ExtraBold" filename="../OpenSans-CondensedExtraBold.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
