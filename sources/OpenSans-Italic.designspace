@@ -153,6 +153,27 @@
         <key>Italic</key>
         <integer>1</integer>
       </dict>
+      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+      <array>
+        <dict>
+          <key>class</key>
+          <string>KernFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>append</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>class</key>
+          <string>MarkFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>skip</string>
+          </dict>
+        </dict>
+      </array>
     </dict>
   </lib>
 </designspace>
