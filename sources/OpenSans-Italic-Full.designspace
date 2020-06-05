@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
+      <map input="300" output="100"/>
+      <map input="400" output="170"/>
+      <map input="600" output="239"/>
+      <map input="700" output="310"/>
+      <map input="800" output="400"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="OpenSans-LightItalic.ufo" name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-Italic.ufo" name="Open Sans Italic" familyname="Open Sans" stylename="Italic">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-BoldItalic.ufo" name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-ExtraBoldItalic.ufo" name="Open Sans ExtraBold Italic" familyname="Open Sans" stylename="ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <!--
+    <source filename="OpenSans-CondensedLightItalic.ufo" name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="OpenSans-CondensedExtraBoldItalic.ufo" name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    -->
+  </sources>
+  <instances>
+    <instance name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic" filename="../instance_ufo/OpenSans-LightItalic.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans Italic" familyname="Open Sans" stylename="Italic" filename="../instance_ufo/OpenSans-Italic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <real>0.23333</real>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <real>0.76667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans SemiBold Italic" familyname="Open Sans" stylename="SemiBold Italic" filename="../instance_ufo/OpenSans-SemiBoldItalic.ufo" stylemapfamilyname="Open Sans SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="239"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <real>0.45667</real>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <real>0.54333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic" filename="../instance_ufo/OpenSans-BoldItalic.ufo">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <real>0.7</real>
+            <key>4C802D5D-2BAD-4759-8C93-835BB7B64EA1</key>
+            <real>0.3</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans ExtraBold Italic" familyname="Open Sans" stylename="ExtraBold Italic" filename="../instance_ufo/OpenSans-ExtraBoldItalic.ufo" stylemapfamilyname="Open Sans ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0B5E954E-D3E5-4A16-AD17-8B1BCB8BDBD4</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <!--
+    <instance name="Open Sans Condensed Light Italic" familyname="Open Sans" stylename="Condensed Light Italic" filename="../instance_ufo/OpenSans-CondensedLightItalic.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>9047BFCD-DDCC-4357-AC30-29E5270711EF</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans Condensed Italic" familyname="Open Sans" stylename="Condensed Italic" filename="../instance_ufo/OpenSans-CondensedItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>055178C8-6F6F-4B48-86C1-608D4439D248</key>
+            <real>0.23333</real>
+            <key>9047BFCD-DDCC-4357-AC30-29E5270711EF</key>
+            <real>0.76667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans Condensed SemiBold Italic" familyname="Open Sans" stylename="Condensed SemiBold Italic" filename="../instance_ufo/OpenSans-CondensedSemiBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="239"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>055178C8-6F6F-4B48-86C1-608D4439D248</key>
+            <real>0.46333</real>
+            <key>9047BFCD-DDCC-4357-AC30-29E5270711EF</key>
+            <real>0.53667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans Condensed Bold Italic" familyname="Open Sans" stylename="Condensed Bold Italic" filename="../instance_ufo/OpenSans-CondensedBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>055178C8-6F6F-4B48-86C1-608D4439D248</key>
+            <real>0.7</real>
+            <key>9047BFCD-DDCC-4357-AC30-29E5270711EF</key>
+            <real>0.3</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Open Sans Condensed ExtraBold Italic" familyname="Open Sans" stylename="Condensed ExtraBold Italic" filename="../instance_ufo/OpenSans-CondensedExtraBoldItalic.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>055178C8-6F6F-4B48-86C1-608D4439D248</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Condensed</string>
+        </dict>
+      </lib>
+    </instance>
+    -->
+  </instances>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</designspace>
