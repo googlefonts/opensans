@@ -67,3 +67,4 @@ do
 	gftools fix-nonhinting $vf $vf;
 done
 rm ../fonts/variable/*gasp.ttf
+rm ../fonts/ttf/*gasp.ttf
