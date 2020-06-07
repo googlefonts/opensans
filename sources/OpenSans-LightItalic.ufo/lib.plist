@@ -33,6 +33,8 @@
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>0</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Master Name</key>
+    <string>Light Italic</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
@@ -46,7 +48,7 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.smallCapHeight</key>
     <integer>559</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>26</integer>
+    <integer>50</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -56,7 +58,7 @@
     <key>com.schriftgestaltung.weight</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>26</integer>
+    <integer>50</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
@@ -65,11 +67,11 @@
     <array>
       <array>
         <string>Weight</string>
-        <real>50.0</real>
+        <integer>50</integer>
       </array>
       <array>
         <string>Width</string>
-        <real>100.0</real>
+        <integer>100</integer>
       </array>
     </array>
     <key>public.glyphOrder</key>
