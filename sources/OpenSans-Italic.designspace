@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
-    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="400">
       <map input="300" output="50"/>
       <map input="400" output="83"/>
       <map input="600" output="117"/>
       <map input="700" output="151"/>
       <map input="800" output="190"/>
     </axis>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
   </axes>
   <sources>
     <source filename="OpenSans-LightItalic.ufo" name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="50"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="OpenSans-Italic.ufo" name="Open Sans Italic" familyname="Open Sans" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="83"/>
         <dimension name="Width" xvalue="100"/>
@@ -73,7 +73,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Italic" familyname="Open Sans" stylename="Italic" filename="instance_ufos/OpenSans-Italic.ufo">
+    <instance name="Open Sans Italic" familyname="Open Sans" stylename="Italic" filename="instance_ufos/OpenSans-Italic.ufo" stylemapfamilyname="Open Sans" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="83"/>
         <dimension name="Width" xvalue="100"/>
@@ -89,7 +89,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic" filename="instance_ufos/OpenSans-BoldItalic.ufo">
+    <instance name="Open Sans Bold Italic" familyname="Open Sans" stylename="Bold Italic" filename="instance_ufos/OpenSans-BoldItalic.ufo" stylemapfamilyname="Open Sans Bold" stylemapstylename="italic">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
@@ -148,11 +148,6 @@
   </instances>
   <lib>
     <dict>
-      <key>org.statmake.additionalLocations</key>
-      <dict>
-        <key>Italic</key>
-        <integer>1</integer>
-      </dict>
       <key>com.github.googlei18n.ufo2ft.featureWriters</key>
       <array>
         <dict>
@@ -174,6 +169,11 @@
           </dict>
         </dict>
       </array>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>1</integer>
+      </dict>
     </dict>
   </lib>
 </designspace>
