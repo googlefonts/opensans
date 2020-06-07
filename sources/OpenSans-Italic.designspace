@@ -10,6 +10,22 @@
     </axis>
     <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
   </axes>
+  <rules>
+    <rule name="bracket_redo">
+      <conditionset>
+        <condition minimum="160" name="Weight" />
+      </conditionset>
+      <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
+      <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
+      <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
+      <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
+      <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
+      <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
+      <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
+      <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
+      <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
+    </rule>
+  </rules>
   <sources>
     <source filename="OpenSans-LightItalic.ufo" name="Open Sans Light Italic" familyname="Open Sans" stylename="Light Italic">
       <location>
