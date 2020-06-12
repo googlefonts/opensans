@@ -1,142 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="product" format="2">
-  <advance width="1403"/>
+  <advance width="1379.375"/>
   <unicode hex="220F"/>
-  <note>
-product
-</note>
   <outline>
     <contour>
-      <point x="223" y="-492" type="line"/>
-      <point x="322" y="-492" type="line"/>
-      <point x="322" y="1366" type="line"/>
-      <point x="1081" y="1366" type="line"/>
-      <point x="1081" y="-492" type="line"/>
-      <point x="1180" y="-492" type="line"/>
-      <point x="1180" y="1462" type="line"/>
-      <point x="223" y="1462" type="line"/>
+      <point x="210.5" y="-493.125" type="line"/>
+      <point x="308.125" y="-493.125" type="line"/>
+      <point x="308.125" y="1371.25" type="line"/>
+      <point x="1068.625" y="1371.25" type="line"/>
+      <point x="1068.625" y="-493.125" type="line"/>
+      <point x="1166.875" y="-493.125" type="line"/>
+      <point x="1166.875" y="1462.0" type="line"/>
+      <point x="210.5" y="1462.0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>6</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>6</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

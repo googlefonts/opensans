@@ -1,16 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emdash" format="2">
-  <advance width="1843"/>
+  <advance width="1842.25"/>
   <unicode hex="2014"/>
-  <note>
-emdash
-</note>
   <outline>
     <contour>
-      <point x="123" y="512" type="line"/>
-      <point x="1819" y="512" type="line"/>
-      <point x="1835" y="594" type="line"/>
-      <point x="139" y="594" type="line"/>
+      <point x="61.625" y="509.375" type="line"/>
+      <point x="1757.0" y="509.375" type="line"/>
+      <point x="1773.375" y="592.25" type="line"/>
+      <point x="78.75" y="592.25" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Dash</string>
+    </dict>
+  </lib>
 </glyph>

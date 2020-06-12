@@ -1,33 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb" format="2">
   <unicode hex="0302"/>
-  <anchor x="343" y="1087" name="_top"/>
-  <anchor x="446" y="1569" name="top"/>
+  <anchor x="78.75" y="1087.375" name="_top"/>
+  <anchor x="168.75" y="1565.25" name="top"/>
   <outline>
-    <contour>
-      <point x="147" y="1208" type="line"/>
-      <point x="201" y="1208" type="line"/>
-      <point x="274" y="1255"/>
-      <point x="378" y="1339"/>
-      <point x="451" y="1415" type="curve"/>
-      <point x="512" y="1317"/>
-      <point x="565" y="1248"/>
-      <point x="612" y="1208" type="curve"/>
-      <point x="661" y="1208" type="line"/>
-      <point x="661" y="1237" type="line"/>
-      <point x="604" y="1314"/>
-      <point x="527" y="1451"/>
-      <point x="496" y="1536" type="curve"/>
-      <point x="432" y="1536" type="line"/>
-      <point x="381" y="1459"/>
-      <point x="238" y="1312"/>
-      <point x="147" y="1237" type="curve"/>
-    </contour>
+    <component base="circumflex" xOffset="-360.5"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>520</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>circumflex</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

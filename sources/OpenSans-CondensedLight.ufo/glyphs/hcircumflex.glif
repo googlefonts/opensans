@@ -1,12 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hcircumflex" format="2">
-  <advance width="870"/>
+  <advance width="872.75"/>
   <unicode hex="0125"/>
-  <note>
-hcircumflex
-</note>
+  <anchor x="439.375" y="0.0" name="bottom"/>
+  <anchor x="188.875" y="2034.375" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="circumflexcomb" xOffset="251" yOffset="375"/>
+    <component base="circumflex" xOffset="-126.75" yOffset="469.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>h</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>circumflex</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
 </glyph>

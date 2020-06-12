@@ -1,36 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.osf" format="2">
-  <advance width="1129"/>
-  <note>
-g903
-</note>
+  <advance width="1085.5"/>
   <outline>
     <contour>
-      <point x="551" y="-352" type="line"/>
-      <point x="647" y="-352" type="line"/>
-      <point x="727" y="18" type="line"/>
-      <point x="991" y="18" type="line"/>
-      <point x="1011" y="106" type="line"/>
-      <point x="747" y="106" type="line"/>
-      <point x="960" y="1114" type="line"/>
-      <point x="841" y="1114" type="line"/>
-      <point x="-37" y="115" type="line"/>
-      <point x="-58" y="18" type="line"/>
-      <point x="630" y="18" type="line"/>
+      <point x="506.5" y="-369.625" type="line"/>
+      <point x="604.875" y="-369.625" type="line"/>
+      <point x="695.375" y="57.875" type="line"/>
+      <point x="958.625" y="57.875" type="line"/>
+      <point x="979.25" y="149.375" type="line"/>
+      <point x="715.375" y="149.375" type="line"/>
+      <point x="924.0" y="1106.0" type="line"/>
+      <point x="801.375" y="1106.0" type="line"/>
+      <point x="-23.875" y="157.5" type="line"/>
+      <point x="-44.25" y="57.875" type="line"/>
+      <point x="597.0" y="57.875" type="line"/>
     </contour>
     <contour>
-      <point x="69" y="106" type="line"/>
-      <point x="716" y="842" type="line" smooth="yes"/>
-      <point x="767" y="899"/>
-      <point x="811" y="955"/>
-      <point x="848" y="1010" type="curve"/>
-      <point x="852" y="1010" type="line"/>
-      <point x="825" y="912"/>
-      <point x="792" y="774"/>
-      <point x="753" y="596" type="curve" smooth="yes"/>
-      <point x="718" y="433"/>
-      <point x="684" y="269"/>
-      <point x="649" y="106" type="curve"/>
+      <point x="80.125" y="149.375" type="line"/>
+      <point x="666.375" y="823.25" type="line" smooth="yes"/>
+      <point x="713.875" y="878.625"/>
+      <point x="776.0" y="952.75"/>
+      <point x="811.0" y="1002.0" type="curve"/>
+      <point x="815.25" y="1002.0" type="line"/>
+      <point x="783.125" y="886.625"/>
+      <point x="753.375" y="769.125"/>
+      <point x="714.25" y="590.0" type="curve" smooth="yes"/>
+      <point x="616.0" y="149.375" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
 </glyph>

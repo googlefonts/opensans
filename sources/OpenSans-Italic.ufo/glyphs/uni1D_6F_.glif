@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D6F" format="2">
+  <advance width="1784.5625"/>
+  <unicode hex="1D6F"/>
+  <outline>
+    <contour>
+      <point x="1500.28125" y="373.625" type="curve" smooth="yes"/>
+      <point x="1726.9375" y="373.625"/>
+      <point x="1858.546875" y="479.734375"/>
+      <point x="1887.328125" y="685.375" type="curve"/>
+      <point x="1786.5625" y="685.375" type="line"/>
+      <point x="1758.328125" y="567.28125"/>
+      <point x="1701.25" y="501.21875"/>
+      <point x="1525.203125" y="501.21875" type="curve" smooth="yes"/>
+      <point x="1229.09375" y="501.21875"/>
+      <point x="629.890625" y="694.25"/>
+      <point x="299.65625" y="694.25" type="curve" smooth="yes"/>
+      <point x="69.53125" y="694.25"/>
+      <point x="-63.718749999999986" y="585.265625"/>
+      <point x="-91.06249999999999" y="382.140625" type="curve"/>
+      <point x="8.703125000000007" y="382.140625" type="line"/>
+      <point x="33.70312500000001" y="494.875"/>
+      <point x="91.140625" y="566.65625"/>
+      <point x="266.265625" y="566.65625" type="curve" smooth="yes"/>
+      <point x="557.765625" y="566.65625"/>
+      <point x="1181.484375" y="373.625"/>
+    </contour>
+    <component base="m" xOffset="2.7343750000000036"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>m</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>m</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

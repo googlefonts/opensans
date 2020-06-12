@@ -1,12 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Wdieresis" format="2">
-  <advance width="1827"/>
+  <advance width="1826.875"/>
   <unicode hex="1E84"/>
-  <note>
-Wdieresis
-</note>
+  <anchor x="908.625" y="0.0" name="bottom"/>
+  <anchor x="913.875" y="1843.125" name="top"/>
   <outline>
     <component base="W"/>
-    <component base="dieresis" xOffset="271" yOffset="374"/>
+    <component base="dieresis" xOffset="323.625" yOffset="375.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>W</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresis</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

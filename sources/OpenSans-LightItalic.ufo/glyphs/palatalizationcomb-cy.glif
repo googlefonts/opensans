@@ -1,45 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="palatalizationcomb-cy" format="2">
   <unicode hex="0484"/>
-  <note>
-uni0484
-</note>
+  <anchor x="-502.75" y="1087.375" name="_top"/>
+  <anchor x="-431.25" y="1460.625" name="top"/>
   <outline>
     <contour>
-      <point x="153" y="1262" type="line"/>
-      <point x="174" y="1262" type="line" smooth="yes"/>
-      <point x="250" y="1262"/>
-      <point x="343" y="1281"/>
-      <point x="452" y="1319" type="curve" smooth="yes"/>
-      <point x="584" y="1367"/>
-      <point x="635" y="1380"/>
-      <point x="694" y="1380" type="curve" smooth="yes"/>
-      <point x="764" y="1380"/>
-      <point x="799" y="1351"/>
-      <point x="799" y="1294" type="curve" smooth="yes"/>
-      <point x="799" y="1283"/>
-      <point x="797" y="1273"/>
-      <point x="794" y="1264" type="curve"/>
-      <point x="887" y="1264" type="line"/>
-      <point x="890" y="1275"/>
-      <point x="891" y="1290"/>
-      <point x="891" y="1311" type="curve" smooth="yes"/>
-      <point x="891" y="1400"/>
-      <point x="815" y="1454"/>
-      <point x="698" y="1454" type="curve" smooth="yes"/>
-      <point x="610" y="1454"/>
-      <point x="534" y="1428"/>
-      <point x="457" y="1401" type="curve" smooth="yes"/>
-      <point x="324" y="1354"/>
-      <point x="253" y="1343"/>
-      <point x="184" y="1343" type="curve" smooth="yes"/>
-      <point x="170" y="1343" type="line"/>
+      <point x="-811.75" y="1261.625" type="line"/>
+      <point x="-790.875" y="1261.625" type="line" smooth="yes"/>
+      <point x="-678.875" y="1261.625"/>
+      <point x="-577.5" y="1288.75"/>
+      <point x="-436.125" y="1343.375" type="curve" smooth="yes"/>
+      <point x="-365.625" y="1369.25"/>
+      <point x="-313.25" y="1381.125"/>
+      <point x="-273.625" y="1381.125" type="curve" smooth="yes"/>
+      <point x="-197.125" y="1381.125"/>
+      <point x="-161.875" y="1348.5"/>
+      <point x="-161.875" y="1299.25" type="curve" smooth="yes"/>
+      <point x="-161.875" y="1287.75"/>
+      <point x="-163.125" y="1275.0"/>
+      <point x="-166.125" y="1263.625" type="curve"/>
+      <point x="-82.375" y="1263.625" type="line"/>
+      <point x="-79.625" y="1277.25"/>
+      <point x="-77.625" y="1294.0"/>
+      <point x="-77.625" y="1311.25" type="curve" smooth="yes"/>
+      <point x="-77.625" y="1404.75"/>
+      <point x="-148.125" y="1460.625"/>
+      <point x="-262.25" y="1460.625" type="curve" smooth="yes"/>
+      <point x="-349.0" y="1460.625"/>
+      <point x="-421.5" y="1431.875"/>
+      <point x="-512.625" y="1399.0" type="curve" smooth="yes"/>
+      <point x="-602.25" y="1366.75"/>
+      <point x="-680.25" y="1341.875"/>
+      <point x="-780.5" y="1341.875" type="curve" smooth="yes"/>
+      <point x="-794.875" y="1341.875" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>734</integer>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

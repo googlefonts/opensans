@@ -1,13 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eogonek" format="2">
-  <advance width="709"/>
+  <advance width="713.75"/>
   <unicode hex="0118"/>
-  <note>
-Eogonek
-</note>
-  <anchor x="550" y="1462" name="top"/>
+  <anchor x="147.125" y="-447.125" name="bottom"/>
+  <anchor x="553.5" y="1462.0" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="ogonekcomb" xOffset="510" yOffset="117"/>
+    <component base="ogonek" xOffset="219.875"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ogonek</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

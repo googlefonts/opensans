@@ -1,66 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sevensuperior" format="2">
-  <advance width="614"/>
+  <advance width="607.375"/>
   <unicode hex="2077"/>
-  <note>
-sevensuperior
-</note>
   <outline>
     <contour>
-      <point x="143" y="586" type="line"/>
-      <point x="233" y="586" type="line"/>
-      <point x="518" y="1393" type="line"/>
-      <point x="518" y="1462" type="line"/>
-      <point x="61" y="1462" type="line"/>
-      <point x="61" y="1376" type="line"/>
-      <point x="424" y="1376" type="line"/>
+      <point x="158.875" y="848.75" type="line"/>
+      <point x="246.0" y="848.75" type="line"/>
+      <point x="524.125" y="1654.625" type="line"/>
+      <point x="524.125" y="1723.5" type="line"/>
+      <point x="73.375" y="1723.5" type="line"/>
+      <point x="73.375" y="1645.875" type="line"/>
+      <point x="439.625" y="1645.875" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
     </dict>
   </lib>
 </glyph>

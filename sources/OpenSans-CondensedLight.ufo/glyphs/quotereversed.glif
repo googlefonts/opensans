@@ -1,88 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotereversed" format="2">
-  <advance width="315"/>
+  <advance width="315.125"/>
   <unicode hex="201B"/>
-  <note>
-quotereversed
-</note>
   <outline>
     <contour>
-      <point x="209" y="993" type="curve"/>
-      <point x="272" y="993" type="line"/>
-      <point x="222" y="1163"/>
-      <point x="189" y="1319"/>
-      <point x="172" y="1462" type="curve"/>
-      <point x="57" y="1462" type="line"/>
-      <point x="43" y="1440" type="line"/>
-      <point x="86" y="1295"/>
-      <point x="141" y="1146"/>
+      <point x="163.375" y="1462.0" type="curve"/>
+      <point x="61.625" y="1462.0" type="line"/>
+      <point x="46.75" y="1440.0" type="line"/>
+      <point x="84.5" y="1290.625"/>
+      <point x="128.75" y="1142.625"/>
+      <point x="192.875" y="993.0" type="curve"/>
+      <point x="266.625" y="993.0" type="line"/>
+      <point x="217.875" y="1162.25"/>
+      <point x="183.625" y="1314.25"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>5</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>5</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>5</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
     </dict>
   </lib>
 </glyph>

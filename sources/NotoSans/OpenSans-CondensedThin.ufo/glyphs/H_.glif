@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H" format="2">
+  <advance width="995"/>
+  <unicode hex="0048"/>
+  <anchor x="498" y="0" name="bottom"/>
+  <anchor x="498" y="731" name="center"/>
+  <anchor x="498" y="1462" name="top"/>
+  <anchor x="954" y="1462" name="topright"/>
+  <outline>
+    <contour>
+      <point x="836" y="0" type="line"/>
+      <point x="836" y="1462" type="line"/>
+      <point x="782" y="1462" type="line"/>
+      <point x="782" y="795" type="line"/>
+      <point x="213" y="795" type="line"/>
+      <point x="213" y="1462" type="line"/>
+      <point x="160" y="1462" type="line"/>
+      <point x="160" y="0" type="line"/>
+      <point x="213" y="0" type="line"/>
+      <point x="213" y="743" type="line"/>
+      <point x="782" y="743" type="line"/>
+      <point x="782" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thorn.sc" format="2">
+  <advance width="962.4375"/>
+  <anchor x="357.15625" y="0.0" name="bottom"/>
+  <anchor x="606.171875" y="1166.375" name="top"/>
+  <outline>
+    <contour>
+      <point x="42.53125" y="0.0" type="line"/>
+      <point x="208.75" y="0.0" type="line"/>
+      <point x="255.5" y="217.96875" type="line"/>
+      <point x="366.265625" y="217.96875" type="line" smooth="yes"/>
+      <point x="704.921875" y="217.96875"/>
+      <point x="885.78125" y="358.96875"/>
+      <point x="885.78125" y="622.78125" type="curve" smooth="yes"/>
+      <point x="885.78125" y="808.578125"/>
+      <point x="780.015625" y="937.96875"/>
+      <point x="516.03125" y="937.96875" type="curve" smooth="yes"/>
+      <point x="407.859375" y="937.96875" type="line"/>
+      <point x="455.984375" y="1166.59375" type="line"/>
+      <point x="289.875" y="1166.59375" type="line"/>
+    </contour>
+    <contour>
+      <point x="284.203125" y="358.03125" type="line"/>
+      <point x="379.15625" y="797.015625" type="line"/>
+      <point x="502.6875" y="797.015625" type="line" smooth="yes"/>
+      <point x="647.484375" y="797.015625"/>
+      <point x="717.671875" y="733.9375"/>
+      <point x="717.671875" y="615.0" type="curve" smooth="yes"/>
+      <point x="717.671875" y="437.421875"/>
+      <point x="606.046875" y="358.03125"/>
+      <point x="400.78125" y="358.03125" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

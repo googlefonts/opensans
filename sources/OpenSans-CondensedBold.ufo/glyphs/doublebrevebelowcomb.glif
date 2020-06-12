@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublebrevebelowcomb" format="2">
+  <unicode hex="035C"/>
+  <anchor x="-395" y="0" name="_bottom"/>
+  <anchor x="6" y="-489" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="4" y="-489" type="curve"/>
+      <point x="299" y="-489"/>
+      <point x="522" y="-369"/>
+      <point x="627" y="-86" type="curve"/>
+      <point x="453" y="-86" type="line"/>
+      <point x="358" y="-225"/>
+      <point x="213" y="-293"/>
+      <point x="6" y="-293" type="curve"/>
+      <point x="-215" y="-293"/>
+      <point x="-367" y="-209"/>
+      <point x="-449" y="-86" type="curve"/>
+      <point x="-625" y="-86" type="line"/>
+      <point x="-543" y="-348"/>
+      <point x="-332" y="-489"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

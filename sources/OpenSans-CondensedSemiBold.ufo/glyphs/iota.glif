@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="561.1475409836066"/>
+  <unicode hex="03B9"/>
+  <anchor x="323.6065573770492" y="0.0" name="bottom"/>
+  <anchor x="251.14754098360655" y="1108.8524590163936" name="top"/>
+  <outline>
+    <contour>
+      <point x="335.2950819672131" y="1108.8524590163936" type="line"/>
+      <point x="125.03278688524587" y="1108.8524590163936" type="line"/>
+      <point x="125.03278688524587" y="288.5573770491804" type="line" smooth="yes"/>
+      <point x="125.03278688524587" y="69.63934426229508"/>
+      <point x="196.77049180327873" y="-20.0"/>
+      <point x="356.8032786885246" y="-20.0" type="curve" smooth="yes"/>
+      <point x="421.9836065573771" y="-20.0"/>
+      <point x="480.06557377049177" y="-6.229508196721311"/>
+      <point x="528.5901639344263" y="20.409836065573774" type="curve"/>
+      <point x="528.5901639344263" y="195.60655737704917" type="line"/>
+      <point x="500.1803278688526" y="179.06557377049182"/>
+      <point x="454.9508196721312" y="166.1803278688525"/>
+      <point x="415.2950819672131" y="166.1803278688525" type="curve" smooth="yes"/>
+      <point x="360.0655737704918" y="166.1803278688525"/>
+      <point x="335.2950819672131" y="202.29508196721312"/>
+      <point x="335.2950819672131" y="291.4426229508197" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>iota</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

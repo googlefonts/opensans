@@ -1,125 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asciitilde" format="2">
-  <advance width="819"/>
+  <advance width="841.0"/>
   <unicode hex="007E"/>
-  <note>
-asciitilde
-</note>
   <outline>
     <contour>
-      <point x="59" y="618" type="line"/>
-      <point x="116" y="693"/>
-      <point x="187" y="739"/>
-      <point x="242" y="739" type="curve" smooth="yes"/>
-      <point x="285" y="739"/>
-      <point x="314" y="728"/>
-      <point x="393" y="684" type="curve" smooth="yes"/>
-      <point x="485" y="633"/>
-      <point x="515" y="625"/>
-      <point x="580" y="625" type="curve" smooth="yes"/>
-      <point x="651" y="625"/>
-      <point x="711" y="660"/>
-      <point x="760" y="729" type="curve"/>
-      <point x="760" y="827" type="line"/>
-      <point x="711" y="759"/>
-      <point x="645" y="711"/>
-      <point x="580" y="711" type="curve" smooth="yes"/>
-      <point x="533" y="711"/>
-      <point x="493" y="727"/>
-      <point x="428" y="764" type="curve" smooth="yes"/>
-      <point x="331" y="817"/>
-      <point x="296" y="823"/>
-      <point x="244" y="823" type="curve" smooth="yes"/>
-      <point x="171" y="823"/>
-      <point x="109" y="788"/>
-      <point x="59" y="717" type="curve"/>
+      <point x="416.25" y="680.625" type="curve" smooth="yes"/>
+      <point x="472.875" y="648.5"/>
+      <point x="519.875" y="624.125"/>
+      <point x="591.25" y="624.125" type="curve" smooth="yes"/>
+      <point x="668.875" y="624.125"/>
+      <point x="735.625" y="661.125"/>
+      <point x="781.125" y="714.125" type="curve"/>
+      <point x="781.125" y="815.875" type="line"/>
+      <point x="729.875" y="747.125"/>
+      <point x="657.875" y="708.125"/>
+      <point x="593.0" y="708.125" type="curve" smooth="yes"/>
+      <point x="539.5" y="708.125"/>
+      <point x="498.125" y="729.625"/>
+      <point x="439.125" y="764.125" type="curve" smooth="yes"/>
+      <point x="377.75" y="798.875"/>
+      <point x="326.5" y="825.125"/>
+      <point x="255.5" y="825.125" type="curve" smooth="yes"/>
+      <point x="173.0" y="825.125"/>
+      <point x="110.5" y="785.625"/>
+      <point x="60.25" y="728.625" type="curve"/>
+      <point x="60.25" y="626.875" type="line"/>
+      <point x="121.0" y="702.875"/>
+      <point x="185.0" y="740.375"/>
+      <point x="251.25" y="740.375" type="curve" smooth="yes"/>
+      <point x="309.0" y="740.375"/>
+      <point x="360.5" y="714.375"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>2</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>15</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>2</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>15</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
     </dict>
   </lib>
 </glyph>

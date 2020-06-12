@@ -1,66 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagger" format="2">
-  <advance width="883"/>
+  <advance width="874.0"/>
   <unicode hex="2020"/>
-  <note>
-dagger
-</note>
   <outline>
     <contour>
-      <point x="373" y="0" type="line"/>
-      <point x="489" y="0" type="line"/>
-      <point x="465" y="1065" type="line"/>
-      <point x="760" y="1055" type="line"/>
-      <point x="760" y="1147" type="line"/>
-      <point x="465" y="1128" type="line"/>
-      <point x="489" y="1556" type="line"/>
-      <point x="373" y="1556" type="line"/>
-      <point x="397" y="1128" type="line"/>
-      <point x="123" y="1147" type="line"/>
-      <point x="123" y="1055" type="line"/>
-      <point x="397" y="1065" type="line"/>
+      <point x="756.0" y="1055.875" type="line"/>
+      <point x="756.0" y="1146.75" type="line"/>
+      <point x="471.0" y="1129.25" type="line"/>
+      <point x="495.5" y="1556.0" type="line"/>
+      <point x="381.0" y="1556.0" type="line"/>
+      <point x="401.625" y="1129.25" type="line"/>
+      <point x="119.25" y="1146.75" type="line"/>
+      <point x="119.25" y="1055.875" type="line"/>
+      <point x="401.625" y="1064.5" type="line"/>
+      <point x="381.0" y="0.0" type="line"/>
+      <point x="495.5" y="0.0" type="line"/>
+      <point x="471.0" y="1064.5" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

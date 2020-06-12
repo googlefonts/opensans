@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uogonek" format="2">
+  <advance width="1492.734375"/>
+  <unicode hex="0172"/>
+  <anchor x="743.25" y="-450.234375" name="bottom"/>
+  <anchor x="747.703125" y="1462.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="946.234375" y="-222.390625" type="curve" smooth="yes"/>
+      <point x="946.234375" y="-120.921875"/>
+      <point x="1010.359375" y="-32.07812499999999"/>
+      <point x="1129.78125" y="101.59375" type="curve"/>
+      <point x="1011.9375" y="84.1875" type="line"/>
+      <point x="925.5625" y="21.828124999999996"/>
+      <point x="809.625" y="-111.875"/>
+      <point x="809.625" y="-241.96875" type="curve" smooth="yes"/>
+      <point x="809.625" y="-380.3125"/>
+      <point x="875.390625" y="-450.234375"/>
+      <point x="1015.703125" y="-450.234375" type="curve" smooth="yes"/>
+      <point x="1067.609375" y="-450.234375"/>
+      <point x="1102.828125" y="-441.34375"/>
+      <point x="1140.078125" y="-431.5625" type="curve"/>
+      <point x="1140.078125" y="-323.78125" type="line"/>
+      <point x="1117.078125" y="-329.109375"/>
+      <point x="1086.3125" y="-336.890625"/>
+      <point x="1041.96875" y="-336.890625" type="curve" smooth="yes"/>
+      <point x="981.671875" y="-336.890625"/>
+      <point x="946.234375" y="-304.578125"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>U</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

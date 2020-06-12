@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB43" format="2">
+  <advance width="1810"/>
+  <unicode hex="AB43"/>
+  <outline>
+    <contour>
+      <point x="506" y="-20" type="curve" smooth="yes"/>
+      <point x="682" y="-20"/>
+      <point x="801" y="45"/>
+      <point x="874" y="102" type="curve"/>
+      <point x="856" y="150" type="line"/>
+      <point x="766" y="80"/>
+      <point x="668" y="31"/>
+      <point x="508" y="31" type="curve" smooth="yes"/>
+      <point x="283" y="31"/>
+      <point x="168" y="197"/>
+      <point x="168" y="401" type="curve" smooth="yes"/>
+      <point x="168" y="760"/>
+      <point x="367" y="1051"/>
+      <point x="686" y="1051" type="curve" smooth="yes"/>
+      <point x="727" y="1051"/>
+      <point x="772" y="1047"/>
+      <point x="817" y="1036" type="curve"/>
+      <point x="834" y="1087" type="line"/>
+      <point x="786" y="1098"/>
+      <point x="735" y="1102"/>
+      <point x="686" y="1102" type="curve" smooth="yes"/>
+      <point x="319" y="1102"/>
+      <point x="113" y="772"/>
+      <point x="113" y="397" type="curve" smooth="yes"/>
+      <point x="113" y="160"/>
+      <point x="252" y="-20"/>
+    </contour>
+    <component base="o" xOffset="653"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>c</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

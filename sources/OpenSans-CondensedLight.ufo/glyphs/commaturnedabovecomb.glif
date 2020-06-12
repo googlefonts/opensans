@@ -1,86 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaturnedabovecomb" format="2">
   <unicode hex="0312"/>
-  <anchor x="301" y="1085" name="_top"/>
-  <anchor x="301" y="1569" name="top"/>
+  <anchor x="11.250000000000002" y="819.0" name="_top"/>
+  <anchor x="13.125000000000002" y="1462.0" name="top"/>
   <outline>
-    <contour>
-      <point x="190" y="1208" type="line"/>
-      <point x="296" y="1208" type="line"/>
-      <point x="307" y="1304"/>
-      <point x="363" y="1467"/>
-      <point x="395" y="1515" type="curve"/>
-      <point x="395" y="1536" type="line"/>
-      <point x="352" y="1536" type="line"/>
-      <point x="280" y="1472"/>
-      <point x="206" y="1314"/>
-      <point x="190" y="1229" type="curve"/>
-    </contour>
+    <component base="quoteleft" xOffset="-145.875"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>5</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>9</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>5</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
+          <key>name</key>
+          <string>quoteleft</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

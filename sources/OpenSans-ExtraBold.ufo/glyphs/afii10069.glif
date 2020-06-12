@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10069" format="2">
+  <advance width="1427"/>
+  <unicode hex="0434"/>
+  <anchor x="715" y="-416" name="bottom"/>
+  <anchor x="715" y="1133" name="top"/>
+  <outline>
+    <contour>
+      <point x="1235" y="1133" type="line"/>
+      <point x="354" y="1133" type="line"/>
+      <point x="326" y="807"/>
+      <point x="242" y="492"/>
+      <point x="125" y="291" type="curve"/>
+      <point x="25" y="291" type="line"/>
+      <point x="25" y="-416" type="line"/>
+      <point x="367" y="-416" type="line"/>
+      <point x="367" y="0" type="line"/>
+      <point x="1061" y="0" type="line"/>
+      <point x="1061" y="-416" type="line"/>
+      <point x="1403" y="-416" type="line"/>
+      <point x="1403" y="291" type="line"/>
+      <point x="1235" y="291" type="line"/>
+    </contour>
+    <contour>
+      <point x="844" y="842" type="line"/>
+      <point x="844" y="291" type="line"/>
+      <point x="516" y="291" type="line"/>
+      <point x="590" y="485"/>
+      <point x="629" y="647"/>
+      <point x="655" y="842" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

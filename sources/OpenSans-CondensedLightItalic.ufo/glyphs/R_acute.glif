@@ -1,12 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Racute" format="2">
-  <advance width="795"/>
+  <advance width="777.875"/>
   <unicode hex="0154"/>
-  <note>
-Racute
-</note>
+  <anchor x="274.875" y="0.0" name="bottom"/>
+  <anchor x="688.125" y="1946.0" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="acutecomb" xOffset="388" yOffset="373"/>
+    <component base="acute" xOffset="283.875" yOffset="377.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>R</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acute</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

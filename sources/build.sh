@@ -14,8 +14,8 @@ echo "Generating Static fonts"
 mkdir -p ../fonts
 fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
-fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
-fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o otf --output-dir ../fonts/otf/
+# fontmake --expand-features-to-instances -m OpenSans-Roman.designspace -i -o otf --output-dir ../fonts/otf/
+# fontmake --expand-features-to-instances -m OpenSans-Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
 mkdir -p ../fonts/variable
@@ -28,20 +28,20 @@ echo "Instanciate single axis variable fonts"
 fonttools varLib.instancer -o ../fonts/variable/OpenSans[wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf "wdth=drop"
 fonttools varLib.instancer -o ../fonts/variable/OpenSans-Italic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
 fonttools varLib.instancer -o ../fonts/variable/OpenSans-Condensed[wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf "wdth=75"
-# Do not use Condensed ExtraBold Italic or its interpolations
-# fonttools varLib.instancer -o ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=75"
-fonttools varLib.instancer -o ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=75" "wght=100"
+fonttools varLib.instancer -o ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=75"
+# Use this to not use Condensed ExtraBold Italic or its interpolations
+# fonttools varLib.instancer -o ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=75" "wght=100"
 
-echo "Drop CondensedExtraBoldItalic and interpolated instances"
-rm ../fonts/otf/*Condensed{ExtraBold,Bold,SemiBold,,Light}Italic.otf
-rm ../fonts/ttf/*Condensed{ExtraBold,Bold,SemiBold,,Light}Italic.ttf
-rm ../fonts/variable/OpenSans[wdth,wght].ttf
-rm ../fonts/variable/OpenSans-Italic[wdth,wght].ttf
-echo "Drop CondensedExtraBold and interpolated instances"
-rm ../fonts/otf/*Condensed{ExtraBold,Bold,SemiBold,,Light}.otf
-rm ../fonts/ttf/*Condensed{ExtraBold,Bold,SemiBold,,Light}.ttf
-rm ../fonts/variable/OpenSans-Condensed[wght].ttf
-rm ../fonts/variable/OpenSans-CondensedItalic[wght].ttf
+# echo "Drop CondensedExtraBoldItalic and interpolated instances"
+# rm ../fonts/otf/*Condensed{ExtraBold,Bold,SemiBold,,Light}Italic.otf
+# rm ../fonts/ttf/*Condensed{ExtraBold,Bold,SemiBold,,Light}Italic.ttf
+# rm ../fonts/variable/OpenSans[wdth,wght].ttf
+# rm ../fonts/variable/OpenSans-Italic[wdth,wght].ttf
+# echo "Drop CondensedExtraBold and interpolated instances"
+# rm ../fonts/otf/*Condensed{ExtraBold,Bold,SemiBold,,Light}.otf
+# rm ../fonts/ttf/*Condensed{ExtraBold,Bold,SemiBold,,Light}.ttf
+# rm ../fonts/variable/OpenSans-Condensed[wght].ttf
+# rm ../fonts/variable/OpenSans-CondensedItalic[wght].ttf
 
 
 echo "Post processing Static fonts"
@@ -81,17 +81,33 @@ done
 
 echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
-# statmake --stylespace stat.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans[wdth,wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf;
-# statmake --stylespace stat.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-Italic[wdth,wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf;
+statmake --stylespace stat.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans[wdth,wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf;
+statmake --stylespace stat.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-Italic[wdth,wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf;
 statmake --stylespace stat.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans[wght].ttf ../fonts/variable/OpenSans[wght].ttf;
 statmake --stylespace stat.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-Italic[wght].ttf ../fonts/variable/OpenSans-Italic[wght].ttf;
-# statmake --stylespace stat.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans-Condensed[wght].ttf ../fonts/variable/OpenSans-Condensed[wght].ttf;
-# CondensedItalic-[wght] isn't complete
-# statmake --stylespace stat.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-CondensedItalic[wght].ttf;
+statmake --stylespace stat.stylespace --designspace OpenSans-Roman.designspace --output-path ../fonts/variable/OpenSans-Condensed[wght].ttf ../fonts/variable/OpenSans-Condensed[wght].ttf;
+statmake --stylespace stat.stylespace --designspace OpenSans-Italic.designspace --output-path ../fonts/variable/OpenSans-CondensedItalic[wght].ttf ../fonts/variable/OpenSans-CondensedItalic[wght].ttf;
 
 echo "Fixing Non-Hinting"
 for vf in $vfs
 do
 	gftools fix-nonhinting $vf $vf;
 done
-rm ../fonts/variable/*gasp.ttf
+rm -f ../fonts/variable/*gasp.ttf
+# rm -f ../fonts/ttf/*gasp.ttf
+
+echo "Subset fonts"
+mkdir -p ../fonts/noto-set/variable
+for vf in $vfs
+	do pyftsubset $vf --drop-tables= --recalc-average-width --name-IDs='*' --name-legacy --glyph-names --glyphs-file=OpenSans-glyphset.txt --layout-features="aalt,rvrn,ccmp,dnom,frac,liga,lnum,locl,mark,mkmk,numr,onum,ordn,pnum,rtlm,salt,ss01,ss02,ss03,ss04,subs,sups,tnum,zero";
+	mv $vf ../fonts/noto-set/variable/
+	mv ${vf%.*}.subset.ttf $vf
+done
+mkdir -p ../fonts/noto-set/ttf
+for ttf in $ttfs
+	do pyftsubset $ttf --drop-tables= --recalc-average-width --name-IDs='*' --name-legacy --glyph-names --glyphs-file=OpenSans-glyphset.txt --layout-features="aalt,rvrn,ccmp,dnom,frac,liga,lnum,locl,mark,mkmk,numr,onum,ordn,pnum,rtlm,salt,ss01,ss02,ss03,ss04,subs,sups,tnum,zero";
+	mv $ttf ../fonts/noto-set/ttf/
+	mv ${ttf%.*}.subset.ttf $ttf
+	# recalculate hhea.advanceWidthMax
+	python -c "from fontTools.ttLib import TTFont; import sys; filename=sys.argv[-1]; font=TTFont(filename); max_adv_width = max(adv for adv, lsb in font['hmtx'].metrics.values()); font['hhea'].advanceWidthMax = max_adv_width; font.save(filename)" $ttf
+done

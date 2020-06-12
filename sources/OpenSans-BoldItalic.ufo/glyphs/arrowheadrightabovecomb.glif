@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowheadrightabovecomb" format="2">
+  <unicode hex="0350"/>
+  <anchor x="113" y="1118" name="_top"/>
+  <anchor x="180" y="1618" name="top"/>
+  <outline>
+    <contour>
+      <point x="8" y="1208" type="line"/>
+      <point x="31" y="1208" type="line"/>
+      <point x="111" y="1251"/>
+      <point x="248" y="1317"/>
+      <point x="344" y="1341" type="curve"/>
+      <point x="344" y="1481" type="line"/>
+      <point x="248" y="1509"/>
+      <point x="111" y="1577"/>
+      <point x="31" y="1618" type="curve"/>
+      <point x="8" y="1618" type="line"/>
+      <point x="8" y="1516" type="line"/>
+      <point x="63" y="1481"/>
+      <point x="121" y="1450"/>
+      <point x="197" y="1413" type="curve"/>
+      <point x="121" y="1376"/>
+      <point x="57" y="1346"/>
+      <point x="8" y="1313" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

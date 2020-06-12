@@ -1,74 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni047F" format="2">
-  <advance width="1161"/>
+  <advance width="1210.75"/>
   <unicode hex="047F"/>
-  <note>
-uni047F
-</note>
   <outline>
-    <contour>
-      <point x="332" y="1243" type="line"/>
-      <point x="344" y="1243" type="line"/>
-      <point x="381" y="1339" type="line"/>
-      <point x="522" y="1339" type="line"/>
-      <point x="561" y="1243" type="line"/>
-      <point x="573" y="1243" type="line"/>
-      <point x="612" y="1339" type="line"/>
-      <point x="754" y="1339" type="line"/>
-      <point x="791" y="1243" type="line"/>
-      <point x="803" y="1243" type="line"/>
-      <point x="862" y="1395" type="line"/>
-      <point x="862" y="1421" type="line"/>
-      <point x="272" y="1421" type="line"/>
-      <point x="272" y="1395" type="line"/>
-    </contour>
-    <component base="omega-cy"/>
+    <component base="uni0461"/>
+    <component base="cyrillic_otmark" xOffset="19.125"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
+          <key>name</key>
+          <string>uni0461</string>
         </dict>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>cyrillic_otmark</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string></string>
     </dict>
   </lib>
 </glyph>

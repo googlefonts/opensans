@@ -1,18 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.numr" format="2">
-  <advance width="553"/>
-  <note>
-sevensuperior
-</note>
+  <advance width="551.5"/>
   <outline>
-    <contour>
-      <point x="164" y="586" type="line"/>
-      <point x="254" y="586" type="line"/>
-      <point x="653" y="1393" type="line"/>
-      <point x="668" y="1462" type="line"/>
-      <point x="256" y="1462" type="line"/>
-      <point x="238" y="1376" type="line"/>
-      <point x="555" y="1376" type="line"/>
-    </contour>
+    <component base="sevensuperior" xOffset="-47.25" yOffset="-264.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>sevensuperior</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fraction</string>
+    </dict>
+  </lib>
 </glyph>

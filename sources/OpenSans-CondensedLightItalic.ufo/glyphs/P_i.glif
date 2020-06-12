@@ -1,20 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pi" format="2">
-  <advance width="924"/>
+  <advance width="921.5"/>
   <unicode hex="03A0"/>
-  <note>
-Pi
-</note>
+  <anchor x="346.875" y="0.0" name="bottom"/>
+  <anchor x="657.125" y="1462.0" name="top"/>
   <outline>
     <contour>
-      <point x="66" y="0" type="line"/>
-      <point x="164" y="0" type="line"/>
-      <point x="453" y="1368" type="line"/>
-      <point x="895" y="1368" type="line"/>
-      <point x="604" y="0" type="line"/>
-      <point x="702" y="0" type="line"/>
-      <point x="1012" y="1462" type="line"/>
-      <point x="375" y="1462" type="line"/>
+      <point x="2.499999999999999" y="0.0" type="line"/>
+      <point x="97.125" y="0.0" type="line"/>
+      <point x="388.75" y="1374.25" type="line"/>
+      <point x="852.125" y="1374.25" type="line"/>
+      <point x="559.75" y="0.0" type="line"/>
+      <point x="654.375" y="0.0" type="line"/>
+      <point x="965.25" y="1462.0" type="line"/>
+      <point x="312.75" y="1462.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

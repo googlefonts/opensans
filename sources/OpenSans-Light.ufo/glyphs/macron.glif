@@ -1,19 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macron" format="2">
-  <advance width="52"/>
-  <unicode hex="00AF"/>
-  <note>
-macron
-</note>
+  <advance width="718.25"/>
+  <unicode hex="02C9"/>
   <outline>
-    <component base="macroncomb" xOffset="-7" yOffset="-4"/>
+    <contour>
+      <point x="636.25" y="1336.625" type="line"/>
+      <point x="82.0" y="1336.625" type="line"/>
+      <point x="82.0" y="1251.0" type="line"/>
+      <point x="636.25" y="1251.0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
     </dict>
   </lib>
 </glyph>

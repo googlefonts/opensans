@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni052B" format="2">
+  <advance width="1579.46875"/>
+  <unicode hex="052B"/>
+  <anchor x="593.40625" y="-378.703125" name="bottom"/>
+  <anchor x="904.75" y="1082.34375" name="top"/>
+  <outline>
+    <contour>
+      <point x="-159.125" y="-378.703125" type="line"/>
+      <point x="-16.062500000000014" y="-378.703125" type="line"/>
+      <point x="63.390624999999986" y="0.0" type="line"/>
+      <point x="546.328125" y="0.0" type="line"/>
+      <point x="464.984375" y="-378.703125" type="line"/>
+      <point x="609.71875" y="-378.703125" type="line"/>
+      <point x="715.3125" y="129.375" type="line"/>
+      <point x="610.625" y="129.375" type="line"/>
+      <point x="817.15625" y="1095.703125" type="line"/>
+      <point x="342.0" y="1095.703125" type="line"/>
+      <point x="278.671875" y="770.609375"/>
+      <point x="168.6875" y="443.5625"/>
+      <point x="13.812499999999998" y="129.375" type="curve"/>
+      <point x="-52.640625" y="129.375" type="line"/>
+    </contour>
+    <contour>
+      <point x="162.328125" y="129.375" type="line"/>
+      <point x="296.0625" y="403.296875"/>
+      <point x="390.03125" y="686.734375"/>
+      <point x="450.6875" y="968.109375" type="curve"/>
+      <point x="643.609375" y="968.109375" type="line"/>
+      <point x="464.109375" y="129.375" type="line"/>
+    </contour>
+    <contour>
+      <point x="664.359375" y="506.046875" type="line"/>
+      <point x="1014.71875" y="506.046875" type="line"/>
+      <point x="1041.96875" y="633.640625" type="line"/>
+      <point x="691.28125" y="633.640625" type="line"/>
+    </contour>
+    <component base="afii10076" xOffset="869.96875"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10076</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>afii10076</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

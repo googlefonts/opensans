@@ -1,148 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.osf" format="2">
-  <advance width="1020"/>
-  <note>
-g901
-</note>
+  <advance width="1039.875"/>
   <outline>
     <contour>
-      <point x="53" y="0" type="line"/>
-      <point x="948" y="0" type="line"/>
-      <point x="948" y="96" type="line"/>
-      <point x="215" y="96" type="line"/>
-      <point x="213" y="98" type="line"/>
-      <point x="577" y="375" type="line" smooth="yes"/>
-      <point x="821" y="560"/>
-      <point x="883" y="660"/>
-      <point x="883" y="817" type="curve" smooth="yes"/>
-      <point x="883" y="1016"/>
-      <point x="739" y="1139"/>
-      <point x="512" y="1139" type="curve" smooth="yes"/>
-      <point x="350" y="1139"/>
-      <point x="209" y="1088"/>
-      <point x="88" y="985" type="curve"/>
-      <point x="141" y="915" type="line"/>
-      <point x="146" y="919" type="line"/>
-      <point x="253" y="1005"/>
-      <point x="368" y="1049"/>
-      <point x="491" y="1049" type="curve" smooth="yes"/>
-      <point x="668" y="1049"/>
-      <point x="780" y="961"/>
-      <point x="780" y="817" type="curve" smooth="yes"/>
-      <point x="780" y="721"/>
-      <point x="746" y="650"/>
-      <point x="662" y="566" type="curve" smooth="yes"/>
-      <point x="620" y="523"/>
-      <point x="548" y="464"/>
-      <point x="446" y="387" type="curve" smooth="yes"/>
-      <point x="53" y="88" type="line"/>
+      <point x="957.375" y="0.0" type="line"/>
+      <point x="957.375" y="93.125" type="line"/>
+      <point x="225.0" y="93.125" type="line"/>
+      <point x="224.25" y="97.875" type="line"/>
+      <point x="580.75" y="358.625" type="line" smooth="yes"/>
+      <point x="779.875" y="502.0"/>
+      <point x="893.875" y="602.5"/>
+      <point x="893.875" y="790.125" type="curve" smooth="yes"/>
+      <point x="893.875" y="995.0"/>
+      <point x="737.625" y="1107.5"/>
+      <point x="515.75" y="1107.5" type="curve" smooth="yes"/>
+      <point x="354.625" y="1107.5"/>
+      <point x="217.625" y="1058.0"/>
+      <point x="97.0" y="955.25" type="curve"/>
+      <point x="152.0" y="884.625" type="line"/>
+      <point x="259.5" y="973.25"/>
+      <point x="374.0" y="1017.5"/>
+      <point x="502.0" y="1017.5" type="curve" smooth="yes"/>
+      <point x="672.5" y="1017.5"/>
+      <point x="790.875" y="940.25"/>
+      <point x="790.875" y="779.25" type="curve" smooth="yes"/>
+      <point x="790.875" y="627.5"/>
+      <point x="706.25" y="553.125"/>
+      <point x="490.125" y="396.875" type="curve" smooth="yes"/>
+      <point x="63.125" y="87.5" type="line"/>
+      <point x="63.125" y="0.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>29</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>18</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>10</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>29</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>18</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>10</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
     </dict>
   </lib>
 </glyph>

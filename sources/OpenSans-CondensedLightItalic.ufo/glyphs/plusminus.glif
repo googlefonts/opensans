@@ -1,30 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plusminus" format="2">
-  <advance width="1169"/>
+  <advance width="841.0"/>
   <unicode hex="00B1"/>
-  <note>
-plusminus
-</note>
   <outline>
     <contour>
-      <point x="543" y="250" type="line"/>
-      <point x="625" y="250" type="line"/>
-      <point x="625" y="682" type="line"/>
-      <point x="1059" y="682" type="line"/>
-      <point x="1059" y="764" type="line"/>
-      <point x="625" y="764" type="line"/>
-      <point x="625" y="1198" type="line"/>
-      <point x="543" y="1198" type="line"/>
-      <point x="543" y="764" type="line"/>
-      <point x="111" y="764" type="line"/>
-      <point x="111" y="682" type="line"/>
-      <point x="543" y="682" type="line"/>
+      <point x="77.0" y="1.25" type="line"/>
+      <point x="778.625" y="1.25" type="line"/>
+      <point x="778.625" y="86.5" type="line"/>
+      <point x="77.0" y="86.5" type="line"/>
     </contour>
-    <contour>
-      <point x="111" y="1" type="line"/>
-      <point x="1059" y="1" type="line"/>
-      <point x="1059" y="83" type="line"/>
-      <point x="111" y="83" type="line"/>
-    </contour>
+    <component base="plus" yOffset="13.874999999999998"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>plus</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=plus</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
 </glyph>

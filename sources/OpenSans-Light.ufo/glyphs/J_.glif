@@ -1,137 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="J" format="2">
-  <advance width="506"/>
+  <advance width="505.25"/>
   <unicode hex="004A"/>
-  <anchor x="253" y="0" name="bottom"/>
-  <anchor x="253" y="1462" name="top"/>
+  <anchor x="-27.375" y="-340.5" name="bottom"/>
+  <anchor x="257.875" y="1462.0" name="top"/>
+  <anchor x="464.25" y="1462.0" name="topright"/>
   <outline>
     <contour>
-      <point x="-33" y="-369" type="curve" smooth="yes"/>
-      <point x="75" y="-369"/>
-      <point x="157" y="-341"/>
-      <point x="214" y="-286" type="curve" smooth="yes"/>
-      <point x="277" y="-225"/>
-      <point x="309" y="-130"/>
-      <point x="309" y="0" type="curve" smooth="yes"/>
-      <point x="309" y="1462" type="line"/>
-      <point x="207" y="1462" type="line"/>
-      <point x="207" y="-10" type="line" smooth="yes"/>
-      <point x="207" y="-101"/>
-      <point x="185" y="-169"/>
-      <point x="142" y="-213" type="curve" smooth="yes"/>
-      <point x="102" y="-254"/>
-      <point x="43" y="-274"/>
-      <point x="-35" y="-274" type="curve" smooth="yes"/>
-      <point x="-82" y="-274"/>
-      <point x="-132" y="-267"/>
-      <point x="-184" y="-254" type="curve"/>
-      <point x="-184" y="-342" type="line"/>
-      <point x="-145" y="-360"/>
-      <point x="-94" y="-369"/>
+      <point x="-27.375" y="-368.375" type="curve" smooth="yes"/>
+      <point x="201.625" y="-368.375"/>
+      <point x="308.625" y="-221.875"/>
+      <point x="308.625" y="11.125" type="curve" smooth="yes"/>
+      <point x="308.625" y="1462.0" type="line"/>
+      <point x="206.125" y="1462.0" type="line"/>
+      <point x="206.125" y="9.25" type="line" smooth="yes"/>
+      <point x="206.125" y="-176.75"/>
+      <point x="132.5" y="-274.5"/>
+      <point x="-28.875" y="-274.5" type="curve" smooth="yes"/>
+      <point x="-89.25" y="-274.5"/>
+      <point x="-146.375" y="-264.0"/>
+      <point x="-185.625" y="-248.875" type="curve"/>
+      <point x="-185.625" y="-343.25" type="line"/>
+      <point x="-149.875" y="-357.125"/>
+      <point x="-99.625" y="-368.375"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>14</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>5</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>14</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>21</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
     </dict>
   </lib>
 </glyph>

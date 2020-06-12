@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni048A" format="2">
+  <advance width="1154.2786885245903"/>
+  <unicode hex="048A"/>
+  <anchor x="378.0983606557376" y="-405.60655737704917" name="bottom"/>
+  <anchor x="865.295081967213" y="1895.72131147541" name="top"/>
+  <outline>
+    <contour>
+      <point x="576.6885245901639" y="-405.60655737704917" type="line"/>
+      <point x="795.3934426229508" y="-405.60655737704917" type="line"/>
+      <point x="1045.5573770491803" y="194.06557377049182" type="line"/>
+      <point x="891.622950819672" y="194.06557377049182" type="line"/>
+      <point x="1160.2131147540986" y="1462.0" type="line"/>
+      <point x="919.4098360655738" y="1462.0" type="line"/>
+      <point x="277.672131147541" y="393.3606557377049" type="line"/>
+      <point x="270.78688524590166" y="393.3606557377049" type="line"/>
+      <point x="299.55737704918033" y="489.9016393442624"/>
+      <point x="322.44262295081967" y="594.5573770491804"/>
+      <point x="339.4426229508197" y="671.672131147541" type="curve" smooth="yes"/>
+      <point x="507.06557377049177" y="1462.0" type="line"/>
+      <point x="307.2295081967213" y="1462.0" type="line"/>
+      <point x="-1.7704918032786914" y="0.0" type="line"/>
+      <point x="240.14754098360658" y="0.0" type="line"/>
+      <point x="886.7704918032787" y="1079.5245901639346" type="line"/>
+      <point x="893.6557377049179" y="1079.5245901639344" type="line"/>
+      <point x="864.8852459016392" y="989.0983606557376"/>
+      <point x="838.2295081967212" y="880.6885245901638"/>
+      <point x="815.8852459016392" y="779.8688524590165" type="curve" smooth="yes"/>
+      <point x="651.3770491803278" y="0.0" type="line"/>
+      <point x="780.3114754098362" y="0.0" type="line"/>
+    </contour>
+    <component base="cyrillicbreve" xOffset="160.8688524590164" yOffset="340.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>cyrillicbreve</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

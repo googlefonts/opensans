@@ -1,21 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteright" format="2">
-  <advance width="285"/>
+  <advance width="282.0"/>
   <unicode hex="2019"/>
-  <note>
-quoteright
-</note>
   <outline>
     <contour>
-      <point x="150" y="993" type="curve"/>
-      <point x="215" y="993" type="line"/>
-      <point x="314" y="1156"/>
-      <point x="396" y="1305"/>
-      <point x="459" y="1440" type="curve"/>
-      <point x="451" y="1462" type="line"/>
-      <point x="340" y="1462" type="line"/>
-      <point x="293" y="1319"/>
-      <point x="229" y="1163"/>
+      <point x="115.25" y="994.875" type="curve"/>
+      <point x="187.375" y="994.875" type="line"/>
+      <point x="275.25" y="1127.125"/>
+      <point x="357.25" y="1300.625"/>
+      <point x="406.5" y="1438.75" type="curve"/>
+      <point x="397.875" y="1462.0" type="line"/>
+      <point x="306.5" y="1462.0" type="line"/>
+      <point x="267.0" y="1313.125"/>
+      <point x="193.375" y="1136.125"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
+    </dict>
+  </lib>
 </glyph>

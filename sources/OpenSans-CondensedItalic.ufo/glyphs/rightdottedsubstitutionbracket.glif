@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rightdottedsubstitutionbracket" format="2">
+  <advance width="1024.0"/>
+  <unicode hex="2E05"/>
+  <outline>
+    <contour>
+      <point x="667.28125" y="565.0" type="line"/>
+      <point x="769.125" y="565.0" type="line"/>
+      <point x="769.125" y="1209.640625" type="line"/>
+      <point x="318.53125" y="1462.0" type="line"/>
+      <point x="267.8125" y="1371.390625" type="line"/>
+      <point x="667.28125" y="1152.828125" type="line"/>
+    </contour>
+    <contour>
+      <point x="402.140625" y="842.625" type="curve" smooth="yes"/>
+      <point x="458.140625" y="842.625"/>
+      <point x="490.828125" y="874.515625"/>
+      <point x="490.828125" y="945.53125" type="curve" smooth="yes"/>
+      <point x="490.828125" y="1014.65625"/>
+      <point x="458.140625" y="1049.4375"/>
+      <point x="402.140625" y="1049.4375" type="curve" smooth="yes"/>
+      <point x="347.578125" y="1049.4375"/>
+      <point x="314.21875" y="1014.65625"/>
+      <point x="314.21875" y="945.53125" type="curve" smooth="yes"/>
+      <point x="314.21875" y="874.515625"/>
+      <point x="347.578125" y="842.625"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

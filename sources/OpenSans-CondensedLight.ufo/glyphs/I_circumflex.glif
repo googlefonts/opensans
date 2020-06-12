@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Icircumflex" format="2">
-  <advance width="418"/>
+  <advance width="407.75"/>
   <unicode hex="00CE"/>
-  <note>
-Icircumflex
-</note>
   <outline>
     <component base="I"/>
-    <component base="circumflex" xOffset="-27" yOffset="377"/>
+    <component base="circumflexcomb" xOffset="203.5" yOffset="344.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

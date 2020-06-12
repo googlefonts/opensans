@@ -1,41 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dblgravecomb" format="2">
   <unicode hex="030F"/>
-  <note>
-uni030F
-</note>
-  <anchor x="460" y="1087" name="_top"/>
-  <anchor x="563" y="1569" name="top"/>
+  <anchor x="-574.875" y="1087.375" name="_top"/>
+  <anchor x="-550.125" y="1569.0" name="top"/>
   <outline>
     <contour>
-      <point x="423" y="1208" type="curve"/>
-      <point x="497" y="1208" type="line"/>
-      <point x="497" y="1233" type="line"/>
-      <point x="420" y="1344"/>
-      <point x="366" y="1445"/>
-      <point x="333" y="1536" type="curve"/>
-      <point x="208" y="1536" type="line"/>
-      <point x="208" y="1515" type="line"/>
-      <point x="248" y="1435"/>
-      <point x="360" y="1271"/>
+      <point x="-322.75" y="1241.0" type="curve"/>
+      <point x="-253.875" y="1241.0" type="line"/>
+      <point x="-253.875" y="1257.875" type="line"/>
+      <point x="-320.75" y="1342.375"/>
+      <point x="-405.875" y="1473.625"/>
+      <point x="-446.125" y="1569.0" type="curve"/>
+      <point x="-558.375" y="1569.0" type="line"/>
+      <point x="-558.375" y="1551.75" type="line"/>
+      <point x="-504.0" y="1459.5"/>
+      <point x="-405.75" y="1326.5"/>
     </contour>
     <contour>
-      <point x="755" y="1208" type="curve"/>
-      <point x="828" y="1208" type="line"/>
-      <point x="828" y="1233" type="line"/>
-      <point x="751" y="1347"/>
-      <point x="696" y="1448"/>
-      <point x="665" y="1536" type="curve"/>
-      <point x="540" y="1536" type="line"/>
-      <point x="540" y="1515" type="line"/>
-      <point x="580" y="1435"/>
-      <point x="692" y="1271"/>
+      <point x="-659.0" y="1241.0" type="curve"/>
+      <point x="-589.375" y="1241.0" type="line"/>
+      <point x="-589.375" y="1257.875" type="line"/>
+      <point x="-657.125" y="1342.375"/>
+      <point x="-742.125" y="1473.625"/>
+      <point x="-783.125" y="1569.0" type="curve"/>
+      <point x="-894.375" y="1569.0" type="line"/>
+      <point x="-894.375" y="1551.75" type="line"/>
+      <point x="-841.375" y="1459.5"/>
+      <point x="-742.0" y="1326.5"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>690</integer>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

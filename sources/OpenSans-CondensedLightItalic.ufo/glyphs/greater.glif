@@ -1,19 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="greater" format="2">
-  <advance width="1169"/>
+  <advance width="841.0"/>
   <unicode hex="003E"/>
-  <note>
-greater
-</note>
   <outline>
     <contour>
-      <point x="111" y="266" type="line"/>
-      <point x="1059" y="682" type="line"/>
-      <point x="1059" y="743" type="line"/>
-      <point x="111" y="1217" type="line"/>
-      <point x="111" y="1122" type="line"/>
-      <point x="934" y="717" type="line"/>
-      <point x="111" y="362" type="line"/>
+      <point x="67.625" y="386.25" type="line"/>
+      <point x="67.625" y="290.625" type="line"/>
+      <point x="788.25" y="709.375" type="line"/>
+      <point x="788.25" y="774.25" type="line"/>
+      <point x="67.625" y="1158.375" type="line"/>
+      <point x="67.625" y="1062.125" type="line"/>
+      <point x="682.375" y="740.125" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
 </glyph>

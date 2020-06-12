@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="subscriptjdotless" format="2">
+  <advance width="344"/>
+  <anchor x="29" y="-492" name="bottom"/>
+  <anchor x="172" y="463" name="top"/>
+  <anchor x="317" y="463" name="topright"/>
+  <outline>
+    <contour>
+      <point x="29" y="-492" type="curve" smooth="yes"/>
+      <point x="170" y="-492"/>
+      <point x="229" y="-418"/>
+      <point x="229" y="-295" type="curve" smooth="yes"/>
+      <point x="229" y="463" type="line"/>
+      <point x="113" y="463" type="line"/>
+      <point x="113" y="-299" type="line" smooth="yes"/>
+      <point x="113" y="-379"/>
+      <point x="72" y="-401"/>
+      <point x="14" y="-401" type="curve" smooth="yes"/>
+      <point x="-20" y="-401"/>
+      <point x="-47" y="-397"/>
+      <point x="-74" y="-389" type="curve"/>
+      <point x="-74" y="-477" type="line"/>
+      <point x="-49" y="-485"/>
+      <point x="-16" y="-492"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string></string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,35 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon" format="2">
-  <advance width="379"/>
+  <advance width="356.125"/>
   <unicode hex="003B"/>
-  <note>
-semicolon
-</note>
   <outline>
     <contour>
-      <point x="-33" y="-264" type="curve"/>
-      <point x="33" y="-264" type="line"/>
-      <point x="130" y="-105"/>
-      <point x="211" y="44"/>
-      <point x="276" y="182" type="curve"/>
-      <point x="268" y="205" type="line"/>
-      <point x="154" y="205" type="line"/>
-      <point x="111" y="68"/>
-      <point x="48" y="-89"/>
+      <point x="-95.75" y="-263.75" type="curve"/>
+      <point x="-25.625000000000004" y="-263.75" type="line"/>
+      <point x="57.25" y="-137.25"/>
+      <point x="145.0" y="45.75"/>
+      <point x="191.75" y="180.875" type="curve"/>
+      <point x="183.125" y="202.125" type="line"/>
+      <point x="91.0" y="202.125" type="line"/>
+      <point x="53.5" y="60.125"/>
+      <point x="-25.75" y="-126.375"/>
     </contour>
     <contour>
-      <point x="336" y="874" type="curve" smooth="yes"/>
-      <point x="395" y="874"/>
-      <point x="434" y="932"/>
-      <point x="434" y="1012" type="curve" smooth="yes"/>
-      <point x="434" y="1049"/>
-      <point x="418" y="1087"/>
-      <point x="377" y="1087" type="curve" smooth="yes"/>
-      <point x="314" y="1087"/>
-      <point x="274" y="1025"/>
-      <point x="274" y="944" type="curve" smooth="yes"/>
-      <point x="274" y="899"/>
-      <point x="303" y="874"/>
+      <point x="266.375" y="909.0" type="curve" smooth="yes"/>
+      <point x="319.375" y="909.0"/>
+      <point x="351.625" y="969.625"/>
+      <point x="351.625" y="1026.0" type="curve" smooth="yes"/>
+      <point x="351.625" y="1067.0"/>
+      <point x="332.0" y="1091.625"/>
+      <point x="297.75" y="1091.625" type="curve" smooth="yes"/>
+      <point x="240.5" y="1091.625"/>
+      <point x="211.0" y="1029.25"/>
+      <point x="211.0" y="972.625" type="curve" smooth="yes"/>
+      <point x="211.0" y="932.5"/>
+      <point x="232.875" y="909.0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
 </glyph>

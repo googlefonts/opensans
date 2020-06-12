@@ -1,24 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tonos" format="2">
-  <advance width="209"/>
+  <advance width="1065.875"/>
   <unicode hex="0384"/>
-  <note>
-tonos
-</note>
-  <anchor x="423" y="1578" name="_tonos"/>
-  <anchor x="231" y="1131" name="_top"/>
+  <anchor x="588.0" y="1079.25" name="_top"/>
   <outline>
     <contour>
-      <point x="137" y="1208" type="line"/>
-      <point x="192" y="1208" type="line"/>
-      <point x="253" y="1291"/>
-      <point x="378" y="1480"/>
-      <point x="419" y="1556" type="curve"/>
-      <point x="423" y="1577" type="line"/>
-      <point x="313" y="1577" type="line"/>
-      <point x="278" y="1489"/>
-      <point x="190" y="1313"/>
-      <point x="141" y="1229" type="curve"/>
+      <point x="518.25" y="1241.0" type="line"/>
+      <point x="570.875" y="1241.0" type="line"/>
+      <point x="619.375" y="1306.5"/>
+      <point x="764.75" y="1525.125"/>
+      <point x="800.0" y="1589.5" type="curve"/>
+      <point x="804.0" y="1610.125" type="line"/>
+      <point x="695.25" y="1610.125" type="line"/>
+      <point x="659.25" y="1518.0"/>
+      <point x="573.875" y="1349.125"/>
+      <point x="522.625" y="1261.5" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
 </glyph>

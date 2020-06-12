@@ -1,137 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plusminus" format="2">
-  <advance width="819"/>
+  <advance width="841.0"/>
   <unicode hex="00B1"/>
-  <note>
-plusminus
-</note>
   <outline>
     <contour>
-      <point x="369" y="250" type="line"/>
-      <point x="451" y="250" type="line"/>
-      <point x="451" y="682" type="line"/>
-      <point x="760" y="682" type="line"/>
-      <point x="760" y="764" type="line"/>
-      <point x="451" y="764" type="line"/>
-      <point x="451" y="1198" type="line"/>
-      <point x="369" y="1198" type="line"/>
-      <point x="369" y="764" type="line"/>
-      <point x="59" y="764" type="line"/>
-      <point x="59" y="682" type="line"/>
-      <point x="369" y="682" type="line"/>
+      <point x="69.125" y="1.25" type="line"/>
+      <point x="770.75" y="1.25" type="line"/>
+      <point x="770.75" y="86.5" type="line"/>
+      <point x="69.125" y="86.5" type="line"/>
     </contour>
-    <contour>
-      <point x="59" y="0" type="line"/>
-      <point x="760" y="0" type="line"/>
-      <point x="760" y="82" type="line"/>
-      <point x="59" y="82" type="line"/>
-    </contour>
+    <component base="plus" yOffset="13.874999999999998"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>9</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>9</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
+          <key>name</key>
+          <string>plus</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=plus</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
     </dict>
   </lib>
 </glyph>

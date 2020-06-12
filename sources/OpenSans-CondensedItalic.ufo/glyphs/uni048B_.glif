@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni048B" format="2">
+  <advance width="855.484375"/>
+  <unicode hex="048B"/>
+  <anchor x="234.125" y="-376.046875" name="bottom"/>
+  <anchor x="639.8125" y="1537.515625" name="top"/>
+  <outline>
+    <contour>
+      <point x="376.515625" y="-376.046875" type="line"/>
+      <point x="523.6875" y="-376.046875" type="line"/>
+      <point x="744.25" y="129.375" type="line"/>
+      <point x="617.796875" y="129.375" type="line"/>
+      <point x="822.328125" y="1095.703125" type="line"/>
+      <point x="675.703125" y="1095.703125" type="line"/>
+      <point x="550.703125" y="505.921875" type="line" smooth="yes"/>
+      <point x="498.390625" y="253.46875"/>
+      <point x="417.515625" y="112.93749999999999"/>
+      <point x="292.90625" y="112.93749999999999" type="curve" smooth="yes"/>
+      <point x="232.375" y="112.93749999999999"/>
+      <point x="203.078125" y="151.9375"/>
+      <point x="203.078125" y="216.796875" type="curve" smooth="yes"/>
+      <point x="203.078125" y="295.59375"/>
+      <point x="225.859375" y="386.71875"/>
+      <point x="243.640625" y="475.625" type="curve" smooth="yes"/>
+      <point x="376.5" y="1095.703125" type="line"/>
+      <point x="229.984375" y="1095.703125" type="line"/>
+      <point x="85.09375" y="414.578125" type="line" smooth="yes"/>
+      <point x="68.875" y="337.703125"/>
+      <point x="51.21875" y="252.640625"/>
+      <point x="51.21875" y="187.75" type="curve" smooth="yes"/>
+      <point x="51.21875" y="52.8125"/>
+      <point x="121.0" y="-20.0"/>
+      <point x="245.046875" y="-20.0" type="curve" smooth="yes"/>
+      <point x="336.90625" y="-20.0"/>
+      <point x="421.5625" y="38.09374999999999"/>
+      <point x="481.03125" y="141.296875" type="curve"/>
+      <point x="486.8125" y="141.296875" type="line"/>
+      <point x="472.953125" y="0.0" type="line"/>
+      <point x="557.390625" y="0.0" type="line"/>
+    </contour>
+    <component base="cyrillicbreve" xOffset="-38.109375000000014"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>cyrillicbreve</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

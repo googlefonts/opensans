@@ -1,19 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caron" format="2">
-  <advance width="582"/>
+  <advance width="746.0"/>
   <unicode hex="02C7"/>
-  <note>
-caron
-</note>
   <outline>
-    <component base="caroncomb" xOffset="-4" yOffset="-1"/>
+    <contour>
+      <point x="322.125" y="1241.0" type="curve"/>
+      <point x="419.25" y="1241.0" type="line"/>
+      <point x="468.875" y="1328.0"/>
+      <point x="587.25" y="1465.25"/>
+      <point x="664.0" y="1547.0" type="curve"/>
+      <point x="664.0" y="1565.25" type="line"/>
+      <point x="589.5" y="1565.25" type="line"/>
+      <point x="515.0" y="1500.125"/>
+      <point x="433.625" y="1410.25"/>
+      <point x="370.25" y="1334.375" type="curve"/>
+      <point x="309.125" y="1410.25"/>
+      <point x="229.125" y="1500.125"/>
+      <point x="155.0" y="1565.25" type="curve"/>
+      <point x="82.0" y="1565.25" type="line"/>
+      <point x="82.0" y="1547.0" type="line"/>
+      <point x="157.25" y="1465.25"/>
+      <point x="271.625" y="1328.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
     </dict>
   </lib>
 </glyph>

@@ -1,11 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonek" format="2">
-  <advance width="256"/>
+  <advance width="429.625"/>
   <unicode hex="02DB"/>
-  <note>
-ogonek
-</note>
   <outline>
-    <component base="ogonekcomb"/>
+    <contour>
+      <point x="52.0" y="-447.125" type="curve" smooth="yes"/>
+      <point x="89.25" y="-447.125"/>
+      <point x="116.125" y="-440.625"/>
+      <point x="140.375" y="-431.25" type="curve"/>
+      <point x="154.375" y="-359.375" type="line"/>
+      <point x="130.125" y="-365.375"/>
+      <point x="103.125" y="-371.375"/>
+      <point x="78.75" y="-371.375" type="curve" smooth="yes"/>
+      <point x="23.249999999999993" y="-371.375"/>
+      <point x="-4.750000000000006" y="-342.625"/>
+      <point x="-4.750000000000006" y="-288.875" type="curve" smooth="yes"/>
+      <point x="-6.000000000000007" y="-197.375"/>
+      <point x="45.5" y="-120.375"/>
+      <point x="190.125" y="0.0" type="curve"/>
+      <point x="116.0" y="0.0" type="line"/>
+      <point x="-39.75" y="-115.875"/>
+      <point x="-92.75" y="-203.25"/>
+      <point x="-92.75" y="-308.5" type="curve" smooth="yes"/>
+      <point x="-92.75" y="-389.5"/>
+      <point x="-41.75" y="-447.125"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
 </glyph>

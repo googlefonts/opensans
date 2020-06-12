@@ -1,20 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketleft" format="2">
-  <advance width="537"/>
+  <advance width="610.875"/>
   <unicode hex="005B"/>
-  <note>
-bracketleft
-</note>
   <outline>
     <contour>
-      <point x="-57" y="-324" type="line"/>
-      <point x="369" y="-324" type="line"/>
-      <point x="389" y="-233" type="line"/>
-      <point x="59" y="-233" type="line"/>
-      <point x="399" y="1372" type="line"/>
-      <point x="729" y="1372" type="line"/>
-      <point x="748" y="1462" type="line"/>
-      <point x="319" y="1462" type="line"/>
+      <point x="-18.0" y="-324.0" type="line"/>
+      <point x="377.0" y="-324.0" type="line"/>
+      <point x="398.125" y="-233.5" type="line"/>
+      <point x="99.625" y="-233.5" type="line"/>
+      <point x="441.25" y="1372.5" type="line"/>
+      <point x="736.25" y="1372.5" type="line"/>
+      <point x="756.75" y="1462.0" type="line"/>
+      <point x="362.0" y="1462.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Parenthesis</string>
+    </dict>
+  </lib>
 </glyph>

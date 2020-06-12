@@ -1,148 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="palatalizationcomb-cy" format="2">
   <unicode hex="0484"/>
-  <note>
-uni0484
-</note>
+  <anchor x="-553.5" y="1086.875" name="_top"/>
+  <anchor x="-552.0" y="1456.125" name="top"/>
   <outline>
     <contour>
-      <point x="764" y="1257" type="line"/>
-      <point x="850" y="1257" type="line"/>
-      <point x="850" y="1276"/>
-      <point x="849" y="1293"/>
-      <point x="847" y="1309" type="curve" smooth="yes"/>
-      <point x="834" y="1407"/>
-      <point x="780" y="1456"/>
-      <point x="686" y="1456" type="curve" smooth="yes"/>
-      <point x="631" y="1456"/>
-      <point x="570" y="1439"/>
-      <point x="502" y="1405" type="curve" smooth="yes"/>
-      <point x="385" y="1346"/>
-      <point x="337" y="1335"/>
-      <point x="276" y="1335" type="curve"/>
-      <point x="276" y="1257" type="line"/>
-      <point x="286" y="1257" type="line" smooth="yes"/>
-      <point x="347" y="1257"/>
-      <point x="410" y="1274"/>
-      <point x="475" y="1306" type="curve" smooth="yes"/>
-      <point x="538" y="1337"/>
-      <point x="581" y="1357"/>
-      <point x="604" y="1366" type="curve" smooth="yes"/>
-      <point x="627" y="1375"/>
-      <point x="648" y="1378"/>
-      <point x="669" y="1378" type="curve" smooth="yes"/>
-      <point x="739" y="1378"/>
-      <point x="764" y="1343"/>
-      <point x="764" y="1259" type="curve" smooth="yes"/>
+      <point x="-445.875" y="1456.125" type="curve" smooth="yes"/>
+      <point x="-605.75" y="1456.125"/>
+      <point x="-683.25" y="1337.125"/>
+      <point x="-834.625" y="1336.375" type="curve" smooth="yes"/>
+      <point x="-841.25" y="1336.375" type="line"/>
+      <point x="-841.25" y="1258.375" type="line"/>
+      <point x="-830.25" y="1258.375" type="line" smooth="yes"/>
+      <point x="-656.75" y="1259.125"/>
+      <point x="-576.125" y="1376.0"/>
+      <point x="-451.5" y="1376.0" type="curve" smooth="yes"/>
+      <point x="-384.5" y="1376.0"/>
+      <point x="-348.25" y="1343.375"/>
+      <point x="-348.25" y="1258.375" type="curve"/>
+      <point x="-267.625" y="1258.375" type="line"/>
+      <point x="-267.625" y="1271.75" type="line" smooth="yes"/>
+      <point x="-268.375" y="1392.625"/>
+      <point x="-327.875" y="1456.125"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1126</integer>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>13</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>12</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>23</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>6</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>27</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>13</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>12</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>23</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>6</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

@@ -1,11 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="1135"/>
+  <advance width="809.0"/>
   <unicode hex="02DD"/>
-  <note>
-hungarumlaut
-</note>
   <outline>
-    <component base="hungarumlautcomb" xOffset="1" yOffset="1"/>
+    <contour>
+      <point x="568.875" y="1241.0" type="line"/>
+      <point x="632.25" y="1241.0" type="line"/>
+      <point x="739.375" y="1325.0"/>
+      <point x="876.25" y="1467.625"/>
+      <point x="941.25" y="1551.75" type="curve"/>
+      <point x="941.25" y="1569.0" type="line"/>
+      <point x="834.125" y="1569.0" type="line"/>
+      <point x="775.25" y="1479.5"/>
+      <point x="653.0" y="1339.125"/>
+      <point x="568.875" y="1258.625" type="curve"/>
+    </contour>
+    <contour>
+      <point x="234.125" y="1241.0" type="line"/>
+      <point x="298.125" y="1241.0" type="line"/>
+      <point x="404.625" y="1325.0"/>
+      <point x="541.5" y="1467.625"/>
+      <point x="607.125" y="1551.75" type="curve"/>
+      <point x="607.125" y="1569.0" type="line"/>
+      <point x="499.375" y="1569.0" type="line"/>
+      <point x="441.125" y="1479.5"/>
+      <point x="318.875" y="1339.125"/>
+      <point x="234.125" y="1258.625" type="curve"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
 </glyph>

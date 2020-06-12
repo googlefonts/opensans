@@ -1,82 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncomb" format="2">
   <unicode hex="030C"/>
-  <note>
-caron
-</note>
-  <anchor x="579" y="1085" name="_top"/>
-  <anchor x="579" y="1569" name="top"/>
+  <anchor x="-1.25" y="1086.875" name="_top"/>
+  <anchor x="0.24999999999999956" y="1565.25" name="top"/>
   <outline>
-    <contour>
-      <point x="527" y="1208" type="curve"/>
-      <point x="622" y="1208" type="line"/>
-      <point x="633" y="1233"/>
-      <point x="650" y="1266"/>
-      <point x="671" y="1302" type="curve" smooth="yes"/>
-      <point x="710" y="1371"/>
-      <point x="762" y="1452"/>
-      <point x="812" y="1517" type="curve"/>
-      <point x="812" y="1536" type="line"/>
-      <point x="765" y="1536" type="line"/>
-      <point x="723" y="1497"/>
-      <point x="631" y="1388"/>
-      <point x="577" y="1323" type="curve"/>
-      <point x="457" y="1464"/>
-      <point x="451" y="1471"/>
-      <point x="384" y="1536" type="curve"/>
-      <point x="341" y="1536" type="line"/>
-      <point x="341" y="1517" type="line"/>
-      <point x="394" y="1443"/>
-      <point x="440" y="1371"/>
-      <point x="479" y="1301" type="curve" smooth="yes"/>
-      <point x="496" y="1270"/>
-      <point x="512" y="1239"/>
-    </contour>
+    <component base="caron" xOffset="-311.875"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>1157</integer>
-      <key>com.schriftgestaltung.hints</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
           <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>15</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>15</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
+          <key>name</key>
+          <string>caron</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

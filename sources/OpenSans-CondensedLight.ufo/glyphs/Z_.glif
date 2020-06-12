@@ -1,108 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Z" format="2">
-  <advance width="643"/>
+  <advance width="690.875"/>
   <unicode hex="005A"/>
-  <anchor x="322" y="0" name="bottom"/>
-  <anchor x="322" y="1462" name="top"/>
+  <anchor x="351.125" y="0.0" name="bottom"/>
+  <anchor x="346.625" y="1462.0" name="top"/>
+  <anchor x="649.875" y="1462.0" name="topright"/>
   <outline>
     <contour>
-      <point x="602" y="94" type="line"/>
-      <point x="160" y="94" type="line"/>
-      <point x="590" y="1372" type="line"/>
-      <point x="590" y="1462" type="line"/>
-      <point x="63" y="1462" type="line"/>
-      <point x="63" y="1366" type="line"/>
-      <point x="481" y="1366" type="line"/>
-      <point x="57" y="88" type="line"/>
-      <point x="57" y="0" type="line"/>
-      <point x="602" y="0" type="line"/>
+      <point x="649.875" y="0.0" type="line"/>
+      <point x="649.875" y="90.375" type="line"/>
+      <point x="161.625" y="90.375" type="line"/>
+      <point x="636.0" y="1379.5" type="line"/>
+      <point x="636.0" y="1462.0" type="line"/>
+      <point x="74.125" y="1462.0" type="line"/>
+      <point x="74.125" y="1372.0" type="line"/>
+      <point x="531.875" y="1372.0" type="line"/>
+      <point x="55.5" y="80.5" type="line"/>
+      <point x="55.5" y="0.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>7</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
     </dict>
   </lib>
 </glyph>

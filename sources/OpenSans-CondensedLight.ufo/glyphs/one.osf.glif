@@ -1,87 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="one.osf" format="2">
-  <advance width="609"/>
-  <note>
-g900
-</note>
+  <advance width="526.25"/>
   <outline>
     <contour>
-      <point x="312" y="0" type="line"/>
-      <point x="409" y="0" type="line"/>
-      <point x="409" y="1118" type="line"/>
-      <point x="324" y="1118" type="line"/>
-      <point x="40" y="801" type="line"/>
-      <point x="105" y="744" type="line"/>
-      <point x="284" y="943" type="line"/>
-      <point x="307" y="969"/>
-      <point x="330" y="994"/>
-      <point x="353" y="1020" type="curve"/>
-      <point x="320" y="1022" type="line"/>
-      <point x="315" y="917"/>
-      <point x="312" y="818"/>
-      <point x="312" y="721" type="curve" smooth="yes"/>
+      <point x="362.75" y="0.0" type="line"/>
+      <point x="362.75" y="1107.0" type="line"/>
+      <point x="280.75" y="1107.0" type="line"/>
+      <point x="26.750000000000004" y="840.125" type="line"/>
+      <point x="87.75" y="779.625" type="line"/>
+      <point x="217.375" y="917.25" type="line" smooth="yes"/>
+      <point x="239.75" y="940.375"/>
+      <point x="257.25" y="962.375"/>
+      <point x="277.125" y="990.125" type="curve"/>
+      <point x="268.625" y="878.125"/>
+      <point x="265.875" y="816.5"/>
+      <point x="265.875" y="728.625" type="curve" smooth="yes"/>
+      <point x="265.875" y="0.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>13</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>13</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>13</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
     </dict>
   </lib>
 </glyph>

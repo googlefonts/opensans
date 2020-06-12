@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni052B" format="2">
+  <advance width="2295.6393442622953"/>
+  <unicode hex="052B"/>
+  <anchor x="950.2622950819672" y="-389.8524590163934" name="bottom"/>
+  <anchor x="1269.2459016393443" y="1106.8524590163936" name="top"/>
+  <outline>
+    <contour>
+      <point x="-160.03278688524588" y="-389.8524590163934" type="line"/>
+      <point x="50.90163934426231" y="-389.8524590163934" type="line"/>
+      <point x="134.672131147541" y="0.0" type="line"/>
+      <point x="816.7540983606558" y="0.0" type="line"/>
+      <point x="732.983606557377" y="-389.8524590163934" type="line"/>
+      <point x="943.4754098360656" y="-389.8524590163934" type="line"/>
+      <point x="1065.327868852459" y="180.40983606557378" type="line"/>
+      <point x="923.672131147541" y="180.40983606557378" type="line"/>
+      <point x="1120.9180327868853" y="1107.967213114754" type="line"/>
+      <point x="466.3114754098361" y="1107.967213114754" type="line"/>
+      <point x="368.7704918032787" y="752.2295081967213"/>
+      <point x="226.29508196721312" y="415.327868852459"/>
+      <point x="41.016393442622956" y="180.40983606557378" type="curve"/>
+      <point x="-37.73770491803278" y="180.40983606557378" type="line"/>
+    </contour>
+    <contour>
+      <point x="285.360655737705" y="180.40983606557378" type="line"/>
+      <point x="430.327868852459" y="390.45901639344265"/>
+      <point x="535.8360655737705" y="637.8852459016393"/>
+      <point x="621.8360655737705" y="923.2295081967212" type="curve"/>
+      <point x="849.049180327869" y="923.2295081967212" type="line"/>
+      <point x="691.8852459016393" y="180.40983606557378" type="line"/>
+    </contour>
+    <contour>
+      <point x="924.6393442622951" y="491.6229508196721" type="line"/>
+      <point x="1435.983606557377" y="491.6229508196721" type="line"/>
+      <point x="1472.065573770492" y="660.9180327868852" type="line"/>
+      <point x="961.1639344262295" y="660.9180327868852" type="line"/>
+    </contour>
+    <component base="afii10076" xOffset="1216.983606557377"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10076</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>afii10076</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,237 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="1473"/>
+  <advance width="1473.0"/>
   <unicode hex="0126"/>
-  <note>
-Hbar
-</note>
+  <anchor x="736.875" y="0.0" name="bottom"/>
+  <anchor x="736.875" y="1462.0" name="top"/>
   <outline>
     <contour>
-      <point x="207" y="0" type="line"/>
-      <point x="309" y="0" type="line"/>
-      <point x="309" y="719" type="line"/>
-      <point x="1163" y="719" type="line"/>
-      <point x="1163" y="0" type="line"/>
-      <point x="1266" y="0" type="line"/>
-      <point x="1266" y="1098" type="line"/>
-      <point x="1473" y="1098" type="line"/>
-      <point x="1473" y="1192" type="line"/>
-      <point x="1266" y="1192" type="line"/>
-      <point x="1266" y="1462" type="line"/>
-      <point x="1163" y="1462" type="line"/>
-      <point x="1163" y="1192" type="line"/>
-      <point x="309" y="1192" type="line"/>
-      <point x="309" y="1462" type="line"/>
-      <point x="207" y="1462" type="line"/>
-      <point x="207" y="1192" type="line"/>
-      <point x="0" y="1192" type="line"/>
-      <point x="0" y="1098" type="line"/>
-      <point x="207" y="1098" type="line"/>
+      <point x="206.5" y="0.0" type="line"/>
+      <point x="308.625" y="0.0" type="line"/>
+      <point x="308.625" y="720.125" type="line"/>
+      <point x="1163.625" y="720.125" type="line"/>
+      <point x="1163.625" y="0.0" type="line"/>
+      <point x="1265.75" y="0.0" type="line"/>
+      <point x="1265.75" y="1104.125" type="line"/>
+      <point x="1472.25" y="1104.125" type="line"/>
+      <point x="1472.25" y="1192.125" type="line"/>
+      <point x="1265.75" y="1192.125" type="line"/>
+      <point x="1265.75" y="1462.0" type="line"/>
+      <point x="1163.625" y="1462.0" type="line"/>
+      <point x="1163.625" y="1192.125" type="line"/>
+      <point x="308.625" y="1192.125" type="line"/>
+      <point x="308.625" y="1462.0" type="line"/>
+      <point x="206.5" y="1462.0" type="line"/>
+      <point x="206.5" y="1192.125" type="line"/>
+      <point x="0.0" y="1192.125" type="line"/>
+      <point x="0.0" y="1104.125" type="line"/>
+      <point x="206.5" y="1104.125" type="line"/>
     </contour>
     <contour>
-      <point x="309" y="813" type="line"/>
-      <point x="309" y="1098" type="line"/>
-      <point x="1163" y="1098" type="line"/>
-      <point x="1163" y="813" type="line"/>
+      <point x="308.625" y="813.375" type="line"/>
+      <point x="308.625" y="1104.125" type="line"/>
+      <point x="1163.625" y="1104.125" type="line"/>
+      <point x="1163.625" y="813.375" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>19</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>u</string>
-            <string>p</string>
-          </array>
-          <key>type</key>
-          <string>BottomGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>3</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>17</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>16</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>14</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>19</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>19</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>16</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>17</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>14</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
     </dict>
   </lib>
 </glyph>

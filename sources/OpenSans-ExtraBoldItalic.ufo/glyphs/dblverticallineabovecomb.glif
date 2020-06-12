@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblverticallineabovecomb" format="2">
+  <unicode hex="030E"/>
+  <anchor x="119" y="1133" name="_top"/>
+  <anchor x="180" y="1589" name="top"/>
+  <outline>
+    <contour>
+      <point x="207" y="1221" type="line"/>
+      <point x="440" y="1221" type="line"/>
+      <point x="518" y="1589" type="line"/>
+      <point x="285" y="1589" type="line"/>
+    </contour>
+    <contour>
+      <point x="-166" y="1221" type="line"/>
+      <point x="68" y="1221" type="line"/>
+      <point x="145" y="1589" type="line"/>
+      <point x="-88" y="1589" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

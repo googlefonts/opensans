@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yloop" format="2">
+  <advance width="1040"/>
+  <unicode hex="1EFE"/>
+  <anchor x="520" y="0" name="bottom"/>
+  <anchor x="520" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="309" y="-20" type="curve" smooth="yes"/>
+      <point x="489" y="-20"/>
+      <point x="614" y="88"/>
+      <point x="719" y="428" type="curve" smooth="yes"/>
+      <point x="1040" y="1462" type="line"/>
+      <point x="748" y="1462" type="line"/>
+      <point x="618" y="963" type="line"/>
+      <point x="596" y="877"/>
+      <point x="582" y="815"/>
+      <point x="567" y="721" type="curve"/>
+      <point x="555" y="721" type="line"/>
+      <point x="539" y="817"/>
+      <point x="518" y="899"/>
+      <point x="494" y="981" type="curve" smooth="yes"/>
+      <point x="352" y="1462" type="line"/>
+      <point x="57" y="1462" type="line"/>
+      <point x="410" y="420" type="line"/>
+      <point x="360" y="223"/>
+      <point x="305" y="156"/>
+      <point x="252" y="156" type="curve" smooth="yes"/>
+      <point x="221" y="156"/>
+      <point x="199" y="176"/>
+      <point x="199" y="223" type="curve" smooth="yes"/>
+      <point x="199" y="328"/>
+      <point x="328" y="401"/>
+      <point x="500" y="422" type="curve"/>
+      <point x="477" y="608" type="line"/>
+      <point x="199" y="586"/>
+      <point x="18" y="410"/>
+      <point x="18" y="229" type="curve" smooth="yes"/>
+      <point x="18" y="70"/>
+      <point x="109" y="-20"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

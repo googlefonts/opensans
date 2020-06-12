@@ -1,24 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagger" format="2">
-  <advance width="1006"/>
+  <advance width="942.375"/>
   <unicode hex="2020"/>
-  <note>
-dagger
-</note>
   <outline>
     <contour>
-      <point x="268" y="0" type="line"/>
-      <point x="385" y="0" type="line"/>
-      <point x="586" y="1075" type="line"/>
-      <point x="940" y="1055" type="line"/>
-      <point x="965" y="1167" type="line"/>
-      <point x="600" y="1139" type="line"/>
-      <point x="715" y="1556" type="line"/>
-      <point x="598" y="1556" type="line"/>
-      <point x="537" y="1139" type="line"/>
-      <point x="205" y="1167" type="line"/>
-      <point x="180" y="1055" type="line"/>
-      <point x="522" y="1075" type="line"/>
+      <point x="289.375" y="0.0" type="line"/>
+      <point x="405.5" y="0.0" type="line"/>
+      <point x="607.625" y="1071.25" type="line"/>
+      <point x="933.75" y="1055.875" type="line"/>
+      <point x="955.125" y="1155.25" type="line"/>
+      <point x="621.625" y="1139.5" type="line"/>
+      <point x="735.625" y="1556.0" type="line"/>
+      <point x="620.125" y="1556.0" type="line"/>
+      <point x="556.25" y="1139.5" type="line"/>
+      <point x="236.375" y="1155.25" type="line"/>
+      <point x="215.0" y="1055.875" type="line"/>
+      <point x="541.875" y="1072.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
 </glyph>

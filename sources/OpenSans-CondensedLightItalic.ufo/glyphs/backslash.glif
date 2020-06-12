@@ -1,16 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="backslash" format="2">
-  <advance width="641"/>
+  <advance width="669.125"/>
   <unicode hex="005C"/>
-  <note>
-backslash
-</note>
   <outline>
     <contour>
-      <point x="432" y="0" type="line"/>
-      <point x="528" y="0" type="line"/>
-      <point x="365" y="1462" type="line"/>
-      <point x="270" y="1462" type="line"/>
+      <point x="410.875" y="-2.2499999999999996" type="line"/>
+      <point x="500.75" y="-2.2499999999999996" type="line"/>
+      <point x="295.75" y="1464.25" type="line"/>
+      <point x="209.5" y="1464.25" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,21 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesinglbase" format="2">
-  <advance width="451"/>
+  <advance width="432.375"/>
   <unicode hex="201A"/>
-  <note>
-quotesinglbase
-</note>
   <outline>
     <contour>
-      <point x="-100" y="-264" type="curve"/>
-      <point x="-27" y="-264" type="line"/>
-      <point x="88" y="-109"/>
-      <point x="197" y="86"/>
-      <point x="250" y="215" type="curve"/>
-      <point x="246" y="238" type="line"/>
-      <point x="133" y="238" type="line"/>
-      <point x="82" y="83"/>
-      <point x="-9" y="-117"/>
+      <point x="-90.0" y="-264.0" type="curve"/>
+      <point x="-13.000000000000004" y="-264.0" type="line"/>
+      <point x="81.75" y="-120.0"/>
+      <point x="175.625" y="58.125"/>
+      <point x="238.25" y="217.5" type="curve"/>
+      <point x="228.375" y="238.0" type="line"/>
+      <point x="128.875" y="238.0" type="line"/>
+      <point x="81.625" y="92.25"/>
+      <point x="-5.874999999999998" y="-113.875"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
+    </dict>
+  </lib>
 </glyph>

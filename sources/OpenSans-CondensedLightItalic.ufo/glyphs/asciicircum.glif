@@ -1,19 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="asciicircum" format="2">
-  <advance width="737"/>
+  <advance width="806.25"/>
   <unicode hex="005E"/>
-  <note>
-asciicircum
-</note>
   <outline>
     <contour>
-      <point x="111" y="758" type="line"/>
-      <point x="217" y="758" type="line"/>
-      <point x="569" y="1348" type="line"/>
-      <point x="692" y="758" type="line"/>
-      <point x="784" y="758" type="line"/>
-      <point x="625" y="1462" type="line"/>
-      <point x="543" y="1462" type="line"/>
+      <point x="40.5" y="730.5" type="line"/>
+      <point x="139.375" y="730.5" type="line"/>
+      <point x="462.0" y="1338.75" type="line"/>
+      <point x="700.875" y="730.5" type="line"/>
+      <point x="796.625" y="730.5" type="line"/>
+      <point x="512.625" y="1460.75" type="line"/>
+      <point x="442.25" y="1460.75" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
 </glyph>

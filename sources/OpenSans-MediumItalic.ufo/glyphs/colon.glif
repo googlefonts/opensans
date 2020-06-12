@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="524"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="309" y="850" type="curve" smooth="yes"/>
+      <point x="412" y="850"/>
+      <point x="461" y="932"/>
+      <point x="461" y="1018" type="curve" smooth="yes"/>
+      <point x="461" y="1092"/>
+      <point x="420" y="1126"/>
+      <point x="360" y="1126" type="curve" smooth="yes"/>
+      <point x="252" y="1126"/>
+      <point x="203" y="1047"/>
+      <point x="203" y="954" type="curve" smooth="yes"/>
+      <point x="203" y="889"/>
+      <point x="242" y="850"/>
+    </contour>
+    <contour>
+      <point x="147" y="-29" type="curve" smooth="yes"/>
+      <point x="250" y="-29"/>
+      <point x="299" y="55"/>
+      <point x="299" y="139" type="curve" smooth="yes"/>
+      <point x="299" y="211"/>
+      <point x="258" y="248"/>
+      <point x="199" y="248" type="curve" smooth="yes"/>
+      <point x="90" y="248"/>
+      <point x="41" y="168"/>
+      <point x="41" y="78" type="curve" smooth="yes"/>
+      <point x="41" y="10"/>
+      <point x="80" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

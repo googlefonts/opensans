@@ -1,42 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five.numr" format="2">
-  <advance width="643"/>
-  <note>
-fivesuperior
-</note>
+  <advance width="670.5"/>
   <outline>
-    <contour>
-      <point x="299" y="567" type="curve" smooth="yes"/>
-      <point x="503" y="567"/>
-      <point x="645" y="699"/>
-      <point x="645" y="887" type="curve" smooth="yes"/>
-      <point x="645" y="1043"/>
-      <point x="557" y="1120"/>
-      <point x="408" y="1120" type="curve" smooth="yes"/>
-      <point x="370" y="1120"/>
-      <point x="330" y="1115"/>
-      <point x="287" y="1104" type="curve"/>
-      <point x="367" y="1384" type="line"/>
-      <point x="700" y="1384" type="line"/>
-      <point x="715" y="1462" type="line"/>
-      <point x="309" y="1462" type="line"/>
-      <point x="188" y="1038" type="line"/>
-      <point x="221" y="1016" type="line"/>
-      <point x="281" y="1037"/>
-      <point x="337" y="1047"/>
-      <point x="389" y="1047" type="curve" smooth="yes"/>
-      <point x="498" y="1047"/>
-      <point x="557" y="986"/>
-      <point x="557" y="883" type="curve" smooth="yes"/>
-      <point x="557" y="742"/>
-      <point x="458" y="643"/>
-      <point x="303" y="643" type="curve" smooth="yes"/>
-      <point x="229" y="643"/>
-      <point x="158" y="665"/>
-      <point x="90" y="709" type="curve"/>
-      <point x="90" y="616" type="line"/>
-      <point x="145" y="583"/>
-      <point x="215" y="567"/>
-    </contour>
+    <component base="fivesuperior" xOffset="-61.125" yOffset="-264.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>fivesuperior</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fraction</string>
+    </dict>
+  </lib>
 </glyph>

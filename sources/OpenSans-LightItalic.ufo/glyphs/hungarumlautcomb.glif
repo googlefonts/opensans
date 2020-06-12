@@ -1,41 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlautcomb" format="2">
   <unicode hex="030B"/>
-  <note>
-hungarumlaut
-</note>
-  <anchor x="408" y="1087" name="_top"/>
-  <anchor x="510" y="1569" name="top"/>
+  <anchor x="118.625" y="1087.375" name="_top"/>
+  <anchor x="209.5" y="1569.0" name="top"/>
   <outline>
-    <contour>
-      <point x="142" y="1208" type="line"/>
-      <point x="181" y="1208" type="line"/>
-      <point x="261" y="1267"/>
-      <point x="393" y="1406"/>
-      <point x="472" y="1513" type="curve"/>
-      <point x="472" y="1536" type="line"/>
-      <point x="369" y="1536" type="line"/>
-      <point x="301" y="1424"/>
-      <point x="206" y="1302"/>
-      <point x="142" y="1237" type="curve"/>
-    </contour>
-    <contour>
-      <point x="455" y="1208" type="line"/>
-      <point x="492" y="1208" type="line"/>
-      <point x="573" y="1267"/>
-      <point x="704" y="1404"/>
-      <point x="785" y="1513" type="curve"/>
-      <point x="785" y="1536" type="line"/>
-      <point x="682" y="1536" type="line"/>
-      <point x="611" y="1424"/>
-      <point x="510" y="1296"/>
-      <point x="455" y="1237" type="curve"/>
-    </contour>
+    <component base="hungarumlaut" xOffset="-401.75"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>584</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>hungarumlaut</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

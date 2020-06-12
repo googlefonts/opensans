@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="300">
+      <map input="300" output="100"/>
+      <map input="400" output="170"/>
+      <map input="600" output="239"/>
+      <map input="700" output="310"/>
+      <map input="800" output="400"/>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="bracket_redo">
+      <conditionset>
+        <condition minimum="330" name="Weight" />
+      </conditionset>
+      <sub name="Aringacute" with="Aringacute.rvrn"/>
+      <sub name="alefdagesh-hb" with="alefdagesh-hb.rvrn"/>
+      <sub name="hedagesh-hb" with="hedagesh-hb.rvrn"/>
+      <sub name="finalpedagesh-hb" with="finalpedagesh-hb.rvrn"/>
+      <sub name="pedagesh-hb" with="pedagesh-hb.rvrn"/>
+      <sub name="qofdagesh-hb" with="qofdagesh-hb.rvrn"/>
+      <sub name="shindageshshindot-hb" with="shindageshshindot-hb.rvrn"/>
+      <sub name="shindageshsindot-hb" with="shindageshsindot-hb.rvrn"/>
+      <sub name="shindagesh-hb" with="shindagesh-hb.rvrn"/>
+      <sub name="tavdagesh-hb" with="tavdagesh-hb.rvrn"/>
+      <sub name="dollar" with="dollar.rvrn"/>
+      <sub name="uni047C" with="uni047C.rvrn"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="OpenSans-Light.ufo" name="Open Sans Light" familyname="Open Sans" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-Bold.ufo" name="Open Sans Bold" familyname="Open Sans" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-Regular.ufo" name="Open Sans Regular" familyname="Open Sans" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="OpenSans-ExtraBold.ufo" name="Open Sans ExtraBold" familyname="Open Sans" stylename="ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <!--
+    <source filename="./OpenSans-CondensedLight.ufo" name="Open Sans Condensed Light" familyname="Open Sans" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="./OpenSans-CondensedBold.ufo" name="Open Sans Condensed Bold" familyname="Open Sans" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    <source filename="./OpenSans-CondensedExtraBold.ufo" name="Open Sans Condensed ExtraBold" familyname="Open Sans" stylename="Condensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+    </source>
+    -->
+  </sources>
+  <instances>
+    <instance name="Open Sans Light" familyname="Open Sans" stylename="Light" filename="../instance_ufo/OpenSans-Light.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Regular" familyname="Open Sans" stylename="Regular" filename="../instance_ufo/OpenSans-Regular.ufo" stylemapfamilyname="Open Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans SemiBold" familyname="Open Sans" stylename="SemiBold" filename="../instance_ufo/OpenSans-SemiBold.ufo" stylemapfamilyname="Open Sans SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="239"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Bold" familyname="Open Sans" stylename="Bold" filename="../instance_ufo/OpenSans-Bold.ufo" stylemapfamilyname="Open Sans" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans ExtraBold" familyname="Open Sans" stylename="ExtraBold" filename="../instance_ufo/OpenSans-ExtraBold.ufo" stylemapfamilyname="Open Sans ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <!--
+    <instance name="Open Sans Condensed Light" familyname="Open Sans" stylename="Condensed Light" filename="../instance_ufo/OpenSans-CondensedLight.ufo" stylemapfamilyname="Open Sans Condensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Condensed" familyname="Open Sans" stylename="Condensed" filename="../instance_ufo/OpenSans-Condensed.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Condensed SemiBold" familyname="Open Sans" stylename="Condensed SemiBold" filename="../instance_ufo/OpenSans-CondensedSemiBold.ufo" stylemapfamilyname="Open Sans Condensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="239"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Condensed Bold" familyname="Open Sans" stylename="Condensed Bold" filename="../instance_ufo/OpenSans-CondensedBold.ufo" stylemapfamilyname="Open Sans Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="310"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Condensed ExtraBold" familyname="Open Sans" stylename="Condensed ExtraBold" filename="../instance_ufo/OpenSans-CondensedExtraBold.ufo" stylemapfamilyname="Open Sans Condensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Width" xvalue="75"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    -->
+  </instances>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

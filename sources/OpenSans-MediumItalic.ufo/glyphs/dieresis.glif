@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis" format="2">
+  <advance width="1135"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="905" y="1292" type="curve"/>
+      <point x="956" y="1292"/>
+      <point x="1010" y="1337"/>
+      <point x="1010" y="1413" type="curve"/>
+      <point x="1010" y="1462"/>
+      <point x="983" y="1495"/>
+      <point x="928" y="1495" type="curve"/>
+      <point x="858" y="1495"/>
+      <point x="819" y="1440"/>
+      <point x="819" y="1378" type="curve"/>
+      <point x="819" y="1323"/>
+      <point x="856" y="1292"/>
+    </contour>
+    <contour>
+      <point x="539" y="1292" type="curve"/>
+      <point x="590" y="1292"/>
+      <point x="641" y="1337"/>
+      <point x="641" y="1413" type="curve"/>
+      <point x="641" y="1462"/>
+      <point x="616" y="1495"/>
+      <point x="559" y="1495" type="curve"/>
+      <point x="489" y="1495"/>
+      <point x="451" y="1440"/>
+      <point x="451" y="1378" type="curve"/>
+      <point x="451" y="1323"/>
+      <point x="487" y="1292"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

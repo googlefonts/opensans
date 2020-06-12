@@ -1,12 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ibreve" format="2">
-  <advance width="418"/>
+  <advance width="372.5"/>
   <unicode hex="012C"/>
-  <note>
-Ibreve
-</note>
   <outline>
     <component base="I"/>
-    <component base="brevecomb" xOffset="85" yOffset="375"/>
+    <component base="brevecomb" xOffset="234.125" yOffset="382.75"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

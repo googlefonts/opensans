@@ -1,109 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal" format="2">
-  <advance width="1169"/>
+  <advance width="1168.5"/>
   <unicode hex="003D"/>
-  <note>
-equal
-</note>
   <outline>
     <contour>
-      <point x="111" y="885" type="line"/>
-      <point x="1059" y="885" type="line"/>
-      <point x="1059" y="967" type="line"/>
-      <point x="111" y="967" type="line"/>
+      <point x="113.75" y="886.375" type="line"/>
+      <point x="1054.25" y="886.375" type="line"/>
+      <point x="1054.25" y="971.375" type="line"/>
+      <point x="113.75" y="971.375" type="line"/>
     </contour>
     <contour>
-      <point x="111" y="477" type="line"/>
-      <point x="1059" y="477" type="line"/>
-      <point x="1059" y="559" type="line"/>
-      <point x="111" y="559" type="line"/>
+      <point x="113.75" y="472.125" type="line"/>
+      <point x="1054.25" y="472.125" type="line"/>
+      <point x="1054.25" y="558.125" type="line"/>
+      <point x="113.75" y="558.125" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>2</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
     </dict>
   </lib>
 </glyph>

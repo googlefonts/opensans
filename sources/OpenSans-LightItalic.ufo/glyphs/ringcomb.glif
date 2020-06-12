@@ -1,42 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringcomb" format="2">
   <unicode hex="030A"/>
-  <anchor x="323" y="1087" name="_top"/>
-  <anchor x="440" y="1640" name="top"/>
+  <anchor x="117.25" y="1087.375" name="_top"/>
+  <anchor x="224.875" y="1664.0" name="top"/>
   <outline>
-    <contour>
-      <point x="385" y="1208" type="curve" smooth="yes"/>
-      <point x="502" y="1208"/>
-      <point x="588" y="1290"/>
-      <point x="588" y="1413" type="curve" smooth="yes"/>
-      <point x="588" y="1536"/>
-      <point x="508" y="1605"/>
-      <point x="391" y="1605" type="curve" smooth="yes"/>
-      <point x="271" y="1605"/>
-      <point x="182" y="1522"/>
-      <point x="182" y="1405" type="curve" smooth="yes"/>
-      <point x="182" y="1281"/>
-      <point x="261" y="1208"/>
-    </contour>
-    <contour>
-      <point x="385" y="1282" type="curve" smooth="yes"/>
-      <point x="309" y="1282"/>
-      <point x="262" y="1329"/>
-      <point x="262" y="1405" type="curve" smooth="yes"/>
-      <point x="262" y="1481"/>
-      <point x="309" y="1534"/>
-      <point x="389" y="1534" type="curve" smooth="yes"/>
-      <point x="461" y="1534"/>
-      <point x="510" y="1487"/>
-      <point x="510" y="1411" type="curve" smooth="yes"/>
-      <point x="510" y="1335"/>
-      <point x="460" y="1282"/>
-    </contour>
+    <component base="ring" xOffset="-297.5"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>414</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ring</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

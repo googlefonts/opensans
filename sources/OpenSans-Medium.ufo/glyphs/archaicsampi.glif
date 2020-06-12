@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="archaicsampi" format="2">
+  <advance width="1081"/>
+  <unicode hex="0373"/>
+  <anchor x="541" y="0" name="bottom"/>
+  <anchor x="541" y="1563" name="top"/>
+  <outline>
+    <contour>
+      <point x="633" y="0" type="line"/>
+      <point x="633" y="1417" type="line"/>
+      <point x="969" y="1417" type="line"/>
+      <point x="969" y="1563" type="line"/>
+      <point x="111" y="1563" type="line"/>
+      <point x="111" y="1417" type="line"/>
+      <point x="451" y="1417" type="line"/>
+      <point x="451" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="879" y="1563" type="line"/>
+      <point x="879" y="1081" type="line"/>
+      <point x="1034" y="1081" type="line"/>
+      <point x="1034" y="1563" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="1563" type="line"/>
+      <point x="45" y="1081" type="line"/>
+      <point x="201" y="1081" type="line"/>
+      <point x="201" y="1563" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

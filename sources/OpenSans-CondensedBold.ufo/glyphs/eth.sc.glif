@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eth.sc" format="2">
+  <advance width="948"/>
+  <anchor x="473" y="0" name="bottom"/>
+  <anchor x="473" y="1192" name="top"/>
+  <outline>
+    <contour>
+      <point x="98" y="0" type="line"/>
+      <point x="422" y="0" type="line" smooth="yes"/>
+      <point x="715" y="0"/>
+      <point x="901" y="207"/>
+      <point x="901" y="621" type="curve" smooth="yes"/>
+      <point x="901" y="989"/>
+      <point x="737" y="1192"/>
+      <point x="436" y="1192" type="curve" smooth="yes"/>
+      <point x="98" y="1192" type="line"/>
+      <point x="98" y="696" type="line"/>
+      <point x="10" y="696" type="line"/>
+      <point x="10" y="504" type="line"/>
+      <point x="98" y="504" type="line"/>
+    </contour>
+    <contour>
+      <point x="365" y="238" type="line"/>
+      <point x="365" y="504" type="line"/>
+      <point x="500" y="504" type="line"/>
+      <point x="500" y="696" type="line"/>
+      <point x="365" y="696" type="line"/>
+      <point x="365" y="954" type="line"/>
+      <point x="444" y="954" type="line" smooth="yes"/>
+      <point x="565" y="954"/>
+      <point x="631" y="840"/>
+      <point x="631" y="608" type="curve" smooth="yes"/>
+      <point x="631" y="358"/>
+      <point x="563" y="238"/>
+      <point x="428" y="238" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=d.sc</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,37 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="titlocomb-cy" format="2">
   <unicode hex="0483"/>
-  <note>
-uni0483
-</note>
+  <anchor x="-489.125" y="1087.375" name="_top"/>
+  <anchor x="-425.0" y="1437.125" name="top"/>
   <outline>
     <contour>
-      <point x="225" y="1192" type="curve" smooth="yes"/>
-      <point x="280" y="1192"/>
-      <point x="309" y="1221"/>
-      <point x="313" y="1278" type="curve"/>
-      <point x="756" y="1278" type="line"/>
-      <point x="837" y="1281"/>
-      <point x="877" y="1312"/>
-      <point x="877" y="1370" type="curve" smooth="yes"/>
-      <point x="877" y="1415"/>
-      <point x="848" y="1438"/>
-      <point x="803" y="1438" type="curve" smooth="yes"/>
-      <point x="746" y="1438"/>
-      <point x="720" y="1409"/>
-      <point x="713" y="1352" type="curve"/>
-      <point x="270" y="1352" type="line" smooth="yes"/>
-      <point x="193" y="1352"/>
-      <point x="154" y="1316"/>
-      <point x="154" y="1257" type="curve" smooth="yes"/>
-      <point x="154" y="1218"/>
-      <point x="180" y="1192"/>
+      <point x="-717.25" y="1191.375" type="curve"/>
+      <point x="-671.375" y="1191.375"/>
+      <point x="-645.0" y="1224.625"/>
+      <point x="-640.125" y="1278.25" type="curve"/>
+      <point x="-198.125" y="1278.25" type="line" smooth="yes"/>
+      <point x="-135.25" y="1279.0"/>
+      <point x="-99.75" y="1318.25"/>
+      <point x="-99.75" y="1378.375" type="curve" smooth="yes"/>
+      <point x="-99.75" y="1411.625"/>
+      <point x="-117.625" y="1437.125"/>
+      <point x="-164.625" y="1437.125" type="curve"/>
+      <point x="-210.5" y="1437.125"/>
+      <point x="-236.875" y="1405.625"/>
+      <point x="-241.0" y="1350.625" type="curve"/>
+      <point x="-683.75" y="1350.625" type="line" smooth="yes"/>
+      <point x="-745.875" y="1350.625"/>
+      <point x="-781.375" y="1312.0"/>
+      <point x="-781.375" y="1252.75" type="curve" smooth="yes"/>
+      <point x="-781.375" y="1221.625"/>
+      <point x="-763.5" y="1191.375"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>704</integer>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

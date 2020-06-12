@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tbar" format="2">
+  <advance width="780"/>
+  <unicode hex="0166"/>
+  <anchor x="391" y="0" name="bottom"/>
+  <anchor x="391" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="303" y="0" type="line"/>
+      <point x="475" y="0" type="line"/>
+      <point x="475" y="666" type="line"/>
+      <point x="682" y="666" type="line"/>
+      <point x="682" y="805" type="line"/>
+      <point x="475" y="805" type="line"/>
+      <point x="475" y="1305" type="line"/>
+      <point x="758" y="1305" type="line"/>
+      <point x="758" y="1462" type="line"/>
+      <point x="20" y="1462" type="line"/>
+      <point x="20" y="1305" type="line"/>
+      <point x="303" y="1305" type="line"/>
+      <point x="303" y="805" type="line"/>
+      <point x="96" y="805" type="line"/>
+      <point x="96" y="666" type="line"/>
+      <point x="303" y="666" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

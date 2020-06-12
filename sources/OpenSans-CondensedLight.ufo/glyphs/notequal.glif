@@ -1,119 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="notequal" format="2">
-  <advance width="819"/>
+  <advance width="821.625"/>
   <unicode hex="2260"/>
-  <note>
-notequal
-</note>
   <outline>
     <contour>
-      <point x="199" y="178" type="line"/>
-      <point x="332" y="465" type="line"/>
-      <point x="760" y="465" type="line"/>
-      <point x="760" y="547" type="line"/>
-      <point x="371" y="547" type="line"/>
-      <point x="535" y="895" type="line"/>
-      <point x="760" y="895" type="line"/>
-      <point x="760" y="977" type="line"/>
-      <point x="573" y="977" type="line"/>
-      <point x="692" y="1227" type="line"/>
-      <point x="623" y="1262" type="line"/>
-      <point x="489" y="977" type="line"/>
-      <point x="59" y="977" type="line"/>
-      <point x="59" y="895" type="line"/>
-      <point x="451" y="895" type="line"/>
-      <point x="289" y="547" type="line"/>
-      <point x="59" y="547" type="line"/>
-      <point x="59" y="465" type="line"/>
-      <point x="250" y="465" type="line"/>
-      <point x="133" y="213" type="line"/>
+      <point x="623.125" y="1259.875" type="line"/>
+      <point x="485.25" y="977.5" type="line"/>
+      <point x="59.75" y="977.5" type="line"/>
+      <point x="59.75" y="893.125" type="line"/>
+      <point x="449.875" y="893.125" type="line"/>
+      <point x="284.875" y="548.5" type="line"/>
+      <point x="59.75" y="548.5" type="line"/>
+      <point x="59.75" y="463.875" type="line"/>
+      <point x="248.75" y="463.875" type="line"/>
+      <point x="128.125" y="213.5" type="line"/>
+      <point x="201.25" y="178.75" type="line"/>
+      <point x="336.5" y="463.875" type="line"/>
+      <point x="758.75" y="463.875" type="line"/>
+      <point x="758.75" y="548.5" type="line"/>
+      <point x="374.0" y="548.5" type="line"/>
+      <point x="540.5" y="893.125" type="line"/>
+      <point x="758.75" y="893.125" type="line"/>
+      <point x="758.75" y="977.5" type="line"/>
+      <point x="576.75" y="977.5" type="line"/>
+      <point x="697.875" y="1226.5" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>16</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>15</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>12</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>16</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>15</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>12</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>11</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

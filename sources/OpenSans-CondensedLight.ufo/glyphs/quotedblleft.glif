@@ -1,116 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblleft" format="2">
-  <advance width="598"/>
+  <advance width="598.125"/>
   <unicode hex="201C"/>
-  <note>
-quotedblleft
-</note>
   <outline>
     <contour>
-      <point x="340" y="993" type="line"/>
-      <point x="455" y="993" type="line"/>
-      <point x="472" y="1136"/>
-      <point x="505" y="1292"/>
-      <point x="555" y="1462" type="curve"/>
-      <point x="492" y="1462" type="line"/>
-      <point x="425" y="1315"/>
-      <point x="370" y="1166"/>
-      <point x="326" y="1016" type="curve"/>
+      <point x="552.875" y="1462.0" type="curve"/>
+      <point x="478.375" y="1462.0" type="line"/>
+      <point x="415.0" y="1315.0"/>
+      <point x="370.25" y="1166.125"/>
+      <point x="331.75" y="1015.375" type="curve"/>
+      <point x="346.625" y="993.0" type="line"/>
+      <point x="452.125" y="993.0" type="line"/>
+      <point x="469.875" y="1142.625"/>
+      <point x="504.875" y="1291.25"/>
     </contour>
     <contour>
-      <point x="57" y="993" type="line"/>
-      <point x="172" y="993" type="line"/>
-      <point x="189" y="1136"/>
-      <point x="222" y="1292"/>
-      <point x="272" y="1462" type="curve"/>
-      <point x="209" y="1462" type="line"/>
-      <point x="142" y="1315"/>
-      <point x="87" y="1166"/>
-      <point x="43" y="1016" type="curve"/>
+      <point x="267.875" y="1462.0" type="curve"/>
+      <point x="194.125" y="1462.0" type="line"/>
+      <point x="130.0" y="1315.0"/>
+      <point x="84.5" y="1166.125"/>
+      <point x="46.75" y="1015.375" type="curve"/>
+      <point x="61.625" y="993.0" type="line"/>
+      <point x="167.125" y="993.0" type="line"/>
+      <point x="184.875" y="1139.625"/>
+      <point x="219.125" y="1292.0"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>7</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>4</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <string>d</string>
-            <string>o</string>
-            <string>w</string>
-            <string>n</string>
-          </array>
-          <key>type</key>
-          <string>TopGhost</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>7</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>4</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Anchor</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
     </dict>
   </lib>
 </glyph>

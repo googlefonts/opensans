@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildedotbelow" format="2">
+  <advance width="1128"/>
+  <unicode hex="2E1F"/>
+  <outline>
+    <contour>
+      <point x="567" y="256" type="curve" smooth="yes"/>
+      <point x="621" y="256"/>
+      <point x="662" y="297"/>
+      <point x="662" y="375" type="curve" smooth="yes"/>
+      <point x="662" y="457"/>
+      <point x="621" y="494"/>
+      <point x="567" y="494" type="curve" smooth="yes"/>
+      <point x="510" y="494"/>
+      <point x="473" y="459"/>
+      <point x="473" y="375" type="curve" smooth="yes"/>
+      <point x="473" y="293"/>
+      <point x="510" y="256"/>
+    </contour>
+    <component base="asciitilde"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>asciitilde</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

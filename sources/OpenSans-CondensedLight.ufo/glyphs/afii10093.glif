@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10093" format="2">
+  <advance width="1109.125"/>
+  <unicode hex="044B"/>
+  <anchor x="555.0" y="0.0" name="bottom"/>
+  <anchor x="560.625" y="1086.875" name="top"/>
+  <outline>
+    <contour>
+      <point x="140.5" y="0.0" type="line"/>
+      <point x="373.0" y="0.0" type="line" smooth="yes"/>
+      <point x="586.25" y="0.0"/>
+      <point x="701.375" y="113.0"/>
+      <point x="701.375" y="306.625" type="curve" smooth="yes"/>
+      <point x="701.375" y="499.5"/>
+      <point x="588.25" y="610.625"/>
+      <point x="377.5" y="610.625" type="curve" smooth="yes"/>
+      <point x="236.5" y="610.625" type="line"/>
+      <point x="236.5" y="1086.875" type="line"/>
+      <point x="140.5" y="1086.875" type="line"/>
+    </contour>
+    <contour>
+      <point x="236.5" y="81.75" type="line"/>
+      <point x="236.5" y="528.875" type="line"/>
+      <point x="375.25" y="528.875" type="line" smooth="yes"/>
+      <point x="528.125" y="528.875"/>
+      <point x="604.75" y="450.375"/>
+      <point x="604.75" y="304.0" type="curve" smooth="yes"/>
+      <point x="604.75" y="162.0"/>
+      <point x="527.875" y="81.75"/>
+      <point x="367.75" y="81.75" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="874.5" y="0.0" type="line"/>
+      <point x="968.25" y="0.0" type="line"/>
+      <point x="968.25" y="1086.875" type="line"/>
+      <point x="874.5" y="1086.875" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

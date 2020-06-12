@@ -1,23 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Upsilon" format="2">
-  <advance width="616"/>
+  <advance width="643.375"/>
   <unicode hex="03A5"/>
-  <note>
-Upsilon
-</note>
-  <anchor x="198" y="1562" name="tonos"/>
-  <anchor x="523" y="1462" name="top"/>
+  <anchor x="208.25" y="0.0" name="bottom"/>
+  <anchor x="519.125" y="1462.0" name="top"/>
+  <anchor x="237.25" y="1462.0" name="topleft"/>
   <outline>
-    <contour>
-      <point x="180" y="0" type="line"/>
-      <point x="281" y="0" type="line"/>
-      <point x="401" y="571" type="line"/>
-      <point x="848" y="1462" type="line"/>
-      <point x="745" y="1462" type="line"/>
-      <point x="379" y="707" type="line"/>
-      <point x="328" y="1462" type="line"/>
-      <point x="227" y="1462" type="line"/>
-      <point x="301" y="571" type="line"/>
-    </contour>
+    <component base="Y"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Y</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,27 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni047F" format="2">
-  <advance width="1044"/>
+  <advance width="1087.75"/>
   <unicode hex="047F"/>
-  <note>
-uni047F
-</note>
   <outline>
-    <contour>
-      <point x="442" y="1243" type="line"/>
-      <point x="459" y="1243" type="line"/>
-      <point x="504" y="1339" type="line"/>
-      <point x="631" y="1339" type="line"/>
-      <point x="649" y="1243" type="line"/>
-      <point x="666" y="1243" type="line"/>
-      <point x="717" y="1339" type="line"/>
-      <point x="844" y="1339" type="line"/>
-      <point x="862" y="1243" type="line"/>
-      <point x="879" y="1243" type="line"/>
-      <point x="961" y="1395" type="line"/>
-      <point x="961" y="1421" type="line"/>
-      <point x="418" y="1421" type="line"/>
-      <point x="418" y="1395" type="line"/>
-    </contour>
-    <component base="omega-cy"/>
+    <component base="uni0461"/>
+    <component base="cyrillic_otmark" xOffset="-21.125" yOffset="-2.220446049250313e-16"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0461</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>cyrillic_otmark</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string></string>
+    </dict>
+  </lib>
 </glyph>

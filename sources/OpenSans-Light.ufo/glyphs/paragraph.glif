@@ -1,116 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="paragraph" format="2">
-  <advance width="1341"/>
+  <advance width="1341.0"/>
   <unicode hex="00B6"/>
-  <note>
-paragraph
-</note>
   <outline>
     <contour>
-      <point x="678" y="-260" type="line"/>
-      <point x="778" y="-260" type="line"/>
-      <point x="778" y="1462" type="line"/>
-      <point x="1006" y="1462" type="line"/>
-      <point x="1006" y="-260" type="line"/>
-      <point x="1106" y="-260" type="line"/>
-      <point x="1106" y="1556" type="line"/>
-      <point x="563" y="1556" type="line" smooth="yes"/>
-      <point x="254" y="1556"/>
-      <point x="113" y="1389"/>
-      <point x="113" y="1042" type="curve" smooth="yes"/>
-      <point x="113" y="707"/>
-      <point x="244" y="541"/>
-      <point x="532" y="541" type="curve" smooth="yes"/>
-      <point x="587" y="541"/>
-      <point x="635" y="547"/>
-      <point x="678" y="559" type="curve"/>
+      <point x="1083.375" y="-260.0" type="line"/>
+      <point x="1083.375" y="1556.0" type="line"/>
+      <point x="563.0" y="1556.0" type="line" smooth="yes"/>
+      <point x="305.0" y="1556.0"/>
+      <point x="164.25" y="1414.625"/>
+      <point x="164.25" y="1103.875" type="curve" smooth="yes"/>
+      <point x="164.25" y="811.125"/>
+      <point x="295.25" y="646.0"/>
+      <point x="532.0" y="646.0" type="curve" smooth="yes"/>
+      <point x="587.5" y="646.0"/>
+      <point x="634.5" y="652.0"/>
+      <point x="678.0" y="664.0" type="curve"/>
+      <point x="678.0" y="-260.0" type="line"/>
+      <point x="755.75" y="-260.0" type="line"/>
+      <point x="755.75" y="1481.375" type="line"/>
+      <point x="1006.0" y="1481.375" type="line"/>
+      <point x="1006.0" y="-260.0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>6</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>16</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>3</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>4</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>1</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>6</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

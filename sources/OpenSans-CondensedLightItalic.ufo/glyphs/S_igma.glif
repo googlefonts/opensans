@@ -1,30 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sigma" format="2">
-  <advance width="725"/>
+  <advance width="674.25"/>
   <unicode hex="03A3"/>
-  <note>
-Sigma
-</note>
+  <anchor x="223.625" y="0.0" name="bottom"/>
+  <anchor x="533.875" y="1462.0" name="top"/>
   <outline>
     <contour>
-      <point x="-20" y="0" type="line"/>
-      <point x="559" y="0" type="line"/>
-      <point x="578" y="94" type="line"/>
-      <point x="244" y="94" type="line" smooth="yes"/>
-      <point x="200" y="94"/>
-      <point x="155" y="94"/>
-      <point x="111" y="94" type="curve"/>
-      <point x="553" y="758" type="line"/>
-      <point x="381" y="1368" type="line"/>
-      <point x="422" y="1368"/>
-      <point x="464" y="1368"/>
-      <point x="505" y="1368" type="curve" smooth="yes"/>
-      <point x="823" y="1368" type="line"/>
-      <point x="842" y="1462" type="line"/>
-      <point x="297" y="1462" type="line"/>
-      <point x="279" y="1372" type="line"/>
-      <point x="449" y="764" type="line"/>
-      <point x="-4" y="84" type="line"/>
+      <point x="-81.5" y="0.0" type="line"/>
+      <point x="495.0" y="0.0" type="line"/>
+      <point x="510.875" y="87.0" type="line"/>
+      <point x="46.625" y="87.0" type="line"/>
+      <point x="488.125" y="758.25" type="line"/>
+      <point x="320.125" y="1375.0" type="line"/>
+      <point x="758.75" y="1375.0" type="line"/>
+      <point x="775.875" y="1462.0" type="line"/>
+      <point x="235.375" y="1462.0" type="line"/>
+      <point x="218.25" y="1378.75" type="line"/>
+      <point x="386.5" y="764.75" type="line"/>
+      <point x="-67.625" y="76.25" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

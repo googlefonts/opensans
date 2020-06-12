@@ -1,11 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave" format="2">
-  <advance width="281"/>
+  <advance width="453.75"/>
   <unicode hex="0060"/>
-  <note>
-grave
-</note>
+  <anchor x="433.125" y="1079.25" name="_top"/>
   <outline>
-    <component base="gravecomb" yOffset="3"/>
+    <contour>
+      <point x="467.5" y="1241.0" type="curve"/>
+      <point x="520.0" y="1241.0" type="line"/>
+      <point x="521.125" y="1258.875" type="line"/>
+      <point x="470.625" y="1358.75"/>
+      <point x="435.375" y="1457.5"/>
+      <point x="398.625" y="1564.5" type="curve"/>
+      <point x="299.0" y="1564.5" type="line"/>
+      <point x="299.0" y="1548.75" type="line"/>
+      <point x="335.5" y="1451.5"/>
+      <point x="413.75" y="1316.75"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
 </glyph>

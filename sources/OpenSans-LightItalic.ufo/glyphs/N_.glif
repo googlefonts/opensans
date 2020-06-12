@@ -1,29 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N" format="2">
-  <advance width="1372"/>
+  <advance width="1405.5"/>
   <unicode hex="004E"/>
-  <anchor x="570" y="0" name="bottom"/>
-  <anchor x="881" y="1462" name="top"/>
+  <anchor x="587.375" y="0.0" name="bottom"/>
+  <anchor x="903.125" y="1462.0" name="top"/>
+  <anchor x="1560.75" y="1462.0" name="topright"/>
   <outline>
     <contour>
-      <point x="102" y="0" type="line"/>
-      <point x="197" y="0" type="line"/>
-      <point x="411" y="1011" type="line"/>
-      <point x="428" y="1094"/>
-      <point x="444" y="1185"/>
-      <point x="459" y="1284" type="curve"/>
-      <point x="467" y="1284" type="line"/>
-      <point x="983" y="0" type="line"/>
-      <point x="1069" y="0" type="line"/>
-      <point x="1378" y="1462" type="line"/>
-      <point x="1284" y="1462" type="line"/>
-      <point x="1096" y="584" type="line" smooth="yes"/>
-      <point x="1062" y="424"/>
-      <point x="1037" y="285"/>
-      <point x="1022" y="168" type="curve"/>
-      <point x="1014" y="168" type="line"/>
-      <point x="492" y="1462" type="line"/>
-      <point x="412" y="1462" type="line"/>
+      <point x="94.5" y="0.0" type="line"/>
+      <point x="194.0" y="0.0" type="line"/>
+      <point x="392.625" y="940.625" type="line" smooth="yes"/>
+      <point x="418.75" y="1064.625"/>
+      <point x="440.625" y="1191.625"/>
+      <point x="459.75" y="1298.25" type="curve"/>
+      <point x="464.5" y="1298.25" type="line"/>
+      <point x="995.25" y="0.0" type="line"/>
+      <point x="1094.0" y="0.0" type="line"/>
+      <point x="1403.0" y="1462.0" type="line"/>
+      <point x="1304.625" y="1462.0" type="line"/>
+      <point x="1103.25" y="516.375" type="line" smooth="yes"/>
+      <point x="1078.5" y="405.0"/>
+      <point x="1054.25" y="267.625"/>
+      <point x="1036.25" y="164.625" type="curve"/>
+      <point x="1031.5" y="164.625" type="line"/>
+      <point x="501.625" y="1462.0" type="line"/>
+      <point x="404.125" y="1462.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

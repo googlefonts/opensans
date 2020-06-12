@@ -1,19 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guilsinglleft" format="2">
-  <advance width="537"/>
+  <advance width="489.25"/>
   <unicode hex="2039"/>
-  <note>
-guilsinglleft
-</note>
   <outline>
     <contour>
-      <point x="340" y="123" type="line"/>
-      <point x="403" y="162" type="line"/>
-      <point x="190" y="547" type="line"/>
-      <point x="508" y="883" type="line"/>
-      <point x="451" y="932" type="line"/>
-      <point x="88" y="567" type="line"/>
-      <point x="86" y="541" type="line"/>
+      <point x="278.125" y="152.875" type="line"/>
+      <point x="348.125" y="185.875" type="line"/>
+      <point x="167.0" y="555.5" type="line"/>
+      <point x="497.0" y="913.875" type="line"/>
+      <point x="444.625" y="966.25" type="line"/>
+      <point x="61.625" y="581.75" type="line"/>
+      <point x="57.875" y="554.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
+    </dict>
+  </lib>
 </glyph>

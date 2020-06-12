@@ -1,9 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflex" format="2">
-  <advance width="709"/>
+  <advance width="713.75"/>
   <unicode hex="00CA"/>
+  <anchor x="242.625" y="0.0" name="bottom"/>
+  <anchor x="647.875" y="1907.0" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="circumflexcomb" xOffset="261" yOffset="374"/>
+    <component base="circumflex" xOffset="114.25" yOffset="338.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>E</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>circumflex</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,19 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
-  <advance width="465"/>
+  <advance width="443.375"/>
   <unicode hex="00B8"/>
-  <note>
-cedilla
-</note>
   <outline>
-    <component base="cedillacomb"/>
+    <contour>
+      <point x="377.0" y="-291.0" type="curve" smooth="yes"/>
+      <point x="377.0" y="-198.625"/>
+      <point x="317.0" y="-135.0"/>
+      <point x="205.75" y="-117.625" type="curve"/>
+      <point x="255.75" y="0.0" type="line"/>
+      <point x="185.125" y="0.0" type="line"/>
+      <point x="115.125" y="-164.5" type="line"/>
+      <point x="221.25" y="-172.25"/>
+      <point x="293.0" y="-204.0"/>
+      <point x="293.0" y="-291.0" type="curve" smooth="yes"/>
+      <point x="293.0" y="-373.125"/>
+      <point x="228.875" y="-420.375"/>
+      <point x="135.875" y="-420.375" type="curve" smooth="yes"/>
+      <point x="107.375" y="-420.375"/>
+      <point x="71.375" y="-415.125"/>
+      <point x="43.125" y="-407.125" type="curve"/>
+      <point x="43.125" y="-479.0" type="line"/>
+      <point x="72.625" y="-487.0"/>
+      <point x="111.625" y="-492.0"/>
+      <point x="145.625" y="-492.0" type="curve" smooth="yes"/>
+      <point x="289.5" y="-492.0"/>
+      <point x="377.0" y="-416.75"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
     </dict>
   </lib>
 </glyph>

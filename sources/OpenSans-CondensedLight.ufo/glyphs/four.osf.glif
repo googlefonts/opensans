@@ -1,101 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.osf" format="2">
-  <advance width="814"/>
-  <note>
-g903
-</note>
+  <advance width="829.125"/>
   <outline>
     <contour>
-      <point x="521" y="-344" type="line"/>
-      <point x="616" y="-344" type="line"/>
-      <point x="616" y="37" type="line"/>
-      <point x="784" y="37" type="line"/>
-      <point x="784" y="123" type="line"/>
-      <point x="616" y="123" type="line"/>
-      <point x="616" y="1118" type="line"/>
-      <point x="506" y="1118" type="line"/>
-      <point x="20" y="104" type="line"/>
-      <point x="20" y="37" type="line"/>
-      <point x="521" y="37" type="line"/>
+      <point x="799.5" y="1.1102230246251565e-16" type="line"/>
+      <point x="799.5" y="87.0" type="line"/>
+      <point x="627.5" y="87.0" type="line"/>
+      <point x="627.5" y="1114.5" type="line"/>
+      <point x="523.75" y="1114.5" type="line"/>
+      <point x="18.625" y="81.75" type="line"/>
+      <point x="18.625" y="1.1102230246251565e-16" type="line"/>
+      <point x="532.125" y="1.1102230246251565e-16" type="line"/>
+      <point x="532.125" y="-352.5" type="line"/>
+      <point x="627.5" y="-352.5" type="line"/>
+      <point x="627.5" y="1.1102230246251565e-16" type="line"/>
     </contour>
     <contour>
-      <point x="129" y="123" type="line"/>
-      <point x="473" y="844" type="line" smooth="yes"/>
-      <point x="515" y="933"/>
-      <point x="547" y="1005"/>
-      <point x="556" y="1032" type="curve"/>
-      <point x="530" y="1032" type="line"/>
-      <point x="524" y="891"/>
-      <point x="521" y="722"/>
-      <point x="521" y="524" type="curve" smooth="yes"/>
-      <point x="521" y="123" type="line"/>
+      <point x="532.875" y="87.0" type="line"/>
+      <point x="112.25" y="87.0" type="line"/>
+      <point x="448.625" y="784.5" type="line" smooth="yes"/>
+      <point x="478.5" y="846.625"/>
+      <point x="510.5" y="917.25"/>
+      <point x="532.875" y="984.375" type="curve"/>
+      <point x="537.5" y="984.375" type="line"/>
+      <point x="533.625" y="928.875"/>
+      <point x="532.875" y="882.75"/>
+      <point x="532.875" y="820.875" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>9</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>10</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>type</key>
-          <string>Stem</string>
-        </dict>
-        <dict>
-          <key>horizontal</key>
-          <true/>
-          <key>options</key>
-          <integer>4</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>8</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>target</key>
-          <array>
-            <integer>1</integer>
-            <integer>9</integer>
-          </array>
-          <key>type</key>
-          <string>TTStem</string>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
     </dict>
   </lib>
 </glyph>

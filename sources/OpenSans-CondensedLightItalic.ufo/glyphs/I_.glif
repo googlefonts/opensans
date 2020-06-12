@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I" format="2">
-  <advance width="418"/>
+  <advance width="372.5"/>
   <unicode hex="0049"/>
-  <anchor x="94" y="0" name="bottom"/>
-  <anchor x="163" y="10" name="ogonek"/>
-  <anchor x="404" y="1462" name="top"/>
-  <anchor x="215" y="1462" name="topleft"/>
+  <anchor x="56.875" y="0.0" name="bottom"/>
+  <anchor x="365.5" y="1462.0" name="top"/>
+  <anchor x="527.75" y="1462.0" name="topright"/>
   <outline>
     <contour>
-      <point x="66" y="0" type="line"/>
-      <point x="164" y="0" type="line"/>
-      <point x="473" y="1462" type="line"/>
-      <point x="375" y="1462" type="line"/>
+      <point x="2.499999999999999" y="0.0" type="line"/>
+      <point x="95.875" y="0.0" type="line"/>
+      <point x="406.75" y="1462.0" type="line"/>
+      <point x="312.75" y="1462.0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
 </glyph>

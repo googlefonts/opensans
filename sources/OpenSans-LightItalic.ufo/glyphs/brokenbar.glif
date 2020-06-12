@@ -1,22 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brokenbar" format="2">
-  <advance width="1128"/>
+  <advance width="1108.0"/>
   <unicode hex="00A6"/>
-  <note>
-brokenbar
-</note>
   <outline>
     <contour>
-      <point x="578" y="805" type="line"/>
-      <point x="678" y="805" type="line"/>
-      <point x="678" y="1561" type="line"/>
-      <point x="578" y="1561" type="line"/>
+      <point x="560.75" y="796.625" type="line"/>
+      <point x="648.125" y="796.625" type="line"/>
+      <point x="648.125" y="1556.0" type="line"/>
+      <point x="560.75" y="1556.0" type="line"/>
     </contour>
     <contour>
-      <point x="578" y="-510" type="line"/>
-      <point x="678" y="-510" type="line"/>
-      <point x="678" y="246" type="line"/>
-      <point x="578" y="246" type="line"/>
+      <point x="560.75" y="-492.75" type="line"/>
+      <point x="648.125" y="-492.75" type="line"/>
+      <point x="648.125" y="268.875" type="line"/>
+      <point x="560.75" y="268.875" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
 </glyph>

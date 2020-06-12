@@ -1,32 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblleft" format="2">
-  <advance width="539"/>
+  <advance width="531.875"/>
   <unicode hex="201C"/>
-  <note>
-quotedblleft
-</note>
   <outline>
     <contour>
-      <point x="168" y="993" type="line"/>
-      <point x="279" y="993" type="line"/>
-      <point x="323" y="1136"/>
-      <point x="404" y="1333"/>
-      <point x="469" y="1462" type="curve"/>
-      <point x="406" y="1462" type="line"/>
-      <point x="321" y="1327"/>
-      <point x="239" y="1178"/>
-      <point x="160" y="1016" type="curve"/>
+      <point x="392.75" y="994.875" type="line"/>
+      <point x="485.5" y="994.875" type="line"/>
+      <point x="522.875" y="1139.625"/>
+      <point x="601.625" y="1329.0"/>
+      <point x="677.125" y="1462.0" type="curve"/>
+      <point x="605.375" y="1462.0" type="line"/>
+      <point x="518.625" y="1334.25"/>
+      <point x="437.375" y="1160.0"/>
+      <point x="385.5" y="1018.125" type="curve"/>
     </contour>
     <contour>
-      <point x="422" y="993" type="line"/>
-      <point x="532" y="993" type="line"/>
-      <point x="581" y="1150"/>
-      <point x="666" y="1347"/>
-      <point x="723" y="1462" type="curve"/>
-      <point x="659" y="1462" type="line"/>
-      <point x="572" y="1323"/>
-      <point x="491" y="1174"/>
-      <point x="414" y="1016" type="curve"/>
+      <point x="143.375" y="994.875" type="line"/>
+      <point x="234.75" y="994.875" type="line"/>
+      <point x="270.5" y="1133.625"/>
+      <point x="352.375" y="1334.25"/>
+      <point x="426.0" y="1462.0" type="curve"/>
+      <point x="354.25" y="1462.0" type="line"/>
+      <point x="268.25" y="1335.0"/>
+      <point x="187.375" y="1160.75"/>
+      <point x="134.75" y="1018.125" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,26 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
-  <anchor x="294" y="1087" name="_top"/>
-  <anchor x="396" y="1569" name="top"/>
+  <anchor x="-448.5" y="1087.375" name="_top"/>
+  <anchor x="-333.625" y="1569.0" name="top"/>
   <outline>
-    <contour>
-      <point x="145" y="1208" type="line"/>
-      <point x="212" y="1208" type="line"/>
-      <point x="327" y="1280"/>
-      <point x="494" y="1425"/>
-      <point x="562" y="1513" type="curve"/>
-      <point x="562" y="1536" type="line"/>
-      <point x="425" y="1536" type="line"/>
-      <point x="365" y="1437"/>
-      <point x="233" y="1297"/>
-      <point x="145" y="1229" type="curve"/>
-    </contour>
+    <component base="acute" xOffset="-735.25"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>357</integer>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>acute</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

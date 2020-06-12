@@ -1,13 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iogonek" format="2">
-  <advance width="385"/>
+  <advance width="388.25"/>
   <unicode hex="012F"/>
-  <note>
-iogonek
-</note>
+  <anchor x="195.875" y="-449.625" name="bottom"/>
+  <anchor x="195.125" y="1494.25" name="top"/>
   <outline>
-    <component base="idotless"/>
-    <component base="dotaccentcomb"/>
-    <component base="ogonekcomb" xOffset="-55" yOffset="107"/>
+    <component base="i"/>
+    <component base="ogonek" xOffset="-72.625"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>i</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ogonek</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=i</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
 </glyph>

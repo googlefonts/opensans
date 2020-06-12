@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Delta" format="2">
+  <advance width="1259.934426229508"/>
+  <unicode hex="0394"/>
+  <anchor x="630.5245901639344" y="0.0" name="bottom"/>
+  <anchor x="630.5245901639344" y="1462.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="758.5901639344263" y="1464.655737704918" type="line"/>
+      <point x="501.11475409836066" y="1464.655737704918" type="line"/>
+      <point x="48.08196721311476" y="141.7704918032787" type="line"/>
+      <point x="48.08196721311476" y="0.0" type="line"/>
+      <point x="1211.4098360655737" y="0.0" type="line"/>
+      <point x="1211.4098360655737" y="139.7704918032787" type="line"/>
+    </contour>
+    <contour>
+      <point x="958.8360655737705" y="204.49180327868856" type="line"/>
+      <point x="297.75409836065575" y="204.49180327868856" type="line"/>
+      <point x="554.2131147540983" y="972.7213114754098" type="line" smooth="yes"/>
+      <point x="580.3770491803278" y="1050.5409836065576"/>
+      <point x="613.4754098360656" y="1174.9508196721313"/>
+      <point x="628.2950819672132" y="1240.7540983606557" type="curve"/>
+      <point x="641.4426229508197" y="1174.950819672131"/>
+      <point x="677.327868852459" y="1050.5409836065573"/>
+      <point x="704.6065573770492" y="969.1475409836065" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>
