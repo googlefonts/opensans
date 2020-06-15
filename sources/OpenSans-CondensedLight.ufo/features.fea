@@ -255,15 +255,15 @@ feature ccmp {
     #sub afii10103 by afii10103dotless;
     #sub afii10105 by afii10105dotless;
     script hebr;
-    sub alef-hb dagesh-hb' by alefdagesh-hb;
-    sub finalpe-hb dagesh-hb' by finalpedagesh-hb;
-    sub he-hb dagesh-hb' by hedagesh-hb;
-    sub pe-hb dagesh-hb' by pedagesh-hb;
-    sub qof-hb dagesh-hb' by qofdagesh-hb;
-    sub resh-hb dagesh-hb' by reshdagesh-hb;
-    sub samekh-hb dagesh-hb' by samekhdagesh-hb;
-    sub shin-hb dagesh-hb' by shindagesh-hb;
-    sub tav-hb dagesh-hb' by tavdagesh-hb;
+    sub alef-hb dagesh-hb by alefdagesh-hb;
+    sub finalpe-hb dagesh-hb by finalpedagesh-hb;
+    sub he-hb dagesh-hb by hedagesh-hb;
+    sub pe-hb dagesh-hb by pedagesh-hb;
+    sub qof-hb dagesh-hb by qofdagesh-hb;
+    sub resh-hb dagesh-hb by reshdagesh-hb;
+    sub samekh-hb dagesh-hb by samekhdagesh-hb;
+    sub shin-hb dagesh-hb by shindagesh-hb;
+    sub tav-hb dagesh-hb by tavdagesh-hb;
 } ccmp;
 
 feature aalt {
