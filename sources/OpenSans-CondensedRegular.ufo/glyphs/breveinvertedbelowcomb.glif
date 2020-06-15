@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breveinvertedbelowcomb" format="2">
   <unicode hex="032F"/>
-  <anchor x="-0.2187500000000009" y="0.0" name="_bottom"/>
-  <anchor x="3.343749999999999" y="-403.296875" name="bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="3" y="-403" name="bottom"/>
   <outline>
-    <component base="breveinvertedcomb" xOffset="-0.21875000000000022" yOffset="-1646.078125"/>
+    <component base="breveinvertedcomb" yOffset="-1646"/>
   </outline>
   <lib>
     <dict>

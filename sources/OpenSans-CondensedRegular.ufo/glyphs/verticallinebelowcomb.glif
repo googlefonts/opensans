@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="verticallinebelowcomb" format="2">
   <unicode hex="0329"/>
-  <anchor x="0.0" y="0.0" name="_bottom"/>
-  <anchor x="3.5624999999999996" y="-424.46875" name="bottom"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="4" y="-424" name="bottom"/>
   <outline>
-    <component base="verticallineabovecomb" yOffset="-1645.359375"/>
+    <component base="verticallineabovecomb" yOffset="-1645"/>
   </outline>
   <lib>
     <dict>

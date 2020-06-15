@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ibreve" format="2">
-  <advance width="516.625"/>
+  <advance width="517"/>
   <unicode hex="012D"/>
-  <anchor x="141.640625" y="0.0" name="bottom"/>
-  <anchor x="462.546875" y="1510.96875" name="top"/>
+  <anchor x="142" y="0" name="bottom"/>
+  <anchor x="463" y="1511" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="breve" xOffset="-131.25"/>
+    <component base="breve" xOffset="-131"/>
   </outline>
   <lib>
     <dict>

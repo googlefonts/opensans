@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ubreve.sc" format="2">
-  <advance width="864.421875"/>
-  <anchor x="431.765625" y="0.0" name="bottom"/>
-  <anchor x="431.765625" y="1580.109375" name="top"/>
+  <advance width="864"/>
+  <anchor x="432" y="0" name="bottom"/>
+  <anchor x="432" y="1580" name="top"/>
   <outline>
     <component base="u.sc"/>
-    <component base="breve" xOffset="104.6875" yOffset="69.015625"/>
+    <component base="breve" xOffset="105" yOffset="69"/>
   </outline>
   <lib>
     <dict>

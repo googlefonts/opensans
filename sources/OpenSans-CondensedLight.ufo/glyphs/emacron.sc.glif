@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emacron.sc" format="2">
-  <advance width="605.125"/>
-  <anchor x="341.0" y="0.0" name="bottom"/>
-  <anchor x="339.5" y="1409.0" name="top"/>
+  <advance width="605"/>
+  <anchor x="341" y="0" name="bottom"/>
+  <anchor x="340" y="1409" name="top"/>
   <outline>
     <component base="e.sc"/>
-    <component base="macron" xOffset="21.124999999999996" yOffset="70.0"/>
+    <component base="macron" xOffset="21" yOffset="70"/>
   </outline>
   <lib>
     <dict>

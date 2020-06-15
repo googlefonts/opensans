@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcommaaccent" format="2">
-  <advance width="1005.375"/>
+  <advance width="1005"/>
   <unicode hex="021A"/>
-  <anchor x="292.25" y="-453.0" name="bottom"/>
-  <anchor x="699.625" y="1462.0" name="top"/>
+  <anchor x="292" y="-453" name="bottom"/>
+  <anchor x="700" y="1462" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="commaaccentcomb" xOffset="305.0"/>
+    <component base="commaaccentcomb" xOffset="305"/>
   </outline>
   <lib>
     <dict>

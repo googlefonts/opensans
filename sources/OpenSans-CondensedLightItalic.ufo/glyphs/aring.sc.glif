@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aring.sc" format="2">
-  <advance width="603.0"/>
-  <anchor x="178.5" y="0.0" name="bottom"/>
-  <anchor x="476.375" y="1400.125" name="top"/>
+  <advance width="603"/>
+  <anchor x="179" y="0" name="bottom"/>
+  <anchor x="476" y="1400" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ringcomb.sc" xOffset="-160.125" yOffset="-173.625"/>
+    <component base="ringcomb.sc" xOffset="-160" yOffset="-174"/>
   </outline>
   <lib>
     <dict>

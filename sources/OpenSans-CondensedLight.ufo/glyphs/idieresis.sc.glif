@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idieresis.sc" format="2">
-  <advance width="371.75"/>
-  <anchor x="186.625" y="0.0" name="bottom"/>
-  <anchor x="186.625" y="1505.875" name="top"/>
+  <advance width="372"/>
+  <anchor x="187" y="0" name="bottom"/>
+  <anchor x="187" y="1506" name="top"/>
   <outline>
     <component base="i.sc"/>
-    <component base="dieresiscomb.sc" xOffset="-210.0"/>
+    <component base="dieresiscomb.sc" xOffset="-210"/>
   </outline>
   <lib>
     <dict>

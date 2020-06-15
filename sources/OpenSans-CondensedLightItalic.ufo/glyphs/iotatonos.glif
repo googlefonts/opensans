@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="iotatonos" format="2">
-  <advance width="397.625"/>
+  <advance width="398"/>
   <unicode hex="03AF"/>
-  <anchor x="84.0" y="0.0" name="bottom"/>
-  <anchor x="420.0" y="1610.125" name="top"/>
+  <anchor x="84" y="0" name="bottom"/>
+  <anchor x="420" y="1610" name="top"/>
   <outline>
     <component base="iota"/>
-    <component base="tonos" xOffset="-242.875"/>
+    <component base="tonos" xOffset="-243"/>
   </outline>
   <lib>
     <dict>

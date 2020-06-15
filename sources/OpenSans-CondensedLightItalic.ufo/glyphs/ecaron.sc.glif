@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecaron.sc" format="2">
-  <advance width="584.0"/>
-  <anchor x="170.375" y="0.0" name="bottom"/>
-  <anchor x="492.375" y="1525.0" name="top"/>
+  <advance width="584"/>
+  <anchor x="170" y="0" name="bottom"/>
+  <anchor x="492" y="1525" name="top"/>
   <outline>
     <component base="e.sc"/>
-    <component base="caroncomb.sc" xOffset="-131.5"/>
+    <component base="caroncomb.sc" xOffset="-131"/>
   </outline>
   <lib>
     <dict>

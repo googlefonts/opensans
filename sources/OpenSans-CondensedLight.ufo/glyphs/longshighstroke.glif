@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="longshighstroke" format="2">
-  <advance width="405.0"/>
+  <advance width="405"/>
   <unicode hex="1E9D"/>
-  <anchor x="202.375" y="0.0" name="bottom"/>
-  <anchor x="202.375" y="1567.0" name="top"/>
+  <anchor x="202" y="0" name="bottom"/>
+  <anchor x="202" y="1567" name="top"/>
   <outline>
     <contour>
-      <point x="0.7499999999999999" y="1096.625" type="line"/>
-      <point x="0.7499999999999999" y="1019.0" type="line"/>
-      <point x="414.25" y="1019.0" type="line"/>
-      <point x="414.25" y="1096.625" type="line"/>
+      <point x="1" y="1097" type="line"/>
+      <point x="1" y="1019" type="line"/>
+      <point x="414" y="1019" type="line"/>
+      <point x="414" y="1097" type="line"/>
     </contour>
-    <component base="longs" xOffset="12.5"/>
+    <component base="longs" xOffset="13"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedillacomb" format="2">
   <unicode hex="0327"/>
-  <anchor x="-1.6093750000000036" y="0.0" name="_bottom"/>
-  <anchor x="1.953124999999993" y="-492.0" name="bottom"/>
+  <anchor x="-2" y="0" name="_bottom"/>
+  <anchor x="2" y="-492" name="bottom"/>
   <outline>
-    <component base="cedilla" xOffset="-228.5625"/>
+    <component base="cedilla" xOffset="-229"/>
   </outline>
   <lib>
     <dict>

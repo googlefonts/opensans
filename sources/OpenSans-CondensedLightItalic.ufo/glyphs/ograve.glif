@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ograve" format="2">
-  <advance width="772.125"/>
+  <advance width="772"/>
   <unicode hex="00F2"/>
-  <anchor x="272.375" y="0.0" name="bottom"/>
-  <anchor x="604.375" y="1564.5" name="top"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="604" y="1565" name="top"/>
   <outline>
     <component base="o"/>
-    <component base="grave" xOffset="69.25"/>
+    <component base="grave" xOffset="69"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zdotaccent.sc" format="2">
-  <advance width="641.625"/>
-  <anchor x="321.625" y="0.0" name="bottom"/>
-  <anchor x="321.625" y="1528.375" name="top"/>
+  <advance width="642"/>
+  <anchor x="322" y="0" name="bottom"/>
+  <anchor x="322" y="1528" name="top"/>
   <outline>
     <component base="z.sc"/>
-    <component base="dotaccent" xOffset="169.0" yOffset="70.0"/>
+    <component base="dotaccent" xOffset="169" yOffset="70"/>
   </outline>
   <lib>
     <dict>

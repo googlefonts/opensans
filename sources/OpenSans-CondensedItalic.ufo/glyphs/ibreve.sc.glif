@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ibreve.sc" format="2">
-  <advance width="460.65625"/>
-  <anchor x="107.15625" y="0.0" name="bottom"/>
-  <anchor x="424.40625" y="1500.359375" name="top"/>
+  <advance width="461"/>
+  <anchor x="107" y="0" name="bottom"/>
+  <anchor x="424" y="1500" name="top"/>
   <outline>
     <component base="i.sc"/>
-    <component base="brevecomb.sc" xOffset="-209.671875"/>
+    <component base="brevecomb.sc" xOffset="-210"/>
   </outline>
   <lib>
     <dict>

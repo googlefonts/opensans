@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="squarebelowcomb" format="2">
   <unicode hex="033B"/>
-  <anchor x="0.7499999999999999" y="0.0" name="_bottom"/>
-  <anchor x="2.25" y="-465.0" name="bottom"/>
+  <anchor x="1" y="0" name="_bottom"/>
+  <anchor x="2" y="-465" name="bottom"/>
   <outline>
     <contour>
-      <point x="295.0" y="-465.0" type="line"/>
-      <point x="295.0" y="-59.0" type="line"/>
-      <point x="-295.0" y="-59.0" type="line"/>
-      <point x="-295.0" y="-465.0" type="line"/>
+      <point x="295" y="-465" type="line"/>
+      <point x="295" y="-59" type="line"/>
+      <point x="-295" y="-59" type="line"/>
+      <point x="-295" y="-465" type="line"/>
     </contour>
     <contour>
-      <point x="-227.375" y="-398.625" type="line"/>
-      <point x="-227.375" y="-126.375" type="line"/>
-      <point x="227.375" y="-126.375" type="line"/>
-      <point x="227.375" y="-398.625" type="line"/>
+      <point x="-227" y="-399" type="line"/>
+      <point x="-227" y="-126" type="line"/>
+      <point x="227" y="-126" type="line"/>
+      <point x="227" y="-399" type="line"/>
     </contour>
   </outline>
   <lib>

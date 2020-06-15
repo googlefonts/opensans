@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslashacute" format="2">
-  <advance width="824.046875"/>
+  <advance width="824"/>
   <unicode hex="01FF"/>
-  <anchor x="298.078125" y="0.0" name="bottom"/>
-  <anchor x="630.078125" y="1566.34375" name="top"/>
+  <anchor x="298" y="0" name="bottom"/>
+  <anchor x="630" y="1566" name="top"/>
   <outline>
     <component base="oslash"/>
-    <component base="acute" xOffset="206.34375" yOffset="-2.656250000000001"/>
+    <component base="acute" xOffset="206" yOffset="-3"/>
   </outline>
   <lib>
     <dict>
