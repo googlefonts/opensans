@@ -8,8 +8,8 @@ echo $(pwd)
 
 # glyphs2ufo --no-preserve-glyphsapp-metadata -m NotoSans/ -n ./ NotoSans/OpenSans-MM.glyphs
 # glyphs2ufo --no-preserve-glyphsapp-metadata -m NotoSans/ -n ./ NotoSans/OpenSans-ItalicMM.glyphs
-fontmake -o ufo -i -m NotoSans/OpenSans-Roman.designspace
-fontmake -o ufo -i -m NotoSans/OpenSans-Italic.designspace
+fontmake --round-instances -o ufo -i -m NotoSans/OpenSans-Roman.designspace
+fontmake --round-instances -o ufo -i -m NotoSans/OpenSans-Italic.designspace
 # Not using Thin for now
 rm -rf OpenSans-*Thin*.ufo
 
