@@ -12,6 +12,8 @@ fontmake --round-instances -o ufo -i -m NotoSans/OpenSans-Roman.designspace
 fontmake --round-instances -o ufo -i -m NotoSans/OpenSans-Italic.designspace
 # Not using Thin for now
 rm -rf OpenSans-*Thin*.ufo
+# Not using SemiBold
+rm -rf OpenSans-*SemiBold*.ufo
 
 # echo "Generating Static fonts"
 # mkdir -p ../fonts
