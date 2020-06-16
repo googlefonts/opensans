@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edotaccent" format="2">
-  <advance width="1020.25"/>
+  <advance width="1020"/>
   <unicode hex="0117"/>
-  <anchor x="453.125" y="0.0" name="bottom"/>
-  <anchor x="727.828125" y="1503.71875" name="top"/>
+  <anchor x="453" y="0" name="bottom"/>
+  <anchor x="728" y="1504" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="dotaccent" xOffset="332.265625"/>
+    <component base="dotaccent" xOffset="332"/>
   </outline>
   <lib>
     <dict>

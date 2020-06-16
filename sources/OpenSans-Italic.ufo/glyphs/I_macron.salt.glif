@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Imacron.salt" format="2">
-  <advance width="653.828125"/>
-  <anchor x="210.296875" y="0.0" name="bottom"/>
-  <anchor x="581.875" y="1744.328125" name="top"/>
+  <advance width="654"/>
+  <anchor x="210" y="0" name="bottom"/>
+  <anchor x="582" y="1744" name="top"/>
   <outline>
     <component base="I.salt"/>
-    <component base="macron" xOffset="40.8125" yOffset="366.75"/>
+    <component base="macron" xOffset="41" yOffset="367"/>
   </outline>
   <lib>
     <dict>

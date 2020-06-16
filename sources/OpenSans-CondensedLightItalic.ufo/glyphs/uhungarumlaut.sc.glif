@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhungarumlaut.sc" format="2">
-  <advance width="739.625"/>
-  <anchor x="248.5" y="0.0" name="bottom"/>
-  <anchor x="574.75" y="1532.0" name="top"/>
+  <advance width="740"/>
+  <anchor x="249" y="0" name="bottom"/>
+  <anchor x="575" y="1532" name="top"/>
   <outline>
     <component base="u.sc"/>
-    <component base="hungarumlautcomb.sc" xOffset="11.374999999999986" yOffset="-3.552713678800501e-15"/>
+    <component base="hungarumlautcomb.sc" xOffset="11"/>
   </outline>
   <lib>
     <dict>

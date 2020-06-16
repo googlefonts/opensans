@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wdieresis.sc" format="2">
-  <advance width="1110.390625"/>
-  <anchor x="431.46875" y="0.0" name="bottom"/>
-  <anchor x="747.9375" y="1487.890625" name="top"/>
+  <advance width="1110"/>
+  <anchor x="431" y="0" name="bottom"/>
+  <anchor x="748" y="1488" name="top"/>
   <outline>
     <component base="w.sc"/>
-    <component base="dieresiscomb.sc" xOffset="121.46875000000001"/>
+    <component base="dieresiscomb.sc" xOffset="121"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohungarumlaut" format="2">
-  <advance width="823.171875"/>
+  <advance width="823"/>
   <unicode hex="0151"/>
-  <anchor x="297.640625" y="0.0" name="bottom"/>
-  <anchor x="629.859375" y="1569.0" name="top"/>
+  <anchor x="298" y="0" name="bottom"/>
+  <anchor x="630" y="1569" name="top"/>
   <outline>
     <component base="o"/>
-    <component base="hungarumlaut" xOffset="102.296875"/>
+    <component base="hungarumlaut" xOffset="102"/>
   </outline>
   <lib>
     <dict>

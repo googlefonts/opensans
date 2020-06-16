@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldot" format="2">
-  <advance width="645.0"/>
+  <advance width="645"/>
   <unicode hex="013F"/>
-  <anchor x="207.75" y="0.0" name="bottom"/>
-  <anchor x="519.125" y="1462.0" name="top"/>
+  <anchor x="208" y="0" name="bottom"/>
+  <anchor x="519" y="1462" name="top"/>
   <outline>
     <component base="L"/>
-    <component base="dotaccent" xOffset="189.375" yOffset="-639.25"/>
+    <component base="dotaccent" xOffset="189" yOffset="-639"/>
   </outline>
   <lib>
     <dict>

@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Delta" format="2">
-  <advance width="803.0625"/>
+  <advance width="803"/>
   <unicode hex="0394"/>
-  <anchor x="288.03125" y="0.0" name="bottom"/>
-  <anchor x="597.25" y="1462.0" name="top"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="597" y="1462" name="top"/>
   <outline>
     <contour>
-      <point x="-87.53125" y="0.0" type="line"/>
-      <point x="676.984375" y="0.0" type="line"/>
-      <point x="696.890625" y="109.78125" type="line"/>
-      <point x="683.53125" y="1465.5625" type="line"/>
-      <point x="494.1875" y="1465.5625" type="line"/>
-      <point x="-84.65625" y="111.5625" type="line"/>
+      <point x="-88" y="0" type="line"/>
+      <point x="677" y="0" type="line"/>
+      <point x="697" y="110" type="line"/>
+      <point x="684" y="1466" type="line"/>
+      <point x="494" y="1466" type="line"/>
+      <point x="-85" y="112" type="line"/>
     </contour>
     <contour>
-      <point x="85.23437499999997" y="140.953125" type="line"/>
-      <point x="455.140625" y="1042.1875" type="line" smooth="yes"/>
-      <point x="500.171875" y="1149.9375"/>
-      <point x="533.390625" y="1251.75"/>
-      <point x="551.03125" y="1309.046875" type="curve"/>
-      <point x="548.921875" y="1201.171875"/>
-      <point x="547.140625" y="1131.03125"/>
-      <point x="547.140625" y="1049.6875" type="curve" smooth="yes"/>
-      <point x="543.359375" y="140.953125" type="line"/>
+      <point x="85" y="141" type="line"/>
+      <point x="455" y="1042" type="line" smooth="yes"/>
+      <point x="500" y="1150"/>
+      <point x="533" y="1252"/>
+      <point x="551" y="1309" type="curve"/>
+      <point x="549" y="1201"/>
+      <point x="547" y="1131"/>
+      <point x="547" y="1050" type="curve" smooth="yes"/>
+      <point x="543" y="141" type="line"/>
     </contour>
   </outline>
   <lib>

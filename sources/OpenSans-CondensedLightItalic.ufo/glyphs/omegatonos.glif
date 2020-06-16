@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omegatonos" format="2">
-  <advance width="890.625"/>
+  <advance width="891"/>
   <unicode hex="03CE"/>
-  <anchor x="332.0" y="0.0" name="bottom"/>
-  <anchor x="673.75" y="1610.125" name="top"/>
+  <anchor x="332" y="0" name="bottom"/>
+  <anchor x="674" y="1610" name="top"/>
   <outline>
     <component base="omega"/>
-    <component base="tonos" xOffset="-19.500000000000007"/>
+    <component base="tonos" xOffset="-20"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcaron.sc" format="2">
-  <advance width="874.25"/>
-  <anchor x="437.125" y="0.0" name="bottom"/>
-  <anchor x="437.125" y="1632.0" name="top"/>
+  <advance width="874"/>
+  <anchor x="437" y="0" name="bottom"/>
+  <anchor x="437" y="1632" name="top"/>
   <outline>
     <component base="t.sc"/>
-    <component base="caron" xOffset="58.375" yOffset="67.125"/>
+    <component base="caron" xOffset="58" yOffset="67"/>
   </outline>
   <lib>
     <dict>

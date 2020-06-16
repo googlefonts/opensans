@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Aring" format="2">
-  <advance width="1295.109375"/>
+  <advance width="1295"/>
   <unicode hex="00C5"/>
-  <anchor x="656.125" y="0.0" name="bottom"/>
-  <anchor x="644.546875" y="1802.046875" name="top"/>
+  <anchor x="656" y="0" name="bottom"/>
+  <anchor x="645" y="1802" name="top"/>
   <outline>
     <component base="A"/>
-    <component base="ring" xOffset="340.171875" yOffset="130.359375"/>
+    <component base="ring" xOffset="340" yOffset="130"/>
   </outline>
   <lib>
     <dict>

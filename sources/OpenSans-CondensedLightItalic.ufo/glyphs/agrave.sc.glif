@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="agrave.sc" format="2">
-  <advance width="603.0"/>
-  <anchor x="178.5" y="0.0" name="bottom"/>
-  <anchor x="501.5" y="1525.0" name="top"/>
+  <advance width="603"/>
+  <anchor x="179" y="0" name="bottom"/>
+  <anchor x="502" y="1525" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="gravecomb.sc" xOffset="-224.0"/>
+    <component base="gravecomb.sc" xOffset="-224"/>
   </outline>
   <lib>
     <dict>

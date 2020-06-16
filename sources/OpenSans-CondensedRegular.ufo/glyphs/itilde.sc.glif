@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="itilde.sc" format="2">
-  <advance width="447.03125"/>
-  <anchor x="223.234375" y="0.0" name="bottom"/>
-  <anchor x="223.234375" y="1552.03125" name="top"/>
+  <advance width="447"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="223" y="1552" name="top"/>
   <outline>
     <component base="i.sc"/>
-    <component base="tilde" xOffset="-157.71875" yOffset="65.953125"/>
+    <component base="tilde" xOffset="-158" yOffset="66"/>
   </outline>
   <lib>
     <dict>

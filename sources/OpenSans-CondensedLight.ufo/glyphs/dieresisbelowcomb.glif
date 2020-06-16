@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresisbelowcomb" format="2">
   <unicode hex="0324"/>
-  <anchor x="-0.5000000000000002" y="0.0" name="_bottom"/>
-  <anchor x="0.9999999999999994" y="-355.125" name="bottom"/>
+  <anchor x="-1" y="0" name="_bottom"/>
+  <anchor x="1" y="-355" name="bottom"/>
   <outline>
-    <component base="dieresis" xOffset="-538.75" yOffset="-1635.875"/>
+    <component base="dieresis" xOffset="-539" yOffset="-1636"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronbreve" format="2">
   <unicode hex="1DCC"/>
-  <anchor x="-288.0" y="1082.34375" name="_top"/>
-  <anchor x="-208.109375" y="1506.546875" name="top"/>
+  <anchor x="-288" y="1082" name="_top"/>
+  <anchor x="-208" y="1507" name="top"/>
   <outline>
-    <component base="macron" xOffset="-900.5" yOffset="141.984375"/>
-    <component base="breve" xOffset="-525.59375"/>
+    <component base="macron" xOffset="-900" yOffset="142"/>
+    <component base="breve" xOffset="-526"/>
   </outline>
   <lib>
     <dict>

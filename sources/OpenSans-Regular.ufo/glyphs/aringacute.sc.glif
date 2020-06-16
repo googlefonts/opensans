@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aringacute.sc" format="2">
-  <advance width="1075.203125"/>
-  <anchor x="533.78125" y="0.0" name="bottom"/>
-  <anchor x="533.78125" y="1912.078125" name="top"/>
+  <advance width="1075"/>
+  <anchor x="534" y="0" name="bottom"/>
+  <anchor x="534" y="1912" name="top"/>
   <outline>
     <component base="a.sc"/>
-    <component base="ringcomb.sc" xOffset="-33.70312500000001" yOffset="-150.3125"/>
-    <component base="acutecomb.sc" xOffset="35.85937499999999" yOffset="303.390625"/>
+    <component base="ringcomb.sc" xOffset="-34" yOffset="-150"/>
+    <component base="acutecomb.sc" xOffset="36" yOffset="303"/>
   </outline>
   <lib>
     <dict>

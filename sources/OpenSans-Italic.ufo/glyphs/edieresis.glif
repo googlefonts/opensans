@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="edieresis" format="2">
-  <advance width="1020.25"/>
+  <advance width="1020"/>
   <unicode hex="00EB"/>
-  <anchor x="453.125" y="0.0" name="bottom"/>
-  <anchor x="723.609375" y="1490.296875" name="top"/>
+  <anchor x="453" y="0" name="bottom"/>
+  <anchor x="724" y="1490" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="dieresis" xOffset="-41.01562500000001"/>
+    <component base="dieresis" xOffset="-41"/>
   </outline>
   <lib>
     <dict>

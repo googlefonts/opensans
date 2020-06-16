@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ibreve.salt" format="2">
-  <advance width="498.125"/>
-  <anchor x="249.75" y="0.0" name="bottom"/>
-  <anchor x="249.0" y="1858.125" name="top"/>
+  <advance width="498"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="249" y="1858" name="top"/>
   <outline>
     <component base="I.salt"/>
-    <component base="breve" xOffset="-56.25" yOffset="375.125"/>
+    <component base="breve" xOffset="-56" yOffset="375"/>
   </outline>
   <lib>
     <dict>

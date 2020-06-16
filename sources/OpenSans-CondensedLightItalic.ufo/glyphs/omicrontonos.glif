@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omicrontonos" format="2">
-  <advance width="772.125"/>
+  <advance width="772"/>
   <unicode hex="03CC"/>
-  <anchor x="272.375" y="0.0" name="bottom"/>
-  <anchor x="614.125" y="1610.125" name="top"/>
+  <anchor x="272" y="0" name="bottom"/>
+  <anchor x="614" y="1610" name="top"/>
   <outline>
     <component base="o"/>
-    <component base="tonos" xOffset="-86.25"/>
+    <component base="tonos" xOffset="-86"/>
   </outline>
   <lib>
     <dict>

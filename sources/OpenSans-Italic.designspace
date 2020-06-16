@@ -10,7 +10,7 @@
     </axis>
     <axis tag="wdth" name="Width" minimum="75" maximum="100" default="100"/>
   </axes>
-  <rules>
+  <rules processing="last">
     <rule name="bracket_redo">
       <conditionset>
         <condition minimum="160" name="Weight" />

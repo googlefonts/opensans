@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ringhalfleftbelowcomb" format="2">
   <unicode hex="031C"/>
-  <anchor x="3.124999999999999" y="0.0" name="_bottom"/>
-  <anchor x="6.687499999999998" y="-463.40625" name="bottom"/>
+  <anchor x="3" y="0" name="_bottom"/>
+  <anchor x="7" y="-463" name="bottom"/>
   <outline>
     <contour>
-      <point x="114.34375" y="-463.40625" type="curve"/>
-      <point x="114.34375" y="-365.40625" type="line"/>
-      <point x="35.64062499999999" y="-365.40625"/>
-      <point x="-7.875000000000014" y="-321.78125"/>
-      <point x="-7.875000000000014" y="-246.40625" type="curve" smooth="yes"/>
-      <point x="-7.875000000000014" y="-170.25"/>
-      <point x="44.29687499999999" y="-126.734375"/>
-      <point x="114.34375" y="-126.734375" type="curve"/>
-      <point x="114.34375" y="-31.406250000000004" type="line"/>
-      <point x="-18.765625" y="-31.406250000000004"/>
-      <point x="-109.65625" y="-111.40625"/>
-      <point x="-109.65625" y="-246.40625" type="curve" smooth="yes"/>
-      <point x="-109.65625" y="-383.40625"/>
-      <point x="-18.765625" y="-463.40625"/>
+      <point x="114" y="-463" type="curve"/>
+      <point x="114" y="-365" type="line"/>
+      <point x="36" y="-365"/>
+      <point x="-8" y="-322"/>
+      <point x="-8" y="-246" type="curve" smooth="yes"/>
+      <point x="-8" y="-170"/>
+      <point x="44" y="-127"/>
+      <point x="114" y="-127" type="curve"/>
+      <point x="114" y="-31" type="line"/>
+      <point x="-19" y="-31"/>
+      <point x="-110" y="-111"/>
+      <point x="-110" y="-246" type="curve" smooth="yes"/>
+      <point x="-110" y="-383"/>
+      <point x="-19" y="-463"/>
     </contour>
   </outline>
   <lib>

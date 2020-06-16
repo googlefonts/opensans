@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Itilde.salt" format="2">
-  <advance width="498.125"/>
-  <anchor x="249.75" y="0.0" name="bottom"/>
-  <anchor x="249.0" y="1838.0" name="top"/>
+  <advance width="498"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="249" y="1838" name="top"/>
   <outline>
     <component base="I.salt"/>
-    <component base="tilde" xOffset="-114.125" yOffset="375.125"/>
+    <component base="tilde" xOffset="-114" yOffset="375"/>
   </outline>
   <lib>
     <dict>

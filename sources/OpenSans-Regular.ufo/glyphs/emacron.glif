@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emacron" format="2">
-  <advance width="1149.640625"/>
+  <advance width="1150"/>
   <unicode hex="0113"/>
-  <anchor x="609.109375" y="0.0" name="bottom"/>
-  <anchor x="580.609375" y="1377.359375" name="top"/>
+  <anchor x="609" y="0" name="bottom"/>
+  <anchor x="581" y="1377" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="macron" xOffset="200.5"/>
+    <component base="macron" xOffset="201"/>
   </outline>
   <lib>
     <dict>
