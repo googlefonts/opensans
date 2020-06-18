@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
+  <advance width="1288"/>
+  <unicode hex="00BC"/>
+  <outline>
+    <contour>
+      <point x="266" y="0" type="line"/>
+      <point x="324" y="0" type="line"/>
+      <point x="1042" y="1462" type="line"/>
+      <point x="985" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="274" y="586" type="line"/>
+      <point x="326" y="586" type="line"/>
+      <point x="326" y="1462" type="line"/>
+      <point x="289" y="1462" type="line"/>
+      <point x="51" y="1303" type="line"/>
+      <point x="76" y="1266" type="line"/>
+      <point x="221" y="1360" type="line" smooth="yes"/>
+      <point x="236" y="1370"/>
+      <point x="256" y="1382"/>
+      <point x="281" y="1403" type="curve"/>
+      <point x="276" y="1354"/>
+      <point x="274" y="1272"/>
+      <point x="274" y="1212" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1090" y="0" type="line"/>
+      <point x="1139" y="0" type="line"/>
+      <point x="1139" y="242" type="line"/>
+      <point x="1262" y="242" type="line"/>
+      <point x="1262" y="289" type="line"/>
+      <point x="1139" y="289" type="line"/>
+      <point x="1139" y="883" type="line"/>
+      <point x="1100" y="883" type="line"/>
+      <point x="756" y="279" type="line"/>
+      <point x="756" y="242" type="line"/>
+      <point x="1090" y="242" type="line"/>
+    </contour>
+    <contour>
+      <point x="813" y="289" type="line"/>
+      <point x="1051" y="709" type="line" smooth="yes"/>
+      <point x="1069" y="741"/>
+      <point x="1079" y="762"/>
+      <point x="1090" y="786" type="curve"/>
+      <point x="1090" y="758"/>
+      <point x="1090" y="741"/>
+      <point x="1090" y="684" type="curve" smooth="yes"/>
+      <point x="1090" y="289" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>foursuperior</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Fraction</string>
+    </dict>
+  </lib>
+</glyph>
