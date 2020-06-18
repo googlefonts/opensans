@@ -6,6 +6,349 @@
     <integer>2</integer>
     <key>GSOffsetVertical</key>
     <integer>2</integer>
+    <key>com.github.googlei18n.ufo2ft.filters</key>
+    <array>
+      <dict>
+        <key>include</key>
+        <array>
+          <string>Gcomb</string>
+          <string>Lcomb</string>
+          <string>Mcomb</string>
+          <string>Ncomb</string>
+          <string>Ohminverted</string>
+          <string>Rcomb</string>
+          <string>RotatedQ</string>
+          <string>TurnedF</string>
+          <string>Turneda</string>
+          <string>Vmod</string>
+          <string>acomb</string>
+          <string>aecomb</string>
+          <string>ampersandturned</string>
+          <string>aocomb</string>
+          <string>avcomb</string>
+          <string>ccedillacomb</string>
+          <string>ccomb</string>
+          <string>dcomb</string>
+          <string>ecomb</string>
+          <string>ethcomb</string>
+          <string>gcomb</string>
+          <string>gcomb.salt</string>
+          <string>hcomb</string>
+          <string>hinferior</string>
+          <string>icomb</string>
+          <string>imod</string>
+          <string>insulardcomb</string>
+          <string>invertedinterrobang</string>
+          <string>invertedundertie</string>
+          <string>kcomb</string>
+          <string>kinferior</string>
+          <string>kturned</string>
+          <string>lcomb</string>
+          <string>linferior</string>
+          <string>longscomb</string>
+          <string>mcomb</string>
+          <string>minferior</string>
+          <string>ncomb</string>
+          <string>ninferior</string>
+          <string>nsuperior</string>
+          <string>ocomb</string>
+          <string>pinferior</string>
+          <string>questiondown</string>
+          <string>rbelowcomb</string>
+          <string>rcomb</string>
+          <string>reversedSansSerifL</string>
+          <string>reversedparagraph</string>
+          <string>reversedquestionmark</string>
+          <string>reversedsemicolon</string>
+          <string>rrotundacomb</string>
+          <string>scomb</string>
+          <string>sinferior</string>
+          <string>subscriptj</string>
+          <string>tcomb</string>
+          <string>tinferior</string>
+          <string>tturned</string>
+          <string>turnedSansSerifG</string>
+          <string>turnedSansSerifL</string>
+          <string>turnedSansSerifY</string>
+          <string>turnedcomma</string>
+          <string>turneddagger</string>
+          <string>turnediota</string>
+          <string>turnedsemicolon</string>
+          <string>ucomb</string>
+          <string>uni018D</string>
+          <string>uni0250</string>
+          <string>uni0252</string>
+          <string>uni0258</string>
+          <string>uni0265</string>
+          <string>uni026F</string>
+          <string>uni0279</string>
+          <string>uni0281</string>
+          <string>uni028C</string>
+          <string>uni028D</string>
+          <string>uni028E</string>
+          <string>uni0295</string>
+          <string>uni02B0</string>
+          <string>uni02B1</string>
+          <string>uni02B2</string>
+          <string>uni02B2dotless</string>
+          <string>uni02B3</string>
+          <string>uni02B4</string>
+          <string>uni02B5</string>
+          <string>uni02B6</string>
+          <string>uni02B7</string>
+          <string>uni02B8</string>
+          <string>uni02C1</string>
+          <string>uni02C2</string>
+          <string>uni02C3</string>
+          <string>uni02C5</string>
+          <string>uni02E0</string>
+          <string>uni02E1</string>
+          <string>uni02E2</string>
+          <string>uni02E3</string>
+          <string>uni02E4</string>
+          <string>uni02F5</string>
+          <string>uni1D11</string>
+          <string>uni1D12</string>
+          <string>uni1D13</string>
+          <string>uni1D14</string>
+          <string>uni1D1D</string>
+          <string>uni1D1E</string>
+          <string>uni1D1F</string>
+          <string>uni1D20</string>
+          <string>uni1D2C</string>
+          <string>uni1D2D</string>
+          <string>uni1D2E</string>
+          <string>uni1D2F</string>
+          <string>uni1D30</string>
+          <string>uni1D31</string>
+          <string>uni1D32</string>
+          <string>uni1D33</string>
+          <string>uni1D34</string>
+          <string>uni1D35</string>
+          <string>uni1D35.salt</string>
+          <string>uni1D36</string>
+          <string>uni1D36.salt</string>
+          <string>uni1D37</string>
+          <string>uni1D38</string>
+          <string>uni1D39</string>
+          <string>uni1D3A</string>
+          <string>uni1D3C</string>
+          <string>uni1D3D</string>
+          <string>uni1D3E</string>
+          <string>uni1D3F</string>
+          <string>uni1D40</string>
+          <string>uni1D41</string>
+          <string>uni1D42</string>
+          <string>uni1D43</string>
+          <string>uni1D44</string>
+          <string>uni1D45</string>
+          <string>uni1D46</string>
+          <string>uni1D47</string>
+          <string>uni1D48</string>
+          <string>uni1D49</string>
+          <string>uni1D4A</string>
+          <string>uni1D4B</string>
+          <string>uni1D4C</string>
+          <string>uni1D4D</string>
+          <string>uni1D4E</string>
+          <string>uni1D4F</string>
+          <string>uni1D50</string>
+          <string>uni1D51</string>
+          <string>uni1D52</string>
+          <string>uni1D53</string>
+          <string>uni1D54</string>
+          <string>uni1D55</string>
+          <string>uni1D56</string>
+          <string>uni1D57</string>
+          <string>uni1D58</string>
+          <string>uni1D59</string>
+          <string>uni1D5A</string>
+          <string>uni1D5B</string>
+          <string>uni1D5C</string>
+          <string>uni1D5D</string>
+          <string>uni1D5E</string>
+          <string>uni1D5F</string>
+          <string>uni1D60</string>
+          <string>uni1D61</string>
+          <string>uni1D62</string>
+          <string>uni1D62dotless</string>
+          <string>uni1D63</string>
+          <string>uni1D64</string>
+          <string>uni1D65</string>
+          <string>uni1D66</string>
+          <string>uni1D67</string>
+          <string>uni1D68</string>
+          <string>uni1D69</string>
+          <string>uni1D6A</string>
+          <string>uni1D77</string>
+          <string>uni1D77.salt</string>
+          <string>uni1D78</string>
+          <string>uni1D9B</string>
+          <string>uni1D9C</string>
+          <string>uni1D9D</string>
+          <string>uni1D9E</string>
+          <string>uni1D9F</string>
+          <string>uni1DA0</string>
+          <string>uni1DA1</string>
+          <string>uni1DA2</string>
+          <string>uni1DA3</string>
+          <string>uni1DA4</string>
+          <string>uni1DA5</string>
+          <string>uni1DA6</string>
+          <string>uni1DA7</string>
+          <string>uni1DA8</string>
+          <string>uni1DA8dotless</string>
+          <string>uni1DA9</string>
+          <string>uni1DAA</string>
+          <string>uni1DAB</string>
+          <string>uni1DAC</string>
+          <string>uni1DAD</string>
+          <string>uni1DAE</string>
+          <string>uni1DAF</string>
+          <string>uni1DB0</string>
+          <string>uni1DB1</string>
+          <string>uni1DB2</string>
+          <string>uni1DB3</string>
+          <string>uni1DB4</string>
+          <string>uni1DB5</string>
+          <string>uni1DB6</string>
+          <string>uni1DB7</string>
+          <string>uni1DB8</string>
+          <string>uni1DB9</string>
+          <string>uni1DBA</string>
+          <string>uni1DBB</string>
+          <string>uni1DBC</string>
+          <string>uni1DBD</string>
+          <string>uni1DBE</string>
+          <string>uni1DBF</string>
+          <string>uni1DE7</string>
+          <string>uni1DE8</string>
+          <string>uni1DE9</string>
+          <string>uni1DEA</string>
+          <string>uni1DEB</string>
+          <string>uni1DEC</string>
+          <string>uni1DED</string>
+          <string>uni1DED</string>
+          <string>uni1DEE</string>
+          <string>uni1DEF</string>
+          <string>uni1DF0</string>
+          <string>uni1DF0</string>
+          <string>uni1DF1</string>
+          <string>uni1DF2</string>
+          <string>uni1DF3</string>
+          <string>uni1DF4</string>
+          <string>uni2090</string>
+          <string>uni2091</string>
+          <string>uni2092</string>
+          <string>uni2093</string>
+          <string>uni2094</string>
+          <string>uni2C70</string>
+          <string>uni2DE0</string>
+          <string>uni2DE1</string>
+          <string>uni2DE2</string>
+          <string>uni2DE3</string>
+          <string>uni2DE4</string>
+          <string>uni2DE5</string>
+          <string>uni2DE6</string>
+          <string>uni2DE7</string>
+          <string>uni2DE8</string>
+          <string>uni2DE9</string>
+          <string>uni2DEA</string>
+          <string>uni2DEB</string>
+          <string>uni2DEC</string>
+          <string>uni2DED</string>
+          <string>uni2DEE</string>
+          <string>uni2DEF</string>
+          <string>uni2DF0</string>
+          <string>uni2DF1</string>
+          <string>uni2DF2</string>
+          <string>uni2DF3</string>
+          <string>uni2DF4</string>
+          <string>uni2DF6</string>
+          <string>uni2DF7</string>
+          <string>uni2DF8</string>
+          <string>uni2DF9</string>
+          <string>uni2DFA</string>
+          <string>uni2DFB</string>
+          <string>uni2DFC</string>
+          <string>uni2DFD</string>
+          <string>uni2DFE</string>
+          <string>uni2DFF</string>
+          <string>uni2E41</string>
+          <string>uni2E42</string>
+          <string>uniA644</string>
+          <string>uniA645</string>
+          <string>uniA655</string>
+          <string>uniA660</string>
+          <string>uniA661</string>
+          <string>uniA66E</string>
+          <string>uniA66E</string>
+          <string>uniA66E</string>
+          <string>uniA66E</string>
+          <string>uniA66E</string>
+          <string>uniA66E</string>
+          <string>uniA66E</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA670</string>
+          <string>uniA671</string>
+          <string>uniA671</string>
+          <string>uniA674</string>
+          <string>uniA675</string>
+          <string>uniA676</string>
+          <string>uniA677</string>
+          <string>uniA678</string>
+          <string>uniA679</string>
+          <string>uniA67A</string>
+          <string>uniA67B</string>
+          <string>uniA69C</string>
+          <string>uniA69D</string>
+          <string>uniA69F</string>
+          <string>uniA706</string>
+          <string>uniA712</string>
+          <string>uniA713</string>
+          <string>uniA715</string>
+          <string>uniA770</string>
+          <string>uniA77E</string>
+          <string>uniA77F</string>
+          <string>uniA780</string>
+          <string>uniA7B0</string>
+          <string>uniA7B1</string>
+          <string>uniA7F7</string>
+          <string>uniA7F7.salt</string>
+          <string>uniA7F8</string>
+          <string>uniA7F9</string>
+          <string>uniA7FB</string>
+          <string>uniA7FC</string>
+          <string>uniA7FD</string>
+          <string>uniAB40</string>
+          <string>uniAB41</string>
+          <string>uniAB42</string>
+          <string>uniAB51</string>
+          <string>uniAB5B</string>
+          <string>uniAB5C</string>
+          <string>uniAB5D</string>
+          <string>uniAB5E</string>
+          <string>uniAB5F</string>
+          <string>uniAB62</string>
+          <string>uniFE27</string>
+          <string>uniFE28</string>
+          <string>uniFE2A</string>
+          <string>vcomb</string>
+          <string>xcomb</string>
+          <string>zcomb</string>
+        </array>
+        <key>name</key>
+        <string>decomposeComponents</string>
+        <key>pre</key>
+        <true/>
+      </dict>
+    </array>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1339</string>
     <key>com.schriftgestaltung.customName</key>
@@ -71,7 +414,7 @@
       </array>
       <array>
         <string>Width</string>
-        <real>70.0</real>
+        <real>75.0</real>
       </array>
     </array>
     <key>public.glyphOrder</key>
@@ -3099,6 +3442,71 @@
       <string>uniA7FF</string>
       <string>uniA7F7.salt</string>
       <string>uniA66E</string>
+      <string>alef-hb</string>
+      <string>bet-hb</string>
+      <string>gimel-hb</string>
+      <string>dalet-hb</string>
+      <string>he-hb</string>
+      <string>vav-hb</string>
+      <string>zayin-hb</string>
+      <string>het-hb</string>
+      <string>tet-hb</string>
+      <string>yod-hb</string>
+      <string>finalkaf-hb</string>
+      <string>kaf-hb</string>
+      <string>lamed-hb</string>
+      <string>finalmem-hb</string>
+      <string>mem-hb</string>
+      <string>finalnun-hb</string>
+      <string>nun-hb</string>
+      <string>samekh-hb</string>
+      <string>ayin-hb</string>
+      <string>finalpe-hb</string>
+      <string>pe-hb</string>
+      <string>finaltsadi-hb</string>
+      <string>tsadi-hb</string>
+      <string>qof-hb</string>
+      <string>resh-hb</string>
+      <string>shin-hb</string>
+      <string>tav-hb</string>
+      <string>shinshindot-hb</string>
+      <string>shinsindot-hb</string>
+      <string>shindageshshindot-hb</string>
+      <string>shindageshsindot-hb</string>
+      <string>alefpatah-hb</string>
+      <string>alefqamats-hb</string>
+      <string>alefdagesh-hb</string>
+      <string>betdagesh-hb</string>
+      <string>gimeldagesh-hb</string>
+      <string>daletdagesh-hb</string>
+      <string>hedagesh-hb</string>
+      <string>vavdagesh-hb</string>
+      <string>zayindagesh-hb</string>
+      <string>tetdagesh-hb</string>
+      <string>yoddagesh-hb</string>
+      <string>finalkafdagesh-hb</string>
+      <string>kafdagesh-hb</string>
+      <string>lameddagesh-hb</string>
+      <string>memdagesh-hb</string>
+      <string>nundagesh-hb</string>
+      <string>samekhdagesh-hb</string>
+      <string>finalpedagesh-hb</string>
+      <string>pedagesh-hb</string>
+      <string>tsadidagesh-hb</string>
+      <string>qofdagesh-hb</string>
+      <string>reshdagesh-hb</string>
+      <string>shindagesh-hb</string>
+      <string>tavdagesh-hb</string>
+      <string>vavholam-hb</string>
+      <string>shindageshshindot-hb.rvrn</string>
+      <string>shindageshsindot-hb.rvrn</string>
+      <string>alefdagesh-hb.rvrn</string>
+      <string>hedagesh-hb.rvrn</string>
+      <string>finalpedagesh-hb.rvrn</string>
+      <string>pedagesh-hb.rvrn</string>
+      <string>qofdagesh-hb.rvrn</string>
+      <string>shindagesh-hb.rvrn</string>
+      <string>tavdagesh-hb.rvrn</string>
       <string>gravecomb</string>
       <string>acutecomb</string>
       <string>circumflexcomb</string>
@@ -3358,6 +3766,24 @@
       <string>uniA69F</string>
       <string>uniFE2E</string>
       <string>uniFE2F</string>
+      <string>sheva-hb</string>
+      <string>hatafsegol-hb</string>
+      <string>hatafpatah-hb</string>
+      <string>hatafqamats-hb</string>
+      <string>hiriq-hb</string>
+      <string>tsere-hb</string>
+      <string>segol-hb</string>
+      <string>patah-hb</string>
+      <string>qamats-hb</string>
+      <string>holam-hb</string>
+      <string>holamhaser-hb</string>
+      <string>qubuts-hb</string>
+      <string>dagesh-hb</string>
+      <string>siluqleft-hb</string>
+      <string>shindot-hb</string>
+      <string>sindot-hb</string>
+      <string>qamatsqatan-hb</string>
+      <string>dagesh-hb.small</string>
       <string>uni1ABE</string>
       <string>uniA670</string>
       <string>uniA671</string>
@@ -3443,6 +3869,7 @@
       <string>twoemdash</string>
       <string>threeemdash</string>
       <string>uni2E40</string>
+      <string>maqaf-hb</string>
       <string>bracketleftwithquill</string>
       <string>parenleftsuperior</string>
       <string>parenleftinferior</string>
@@ -4107,6 +4534,16 @@
       <string>uni2113</string>
       <key>afii61352</key>
       <string>uni2116</string>
+      <key>alef-hb</key>
+      <string>uni05D0</string>
+      <key>alefdagesh-hb</key>
+      <string>uniFB30</string>
+      <key>alefdagesh-hb.rvrn</key>
+      <string>uniFB30.rvrn</string>
+      <key>alefpatah-hb</key>
+      <string>uniFB2E</string>
+      <key>alefqamats-hb</key>
+      <string>uniFB2F</string>
       <key>alephsymbol</key>
       <string>uni2135</string>
       <key>almostequaltoabovecomb</key>
@@ -4143,6 +4580,12 @@
       <string>uni2042</string>
       <key>avcomb</key>
       <string>uni1DD6</string>
+      <key>ayin-hb</key>
+      <string>uni05E2</string>
+      <key>bet-hb</key>
+      <string>uni05D1</string>
+      <key>betdagesh-hb</key>
+      <string>uniFB31</string>
       <key>betsymbol</key>
       <string>uni2136</string>
       <key>blackleftbullet</key>
@@ -4215,10 +4658,18 @@
       <string>uni2052</string>
       <key>cstretched</key>
       <string>uni0297</string>
+      <key>dagesh-hb</key>
+      <string>uni05BC</string>
+      <key>dagesh-hb.small</key>
+      <string>uni05BC.small</string>
       <key>daggerwithleftguard</key>
       <string>uni2E36</string>
       <key>daggerwithrightguard</key>
       <string>uni2E37</string>
+      <key>dalet-hb</key>
+      <string>uni05D3</string>
+      <key>daletdagesh-hb</key>
+      <string>uniFB33</string>
       <key>daletsymbol</key>
       <string>uni2138</string>
       <key>dasiapneumatacomb-cy</key>
@@ -4319,6 +4770,22 @@
       <string>uni2109</string>
       <key>fermatacomb</key>
       <string>uni0352</string>
+      <key>finalkaf-hb</key>
+      <string>uni05DA</string>
+      <key>finalkafdagesh-hb</key>
+      <string>uniFB3A</string>
+      <key>finalmem-hb</key>
+      <string>uni05DD</string>
+      <key>finalnun-hb</key>
+      <string>uni05DF</string>
+      <key>finalpe-hb</key>
+      <string>uni05E3</string>
+      <key>finalpedagesh-hb</key>
+      <string>uniFB43</string>
+      <key>finalpedagesh-hb.rvrn</key>
+      <string>uniFB43.rvrn</string>
+      <key>finaltsadi-hb</key>
+      <string>uni05E5</string>
       <key>fivedotmark</key>
       <string>uni2E2D</string>
       <key>fivedotpunctuation</key>
@@ -4357,6 +4824,10 @@
       <string>uni0123.alt</string>
       <key>gcommaaccent.sc</key>
       <string>uni0123.sc</string>
+      <key>gimel-hb</key>
+      <string>uni05D2</string>
+      <key>gimeldagesh-hb</key>
+      <string>uniFB32</string>
       <key>gimelsymbol</key>
       <string>uni2137</string>
       <key>graphemejoinercomb</key>
@@ -4365,12 +4836,32 @@
       <string>uni0316</string>
       <key>gravetonecomb</key>
       <string>uni0340</string>
+      <key>hatafpatah-hb</key>
+      <string>uni05B2</string>
+      <key>hatafqamats-hb</key>
+      <string>uni05B3</string>
+      <key>hatafsegol-hb</key>
+      <string>uni05B1</string>
       <key>hcomb</key>
       <string>uni036A</string>
+      <key>he-hb</key>
+      <string>uni05D4</string>
+      <key>hedagesh-hb</key>
+      <string>uniFB34</string>
+      <key>hedagesh-hb.rvrn</key>
+      <string>uniFB34.rvrn</string>
+      <key>het-hb</key>
+      <string>uni05D7</string>
       <key>heta</key>
       <string>uni0371</string>
       <key>hinferior</key>
       <string>uni2095</string>
+      <key>hiriq-hb</key>
+      <string>uni05B4</string>
+      <key>holam-hb</key>
+      <string>uni05B9</string>
+      <key>holamhaser-hb</key>
+      <string>uni05BA</string>
       <key>homotheticabovecomb</key>
       <string>uni034B</string>
       <key>horncomb</key>
@@ -4419,6 +4910,10 @@
       <string>uni1DD0</string>
       <key>jdotless</key>
       <string>uni0237</string>
+      <key>kaf-hb</key>
+      <string>uni05DB</string>
+      <key>kafdagesh-hb</key>
+      <string>uniFB3B</string>
       <key>kcomb</key>
       <string>uni1DDC</string>
       <key>kcommaaccent</key>
@@ -4433,6 +4928,10 @@
       <string>uni0343</string>
       <key>kturned</key>
       <string>uni029E</string>
+      <key>lamed-hb</key>
+      <string>uni05DC</string>
+      <key>lameddagesh-hb</key>
+      <string>uniFB3C</string>
       <key>lbbarsymbol</key>
       <string>uni2114</string>
       <key>lcomb</key>
@@ -4495,10 +4994,16 @@
       <string>uni1DC6</string>
       <key>manat</key>
       <string>uni20BC</string>
+      <key>maqaf-hb</key>
+      <string>uni05BE</string>
       <key>mcomb</key>
       <string>uni036B</string>
       <key>mediumspace-math</key>
       <string>uni205F</string>
+      <key>mem-hb</key>
+      <string>uni05DE</string>
+      <key>memdagesh-hb</key>
+      <string>uniFB3E</string>
       <key>micro</key>
       <string>uni00B5</string>
       <key>minferior</key>
@@ -4533,6 +5038,10 @@
       <string>uni034A</string>
       <key>nsuperior</key>
       <string>uni207F</string>
+      <key>nun-hb</key>
+      <string>uni05E0</string>
+      <key>nundagesh-hb</key>
+      <string>uniFB40</string>
       <key>ocomb</key>
       <string>uni0366</string>
       <key>ogonekcomb</key>
@@ -4581,6 +5090,14 @@
       <string>uni208E</string>
       <key>parenrightsuperior</key>
       <string>uni207E</string>
+      <key>patah-hb</key>
+      <string>uni05B7</string>
+      <key>pe-hb</key>
+      <string>uni05E4</string>
+      <key>pedagesh-hb</key>
+      <string>uniFB44</string>
+      <key>pedagesh-hb.rvrn</key>
+      <string>uniFB44.rvrn</string>
       <key>perispomenicomb</key>
       <string>uni0342</string>
       <key>persign</key>
@@ -4609,10 +5126,22 @@
       <string>uni214A</string>
       <key>psilipneumatacomb-cy</key>
       <string>uni0486</string>
+      <key>qamats-hb</key>
+      <string>uni05B8</string>
+      <key>qamatsqatan-hb</key>
+      <string>uni05C7</string>
       <key>qhook</key>
       <string>uni02A0</string>
+      <key>qof-hb</key>
+      <string>uni05E7</string>
+      <key>qofdagesh-hb</key>
+      <string>uniFB47</string>
+      <key>qofdagesh-hb.rvrn</key>
+      <string>uniFB47.rvrn</string>
       <key>quadrupleprime</key>
       <string>uni2057</string>
+      <key>qubuts-hb</key>
+      <string>uni05BB</string>
       <key>questionexclamation</key>
       <string>uni2048</string>
       <key>raisedcomma</key>
@@ -4635,6 +5164,10 @@
       <string>uni0157.sc</string>
       <key>referencemark</key>
       <string>uni203B</string>
+      <key>resh-hb</key>
+      <string>uni05E8</string>
+      <key>reshdagesh-hb</key>
+      <string>uniFB48</string>
       <key>response</key>
       <string>uni211F</string>
       <key>reversedforkedparagraphos</key>
@@ -4685,6 +5218,10 @@
       <string>uni1DE3</string>
       <key>ruble</key>
       <string>uni20BD</string>
+      <key>samekh-hb</key>
+      <string>uni05E1</string>
+      <key>samekhdagesh-hb</key>
+      <string>uniFB41</string>
       <key>schwahook</key>
       <string>uni025A</string>
       <key>scomb</key>
@@ -4697,6 +5234,8 @@
       <string>uni2108</string>
       <key>seagullbelowcomb</key>
       <string>uni033C</string>
+      <key>segol-hb</key>
+      <string>uni05B6</string>
       <key>servicemark</key>
       <string>uni2120</string>
       <key>seveninferior</key>
@@ -4705,8 +5244,34 @@
       <string>uni2077</string>
       <key>sheqel</key>
       <string>uni20AA</string>
+      <key>sheva-hb</key>
+      <string>uni05B0</string>
+      <key>shin-hb</key>
+      <string>uni05E9</string>
+      <key>shindagesh-hb</key>
+      <string>uniFB49</string>
+      <key>shindagesh-hb.rvrn</key>
+      <string>uniFB49.rvrn</string>
+      <key>shindageshshindot-hb</key>
+      <string>uniFB2C</string>
+      <key>shindageshshindot-hb.rvrn</key>
+      <string>uniFB2C.rvrn</string>
+      <key>shindageshsindot-hb</key>
+      <string>uniFB2D</string>
+      <key>shindageshsindot-hb.rvrn</key>
+      <string>uniFB2D.rvrn</string>
+      <key>shindot-hb</key>
+      <string>uni05C1</string>
+      <key>shinshindot-hb</key>
+      <string>uniFB2A</string>
+      <key>shinsindot-hb</key>
+      <string>uniFB2B</string>
       <key>sigma1</key>
       <string>uni03C2</string>
+      <key>siluqleft-hb</key>
+      <string>uni05BD</string>
+      <key>sindot-hb</key>
+      <string>uni05C2</string>
       <key>sinferior</key>
       <string>uni209B</string>
       <key>sixinferior</key>
@@ -4719,6 +5284,12 @@
       <string>uni033B</string>
       <key>swungdash</key>
       <string>uni2053</string>
+      <key>tav-hb</key>
+      <string>uni05EA</string>
+      <key>tavdagesh-hb</key>
+      <string>uniFB4A</string>
+      <key>tavdagesh-hb.rvrn</key>
+      <string>uniFB4A.rvrn</string>
       <key>tcedilla</key>
       <string>uni0163</string>
       <key>tcedilla.sc</key>
@@ -4733,6 +5304,10 @@
       <string>uni2121</string>
       <key>tenge</key>
       <string>uni20B8</string>
+      <key>tet-hb</key>
+      <string>uni05D8</string>
+      <key>tetdagesh-hb</key>
+      <string>uniFB38</string>
       <key>threedotpunctuation</key>
       <string>uni2056</string>
       <key>threeemdash</key>
@@ -4769,6 +5344,12 @@
       <string>uni205D</string>
       <key>tripleprimeReversed</key>
       <string>uni2037</string>
+      <key>tsadi-hb</key>
+      <string>uni05E6</string>
+      <key>tsadidagesh-hb</key>
+      <string>uniFB46</string>
+      <key>tsere-hb</key>
+      <string>uni05B5</string>
       <key>tturned</key>
       <string>uni0287</string>
       <key>turnedcomma</key>
@@ -4803,6 +5384,12 @@
       <string>uni031D</string>
       <key>v-middleWelsh</key>
       <string>uni1EFD</string>
+      <key>vav-hb</key>
+      <string>uni05D5</string>
+      <key>vavdagesh-hb</key>
+      <string>uniFB35</string>
+      <key>vavholam-hb</key>
+      <string>uniFB4B</string>
       <key>vcomb</key>
       <string>uni036E</string>
       <key>versicle</key>
@@ -4825,8 +5412,16 @@
       <string>uni036F</string>
       <key>yloop</key>
       <string>uni1EFF</string>
+      <key>yod-hb</key>
+      <string>uni05D9</string>
+      <key>yoddagesh-hb</key>
+      <string>uniFB39</string>
       <key>ypogegrammenicomb</key>
       <string>uni0345</string>
+      <key>zayin-hb</key>
+      <string>uni05D6</string>
+      <key>zayindagesh-hb</key>
+      <string>uniFB36</string>
       <key>zcomb</key>
       <string>uni1DE6</string>
       <key>zeroinferior</key>
