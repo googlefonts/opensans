@@ -24,6 +24,12 @@ fontmake -m OpenSans-Italic.designspace -o variable --output-path "../fonts/vari
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos
 
+echo "Discard Thin for now (extrapolated Hebrew)"
+rm ../fonts/ttf/*Thin*.ttf
+# rm ../fonts/otf/*Thin*.otf
+fonttools varLib.instancer -o ../fonts/variable/OpenSans[wdth,wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf "wght=300:800"
+fonttools varLib.instancer -o ../fonts/variable/OpenSans-Italic[wdth,wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wght=300:800"
+
 echo "Instanciate single axis variable fonts"
 fonttools varLib.instancer -o ../fonts/variable/OpenSans[wght].ttf ../fonts/variable/OpenSans[wdth,wght].ttf "wdth=drop"
 fonttools varLib.instancer -o ../fonts/variable/OpenSans-Italic[wght].ttf ../fonts/variable/OpenSans-Italic[wdth,wght].ttf "wdth=drop"
