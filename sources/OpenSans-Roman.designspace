@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wght" name="Weight" minimum="300" maximum="800" default="400">
+    <axis tag="wght" name="Weight" minimum="100" maximum="800" default="400">
+      <map input="100" output="26"/>
       <map input="300" output="50"/>
       <map input="400" output="83"/>
       <map input="600" output="117"/>
@@ -27,9 +28,9 @@
     </rule>
   </rules>
   <sources>
-    <source filename="./OpenSans-Light.ufo" name="Open Sans Light" familyname="Open Sans" stylename="Light">
+    <source filename="OpenSans-Thin.ufo" name="Open Sans Thin" familyname="Open Sans" stylename="Thin">
       <location>
-        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
@@ -55,9 +56,9 @@
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="./OpenSans-CondensedLight.ufo" name="Open Sans Condensed Light" familyname="Open Sans" stylename="Condensed Light">
+    <source filename="OpenSans-CondensedThin.ufo" name="Open Sans Condensed Thin" familyname="Open Sans" stylename="Condensed Thin">
       <location>
-        <dimension name="Weight" xvalue="50"/>
+        <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="75"/>
       </location>
     </source>
@@ -81,6 +82,14 @@
     </source>
   </sources>
   <instances>
+    <instance name="Open Sans Thin" familyname="Open Sans" stylename="Thin" filename="../instance_ufo/OpenSans-Thin.ufo" stylemapfamilyname="Open Sans Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
     <instance name="Open Sans Light" familyname="Open Sans" stylename="Light" filename="../instance_ufo/OpenSans-Light.ufo" stylemapfamilyname="Open Sans Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="50"/>
@@ -117,6 +126,14 @@
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Open Sans Condensed Thin" familyname="Open Sans" stylename="Condensed Thin" filename="../instance_ufo/OpenSans-CondensedThin.ufo" stylemapfamilyname="Open Sans Condensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="75"/>
       </location>
       <kerning/>
       <info/>
