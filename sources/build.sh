@@ -35,7 +35,8 @@ ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	python3 -m ttfautohint $ttf "$ttf.fix";
+	# python3 -m ttfautohint $ttf "$ttf.fix"; readd this once libc issue on M1 mac is fixed
+	ttfautohint $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 	gftools fix-hinting $ttf;
 	mv "$ttf.fix" $ttf;
@@ -98,6 +99,7 @@ for vf in $vfs
 do
 	gftools fix-hinting $vf;
 	mv $vf.fix $vf;
+	python fix_gasp.py $vf;
 	echo "done $vf"
 done
 # rm -f ../fonts/ttf/*gasp.ttf
