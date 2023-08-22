@@ -1,11 +1,6 @@
 #!/bin/sh
 set -e
-
-# Go the sources directory to run commands
-SOURCE="${BASH_SOURCE[0]}"
-DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
-cd $DIR
-echo $(pwd)
+cd "$(dirname $0)"
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 rm -rf ../fonts
@@ -50,7 +45,7 @@ for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
 # 	./ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-# 
+#
 # 	mv "$vf.fix" $vf;
 done
 
